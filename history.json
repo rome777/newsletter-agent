@@ -1,0 +1,37 @@
+[
+ {
+  "date": "2026-10-28",
+  "source": "AI타임스",
+  "title": "KT, AI 모델 500개 통합 ‘토큰팩토리’ 출시…토큰 최대 25% 절감",
+  "url": "https://www.aitimes.com/news/articleView.html?idxno=216709",
+  "event": ""
+ },
+ {
+  "date": "2026-10-28",
+  "source": "AI타임스",
+  "title": "MS, 정교함 강화한 'MAI 이미지 2.7' 공개...AA 2위·아레나 3위 등극",
+  "url": "https://www.aitimes.com/news/articleView.html?idxno=216755",
+  "event": ""
+ },
+ {
+  "date": "2026-10-28",
+  "source": "Analytics India",
+  "title": "Oracle Partners With OpenAI to Bring ChatGPT and Codex to Enterprise Workflows",
+  "url": "https://analyticsindiamag.com/ai-news/oracle-partners-with-openai-to-bring-chatgpt-and-codex-to-enterprise-workflows",
+  "event": ""
+ },
+ {
+  "date": "2026-10-28",
+  "source": "The Verge",
+  "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+  "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+  "event": "AI assistant integration in productivity apps"
+ },
+ {
+  "date": "2026-10-28",
+  "source": "AWS ML",
+  "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+  "url": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
+  "event": "AWS SageMaker SOCI indexing"
+ }
+]

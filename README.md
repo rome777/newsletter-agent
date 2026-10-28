@@ -11,7 +11,7 @@
 ## 흐름
 
 ```mermaid
-flowchart TD
+flowchart LR
     S([START]) --> C["① collect<br/>RSS 19곳 + Hacker News"]
     C -->|collected ~150건| SE["② select<br/>홍보 제거 → 예선 → 본선"]
     SE -.->|Send × 5| R["③ report × 5<br/>본문 추출 · 세 칸 요약"]

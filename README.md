@@ -41,7 +41,7 @@ flowchart LR
 | 노드 | 하는 일 |
 |---|---|
 | collect | 최근 24시간 글만, 같은 주소는 한 번. 응답 없는 소스·0건 소스는 로그에 이름을 남김 |
-| select | 제목으로 투자·MOU·수상 기사 제거 → 최소 2조로 예선(조마다 8건) → 본선 5건 + 예비 3건. 같은 사건 1건, 매체당 2건까지 |
+| select | 최근 3일에 보낸 주소와 투자·MOU·수상 기사 제거 → 최소 2조로 예선(조마다 8건) → 본선 5건 + 예비 3건. 같은 사건 1건(라벨 비교 + LLM이 한 번 더 묶음, 최근 보낸 사건 포함), 매체당 2건까지 |
 | report | `Send`로 기사마다 워커를 띄움(예비 포함 최대 8). 본문 600자 미만은 제외, `headline · summary · why` 세 칸으로 요약 |
 | verify | 순위대로 검사해 5건이 차면 멈춤. 한글이 없거나, 따로 부른 LLM이 원문과 대조해 근거가 없으면 버리고 빈자리는 예비로 채움 |
 | publish | `DRY_RUN=1`(기본)이면 보내지 않음. 429·5xx·연결 실패는 세 번까지 시도, 그래도 안 되면 실행을 실패로 끝냄 |
@@ -49,7 +49,7 @@ flowchart LR
 ## 실행
 
 ```bash
-python -m venv .venv && .venv/Scripts/pip install -r requirements.txt
+python -m venv .venv && .venv/Scripts/pip install -r requirements.lock
 ```
 
 `.env`에 두 값을 넣는다. (`.env`는 커밋하지 않는다)
@@ -68,9 +68,13 @@ python run.py --delete <메시지ID> # 이 웹훅으로 보낸 메시지 삭제
 
 **자동 실행** — 저장소 Settings → Secrets에 같은 두 값을 등록하면 `.github/workflows/daily.yml`이 매일 돈다. 손으로 돌리려면 Actions → 매일 브리핑 → Run workflow(`dry_run` 체크 시 발행 안 함). 공개 저장소는 60일 동안 커밋이 없으면 예약 실행이 꺼지므로, 마지막 커밋이 50일을 넘기면 워크플로가 빈 커밋을 하나 올린다.
 
+워크플로가 발행할 때마다 `history.json`을 커밋하므로, 로컬에서 고친 것을 올리기 전에 `git pull --rebase`를 먼저 한다.
+
 ## 기록
 
 실행마다 `runs/날짜_시각.json`에 **왜 골랐는지**(선정 이유·사건 라벨·성격)와 **왜 떨어졌는지**(홍보 제거, 예선·본선 탈락, 같은 사건, 매체 상한), 발행한 기사를 남긴다. Actions에서는 실행 페이지의 artifact로 90일 보관.
+
+실제로 보낸 기사는 `history.json`에 14일치를 남기고, 다음 날 선별에서 최근 3일치와 비교해 같은 사건을 거른다.
 
 ## 파일
 
@@ -78,4 +82,6 @@ python run.py --delete <메시지ID> # 이 웹훅으로 보낸 메시지 삭제
 |---|---|
 | `graph.py` | State, 노드 다섯 개, 그래프 |
 | `run.py` | 진입점, 기록 저장 |
+| `history.json` | 최근 14일 동안 보낸 기사 (Actions가 커밋) |
+| `requirements.txt` / `.lock` | 직접 쓰는 패키지 / 실제 설치할 전체 버전 |
 | `.github/workflows/daily.yml` | 매일 UTC 22:30 실행 |

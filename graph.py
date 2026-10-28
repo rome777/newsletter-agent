@@ -157,6 +157,7 @@ class Pick(BaseModel):                          # [고침] 제목을 먼저 옮�
     title: str = Field(description="고른 후보의 제목을 목록에 있는 그대로 복사")
     index: int = Field(description="그 후보의 목록 번호")
     event: str = Field(description="사건 라벨. 영어 소문자 '회사-대상' 형식(예: openai-gpt-6.1). "
+                                   "한국어 기사도 영어로 쓰고 비워 두지 마세요. "
                                    "같은 사건이면 기사 언어·매체가 달라도 같은 라벨")
     kind: Literal[KINDS] = Field(description="기사 성격. 투자·펀딩·MOU·수상이면 '투자·MOU·수상', "
                                              "아직 안 나온 계획·예고면 '로드맵·예고'")
@@ -209,6 +210,64 @@ def same_event(a, b):
         return False
     return SequenceMatcher(None, ka, kb).ratio() >= 0.8
 
+class Group(BaseModel):                         # 사건을 먼저 적게 해 '같은 회사'만으로 묶지 않게 한다
+    event: str      = Field(description="묶인 기사들이 모두 다룬 단 하나의 발표·출시·사고")
+    ids:   list[int] = Field(description="그 사건을 다룬 기사 번호, 두 개 이상")
+
+class Dupes(BaseModel):
+    groups: list[Group] = Field(description="같은 사건 묶음. 없으면 빈 목록")
+
+SYS_DUPES = ("아래 기사 중 같은 사건을 다룬 것끼리 번호를 묶으세요.\n"
+             "같은 사건 = 같은 발표·같은 출시·같은 사고. 언어·매체·제목이 달라도 같은 사건이면 묶습니다.\n"
+             "같은 회사의 다른 발표, 같은 제품의 다른 기능, 같은 주제의 다른 소식은 다른 사건입니다.\n"
+             "'~관련 소식'처럼 넓게 말해야 묶이는 것은 다른 사건입니다. 확실하지 않으면 묶지 마세요.")
+
+def dupes(picked, past):                        # [고침] 라벨 비교가 놓친 같은 사건을 LLM 이 한 번 더 묶는다
+    """빼야 할 (기사, 이유) — 묶음에서 순위가 밀린 쪽, 최근에 이미 보낸 사건"""
+    rows = [("최근 발행", h) for h in past] + [("오늘 후보", x) for x in picked]
+    if len(picked) == 0 or len(rows) < 2:
+        return []
+    listing = "\n".join(f"{i}. ({tag}) [{x['source']}] {x['title']}" for i, (tag, x) in enumerate(rows))
+    try:
+        out = client().chat.completions.parse(
+            model=MODEL, temperature=0,
+            messages=[{"role": "system", "content": SYS_DUPES},
+                      {"role": "user", "content": listing}],
+            response_format=Dupes).choices[0].message.parsed
+    except Exception:                           # 묶기가 실패해도 선별은 계속한다
+        return []
+    off, drop = len(past), {}
+    for g in out.groups:
+        g = sorted({i for i in g.ids if 0 <= i < len(rows)})
+        today = [i - off for i in g if i >= off]
+        if len(g) - len(today) > 1:             # 최근 발행끼리는 이미 서로 다른 사건 — 주제로 묶은 것이니 믿지 않는다
+            continue
+        old = len(today) < len(g)               # 최근에 보낸 기사와 묶였으면 오늘 것은 모두 뺀다
+        for i in (today if old else today[1:]):
+            drop.setdefault(i, "최근 발행" if old else "같은 사건")
+    return [(picked[i], why) for i, why in sorted(drop.items())]
+
+HISTORY = Path(__file__).with_name("history.json")   # [고침] 어제 보낸 사건을 오늘 또 고르지 않게
+LOOKBACK, KEEP = 3, 14                          # 최근 3일과 비교, 파일에는 14일치만 둔다
+
+def load_history():
+    try:
+        return json.loads(HISTORY.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        return []
+
+def days_ago(n):
+    return (datetime.now() - timedelta(days=n)).strftime("%Y-%m-%d")
+
+def recent_sent():
+    return [h for h in load_history() if h["date"] >= days_ago(LOOKBACK)]
+
+def save_history(arts):                         # 실제로 보냈을 때만 run.py 가 부른다
+    hist = [h for h in load_history() if h["date"] >= days_ago(KEEP)]
+    hist += [{"date": days_ago(0), "source": a["source"], "title": a["title"],
+              "url": a["url"], "event": a.get("event", "")} for a in arts]
+    HISTORY.write_text(json.dumps(hist, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
 PROMO = re.compile(                             # [고침] 제목만 봐도 홍보성인 기사는 LLM 에 넘기기 전에 거른다
     r"\braises? \$|\bseries [a-f]\b|\bfunding\b|\bseed round\b|\bvaluation\b|\bunicorn\b"
     r"|\bmou\b|\bwins?\b.*\baward|투자\s?유치|시리즈\s?[a-f]\b|펀딩|기업\s?가치|업무\s?협약|협약\s?체결|수상|시상"
@@ -234,8 +293,12 @@ def select(s: dict) -> dict:
     if not items:                               # [고침] 후보가 없으면 LLM 을 부르지 않는다
         return {"picked": [], "trace": {"candidates": 0}, "log": ["② 선별   0 → 0건"]}
 
-    promo = [it for it in items if PROMO.search(it["title"])]
-    pool = [it for it in items if not PROMO.search(it["title"])]
+    past = recent_sent()
+    sent_urls = {url_key(h["url"]) for h in past}
+    again = [it for it in items if url_key(it["url"]) in sent_urls]   # 이미 보낸 주소는 다시 올리지 않는다
+    fresh = [it for it in items if url_key(it["url"]) not in sent_urls]
+    promo = [it for it in fresh if PROMO.search(it["title"])]
+    pool = [it for it in fresh if not PROMO.search(it["title"])]
 
     survivors, trace_heats, dropped = [], [], 0
     for chunk in heats(pool):                   # 예선 — 묶음마다 여덟 건
@@ -249,7 +312,8 @@ def select(s: dict) -> dict:
         trace_heats.append({"size": len(chunk), "picks": rows})
 
     random.Random(len(survivors)).shuffle(survivors)   # [고침] 몇 조 출신인지가 순위에 새지 않게 섞는다
-    picked, events, per_src, rows, dup, ranked = [], [], Counter(), [], 0, set()
+    picked, per_src, rows, row_of, ranked = [], Counter(), [], {}, set()
+    dup = Counter()
     for _ in range(3):                          # 본선 — 걸러져서 다섯 + 예비가 안 차면 남은 후보로 다시
         remaining = [it for it in survivors     # 상한이 찬 매체는 다음 판에 올리지 않는다
                      if id(it) not in ranked and per_src[it["source"]] < MAX_PER_SOURCE]
@@ -264,25 +328,35 @@ def select(s: dict) -> dict:
                 result = "남음"
             elif p.kind in DROP_KINDS:
                 result, dropped = f"버림({p.kind})", dropped + 1
-            elif any(same_event(p.event, e) for e in events):   # [고침] 같은 사건은 한 건만
-                result, dup = "같은 사건", dup + 1
+            elif any(same_event(p.event, x["event"]) for x in picked):   # [고침] 같은 사건은 한 건만
+                result = "같은 사건"
+                dup[result] += 1
             elif per_src[it["source"]] >= MAX_PER_SOURCE:
                 result = "매체 상한"
             else:                               # [고침] 예비도 같은 규칙으로 뽑아 두고 빈자리에 쓴다
-                result = "선정" if len(picked) < TARGET else "예비"
-                events.append(p.event)
+                result = "선정"
                 per_src[it["source"]] += 1
-                picked.append({**it, "rank": len(picked), "event": p.event, "kind": p.kind,
-                               "reason": p.reason})
-            rows.append(brief(it, p, result))
-    trace = {"candidates": len(items), "promo": [brief(it) for it in promo],
-             "heats": trace_heats, "final": rows,
+                picked.append({**it, "event": p.event, "kind": p.kind, "reason": p.reason})
+            row_of[it["url"]] = brief(it, p, result)
+            rows.append(row_of[it["url"]])
+        for x, why in dupes(picked, past):      # 라벨이 달라 위에서 못 거른 같은 사건
+            picked = [y for y in picked if y is not x]
+            per_src[x["source"]] -= 1
+            row_of[x["url"]]["result"] = why
+            dup[why] += 1
+    for r, x in enumerate(picked):              # 순위는 마지막에 매긴다 — 앞의 다섯이 선정, 나머지는 예비
+        x["rank"] = r
+        row_of[x["url"]]["result"] = "선정" if r < TARGET else "예비"
+    trace = {"candidates": len(items), "already_sent": [brief(it) for it in again],
+             "promo": [brief(it) for it in promo], "heats": trace_heats, "final": rows,
              "final_out": [brief(it) for it in survivors if id(it) not in ranked]}
 
     spare = len(picked[TARGET:])
-    log = [f"② 선별   {len(items)} → 홍보 제외 {len(pool)} → 예선 {len(trace_heats)}조 {len(survivors)}"
+    log = [f"② 선별   {len(items)}" + (f" → 이미 보냄 제외 {len(fresh)}" if again else "")
+           + f" → 홍보 제외 {len(pool)} → 예선 {len(trace_heats)}조 {len(survivors)}"
            f" → {len(picked) - spare}건" + (f" + 예비 {spare}" if spare else "")
-           + (f" · 버림 {dropped}" if dropped else "") + (f" · 같은 사건 {dup}" if dup else "")]
+           + (f" · 버림 {dropped}" if dropped else "")
+           + "".join(f" · {k} {n}" for k, n in dup.items())]
     log += [f"   {'선정' if it['rank'] < TARGET else '예비'} [{it['source']}] {it['title'][:50]} — {it['reason']}"
             for it in picked]
     return {"picked": picked, "trace": trace, "log": log}
@@ -302,7 +376,13 @@ SYS = ("당신은 국내 개발팀을 위한 AI 뉴스레터 기자입니다.\n"
        "아래 기사 본문을 읽고 헤드라인·요약·왜 중요한지를 반드시 한국어로 쓰세요.\n"
        "- 요약은 정확히 세 문장, 문장 끝은 모두 '~합니다'·'~했습니다' (~다체 금지)\n"
        "- why는 한 문장. 개발팀이 무엇을 확인하거나 바꿔야 하는지 구체적으로\n"
-       "'주목된다·기대를 모은다·시사한다' 같은 기자체 표현은 쓰지 마세요.")
+       "'주목된다·기대를 모은다·시사한다' 같은 기자체 표현은 쓰지 마세요.\n"
+       "topic은 기사의 중심이 무엇인지로 고르세요. 모델 이름이 나온다고 모델·API가 아닙니다.\n"   # [고침] 다 모델·API 로 몰렸다
+       "- 모델·API: 새 모델 공개, 모델 API의 기능·가격·한도 변경\n"
+       "- 도구·프레임워크: SDK·라이브러리·개발 도구·클라우드 서비스·인프라\n"
+       "- 정책·규제: 법·정부 정책·약관, 보안·안전 사고\n"
+       "- 사례·적용: 회사가 AI를 제품·업무에 붙인 이야기, 비용·성과 사례\n"
+       "- 연구: 논문·벤치마크·새 기법")
 
 class ReportIn(TypedDict):                      # 워커가 받는 것은 기사 하나뿐
     item: dict
@@ -379,8 +459,8 @@ def verify(s: dict) -> dict:
 
 
 # ── ⑤ 발행 · publish ───────────────────────────────────────────────────
-COLORS = {"모델·API": 0x0B6E77, "도구·프레임워크": 0x4C7C9C,
-          "정책·규제": 0x8F5606, "사례·적용": 0x2E7D5B, "연구": 0x6A4A9C}
+COLORS = {"모델·API": 0x0B6E77, "도구·프레임워크": 0x3B6FB6,     # [고침] 청록·초록이 비슷해 잘 안 갈렸다
+          "정책·규제": 0xB7791F, "사례·적용": 0xB5475A, "연구": 0x6A4A9C}
 DEFAULT = 0x5F7476
 TITLE_MAX, DESC_MAX, EMBED_MAX, TOTAL_MAX = 256, 4096, 10, 5800   # 6000에서 여유를 둔다
 

@@ -1,8 +1,10 @@
-langgraph>=0.6
-feedparser>=6.0
-requests>=2.32
-trafilatura>=2.0
-openai>=1.99
-pydantic>=2.7
-python-dotenv>=1.0
-brotli>=1.2.0
+# 직접 쓰는 것 — 버전을 올릴 때는 여기를 고치고 requirements.lock 을 다시 만든다
+#   pip install -r requirements.txt && pip freeze > requirements.lock
+langgraph==1.2.18
+feedparser==6.0.14
+requests==2.34.2
+trafilatura==2.3.1
+openai==3.40.0
+pydantic==2.14.1
+python-dotenv==1.2.4
+brotli==1.2.1

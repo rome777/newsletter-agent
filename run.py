@@ -40,5 +40,9 @@ if __name__ == "__main__":
     path.write_text(json.dumps(record, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
     print(f"기록   {path}")
 
+    if out["sent"] == "sent":                  # 실제로 보낸 것만 남겨 다음 날 같은 사건을 거른다
+        from graph import save_history
+        save_history(out["verified"])
+
     if out["sent"] == "failed":                # Discord 가 거절하면 실행을 실패로 끝내 메일이 오게 한다
         sys.exit(1)

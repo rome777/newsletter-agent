@@ -157,11 +157,11 @@ class Pick(BaseModel):                          # [고침] 제목을 먼저 옮�
     title: str = Field(description="고른 후보의 제목을 목록에 있는 그대로 복사")
     index: int = Field(description="그 후보의 목록 번호")
     event: str = Field(description="사건 라벨. 영어 소문자 '회사-대상' 형식(예: openai-gpt-6.1). "
-                                   "한국어 기사도 영어로 쓰고 비워 두지 마세요. "
-                                   "같은 사건이면 기사 언어·매체가 달라도 같은 라벨")
+                                   "한국어 기사도 영어로 쓰세요. 같은 사건이면 기사 언어·매체가 달라도 같은 라벨",
+                       pattern=r"^[a-z0-9]+(-[a-z0-9.]+)+$")   # [고침] 프롬프트로는 절반이 비어 와서 형식으로 강제한다
     kind: Literal[KINDS] = Field(description="기사 성격. 투자·펀딩·MOU·수상이면 '투자·MOU·수상', "
                                              "아직 안 나온 계획·예고면 '로드맵·예고'")
-    reason: str = Field(description="독자 기준으로 왜 골랐는지 한국어 한 문장")
+    reason: str = Field(description="독자 기준으로 왜 골랐는지 한 문장. 영어 기사라도 반드시 한국어로")
 
 class Shortlist(BaseModel):
     picks: list[Pick]
@@ -173,7 +173,8 @@ def ask_picks(items, n, extra=""):
     sys = (f"{CRITERIA}\n\n아래 후보의 제목과 요약을 함께 읽고, 중요한 순서대로 {n}건을 고르세요.\n"
            "목록 순서는 중요도와 무관합니다. 전부 비교한 뒤 가장 중요한 것부터 답하세요.\n"
            "같은 사건을 다룬 기사에는 같은 event 라벨을 붙이세요.\n"
-           "kind는 기사 성격 그대로 정직하게 분류하세요." + (f"\n{extra}" if extra else ""))
+           "kind는 기사 성격 그대로 정직하게 분류하세요.\n"
+           "reason은 목록이 모두 영어여도 한국어로 쓰세요." + (f"\n{extra}" if extra else ""))   # [고침] 영어 목록이면 영어로 따라 썼다
     out = client().chat.completions.parse(
         model=MODEL, temperature=0,
         messages=[{"role": "system", "content": sys},

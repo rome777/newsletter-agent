@@ -3,7 +3,7 @@
 불러오기만 해서는 아무 일도 일어나지 않는다. 실행은 run.py 에서 한다.
 교안 코드에서 고친 곳은 [고침] 주석으로 표시했다.
 """
-import json, math, operator, os, random, re
+import json, math, operator, os, random, re, time
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
@@ -37,7 +37,7 @@ def client():                                   # import 만 해도 키가 필�
 class Brief(TypedDict):
     hours:     int                              # 수집 time window(시간)
     collected: list                             # ① 수집한 기사
-    picked:    list                             # ② 선별해 남긴 다섯 건
+    picked:    list                             # ② 선별해 남긴 다섯 건 + 예비 (rank 순)
     drafted:   Annotated[list, operator.add]    # ③ 취재한 초안 — 워커들이 나눠 채운다
     verified:  list                             # ④ 검수를 통과한 것
     sent:      str                              # ⑤ 발행 결과 — sent · dry-run · failed  [고침]
@@ -204,7 +204,10 @@ def event_key(label):                           # [고침] 라벨이 '출시'·'
     return "-".join(w for w in words if w not in GENERIC)
 
 def same_event(a, b):
-    return SequenceMatcher(None, event_key(a), event_key(b)).ratio() >= 0.8
+    ka, kb = event_key(a), event_key(b)
+    if not ka or not kb:                        # [고침] 라벨을 비워 오면 빈 것끼리 같은 사건이 돼 버린다
+        return False
+    return SequenceMatcher(None, ka, kb).ratio() >= 0.8
 
 PROMO = re.compile(                             # [고침] 제목만 봐도 홍보성인 기사는 LLM 에 넘기기 전에 거른다
     r"\braises? \$|\bseries [a-f]\b|\bfunding\b|\bseed round\b|\bvaluation\b|\bunicorn\b"
@@ -247,38 +250,41 @@ def select(s: dict) -> dict:
 
     random.Random(len(survivors)).shuffle(survivors)   # [고침] 몇 조 출신인지가 순위에 새지 않게 섞는다
     picked, events, per_src, rows, dup, ranked = [], [], Counter(), [], 0, set()
-    for _ in range(3):                          # 본선 — 걸러져서 다섯이 안 차면 남은 후보로 다시
+    for _ in range(3):                          # 본선 — 걸러져서 다섯 + 예비가 안 차면 남은 후보로 다시
         remaining = [it for it in survivors     # 상한이 찬 매체는 다음 판에 올리지 않는다
                      if id(it) not in ranked and per_src[it["source"]] < MAX_PER_SOURCE]
-        if len(picked) >= TARGET or not remaining:
+        if len(picked) >= TARGET + SPARE or not remaining:
             break
         finals = ask_picks(remaining, TARGET - len(picked) + SPARE,
                            f"같은 매체(대괄호 안 이름)에서는 최대 {MAX_PER_SOURCE}건까지만 고르세요.")
         for p in finals:
             it = remaining[p.index]
             ranked.add(id(it))
-            if len(picked) == TARGET:
-                result = "예비"
+            if len(picked) == TARGET + SPARE:
+                result = "남음"
             elif p.kind in DROP_KINDS:
                 result, dropped = f"버림({p.kind})", dropped + 1
             elif any(same_event(p.event, e) for e in events):   # [고침] 같은 사건은 한 건만
                 result, dup = "같은 사건", dup + 1
             elif per_src[it["source"]] >= MAX_PER_SOURCE:
                 result = "매체 상한"
-            else:
-                result = "선정"
+            else:                               # [고침] 예비도 같은 규칙으로 뽑아 두고 빈자리에 쓴다
+                result = "선정" if len(picked) < TARGET else "예비"
                 events.append(p.event)
                 per_src[it["source"]] += 1
-                picked.append({**it, "event": p.event, "kind": p.kind, "reason": p.reason})
+                picked.append({**it, "rank": len(picked), "event": p.event, "kind": p.kind,
+                               "reason": p.reason})
             rows.append(brief(it, p, result))
     trace = {"candidates": len(items), "promo": [brief(it) for it in promo],
              "heats": trace_heats, "final": rows,
              "final_out": [brief(it) for it in survivors if id(it) not in ranked]}
 
+    spare = len(picked[TARGET:])
     log = [f"② 선별   {len(items)} → 홍보 제외 {len(pool)} → 예선 {len(trace_heats)}조 {len(survivors)}"
-           f" → {len(picked)}건"
+           f" → {len(picked) - spare}건" + (f" + 예비 {spare}" if spare else "")
            + (f" · 버림 {dropped}" if dropped else "") + (f" · 같은 사건 {dup}" if dup else "")]
-    log += [f"   선정 [{it['source']}] {it['title'][:50]} — {it['reason']}" for it in picked]
+    log += [f"   {'선정' if it['rank'] < TARGET else '예비'} [{it['source']}] {it['title'][:50]} — {it['reason']}"
+            for it in picked]
     return {"picked": picked, "trace": trace, "log": log}
 
 
@@ -350,16 +356,26 @@ def is_korean(d):                               # [고침] 24장 한글 검사�
 
 def verify(s: dict) -> dict:
     kept, dropped = [], []
-    for d in s["drafted"]:
+    for d in sorted(s["drafted"], key=lambda d: d["rank"]):   # [고침] 순위대로 보고 다섯이 차면 멈춘다
+        if len(kept) == TARGET:
+            break
         if not is_korean(d):
             dropped.append(f"{d['source']}(영어)")
-        elif not check(d).ok:
-            dropped.append(d["source"])
-        else:
+            continue
+        try:
+            ok = check(d).ok
+        except Exception as e:                  # [고침] 검수 호출이 터져도 그 기사만 빼고 계속
+            dropped.append(f"{d['source']}({type(e).__name__})")
+            continue
+        if ok:
             kept.append(d)
+        else:
+            dropped.append(d["source"])
+    spare = sum(d["rank"] >= TARGET for d in kept)
     return {"verified": kept,                   # 리듀서 없는 칸에 담는다
             "log": [f"④ 검수   {len(s['drafted'])} → {len(kept)}건"
-                    + (f" · 불합격 {dropped}" if dropped else "")]}
+                    + (f" · 불합격 {dropped}" if dropped else "")
+                    + (f" · 예비 투입 {spare}" if spare else "")]}
 
 
 # ── ⑤ 발행 · publish ───────────────────────────────────────────────────
@@ -391,6 +407,20 @@ def build_embeds(run_id, lead, articles):
     return embeds
 
 SUPPRESS_NOTIFICATIONS = 1 << 12              # @silent — 푸시·데스크톱 알림을 안 보낸다
+TRIES = 3
+
+def post(webhook, payload):                     # [고침] 429·5xx·연결 실패면 기다렸다 다시 보낸다
+    for n in range(1, TRIES + 1):
+        try:
+            r = requests.post(webhook, params={"wait": "true"}, json=payload, timeout=20)
+        except requests.ConnectionError:        # 닿기 전에 끊긴 것이라 다시 보내도 두 번 올라가지 않는다
+            if n == TRIES:
+                raise
+            time.sleep(5)
+            continue
+        if n == TRIES or (r.status_code != 429 and r.status_code < 500):
+            return r
+        time.sleep(min(float(r.headers.get("Retry-After") or 5), 60))   # 429 면 Discord 가 기다릴 초를 알려준다
 
 def send(run_id, lead, articles, webhook=None, dry_run=True, silent=False):
     """보냈으면 'sent', 안 보냈으면 'dry-run', 거절당했으면 'failed'"""
@@ -403,7 +433,11 @@ def send(run_id, lead, articles, webhook=None, dry_run=True, silent=False):
         for e in payload["embeds"]:
             print(json.dumps(e, ensure_ascii=False, indent=2))
         return "dry-run"
-    r = requests.post(webhook, params={"wait": "true"}, json=payload, timeout=20)
+    try:
+        r = post(webhook, payload)
+    except requests.RequestException as e:      # 응답을 못 받았다 — 올라갔을 수도 있어 다시 보내지 않는다
+        print(f"발행 실패 {type(e).__name__} — 채널에 올라갔는지 확인하세요")
+        return "failed"
     if r.status_code in (200, 204):              # wait=true 면 200 과 함께 메시지가 돌아온다
         print(f"발행 메시지 ID {r.json()['id']}" + (" · silent" if silent else ""))
         return "sent"

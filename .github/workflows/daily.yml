@@ -14,6 +14,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 20          # ③ 멈춰 있는 실행을 20분에서 끊는다
+    permissions:
+      contents: write            # 아래 '60일 정지 막기'가 빈 커밋을 올린다
 
     steps:
       - uses: actions/checkout@v4
@@ -39,3 +41,16 @@ jobs:
           name: run-${{ github.run_id }}
           path: runs/
           retention-days: 90
+
+      - name: 60일 정지 막기         # 공개 저장소는 60일 동안 커밋이 없으면 schedule 을 끈다
+        if: always()
+        run: |
+          age=$(( $(date +%s) - $(git log -1 --format=%ct) ))
+          if [ "$age" -gt $(( 50 * 86400 )) ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit --allow-empty -m "keepalive: 마지막 커밋 뒤 50일이 지나 예약 실행을 유지한다"
+            git push
+          else
+            echo "마지막 커밋 $(( age / 86400 ))일 전 — 할 일 없음"
+          fi

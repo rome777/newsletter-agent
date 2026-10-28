@@ -14,7 +14,7 @@
 flowchart LR
     S([START]) --> C["① collect<br/>RSS 19곳 + Hacker News"]
     C -->|collected ~150건| SE["② select<br/>홍보 제거 → 예선 → 본선"]
-    SE -.->|Send × 5| R["③ report × 5<br/>본문 추출 · 세 칸 요약"]
+    SE -.->|Send × 8| R["③ report × 8<br/>본문 추출 · 세 칸 요약"]
     SE -.->|0건이면| V
     R -->|drafted| V["④ verify<br/>한글 검사 · 원문 대조"]
     V -->|verified| P["⑤ publish<br/>embed 카드"]
@@ -41,10 +41,10 @@ flowchart LR
 | 노드 | 하는 일 |
 |---|---|
 | collect | 최근 24시간 글만, 같은 주소는 한 번. 응답 없는 소스·0건 소스는 로그에 이름을 남김 |
-| select | 제목으로 투자·MOU·수상 기사 제거 → 최소 2조로 예선(조마다 8건) → 본선 5건. 같은 사건 1건, 매체당 2건까지 |
-| report | `Send`로 기사마다 워커를 띄움. 본문 600자 미만은 제외, `headline · summary · why` 세 칸으로 요약 |
-| verify | 한글이 없거나, 따로 부른 LLM이 원문과 대조해 근거가 없으면 버림 |
-| publish | `DRY_RUN=1`(기본)이면 보내지 않음. Discord가 거절하면 실행을 실패로 끝냄 |
+| select | 제목으로 투자·MOU·수상 기사 제거 → 최소 2조로 예선(조마다 8건) → 본선 5건 + 예비 3건. 같은 사건 1건, 매체당 2건까지 |
+| report | `Send`로 기사마다 워커를 띄움(예비 포함 최대 8). 본문 600자 미만은 제외, `headline · summary · why` 세 칸으로 요약 |
+| verify | 순위대로 검사해 5건이 차면 멈춤. 한글이 없거나, 따로 부른 LLM이 원문과 대조해 근거가 없으면 버리고 빈자리는 예비로 채움 |
+| publish | `DRY_RUN=1`(기본)이면 보내지 않음. 429·5xx·연결 실패는 세 번까지 시도, 그래도 안 되면 실행을 실패로 끝냄 |
 
 ## 실행
 
@@ -66,7 +66,7 @@ DRY_RUN=0 python run.py          # 실제 발행
 python run.py --delete <메시지ID> # 이 웹훅으로 보낸 메시지 삭제
 ```
 
-**자동 실행** — 저장소 Settings → Secrets에 같은 두 값을 등록하면 `.github/workflows/daily.yml`이 매일 돈다. 손으로 돌리려면 Actions → 매일 브리핑 → Run workflow(`dry_run` 체크 시 발행 안 함).
+**자동 실행** — 저장소 Settings → Secrets에 같은 두 값을 등록하면 `.github/workflows/daily.yml`이 매일 돈다. 손으로 돌리려면 Actions → 매일 브리핑 → Run workflow(`dry_run` 체크 시 발행 안 함). 공개 저장소는 60일 동안 커밋이 없으면 예약 실행이 꺼지므로, 마지막 커밋이 50일을 넘기면 워크플로가 빈 커밋을 하나 올린다.
 
 ## 기록
 

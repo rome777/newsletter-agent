@@ -1,0 +1,8 @@
+langgraph>=0.6
+feedparser>=6.0
+requests>=2.32
+trafilatura>=2.0
+openai>=1.99
+pydantic>=2.7
+python-dotenv>=1.0
+brotli>=1.2.0

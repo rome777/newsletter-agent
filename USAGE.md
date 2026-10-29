@@ -19,6 +19,7 @@ DRY_RUN=0 python run.py --silent # 알림 없이 실제 발행
 DRY_RUN=0 python run.py          # 실제 발행
 python run.py --delete <메시지ID> # 이 웹훅으로 보낸 메시지 삭제
 python run.py --once             # 오늘 이미 보냈으면 건너뜀 (예약 실행용)
+POST_NOTE="한 줄" DRY_RUN=0 python run.py  # 카드 위에 한 줄을 붙여 발행 (제출용 채널에서 보낸 사람 표시)
 ```
 
 **자동 실행** — 저장소 Settings → Secrets에 같은 두 값을 등록하면 `.github/workflows/daily.yml`이 매일 돈다. GitHub는 예약 실행을 몇 시간씩 늦게 시작하기도 해서 KST 06:47·07:07·07:27에 세 번 걸어 둔다. 예약 실행은 `--once`로 돌아, 실제로 보낸 날을 적어 둔 `last_sent.txt`가 오늘이면 건너뛴다. 세 실행이 한꺼번에 밀려 시작해도 하나씩 차례로 돌고, 뒤 실행은 앞 실행이 커밋한 `last_sent.txt`를 받아 본다. 발행이 실패하면 날짜를 적지 않으므로 다음 예약이 다시 시도한다. 손으로 돌리려면 Actions → 매일 브리핑 → Run workflow(`dry_run` 체크 시 발행 안 함). 공개 저장소는 60일 동안 커밋이 없으면 예약 실행이 꺼지므로, 마지막 커밋이 50일을 넘기면 워크플로가 빈 커밋을 하나 올린다.

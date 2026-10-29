@@ -613,11 +613,14 @@ def post(webhook, payload):                     # [고침] 429·5xx·연결 실�
 def send(run_id, lead, articles, webhook=None, dry_run=True, silent=False):
     """보냈으면 'sent', 안 보냈으면 'dry-run', 거절당했으면 'failed'"""
     payload = {"username": "편집실", "embeds": build_embeds(run_id, lead, articles)}
+    if os.environ.get("POST_NOTE"):             # 카드 위에 붙는 한 줄 — 제출용 채널에서 보낸 사람을 밝힐 때
+        payload["content"] = os.environ["POST_NOTE"]
     if silent:
         payload["flags"] = SUPPRESS_NOTIFICATIONS
     if dry_run or not webhook:
         print(f"[dry-run] embed {len(payload['embeds'])}개 · "
-              f"{len(json.dumps(payload, ensure_ascii=False))}자 — 보내지 않음")
+              f"{len(json.dumps(payload, ensure_ascii=False))}자 — 보내지 않음"
+              + (f" · 머리말 {payload['content']!r}" if payload.get("content") else ""))
         for e in payload["embeds"]:
             print(json.dumps(e, ensure_ascii=False, indent=2))
         return "dry-run"

@@ -68,5 +68,40 @@
   "title": "Akamai Launches AI Inference and Agent Sandbox Services",
   "url": "https://analyticsindiamag.com/ai-news/akamai-launches-ai-inference-and-agent-sandbox-services",
   "event": "akamai-ai-inference-launch"
+ },
+ {
+  "date": "2026-10-29",
+  "source": "SiliconANGLE",
+  "title": "Nvidia releases all-in-one adaptable Nemotron 3.5 audio transcription and translation model",
+  "url": "https://siliconangle.com/2026/10/28/nvidia-releases-all-in-one-adaptable-nemotron-3-5-audio-transcription-and-translation-model/",
+  "event": "nvidia-nemotron-3.5"
+ },
+ {
+  "date": "2026-10-29",
+  "source": "The Decoder",
+  "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
+  "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
+  "event": "google-android-ai-agents"
+ },
+ {
+  "date": "2026-10-29",
+  "source": "SiliconANGLE",
+  "title": "Jedify formally launches Data Agents for building AI analysts in plain language",
+  "url": "https://siliconangle.com/2026/10/28/jedify-formally-launches-data-agents-for-building-ai-analysts-in-plain-language/",
+  "event": "jedify-data-agents"
+ },
+ {
+  "date": "2026-10-29",
+  "source": "인공지능신문",
+  "title": "고가 GPU 한 대를 여러 AI가 나눠 쓴다… 엔비디아, 메모리까지 통제하는 공유 기술 공개",
+  "url": "https://www.aitimes.kr/news/articleView.html?idxno=42461",
+  "event": "nvidia-gpu-sharing-2024"
+ },
+ {
+  "date": "2026-10-29",
+  "source": "인공지능신문",
+  "title": "노트북이 개인용 AI 슈퍼컴퓨터로…엔비디아, 128GB 메모리·1페타플롭스 성능으로 로컬 AI 시대 확대",
+  "url": "https://www.aitimes.kr/news/articleView.html?idxno=42482",
+  "event": "nvidia-local-ai-2024"
  }
 ]

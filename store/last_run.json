@@ -1,19 +1,19 @@
 {
-  "at": "2026-10-29T12:01:52",
-  "sent": "dry-run",
+  "at": "2026-10-29T12:10:16",
+  "sent": "sent",
   "log": [
     "① 수집   24시간 time window · 86건 · 소스 12곳",
-    "② 선별   86 → 이미 보냄 제외 84 → 홍보 제외 82 → 예선 3조 24 → 5건 + 예비 3 · 최근 발행 3 · 같은 사건 1",
-    "   선정 [인공지능신문] 고가 GPU 한 대를 여러 AI가 나눠 쓴다… 엔비디아, 메모리까지 통제하는 공유 기술 공 — 엔비디아가 GPU 자원 공유 및 메모리 통제 기술을 공개해 AI 모델 운영 비용과 효율성에 직접적인 영향을 줄 수 있는 신기술이다. 실제 제품 적용 시 GPU 활용 방식에 변화를 줄 수 있다.",
-    "   선정 [SiliconANGLE] Nvidia releases all-in-one adaptable Nemotron 3.5  — 엔비디아가 다국어 음성 인식 및 번역 모델 Nemotron 3.5를 공개해 음성 AI 제품 개발에 즉시 활용 가능한 최신 모델을 제공한다. 실제 제품에 적용 가능한 오픈 모델이다.",
-    "   선정 [AWS ML] Distributed training with Ray Train DLCs and EFA o — Ray Train DLC와 EFA를 활용한 분산 학습 환경 구축 방법을 구체적으로 소개해 대규모 AI 모델 학습 인프라 구축에 실질적 도움을 준다.",
-    "   선정 [The Decoder] Google opens Android development to third-party AI — Google이 Android Studio에 타사 AI 에이전트를 지원하는 기능을 공개해, 개발자가 다양한 AI 에이전트를 안드로이드 앱에 통합할 수 있게 됨. 국내 개발팀의 AI 에이전트 활용에 직접적인 영향을 줄 수 있음.",
-    "   선정 [SiliconANGLE] Virtana lets its AI agents pull in agents from oth — Virtana가 AI 에이전트가 타사 에이전트를 불러와 IT 인시던트를 처리하는 기능을 플랫폼에 추가해, 실제 제품에서 AI 도구 활용 방식에 즉각적인 변화가 예상됨.",
-    "   예비 [Analytics India] Oracle Expands AI Compute Options With NVIDIA, Goo — Oracle이 NVIDIA, Google TPU, Cerebras 등 다양한 AI 컴퓨트 옵션을 확장해 AI 인프라 선택지가 넓어졌으며, 이는 국내 개발팀의 AI 인프라 도입에 직접적인 영향을 줄 수 있음.",
-    "   예비 [Analytics India] GitHub Expands Infra With 4 Mn Cores, Debuts Copil — GitHub가 400만 코어 인프라 확장과 멀티 모델 라우팅을 지원하는 Copilot Fusion을 출시해, AI 기반 개발 도구의 성능과 활용도가 즉시 향상됨.",
-    "   예비 [인공지능신문] 삼성전자, AI로 수면 중 호흡 장애 3단계 분석…갤럭시 워치·링 식약처 허가 획득 — 삼성전자가 AI 기반 수면 무호흡 분석 기능을 갤럭시 워치에 도입해 실제 제품에 AI 기능이 적용된 사례로, 국내 개발팀에 AI 제품 적용 사례로 참고가 됨.",
+    "② 선별   86 → 이미 보냄 제외 84 → 홍보 제외 82 → 예선 3조 24 → 5건 + 예비 3 · 같은 사건 1 · 최근 발행 3",
+    "   선정 [SiliconANGLE] Nvidia releases all-in-one adaptable Nemotron 3.5  — 엔비디아가 다국어 음성 인식·번역·화자 인식이 가능한 Nemotron 3.5 모델을 공개해 음성 AI 제품 개발에 즉시 활용 가능한 최신 모델을 제공함.",
+    "   선정 [The Decoder] Google opens Android development to third-party AI — 구글이 Android Studio에 40여개 타사 AI 에이전트를 지원하는 'Bring Your Own Agent' 기능과 Gemini API를 공개해 AI 개발 환경과 도구가 확장됨.",
+    "   선정 [SiliconANGLE] Jedify formally launches Data Agents for building  — Jedify가 비전문가도 자연어로 AI 분석가를 구축할 수 있는 Data Agents 제품을 출시해 AI 분석 자동화 도구를 실제 제공함.",
+    "   선정 [인공지능신문] 고가 GPU 한 대를 여러 AI가 나눠 쓴다… 엔비디아, 메모리까지 통제하는 공유 기술 공 — GPU 자원을 여러 AI가 효율적으로 공유할 수 있는 기술이 공개되어, AI 모델 운영 비용과 인프라 활용 방식에 즉각적인 영향을 줄 수 있음.",
+    "   선정 [인공지능신문] 노트북이 개인용 AI 슈퍼컴퓨터로…엔비디아, 128GB 메모리·1페타플롭스 성능으로 로컬  — 개인용 노트북에서 고성능 AI 모델을 구동할 수 있는 하드웨어가 출시되어, 개발팀의 작업 환경과 AI 모델 실험 방식에 직접적인 변화를 가져올 가능성이 큼.",
+    "   예비 [AWS ML] Building an Agentic AI Platform on Amazon Bedrock  — Amazon Bedrock AgentCore를 활용한 에이전틱 AI 플랫폼 구축 아키텍처와 오픈소스 블루프린트가 공개되어, 실제 제품에 AI를 붙이는 개발팀에 유용한 실무 정보 제공.",
+    "   예비 [InfoQ] Airbnb Cuts Recommendation Staleness from 2 Days t — Airbnb가 추천 시스템의 임베딩 업데이트 지연 시간을 기존 2일에서 몇 초로 대폭 단축하는 기능을 실제로 도입했다는 점에서, AI를 제품에 붙이는 개발팀이 참고할 만한 실질적인 기술 변화와 운영 방식 개선 사례임.",
+    "   예비 [Analytics India] GitHub Expands Infra With 4 Mn Cores, Debuts Copil — GitHub가 대규모 인프라 확장과 함께 Copilot Fusion이라는 멀티 모델 라우팅 기능을 실제로 출시했으며, AI 기반 코드 스캔 등 보안 기능도 도입해 개발팀의 작업 방식과 도구 활용에 직접적인 영향을 줄 수 있음.",
     "④ 검수   8 → 5건",
-    "⑤ 발행   5건 · dry-run"
+    "⑤ 발행   5건 · sent"
   ],
   "selection": {
     "candidates": 86,
@@ -46,12 +46,12 @@
         "size": 28,
         "picks": [
           {
-            "source": "The Decoder",
-            "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
-            "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
+            "source": "인공지능신문",
+            "title": "KT, AI 고객센터 월 120만건 상담 처리…상담시간 11% 줄이고 해결률 81%로 높였다",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42474",
             "kind": "출시·변경",
-            "event": "nvidia-nemotron-3.5",
-            "reason": "Nvidia가 Nemotron 3.5 Transcribe라는 오픈 음성 인식 모델을 출시해 실제 제품에 바로 적용 가능한 새로운 AI 도구가 나왔다. 음성 인식, 번역, 화자 인식 기능을 통합해 AI 제품 개발에 직접적인 영향을 줄 수 있다.",
+            "event": "kt-ai-contact-center",
+            "reason": "KT가 생성형 AI를 실제 고객센터 상담에 적용해 월 120만건 상담 처리, 상담시간 11% 단축, 해결률 81%로 개선한 실사용 사례로, 국내 개발팀에 직접적인 업무 효율 개선 사례임.",
             "result": "통과"
           },
           {
@@ -59,53 +59,17 @@
             "title": "Virtana lets its AI agents pull in agents from other vendors to work IT incidents",
             "url": "https://siliconangle.com/2026/10/28/virtana-lets-its-ai-agents-pull-in-agents-from-other-vendors-to-work-it-incidents/",
             "kind": "출시·변경",
-            "event": "virtana-agentic-observability",
-            "reason": "Virtana가 자사 AI 에이전트가 타사 에이전트를 불러와 IT 인시던트를 처리할 수 있도록 플랫폼을 확장했다. AI 에이전트 간 협업 기능이 추가되어 실제 업무 방식에 변화를 줄 수 있다.",
+            "event": "agentic-ai-integration",
+            "reason": "Virtana가 자사 AI 에이전트가 타사 에이전트를 불러와 IT 인시던트를 처리하는 기능을 출시해 AI 에이전트 통합 및 협업 방식에 변화를 주는 실제 기능 업데이트임.",
             "result": "통과"
           },
           {
-            "source": "인공지능신문",
-            "title": "“말로 지시하면 로봇이 움직인다”…휴리엇로보틱스·다이퀘스트, 음성 AI 결합한 제조 현장 구축",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42477",
+            "source": "The Decoder",
+            "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
+            "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
             "kind": "출시·변경",
-            "event": "physical-ai-manufacturing",
-            "reason": "음성 AI를 활용해 자연어 명령으로 로봇을 제어하는 제조 현장 구축이 추진된다. 실제 제조 자동화에 AI를 적용하는 사례로, 국내 개발팀에 직접적인 참고가 된다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "해수부, \"AI로 바다 산업 바꾼다\"... 세계 자율운항선박 시장 수주 1위 목표 등 '해양수산 AI 전환 5대 전략' 발표",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42467",
-            "kind": "출시·변경",
-            "event": "marine-ai-strategy",
-            "reason": "해양수산부가 AI를 활용한 자율운항선박과 항만 물류 혁신 전략을 발표했다. 2032년까지 완전 자율운항선박 핵심기술 확보 계획 등 구체적 정책으로, AI 제품 적용과 산업 변화에 참고할 만하다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "한국어 가르치는 AI, GPT보다 잘했다…ETRI, '한국어 AI 선생님' 응답 적절성 93.8% 달성",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42462",
-            "kind": "출시·변경",
-            "event": "etri-korean-ai-teacher",
-            "reason": "ETRI가 한국어 교육에 특화된 AI를 개발해 GPT보다 높은 응답 적절성을 달성했다. 실제 교육용 AI 제품 개발에 참고할 수 있는 구체적 성과다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "스페인 4위 은행, AI 에이전트 전사 도입…도이치텔레콤과 손잡고 기술 종속 없는 금융 AI 구축",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42472",
-            "kind": "출시·변경",
-            "event": "sovereign-ai-finance",
-            "reason": "스페인 은행이 단일 AI 모델이나 클라우드 사업자에 종속되지 않는 개방형 AI 에이전트 도입을 추진한다. 금융 AI 제품 개발 시 기술 종속 문제와 관련해 중요한 사례다.",
-            "result": "통과"
-          },
-          {
-            "source": "Analytics India",
-            "title": "GitHub Expands Infra With 4 Mn Cores, Debuts Copilot Fusion for Multi-Model Routing",
-            "url": "https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing",
-            "kind": "출시·변경",
-            "event": "github-copilot-fusion",
-            "reason": "GitHub가 400만 코어 인프라 확장과 멀티 모델 라우팅을 지원하는 Copilot Fusion을 출시했다. AI 코딩 도구의 성능과 기능이 실제로 향상되어 개발팀에 직접적인 영향이 있다.",
+            "event": "nvidia-nemotron-3.5",
+            "reason": "Nvidia가 오픈 소스 음성 인식 모델 Nemotron 3.5를 출시해 음성 인식, 번역, 화자 인식 기능을 통합한 실제 도구로, AI 음성 처리 개발에 직접 활용 가능함.",
             "result": "통과"
           },
           {
@@ -113,117 +77,8 @@
             "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
             "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
             "kind": "출시·변경",
-            "event": "google-android-ai-agents",
-            "reason": "구글이 Android Studio에 타사 AI 에이전트 지원을 추가하고 Gemini API를 공개했다. 실제 개발 환경에서 AI 에이전트 활용이 확대되어 국내 개발팀에도 중요한 변화다.",
-            "result": "통과"
-          }
-        ]
-      },
-      {
-        "size": 27,
-        "picks": [
-          {
-            "source": "인공지능신문",
-            "title": "애플, AI 성능 최대 13배 높인 M6 맥북 프로 공개…온디바이스 AI 성능 강화, LLM도 직접 실행",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42470",
-            "kind": "출시·변경",
-            "event": "apple-m6-macbook-ai-performance",
-            "reason": "애플이 AI 연산 성능을 최대 13배 높인 M6 칩 탑재 맥북 프로를 공개해, 온디바이스 AI와 LLM 실행 성능이 크게 향상되어 국내 개발팀의 AI 제품 적용에 직접적인 영향을 줄 수 있음.",
-            "result": "통과"
-          },
-          {
-            "source": "SiliconANGLE",
-            "title": "Nvidia releases all-in-one adaptable Nemotron 3.5 audio transcription and translation model",
-            "url": "https://siliconangle.com/2026/10/28/nvidia-releases-all-in-one-adaptable-nemotron-3-5-audio-transcription-and-translation-model/",
-            "kind": "출시·변경",
-            "event": "nvidia-nemotron-3.5",
-            "reason": "Nvidia가 다국어 오디오 전사 및 번역을 지원하는 Nemotron 3.5 모델과 파인튜닝용 오픈 데이터 파이프라인을 공개해, AI 음성 처리 제품 개발에 즉시 활용 가능하다.",
-            "result": "통과"
-          },
-          {
-            "source": "AWS ML",
-            "title": "Distributed training with Ray Train DLCs and EFA on EKS",
-            "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
-            "kind": "출시·변경",
-            "event": "aws-ray-train-efa",
-            "reason": "AWS가 Ray Train DLC와 EFA를 활용한 분산 학습 환경 구축 방법을 공개해, 대규모 AI 모델 학습 인프라 구축에 실질적 도움을 줄 수 있음.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "AI 상담원, 답변 넘어 고객 업무까지 직접 처리…플래티어·GS네오텍, 에이전틱 AICC 공동 개발",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42465",
-            "kind": "출시·변경",
-            "event": "agentic-ai-aicc",
-            "reason": "플래티어와 GS네오텍이 AI 상담원이 기업 내부 시스템 업무까지 직접 처리하는 차세대 AICC를 공동 개발해, 국내 AI 컨택센터 제품에 즉시 적용 가능한 기술임.",
-            "result": "통과"
-          },
-          {
-            "source": "The Decoder",
-            "title": "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform",
-            "url": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/",
-            "kind": "출시·변경",
-            "event": "openai-dots-europe",
-            "reason": "OpenAI가 유럽에서 AI 어시스턴트 Dots를 몇 주 내 출시 예정이라 밝혔으나, 아직 실제 사용 가능 여부는 불확실해 우선순위는 낮음.",
-            "result": "통과"
-          },
-          {
-            "source": "The Decoder",
-            "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
-            "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
-            "kind": "출시·변경",
-            "event": "google-gemini-4-carbon",
-            "reason": "Google DeepMind가 Gemini 4 Carbon 모델을 출시해 AI 성능 지표에서 우수한 점수를 기록, AI 모델 성능 개선에 관심 있는 개발팀에 참고가 될 수 있음.",
-            "result": "통과"
-          },
-          {
-            "source": "Hacker News",
-            "title": "Artificial Analysis Intelligence Index v5",
-            "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
-            "kind": "출시·변경",
-            "event": "ai-analysis-index-v5",
-            "reason": "AI 성능 지표인 Artificial Analysis Intelligence Index v5가 공개되어 최신 AI 모델 성능 비교에 활용 가능함.",
-            "result": "통과"
-          },
-          {
-            "source": "Analytics India",
-            "title": "KPIT Bets on AI for Margin Growth as Q2 Revenue Growth Stays Weak",
-            "url": "https://analyticsindiamag.com/ai-news/kpit-bets-on-ai-for-margin-growth-as-q2-revenue-growth-stays-weak",
-            "kind": "기타",
-            "event": "kpit-q2-results",
-            "reason": "KPIT가 AI를 통한 마진 개선을 목표로 하고 있으나, 이번 분기 매출 성장 둔화가 있어 AI 도입과 관련된 시장 동향 참고용으로 유용함.",
-            "result": "통과"
-          }
-        ]
-      },
-      {
-        "size": 27,
-        "picks": [
-          {
-            "source": "인공지능신문",
-            "title": "적과 동침?…오라클 클라우드에 구글 TPU 들어간다, 외부 하이퍼스케일러 첫 공급",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42459",
-            "kind": "출시·변경",
-            "event": "oracle-google-tpu-supply",
-            "reason": "구글 TPU가 오라클 클라우드에 공급되기 시작해 AI 인프라 선택지와 가격·성능 정책에 직접적인 변화가 예상되어 국내 개발팀의 인프라 선택에 영향 가능성이 크다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "고가 GPU 한 대를 여러 AI가 나눠 쓴다… 엔비디아, 메모리까지 통제하는 공유 기술 공개",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42461",
-            "kind": "출시·변경",
-            "event": "nvidia-gpu-sharing",
-            "reason": "엔비디아가 GPU 자원을 여러 AI 작업이 공유할 수 있는 기술을 공개해 AI 인프라 비용 효율과 운영 방식에 즉각적인 영향을 줄 수 있다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "KT, AI 고객센터 월 120만건 상담 처리…상담시간 11% 줄이고 해결률 81%로 높였다",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42474",
-            "kind": "출시·변경",
-            "event": "kt-ai-contact-center",
-            "reason": "KT가 생성형 AI를 활용해 고객센터 상담 효율을 크게 개선한 실제 사례로, 국내 AI 서비스 운영과 도구 활용에 참고할 만하다.",
+            "event": "google-gemini-apis",
+            "reason": "구글이 Android Studio에 타사 AI 에이전트 지원을 추가하고 Gemini API를 공개해 개발 환경에서 AI 에이전트 활용이 가능해진 실제 변화임.",
             "result": "통과"
           },
           {
@@ -232,25 +87,143 @@
             "url": "https://www.aitimes.kr/news/articleView.html?idxno=42476",
             "kind": "출시·변경",
             "event": "sk-ax-ai-hiring",
-            "reason": "AI를 활용한 대규모 면접 평가 솔루션이 실제 도입되어 채용 프로세스와 평가 방식에 변화를 주고 있어 실무 적용 사례로 중요하다.",
+            "reason": "SK AX가 AI를 활용해 대규모 면접 평가를 6시간 만에 완료하는 솔루션을 도입해 AI 기반 채용 평가가 실제 업무에 적용된 사례임.",
             "result": "통과"
           },
           {
             "source": "인공지능신문",
-            "title": "델, AI 시스템부터 계정 탈취·양자 해킹까지 방어…사이버 복원력 전면 강화",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42455",
+            "title": "내 건강 상태, AI가 또래와 비교해 알려준다…질병청, 500만건 빅데이터 기반 '건강 챗봇' 서비스 개방",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42468",
             "kind": "출시·변경",
-            "event": "dell-ai-cybersecurity",
-            "reason": "AI 인프라 보안 위협에 대응하는 델의 강화된 사이버 복원력 전략은 AI 시스템 운영 시 보안 정책과 대응 체계에 직접적인 영향을 준다.",
+            "event": "health-ai-chatbot",
+            "reason": "질병관리청이 500만건 빅데이터 기반 건강 챗봇 서비스를 개방해 AI를 활용한 공공 건강관리 서비스가 실제로 시작된 점이 국내 개발팀에 참고가 됨.",
+            "result": "통과"
+          },
+          {
+            "source": "Analytics India",
+            "title": "GitHub Expands Infra With 4 Mn Cores, Debuts Copilot Fusion for Multi-Model Routing",
+            "url": "https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing",
+            "kind": "출시·변경",
+            "event": "github-copilot-fusion",
+            "reason": "GitHub가 400만 코어 인프라 확장과 멀티 모델 라우팅을 지원하는 Copilot Fusion을 출시해 AI 코딩 도구의 성능과 기능이 실제로 강화됨.",
+            "result": "통과"
+          },
+          {
+            "source": "InfoQ",
+            "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
+            "url": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+            "kind": "출시·변경",
+            "event": "airbnb-chronon",
+            "reason": "Airbnb가 추천 시스템 임베딩 업데이트 지연 시간을 2일에서 몇 초로 단축하는 Chronon 기능을 실제 도입해 AI 추천 시스템 실시간성 개선 사례임.",
+            "result": "통과"
+          }
+        ]
+      },
+      {
+        "size": 27,
+        "picks": [
+          {
+            "source": "인공지능신문",
+            "title": "고가 GPU 한 대를 여러 AI가 나눠 쓴다… 엔비디아, 메모리까지 통제하는 공유 기술 공개",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42461",
+            "kind": "출시·변경",
+            "event": "nvidia-gpu-memory-sharing",
+            "reason": "GPU 한 대를 여러 AI가 메모리까지 통제하며 공유하는 기술이 공개되어 AI 모델 실행 효율성이 즉시 개선될 수 있음.",
             "result": "통과"
           },
           {
             "source": "인공지능신문",
-            "title": "AMD, “AI가 물리 세계로 진입한다”…로봇·산업용 AI 위한 맞춤형 반도체 전략 강화",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42463",
+            "title": "노트북이 개인용 AI 슈퍼컴퓨터로…엔비디아, 128GB 메모리·1페타플롭스 성능으로 로컬 AI 시대 확대",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42482",
             "kind": "출시·변경",
-            "event": "amd-physical-ai-chip",
-            "reason": "AI가 현실 세계에 적용되는 물리적 AI 확장에 맞춘 AMD의 반도체 전략 변화는 AI 하드웨어 선택과 설계에 중요한 참고가 된다.",
+            "event": "nvidia-local-ai-supercomputer",
+            "reason": "엔비디아가 대용량 메모리와 고성능 AI 가속기를 통합한 노트북용 AI 슈퍼컴퓨터 기술을 공개해, 로컬 AI 개발 및 추론 환경에 즉각적 변화 가능.",
+            "result": "통과"
+          },
+          {
+            "source": "SiliconANGLE",
+            "title": "Nvidia releases all-in-one adaptable Nemotron 3.5 audio transcription and translation model",
+            "url": "https://siliconangle.com/2026/10/28/nvidia-releases-all-in-one-adaptable-nemotron-3-5-audio-transcription-and-translation-model/",
+            "kind": "출시·변경",
+            "event": "nvidia-nemotron-3.5",
+            "reason": "엔비디아가 다국어 음성 인식 및 번역 AI 모델 Nemotron 3.5를 공개해, 음성 AI 제품 개발에 바로 활용 가능.",
+            "result": "통과"
+          },
+          {
+            "source": "Hugging Face",
+            "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+            "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+            "kind": "출시·변경",
+            "event": "nvidia-nemotron-3.5",
+            "reason": "Nemotron 3.5 모델과 관련된 Hugging Face의 공개로, 개발팀이 즉시 모델을 활용하거나 커스터마이징 가능.",
+            "result": "통과"
+          },
+          {
+            "source": "AWS ML",
+            "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+            "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
+            "kind": "출시·변경",
+            "event": "aws-ray-train-efa",
+            "reason": "AWS가 Ray Train DLC와 EFA를 이용한 분산 학습 환경을 제공, Qwen2.5-1.5B 모델 파인튜닝에 바로 적용 가능.",
+            "result": "통과"
+          },
+          {
+            "source": "The Decoder",
+            "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+            "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+            "kind": "출시·변경",
+            "event": "google-gemini-4-carbon",
+            "reason": "Google DeepMind가 Gemini 4 Carbon 모델을 출시해 AI 성능 향상과 함께 즉시 활용 가능한 신모델 공개.",
+            "result": "통과"
+          },
+          {
+            "source": "인공지능신문",
+            "title": "AI 상담원, 답변 넘어 고객 업무까지 직접 처리…플래티어·GS네오텍, 에이전틱 AICC 공동 개발",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42465",
+            "kind": "출시·변경",
+            "event": "agentic-ai-aicc",
+            "reason": "AI가 고객 업무까지 직접 처리하는 차세대 AI 컨택센터 기술이 공동 개발되어, 고객 서비스 자동화에 즉시 적용 가능.",
+            "result": "통과"
+          },
+          {
+            "source": "AWS ML",
+            "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+            "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
+            "kind": "출시·변경",
+            "event": "aws-agentcore-platform",
+            "reason": "AWS가 Amazon Bedrock AgentCore 기반 에이전틱 AI 플랫폼 구축 아키텍처와 오픈소스 참조 블루프린트를 공개해, 즉시 플랫폼 구축에 활용 가능.",
+            "result": "통과"
+          }
+        ]
+      },
+      {
+        "size": 27,
+        "picks": [
+          {
+            "source": "인공지능신문",
+            "title": "AI가 우주정거장 고장까지 예측한다…SAP·HPE, 지구 전송 없이 우주에서 직접 분석",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42460",
+            "kind": "출시·변경",
+            "event": "sap-space-ai",
+            "reason": "우주정거장 센서 데이터를 지구 전송 없이 AI가 직접 분석해 고장 예측하는 기술이 실제 추진 중이며, 이는 AI 데이터 처리 방식에 큰 변화를 줄 수 있어 이번 주 업무 방식에 영향 가능성이 크다.",
+            "result": "통과"
+          },
+          {
+            "source": "인공지능신문",
+            "title": "애플, AI 성능 최대 13배 높인 M6 맥북 프로 공개…온디바이스 AI 성능 강화, LLM도 직접 실행",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42470",
+            "kind": "출시·변경",
+            "event": "apple-m6-macbook",
+            "reason": "애플이 AI 연산 성능을 대폭 강화한 M6 칩 탑재 맥북 프로를 공개해 온디바이스 AI 처리 성능이 크게 향상되었으며, 이는 AI 제품 개발과 운영에 직접적인 영향을 준다.",
+            "result": "통과"
+          },
+          {
+            "source": "인공지능신문",
+            "title": "적과 동침?…오라클 클라우드에 구글 TPU 들어간다, 외부 하이퍼스케일러 첫 공급",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42459",
+            "kind": "출시·변경",
+            "event": "oracle-google-tpu",
+            "reason": "오라클 클라우드가 구글 TPU를 도입해 AI 인프라 경쟁 구도에 변화가 생겼으며, 실제 TPU 사용 가능성이 열려 국내 개발팀에도 가격·정책 변화 영향이 예상된다.",
             "result": "통과"
           },
           {
@@ -258,17 +231,44 @@
             "title": "삼성전자, AI로 수면 중 호흡 장애 3단계 분석…갤럭시 워치·링 식약처 허가 획득",
             "url": "https://www.aitimes.kr/news/articleView.html?idxno=42456",
             "kind": "출시·변경",
-            "event": "samsung-ai-sleep-apnea",
-            "reason": "AI 기반 건강 모니터링 기능이 국내 식약처 허가를 받아 실제 제품에 적용된 사례로, AI 제품 개발과 규제 대응에 참고할 만하다.",
+            "event": "samsung-ai-sleep",
+            "reason": "삼성전자가 AI 기반 수면 무호흡 분석 기능을 국내에 도입하며 실제 제품에 AI 기능이 강화되어, AI 적용 사례와 정책 변화에 참고할 만하다.",
             "result": "통과"
           },
           {
-            "source": "Analytics India",
-            "title": "Oracle Expands AI Compute Options With NVIDIA, Google TPUs and Cerebras",
-            "url": "https://analyticsindiamag.com/ai-news/oracle-expands-ai-compute-options-with-nvidia-google-tpus-and-cerebras",
+            "source": "인공지능신문",
+            "title": "AI 데이터센터 전력 수요 잡는다…HD건설기계, 초대형 발전 엔진 연 1250대 생산체제 구축",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42464",
             "kind": "출시·변경",
-            "event": "oracle-google-tpu-supply",
-            "reason": "오라클이 AI 컴퓨트 옵션을 확장하며 구글 TPU와 엔비디아, Cerebras 시스템을 도입해 AI 인프라 선택지와 가격 정책에 즉각적 변화를 주고 있다.",
+            "event": "hd-engine-production",
+            "reason": "AI 데이터센터 확산에 따른 전력 수요 증가에 대응해 HD건설기계가 대형 발전 엔진 생산을 확대하는 등 AI 인프라 관련 실제 공급 능력이 강화되어 가격·한도 변화에 영향 가능성이 있다.",
+            "result": "통과"
+          },
+          {
+            "source": "인공지능신문",
+            "title": "“말로 지시하면 로봇이 움직인다”…휴리엇로보틱스·다이퀘스트, 음성 AI 결합한 제조 현장 구축",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42477",
+            "kind": "출시·변경",
+            "event": "huriot-voice-ai",
+            "reason": "음성 AI를 활용해 제조 현장에서 로봇을 자연어로 제어하는 피지컬 AI 환경 구축이 실제 추진 중이며, AI 적용 방식에 직접적인 변화를 주는 사례다.",
+            "result": "통과"
+          },
+          {
+            "source": "인공지능신문",
+            "title": "“변호사도 따를 수밖에 없다”…앤트로픽, 법률 AI로 계약 검토·규제 분석·법무 관리까지 자동화",
+            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42481",
+            "kind": "출시·변경",
+            "event": "anthropic-legal-ai",
+            "reason": "앤트로픽이 법률 AI를 통해 계약 검토와 규제 분석 등 법무 업무 자동화를 실제로 제공하며, AI 도구의 업무 자동화 범위가 확장되어 개발팀에 참고가 된다.",
+            "result": "통과"
+          },
+          {
+            "source": "SiliconANGLE",
+            "title": "Jedify formally launches Data Agents for building AI analysts in plain language",
+            "url": "https://siliconangle.com/2026/10/28/jedify-formally-launches-data-agents-for-building-ai-analysts-in-plain-language/",
+            "kind": "출시·변경",
+            "event": "jedify-data-agents",
+            "reason": "Jedify가 자연어로 AI 분석가를 구축하는 Data Agents 제품을 공식 출시해, AI 분석 자동화 도구를 실제 사용할 수 있게 되어 업무 방식 변화에 직접적 영향을 준다.",
             "result": "통과"
           }
         ]
@@ -281,71 +281,8 @@
         "url": "https://www.aitimes.kr/news/articleView.html?idxno=42474",
         "kind": "출시·변경",
         "event": "kt-ai-contact-center",
-        "reason": "KT가 생성형 AI를 활용해 고객센터 상담 처리 능력과 업무 효율을 실제로 개선한 사례로, 이번 주 국내 AI 제품 적용에 참고할 만한 구체적 성과와 도입 효과를 보여준다.",
+        "reason": "KT가 생성형 AI를 실제 고객센터에 적용해 월 120만건 상담 처리, 상담시간 11% 단축, 해결률 81%로 개선한 구체적 성과를 발표해 국내 AI 제품 적용에 직접적 참고가 됨.",
         "result": "최근 발행"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "고가 GPU 한 대를 여러 AI가 나눠 쓴다… 엔비디아, 메모리까지 통제하는 공유 기술 공개",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42461",
-        "kind": "출시·변경",
-        "event": "nvidia-gpu-sharing",
-        "reason": "엔비디아가 GPU 자원 공유 및 메모리 통제 기술을 공개해 AI 모델 운영 비용과 효율성에 직접적인 영향을 줄 수 있는 신기술이다. 실제 제품 적용 시 GPU 활용 방식에 변화를 줄 수 있다.",
-        "result": "선정"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "적과 동침?…오라클 클라우드에 구글 TPU 들어간다, 외부 하이퍼스케일러 첫 공급",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42459",
-        "kind": "출시·변경",
-        "event": "oracle-google-tpu",
-        "reason": "구글 TPU가 오라클 클라우드에 공급되면서 AI 인프라 선택지가 확대되고 가격·성능 경쟁 구도가 변할 가능성이 있다. 국내 개발팀이 클라우드 AI 인프라 전략을 재검토할 필요가 있다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "SiliconANGLE",
-        "title": "Nvidia releases all-in-one adaptable Nemotron 3.5 audio transcription and translation model",
-        "url": "https://siliconangle.com/2026/10/28/nvidia-releases-all-in-one-adaptable-nemotron-3-5-audio-transcription-and-translation-model/",
-        "kind": "출시·변경",
-        "event": "nvidia-nemotron-3.5",
-        "reason": "엔비디아가 다국어 음성 인식 및 번역 모델 Nemotron 3.5를 공개해 음성 AI 제품 개발에 즉시 활용 가능한 최신 모델을 제공한다. 실제 제품에 적용 가능한 오픈 모델이다.",
-        "result": "선정"
-      },
-      {
-        "source": "The Decoder",
-        "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
-        "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
-        "kind": "출시·변경",
-        "event": "openai-gpt-6.1",
-        "reason": "구글 딥마인드가 Gemini 4 Carbon 모델을 출시해 AI 성능 지표에서 우위를 점했다. 최신 AI 모델을 실제로 사용할 수 있어 제품 성능 개선에 직접적 영향을 준다.",
-        "result": "최근 발행"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "AI 상담원, 답변 넘어 고객 업무까지 직접 처리…플래티어·GS네오텍, 에이전틱 AICC 공동 개발",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42465",
-        "kind": "출시·변경",
-        "event": "agentic-ai-aicc",
-        "reason": "AI가 고객 문의뿐 아니라 내부 시스템 업무까지 처리하는 차세대 AI 컨택센터 솔루션이 국내에서 공동 개발되어 실제 도입 가능성이 높다. 제품 적용에 참고할 만하다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "AWS ML",
-        "title": "Distributed training with Ray Train DLCs and EFA on EKS",
-        "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
-        "kind": "출시·변경",
-        "event": "ray-train-distributed-training",
-        "reason": "Ray Train DLC와 EFA를 활용한 분산 학습 환경 구축 방법을 구체적으로 소개해 대규모 AI 모델 학습 인프라 구축에 실질적 도움을 준다.",
-        "result": "선정"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "한국어 가르치는 AI, GPT보다 잘했다…ETRI, '한국어 AI 선생님' 응답 적절성 93.8% 달성",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42462",
-        "kind": "출시·변경",
-        "event": "korean-ai-teacher",
-        "reason": "ETRI가 한국어 교육 특화 AI를 개발해 GPT보다 높은 응답 적절성을 달성했다. 국내 AI 교육용 제품 개발에 참고할 수 있는 구체적 성과다.",
-        "result": "매체 상한"
       },
       {
         "source": "인공지능신문",
@@ -353,17 +290,17 @@
         "url": "https://www.aitimes.kr/news/articleView.html?idxno=42470",
         "kind": "출시·변경",
         "event": "apple-m6-macbook-pro",
-        "reason": "AI 연산 성능을 최대 13배 높인 M6 칩 탑재 맥북 프로가 공개되어, AI 모델을 온디바이스에서 직접 실행할 수 있어 국내 개발팀의 AI 제품 적용에 즉각적인 영향을 줄 수 있음.",
+        "reason": "애플이 AI 연산 성능을 최대 13배 높인 M6 칩 탑재 맥북 프로를 출시해 온디바이스 AI 실행 환경이 크게 개선되어 AI 제품 개발 및 배포에 영향을 줄 수 있음.",
         "result": "최근 발행"
       },
       {
-        "source": "The Decoder",
-        "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
-        "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
+        "source": "SiliconANGLE",
+        "title": "Nvidia releases all-in-one adaptable Nemotron 3.5 audio transcription and translation model",
+        "url": "https://siliconangle.com/2026/10/28/nvidia-releases-all-in-one-adaptable-nemotron-3-5-audio-transcription-and-translation-model/",
         "kind": "출시·변경",
         "event": "nvidia-nemotron-3.5",
-        "reason": "Nvidia가 Nemotron 3.5 Transcribe라는 오픈 AI 음성 인식 모델을 출시해, 음성 인식·번역·화자 인식 기능을 통합 제공함. 국내 개발팀이 음성 AI 기능을 제품에 적용할 때 참고할 수 있는 실사용 가능한 도구임.",
-        "result": "같은 사건"
+        "reason": "엔비디아가 다국어 음성 인식·번역·화자 인식이 가능한 Nemotron 3.5 모델을 공개해 음성 AI 제품 개발에 즉시 활용 가능한 최신 모델을 제공함.",
+        "result": "선정"
       },
       {
         "source": "The Decoder",
@@ -371,52 +308,52 @@
         "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
         "kind": "출시·변경",
         "event": "google-android-ai-agents",
-        "reason": "Google이 Android Studio에 타사 AI 에이전트를 지원하는 기능을 공개해, 개발자가 다양한 AI 에이전트를 안드로이드 앱에 통합할 수 있게 됨. 국내 개발팀의 AI 에이전트 활용에 직접적인 영향을 줄 수 있음.",
+        "reason": "구글이 Android Studio에 40여개 타사 AI 에이전트를 지원하는 'Bring Your Own Agent' 기능과 Gemini API를 공개해 AI 개발 환경과 도구가 확장됨.",
         "result": "선정"
       },
       {
         "source": "인공지능신문",
-        "title": "SK AX, AI로 1800명 면접 평가 6시간 만에 완료…채용도 실무역량 중심으로 바꾼다",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42476",
+        "title": "AI 상담원, 답변 넘어 고객 업무까지 직접 처리…플래티어·GS네오텍, 에이전틱 AICC 공동 개발",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42465",
         "kind": "출시·변경",
-        "event": "sk-ax-ai-interview",
-        "reason": "SK AX가 AI를 활용해 대규모 면접 평가를 6시간 만에 완료하는 솔루션을 선보여, AI를 활용한 실무역량 중심 채용 방식이 실제로 적용된 사례임. 국내 AI 제품 개발팀에 실질적 참고가 됨.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "델, AI 시스템부터 계정 탈취·양자 해킹까지 방어…사이버 복원력 전면 강화",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42455",
-        "kind": "출시·변경",
-        "event": "dell-ai-security",
-        "reason": "델이 AI 시스템과 계정 탈취, 양자 해킹 위협까지 대응하는 사이버 복원력 강화 전략을 발표해, AI 인프라 보안 정책과 대응 방안에 관한 실질적 변화가 있어 국내 개발팀에 중요함.",
-        "result": "매체 상한"
+        "event": "agentic-ai-contact-center",
+        "reason": "플래티어와 GS네오텍이 AI가 기업 내부 시스템에 접속해 업무까지 처리하는 차세대 AI 컨택센터를 공동 개발해 실제 업무 자동화에 적용 가능한 AI 솔루션을 선보임.",
+        "result": "같은 사건"
       },
       {
         "source": "SiliconANGLE",
-        "title": "Virtana lets its AI agents pull in agents from other vendors to work IT incidents",
-        "url": "https://siliconangle.com/2026/10/28/virtana-lets-its-ai-agents-pull-in-agents-from-other-vendors-to-work-it-incidents/",
+        "title": "Jedify formally launches Data Agents for building AI analysts in plain language",
+        "url": "https://siliconangle.com/2026/10/28/jedify-formally-launches-data-agents-for-building-ai-analysts-in-plain-language/",
         "kind": "출시·변경",
-        "event": "virtana-ai-agent-integration",
-        "reason": "Virtana가 AI 에이전트가 타사 에이전트를 불러와 IT 인시던트를 처리하는 기능을 플랫폼에 추가해, 실제 제품에서 AI 도구 활용 방식에 즉각적인 변화가 예상됨.",
+        "event": "jedify-data-agents",
+        "reason": "Jedify가 비전문가도 자연어로 AI 분석가를 구축할 수 있는 Data Agents 제품을 출시해 AI 분석 자동화 도구를 실제 제공함.",
         "result": "선정"
       },
       {
-        "source": "Analytics India",
-        "title": "Oracle Expands AI Compute Options With NVIDIA, Google TPUs and Cerebras",
-        "url": "https://analyticsindiamag.com/ai-news/oracle-expands-ai-compute-options-with-nvidia-google-tpus-and-cerebras",
+        "source": "인공지능신문",
+        "title": "고가 GPU 한 대를 여러 AI가 나눠 쓴다… 엔비디아, 메모리까지 통제하는 공유 기술 공개",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42461",
         "kind": "출시·변경",
-        "event": "oracle-ai-compute-expansion",
-        "reason": "Oracle이 NVIDIA, Google TPU, Cerebras 등 다양한 AI 컴퓨트 옵션을 확장해 AI 인프라 선택지가 넓어졌으며, 이는 국내 개발팀의 AI 인프라 도입에 직접적인 영향을 줄 수 있음.",
-        "result": "예비"
+        "event": "nvidia-gpu-sharing-2024",
+        "reason": "GPU 자원을 여러 AI가 효율적으로 공유할 수 있는 기술이 공개되어, AI 모델 운영 비용과 인프라 활용 방식에 즉각적인 영향을 줄 수 있음.",
+        "result": "선정"
       },
       {
-        "source": "Analytics India",
-        "title": "GitHub Expands Infra With 4 Mn Cores, Debuts Copilot Fusion for Multi-Model Routing",
-        "url": "https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing",
+        "source": "인공지능신문",
+        "title": "노트북이 개인용 AI 슈퍼컴퓨터로…엔비디아, 128GB 메모리·1페타플롭스 성능으로 로컬 AI 시대 확대",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42482",
         "kind": "출시·변경",
-        "event": "github-infra-expansion",
-        "reason": "GitHub가 400만 코어 인프라 확장과 멀티 모델 라우팅을 지원하는 Copilot Fusion을 출시해, AI 기반 개발 도구의 성능과 활용도가 즉시 향상됨.",
+        "event": "nvidia-local-ai-2024",
+        "reason": "개인용 노트북에서 고성능 AI 모델을 구동할 수 있는 하드웨어가 출시되어, 개발팀의 작업 환경과 AI 모델 실험 방식에 직접적인 변화를 가져올 가능성이 큼.",
+        "result": "선정"
+      },
+      {
+        "source": "AWS ML",
+        "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+        "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
+        "kind": "출시·변경",
+        "event": "amazon-bedrock-agentcore-2024",
+        "reason": "Amazon Bedrock AgentCore를 활용한 에이전틱 AI 플랫폼 구축 아키텍처와 오픈소스 블루프린트가 공개되어, 실제 제품에 AI를 붙이는 개발팀에 유용한 실무 정보 제공.",
         "result": "예비"
       },
       {
@@ -424,26 +361,63 @@
         "title": "삼성전자, AI로 수면 중 호흡 장애 3단계 분석…갤럭시 워치·링 식약처 허가 획득",
         "url": "https://www.aitimes.kr/news/articleView.html?idxno=42456",
         "kind": "출시·변경",
-        "event": "samsung-ai-sleep-apnea",
-        "reason": "삼성전자가 AI 기반 수면 무호흡 분석 기능을 갤럭시 워치에 도입해 실제 제품에 AI 기능이 적용된 사례로, 국내 개발팀에 AI 제품 적용 사례로 참고가 됨.",
+        "event": "samsung-ai-health-2024",
+        "reason": "AI 기반 수면 무호흡 분석 기능이 식약처 허가를 받고 실제 제품에 적용되어, AI 헬스케어 제품 개발에 참고할 만한 사례임.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "The Decoder",
+        "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+        "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+        "kind": "출시·변경",
+        "event": "google-gemini4-carbon-2024",
+        "reason": "Google DeepMind가 최신 AI 모델 Gemini 4 Carbon을 출시해 성능이 크게 향상되었으며, 실제 AI 제품에 적용 가능한 최신 모델임.",
+        "result": "최근 발행"
+      },
+      {
+        "source": "InfoQ",
+        "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
+        "url": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "kind": "출시·변경",
+        "event": "airbnb-chronon-update",
+        "reason": "Airbnb가 추천 시스템의 임베딩 업데이트 지연 시간을 기존 2일에서 몇 초로 대폭 단축하는 기능을 실제로 도입했다는 점에서, AI를 제품에 붙이는 개발팀이 참고할 만한 실질적인 기술 변화와 운영 방식 개선 사례임.",
+        "result": "예비"
+      },
+      {
+        "source": "Analytics India",
+        "title": "GitHub Expands Infra With 4 Mn Cores, Debuts Copilot Fusion for Multi-Model Routing",
+        "url": "https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing",
+        "kind": "출시·변경",
+        "event": "github-copilot-fusion",
+        "reason": "GitHub가 대규모 인프라 확장과 함께 Copilot Fusion이라는 멀티 모델 라우팅 기능을 실제로 출시했으며, AI 기반 코드 스캔 등 보안 기능도 도입해 개발팀의 작업 방식과 도구 활용에 직접적인 영향을 줄 수 있음.",
         "result": "예비"
       }
     ],
     "final_out": [
       {
+        "source": "SiliconANGLE",
+        "title": "Virtana lets its AI agents pull in agents from other vendors to work IT incidents",
+        "url": "https://siliconangle.com/2026/10/28/virtana-lets-its-ai-agents-pull-in-agents-from-other-vendors-to-work-it-incidents/"
+      },
+      {
         "source": "인공지능신문",
-        "title": "해수부, \"AI로 바다 산업 바꾼다\"... 세계 자율운항선박 시장 수주 1위 목표 등 '해양수산 AI 전환 5대 전략' 발표",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42467"
+        "title": "AI가 우주정거장 고장까지 예측한다…SAP·HPE, 지구 전송 없이 우주에서 직접 분석",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42460"
       },
       {
-        "source": "Hacker News",
-        "title": "Artificial Analysis Intelligence Index v5",
-        "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5"
+        "source": "인공지능신문",
+        "title": "SK AX, AI로 1800명 면접 평가 6시간 만에 완료…채용도 실무역량 중심으로 바꾼다",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42476"
       },
       {
-        "source": "Analytics India",
-        "title": "KPIT Bets on AI for Margin Growth as Q2 Revenue Growth Stays Weak",
-        "url": "https://analyticsindiamag.com/ai-news/kpit-bets-on-ai-for-margin-growth-as-q2-revenue-growth-stays-weak"
+        "source": "Hugging Face",
+        "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+      },
+      {
+        "source": "The Decoder",
+        "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
+        "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/"
       },
       {
         "source": "인공지능신문",
@@ -452,33 +426,33 @@
       },
       {
         "source": "인공지능신문",
-        "title": "AMD, “AI가 물리 세계로 진입한다”…로봇·산업용 AI 위한 맞춤형 반도체 전략 강화",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42463"
+        "title": "AI 데이터센터 전력 수요 잡는다…HD건설기계, 초대형 발전 엔진 연 1250대 생산체제 구축",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42464"
       },
       {
         "source": "인공지능신문",
-        "title": "스페인 4위 은행, AI 에이전트 전사 도입…도이치텔레콤과 손잡고 기술 종속 없는 금융 AI 구축",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42472"
+        "title": "내 건강 상태, AI가 또래와 비교해 알려준다…질병청, 500만건 빅데이터 기반 '건강 챗봇' 서비스 개방",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42468"
       },
       {
-        "source": "The Decoder",
-        "title": "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform",
-        "url": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/"
+        "source": "인공지능신문",
+        "title": "적과 동침?…오라클 클라우드에 구글 TPU 들어간다, 외부 하이퍼스케일러 첫 공급",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42459"
+      },
+      {
+        "source": "AWS ML",
+        "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+        "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/"
+      },
+      {
+        "source": "인공지능신문",
+        "title": "“변호사도 따를 수밖에 없다”…앤트로픽, 법률 AI로 계약 검토·규제 분석·법무 관리까지 자동화",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42481"
       }
     ]
   },
   "rejected": [],
   "published": [
-    {
-      "source": "인공지능신문",
-      "headline": "엔비디아, GPU 메모리 사용량 제한하는 오픈소스 기술로 AI 데이터센터 자원 효율화",
-      "url": "https://www.aitimes.kr/news/articleView.html?idxno=42461",
-      "kind": "출시·변경",
-      "topic": "도구·프레임워크",
-      "event": "nvidia-gpu-sharing",
-      "reason": "엔비디아가 GPU 자원 공유 및 메모리 통제 기술을 공개해 AI 모델 운영 비용과 효율성에 직접적인 영향을 줄 수 있는 신기술이다. 실제 제품 적용 시 GPU 활용 방식에 변화를 줄 수 있다.",
-      "why": "개발팀은 쿠버네티스 파드 설정에서 GPU 메모리 최소 보장량과 최대 사용량, 연산 공유 방식을 지정해 GPU 자원 활용도를 최적화하고 비용 절감 방안을 마련해야 합니다."
-    },
     {
       "source": "SiliconANGLE",
       "headline": "엔비디아, 다국어 오디오 전사·번역 가능한 Nemotron 3.5 공개",
@@ -486,38 +460,48 @@
       "kind": "출시·변경",
       "topic": "도구·프레임워크",
       "event": "nvidia-nemotron-3.5",
-      "reason": "엔비디아가 다국어 음성 인식 및 번역 모델 Nemotron 3.5를 공개해 음성 AI 제품 개발에 즉시 활용 가능한 최신 모델을 제공한다. 실제 제품에 적용 가능한 오픈 모델이다.",
-      "why": "개발팀은 Nemotron 3.5의 공개 데이터 파이프라인과 미세 조정 기능을 확인해 자사 서비스에 맞는 맞춤형 음성 인식 및 번역 모델을 구축해야 합니다."
-    },
-    {
-      "source": "AWS ML",
-      "headline": "Ray Train DLC와 EFA를 활용한 EKS 분산 PyTorch 학습 환경 구축",
-      "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
-      "kind": "출시·변경",
-      "topic": "도구·프레임워크",
-      "event": "ray-train-distributed-training",
-      "reason": "Ray Train DLC와 EFA를 활용한 분산 학습 환경 구축 방법을 구체적으로 소개해 대규모 AI 모델 학습 인프라 구축에 실질적 도움을 준다.",
-      "why": "개발팀은 Ray Train DLC와 KubeRay를 활용해 컨테이너 이미지 빌드 없이 안정적인 분산 학습 환경을 구성하고, 네트워크 설정과 GPU 자원 할당을 적절히 조정해야 합니다."
+      "reason": "엔비디아가 다국어 음성 인식·번역·화자 인식이 가능한 Nemotron 3.5 모델을 공개해 음성 AI 제품 개발에 즉시 활용 가능한 최신 모델을 제공함.",
+      "why": "개발팀은 Nemotron 3.5의 공개 데이터 파이프라인과 미세 조정 기능을 확인해 자사 서비스에 맞는 맞춤형 음성 인식 및 번역 모델 개발을 검토해야 합니다."
     },
     {
       "source": "The Decoder",
-      "headline": "구글, 안드로이드 스튜디오에 40여 AI 에이전트 도입 및 제미니 API 공개",
+      "headline": "구글, 안드로이드 스튜디오에 40여 AI 에이전트 연동 및 제미니 API 공개",
       "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
       "kind": "출시·변경",
       "topic": "도구·프레임워크",
       "event": "google-android-ai-agents",
-      "reason": "Google이 Android Studio에 타사 AI 에이전트를 지원하는 기능을 공개해, 개발자가 다양한 AI 에이전트를 안드로이드 앱에 통합할 수 있게 됨. 국내 개발팀의 AI 에이전트 활용에 직접적인 영향을 줄 수 있음.",
+      "reason": "구글이 Android Studio에 40여개 타사 AI 에이전트를 지원하는 'Bring Your Own Agent' 기능과 Gemini API를 공개해 AI 개발 환경과 도구가 확장됨.",
       "why": "개발팀은 새로운 AI 에이전트 통합과 제미니 API를 활용해 개발 효율성을 높이고, 앱 기능을 구글 검색 및 제미니 앱과 연동하는 방안을 검토해야 합니다."
     },
     {
       "source": "SiliconANGLE",
-      "headline": "Virtana, AI 에이전트 간 협업으로 IT 장애 대응 혁신",
-      "url": "https://siliconangle.com/2026/10/28/virtana-lets-its-ai-agents-pull-in-agents-from-other-vendors-to-work-it-incidents/",
+      "headline": "제디파이, 자연어로 AI 분석가 구축 가능한 데이터 에이전트 공식 출시",
+      "url": "https://siliconangle.com/2026/10/28/jedify-formally-launches-data-agents-for-building-ai-analysts-in-plain-language/",
       "kind": "출시·변경",
       "topic": "도구·프레임워크",
-      "event": "virtana-ai-agent-integration",
-      "reason": "Virtana가 AI 에이전트가 타사 에이전트를 불러와 IT 인시던트를 처리하는 기능을 플랫폼에 추가해, 실제 제품에서 AI 도구 활용 방식에 즉각적인 변화가 예상됨.",
-      "why": "개발팀은 AI 에이전트 간 상호운용성 및 정책 설정을 점검해 장애 대응 자동화와 협업 효율성을 높여야 합니다."
+      "event": "jedify-data-agents",
+      "reason": "Jedify가 비전문가도 자연어로 AI 분석가를 구축할 수 있는 Data Agents 제품을 출시해 AI 분석 자동화 도구를 실제 제공함.",
+      "why": "개발팀은 데이터 에이전트 도입 시 권한 관리와 비용 효율성을 확인하고, 기존 대시보드 업무를 자동화하는 방안을 검토해야 합니다."
+    },
+    {
+      "source": "인공지능신문",
+      "headline": "엔비디아, GPU 메모리 사용량 제한하는 오픈소스 기술로 AI 데이터센터 자원 효율화",
+      "url": "https://www.aitimes.kr/news/articleView.html?idxno=42461",
+      "kind": "출시·변경",
+      "topic": "도구·프레임워크",
+      "event": "nvidia-gpu-sharing-2024",
+      "reason": "GPU 자원을 여러 AI가 효율적으로 공유할 수 있는 기술이 공개되어, AI 모델 운영 비용과 인프라 활용 방식에 즉각적인 영향을 줄 수 있음.",
+      "why": "개발팀은 쿠버네티스 환경에서 GPU 메모리 할당 정책과 연산 공유 방식을 새로 도입된 GPU 프랙셔닝 오퍼레이터와 KAI 스케줄러를 통해 재검토하고 최적화해야 합니다."
+    },
+    {
+      "source": "인공지능신문",
+      "headline": "엔비디아 RTX 스파크, 노트북에서 40개 언어 음성 인식·AI 에이전트 GPU 자원 배분 지원 확대",
+      "url": "https://www.aitimes.kr/news/articleView.html?idxno=42482",
+      "kind": "출시·변경",
+      "topic": "도구·프레임워크",
+      "event": "nvidia-local-ai-2024",
+      "reason": "개인용 노트북에서 고성능 AI 모델을 구동할 수 있는 하드웨어가 출시되어, 개발팀의 작업 환경과 AI 모델 실험 방식에 직접적인 변화를 가져올 가능성이 큼.",
+      "why": "개발팀은 RTX 스파크의 통합 메모리 구조와 GPU 자원 관리 기능을 확인해 노트북에서 AI 모델 실행과 에이전트 개발 시 최적화 방안을 마련해야 합니다."
     }
   ]
 }

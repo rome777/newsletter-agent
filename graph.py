@@ -447,10 +447,14 @@ UNIT = {"lakh": 10**5, "lac": 10**5, "crore": 10**7, "million": 10**6, "billion"
 def expand_units(text):                         # [고침] '41.39 lakh'를 '4,139만'으로, '1.5 million yen'을 '1,500만 엔'으로 10배 틀렸다 — 숫자로 풀어 준다
     return BIG_UNITS.sub(lambda m: f"{float(m[1]) * UNIT[m[2].lower()]:,.0f}", text)
 
-def extract_body(url):
+def extract_body(url):                          # 본문과 기사가 올린 대표 사진(og:image) — 사진은 만들지 않고 원문 것만 쓴다
     d = trafilatura.fetch_url(url)
-    body = trafilatura.extract(d) if d else None
-    return expand_units(body) if body else body
+    if not d:
+        return None, None
+    body = trafilatura.extract(d)
+    meta = trafilatura.extract_metadata(d)
+    image = meta.image if meta and (meta.image or "").startswith("https://") else None
+    return (expand_units(body) if body else body), image
 
 def draft(body):
     return client().chat.completions.parse(
@@ -465,14 +469,14 @@ def fan_report(s: dict):                        # 기사 수만큼 워커를 펼
 def report(s: ReportIn) -> dict:
     it = s["item"]
     try:
-        body = extract_body(it["url"])
+        body, image = extract_body(it["url"])
         if not body or len(body) < MIN_BODY:
             return {"drafted": [],
                     "log": [f"   취재 제외 {it['source']} · 본문 {len(body or '')}자"]}
         d = draft(body)
     except Exception as e:                      # [고침] 한 갈래가 터져도 나머지는 계속
         return {"drafted": [], "log": [f"   취재 실패 {it['source']} · {type(e).__name__}"]}
-    return {"drafted": [{**it, "body": body[:6000], **d.model_dump()}]}
+    return {"drafted": [{**it, "body": body[:6000], "image": image, **d.model_dump()}]}
 
 
 # ── ④ 검수 · verify ────────────────────────────────────────────────────
@@ -564,7 +568,7 @@ def build_embeds(run_id, lead, articles):
             "url":         a["url"],
             "color":       COLORS.get(a.get("topic", ""), DEFAULT),
             "footer":      {"text": f"{a['source']} · {a['when']}"},
-        })
+        } | ({"image": {"url": a["image"]}} if a.get("image") else {}))   # 사진이 없는 기사는 글만
     total = lambda es: sum(len(e.get("title", "")) + len(e.get("description", ""))
                            + len(e.get("footer", {}).get("text", "")) for e in es)
     while len(embeds) > EMBED_MAX or total(embeds) > TOTAL_MAX:
@@ -622,7 +626,7 @@ def make_lead(arts):
 
 def publish(s: dict) -> dict:
     arts = [{"headline": a["headline"], "summary": a["summary"], "why": a["why"],
-             "url": a["url"], "source": a["source"], "topic": a.get("topic", ""),
+             "url": a["url"], "source": a["source"], "topic": a.get("topic", ""), "image": a.get("image"),
              "when": a["at"].astimezone().strftime("%m-%d %H:%M")}   # [고침] 현지 시각으로
             for a in s["verified"]]
     today = datetime.now().strftime("%Y-%m-%d")

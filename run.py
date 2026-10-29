@@ -43,7 +43,7 @@ if __name__ == "__main__":
         "log": out["log"],
         "selection": out["trace"],
         "rejected": out["rejected"],
-        "published": [{k: a.get(k) for k in ("source", "headline", "url", "kind", "topic", "event", "reason", "why")}
+        "published": [{k: a.get(k) for k in ("source", "headline", "url", "image", "kind", "topic", "event", "reason", "why")}
                       for a in out["verified"]],
     }
     Path("runs").mkdir(exist_ok=True)

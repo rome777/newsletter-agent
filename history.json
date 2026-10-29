@@ -33,5 +33,40 @@
   "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
   "url": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
   "event": "AWS SageMaker SOCI indexing"
+ },
+ {
+  "date": "2026-10-29",
+  "source": "AI타임스",
+  "title": "구글, 1년 만에 AI 성능 평가 1위 탈환…'제미나이 4 카본' 출시",
+  "url": "https://www.aitimes.com/news/articleView.html?idxno=216768",
+  "event": "google-gemini4carbon"
+ },
+ {
+  "date": "2026-10-29",
+  "source": "TechCrunch",
+  "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+  "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+  "event": "chrome-ai-autofill"
+ },
+ {
+  "date": "2026-10-29",
+  "source": "AI타임스",
+  "title": "애플, 'M6' 칩 탑재 아이맥·맥북 프로 공개...AI 성능 대폭 강화",
+  "url": "https://www.aitimes.com/news/articleView.html?idxno=216735",
+  "event": "product-release"
+ },
+ {
+  "date": "2026-10-29",
+  "source": "OpenAI",
+  "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+  "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+  "event": "openai-servicenow-partnership"
+ },
+ {
+  "date": "2026-10-29",
+  "source": "Analytics India",
+  "title": "Akamai Launches AI Inference and Agent Sandbox Services",
+  "url": "https://analyticsindiamag.com/ai-news/akamai-launches-ai-inference-and-agent-sandbox-services",
+  "event": "akamai-ai-inference-launch"
  }
 ]

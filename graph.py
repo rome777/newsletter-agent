@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Annotated, Literal, TypedDict
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
-import feedparser, requests, trafilatura
+import feedparser, requests, trafilatura, yaml
 from langgraph.graph import StateGraph, START, END
 from langgraph.types import Send
 from openai import OpenAI
@@ -24,6 +24,7 @@ except ImportError:
     pass
 
 MODEL = "gpt-4.1-mini"
+AUD = yaml.safe_load(Path(__file__).with_name("audience.yaml").read_text(encoding="utf-8"))   # 독자·기준·제외 조건
 _client = None
 
 def client():                                   # import 만 해도 키가 필요하지 않게 늦게 만든다
@@ -40,41 +41,42 @@ class Brief(TypedDict):
     picked:    list                             # ② 선별해 남긴 다섯 건 + 예비 (rank 순)
     drafted:   Annotated[list, operator.add]    # ③ 취재한 초안 — 워커들이 나눠 채운다
     verified:  list                             # ④ 검수를 통과한 것
-    sent:      str                              # ⑤ 발행 결과 — sent · dry-run · failed  [고침]
+    rejected:  list                             # ④ 검수에서 떨어진 것과 이유 — metrics 에 남긴다
+    sent:      str                             # ⑤ 발행 결과 — sent · dry-run · failed  [고침]
     trace:     dict                             # ② 왜 골랐고 왜 떨어졌는지 — run.py 가 파일로 남긴다  [고침]
     log:       Annotated[list, operator.add]    # 무슨 일이 있었는지
 
 INIT = {"hours": 24, "collected": [], "picked": [], "drafted": [],
-        "verified": [], "sent": "", "trace": {}, "log": []}
+        "verified": [], "rejected": [], "sent": "", "trace": {}, "log": []}
 
 
 # ── ① 수집 · collect ───────────────────────────────────────────────────
 UA = {"User-Agent": "Mozilla/5.0 (newsletter-agent-course)"}
-SOURCES = [                                     # 하루 100건 이상이 되도록 넓혔다 (2026-10-28 실측 약 150건)
+SOURCES = [                                     # tools/measure_sources.py 로 후보 31곳을 재서 관문을 다 넘은 11곳 (REPORT.md 소스 채택표)
     # 1차 소스 · 당사자 블로그
-    ("OpenAI",         "https://openai.com/blog/rss.xml"),
-    ("DeepMind",       "https://deepmind.google/blog/rss.xml"),
-    ("Google AI",      "https://blog.google/technology/ai/rss/"),
     ("Hugging Face",   "https://huggingface.co/blog/feed.xml"),
     ("NVIDIA",         "https://blogs.nvidia.com/feed/"),
     ("AWS ML",         "https://aws.amazon.com/blogs/machine-learning/feed/"),
     # 2차 소스 · 영어
-    ("TechCrunch",     "https://techcrunch.com/category/artificial-intelligence/feed/"),
-    ("The Verge",      "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
     ("Ars Technica",   "https://arstechnica.com/ai/feed/"),
     ("Wired",          "https://www.wired.com/feed/tag/ai/latest/rss"),
-    ("MIT TR",         "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
     ("The Decoder",    "https://the-decoder.com/feed/"),
     ("MarkTechPost",   "https://www.marktechpost.com/feed/"),
     ("InfoQ",          "https://feed.infoq.com/ai-ml-data-eng/"),
-    ("Simon Willison", "https://simonwillison.net/atom/everything/"),
-    ("ZDNet",          "https://www.zdnet.com/topic/artificial-intelligence/rss.xml"),
     ("SiliconANGLE",   "https://siliconangle.com/category/ai/feed/"),
     ("Analytics India","https://analyticsindiamag.com/feed/"),
-    # 2차 소스 · 한국어 — GeekNews 는 기사 페이지가 403 이라 G3(접근)에서 탈락
-    ("AI타임스",        "https://www.aitimes.com/rss/allArticle.xml"),
+    # 2차 소스 · 한국어 — AI타임스(과제 제외) 대신. 종합 IT 매체는 AI 비율이 낮아 탈락
+    ("인공지능신문",     "https://www.aitimes.kr/rss/allArticle.xml"),
 ]
 HN_MIN_POINTS = 30                              # Hacker News 는 공개 API(사다리 ①칸)로 가져온다
+
+EXCLUDED_DOMAINS = AUD["excluded_domains"]      # 과제가 제외한 소스
+
+def is_excluded(url):                           # www. 나 하위 도메인까지 같은 매체로 본다
+    host = urlsplit(url).netloc.lower().removeprefix("www.")
+    return any(host == d or host.endswith("." + d) for d in EXCLUDED_DOMAINS)
+
+assert not [n for n, u in SOURCES if is_excluded(u)], "SOURCES 에 제외 소스가 들어 있다"
 
 def strip_tags(s):
     return re.sub(r"<[^>]+>", "", s or "").strip()
@@ -113,7 +115,7 @@ def collect(s: dict) -> dict:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=s["hours"])
     fetchers = [(name, lambda n=name, u=url: rss_entries(n, u, cutoff)) for name, url in SOURCES]
     fetchers.append(("Hacker News", lambda: hn_entries(cutoff)))
-    items, dead, empty, seen = [], [], [], set()
+    items, dead, empty, seen, excluded = [], [], [], set(), 0
     for name, fetch in fetchers:
         try:
             entries = list(fetch())
@@ -122,6 +124,9 @@ def collect(s: dict) -> dict:
             continue
         n = 0
         for it in entries:
+            if is_excluded(it["url"]):          # HN 이 제외 매체 기사를 링크한 경우
+                excluded += 1
+                continue
             key = url_key(it["url"])
             if key in seen:
                 continue
@@ -133,30 +138,29 @@ def collect(s: dict) -> dict:
     return {"collected": items,
             "log": [f"① 수집   {s['hours']}시간 time window · {len(items)}건 · 소스 {len(fetchers)}곳"
                     + (f" · 응답 없음 {dead}" if dead else "")
-                    + (f" · 0건 {empty}" if empty else "")]}
+                    + (f" · 0건 {empty}" if empty else "")
+                    + (f" · 제외 매체 {excluded}건 버림" if excluded else "")]}
 
 
 # ── ② 선별 · select ────────────────────────────────────────────────────
-BATCH, MIN_HEATS = 40, 2                        # 예선 묶음 최대 크기, 최소 묶음 수 — 예선은 반드시 치른다
-PASS, TARGET, SPARE = 8, 5, 3                   # 묶음당 통과, 최종 건수, 본선 예비 — 길게 받으면 비교 대신 목록을 베낀다
-MAX_PER_SOURCE = 2                              # 한 매체가 브리핑을 독차지하지 않게 (20장)
+BATCH, MIN_HEATS, PASS = 40, 2, 8               # 예선 묶음 최대 크기, 최소 묶음 수, 묶음당 통과 — 길게 받으면 비교 대신 목록을 베낀다
+TARGET, SPARE = AUD["target"], AUD["spare"]     # 최종 건수, 본선 예비
+MAX_PER_SOURCE = AUD["max_per_source"]          # 한 매체가 브리핑을 독차지하지 않게 (20장)
 
-CRITERIA = ("독자는 AI를 실제 제품에 붙이는 국내 개발팀입니다.\n"
-            "고를 것:\n"
-            "- 이번 주 일하는 방식이 바뀔 만한가\n"
-            "- 지금 쓰는 도구·API의 가격·한도·정책이 실제로 변했나\n"
-            "버릴 것 (절대 고르지 마세요):\n"
-            "- 발표 예정·로드맵·예고만 있고 지금 쓸 수 있는 게 없는 소식\n"
-            "- 투자 유치·펀딩·기업 가치·MOU·제휴 체결·수상 같은 홍보성 소식\n"
-            "독자는 영어 기사도 읽습니다. 기사 언어나 국내 회사 여부는 판단 기준이 아닙니다.")
+CRITERIA = (f"독자는 {AUD['reader']}입니다.\n"   # [고침] 기준을 audience.yaml 로 뺐다 (44장)
+            "고를 것:\n" + "".join(f"- {c}\n" for c in AUD["criteria"])
+            + "버릴 것 (절대 고르지 마세요):\n" + "".join(f"- {r}\n" for r in AUD["reject"])
+            + AUD["notes"])
 
 KINDS = ("출시·변경", "연구·기법", "사례·적용", "규제·정책", "로드맵·예고", "투자·MOU·수상", "기타")
-DROP_KINDS = {"로드맵·예고", "투자·MOU·수상"}   # [고침] '버릴 것'을 프롬프트 부탁이 아니라 코드로 강제한다
+DROP_KINDS = set(AUD["drop_kinds"])             # [고침] '버릴 것'을 프롬프트 부탁이 아니라 코드로 강제한다
+assert DROP_KINDS <= set(KINDS), "audience.yaml 의 drop_kinds 는 KINDS 중에서 고른다"
 
 class Pick(BaseModel):                          # [고침] 제목을 먼저 옮겨 적게 해 이유가 엉뚱한 기사에 붙지 않게 한다
     title: str = Field(description="고른 후보의 제목을 목록에 있는 그대로 복사")
     index: int = Field(description="그 후보의 목록 번호")
-    event: str = Field(description="사건 라벨. 영어 소문자 '회사-대상' 형식(예: openai-gpt-6.1). "
+    event: str = Field(description="사건 라벨. 영어 소문자 '회사-제품' 형식으로, 반드시 기사 속 회사 이름으로 시작 "
+                                   "(예: openai-gpt-6.1, nvidia-nemotron-3.5, kt-ai-contact-center). "
                                    "한국어 기사도 영어로 쓰세요. 같은 사건이면 기사 언어·매체가 달라도 같은 라벨",
                        pattern=r"^[a-z0-9]+(-[a-z0-9.]+)+$")   # [고침] 프롬프트로는 절반이 비어 와서 형식으로 강제한다
     kind: Literal[KINDS] = Field(description="기사 성격. 투자·펀딩·MOU·수상이면 '투자·MOU·수상', "
@@ -199,7 +203,11 @@ def resolve(items, p):                          # 번호보다 옮겨 적은 제
     return best if sim(best) >= 0.6 else None
 
 GENERIC = {"launch", "launches", "release", "releases", "released", "announce", "announces",
-           "announcement", "update", "new", "출시", "공개", "발표"}
+           "announcement", "update", "new", "출시", "공개", "발표",
+           # [고침] 'product-update'·'infra-expansion' 처럼 회사·대상이 없는 라벨끼리 같은 사건이 돼
+           # 서로 다른 기사(Gemini 4 Carbon 과 Airbnb 추천 개선)가 빠졌다 — 이런 낱말은 사건을 가리키지 못한다
+           "product", "feature", "model", "tool", "service", "platform", "ai", "open", "tech",
+           "infra", "expansion", "development", "news", "report", "partnership", "integration"}
 
 def event_key(label):                           # [고침] 라벨이 '출시'·'launch'처럼 달라도 같은 사건으로 본다
     words = re.findall(r"[0-9a-z가-힣.]+", label.lower())
@@ -207,7 +215,7 @@ def event_key(label):                           # [고침] 라벨이 '출시'·'
 
 def same_event(a, b):
     ka, kb = event_key(a), event_key(b)
-    if not ka or not kb:                        # [고침] 라벨을 비워 오면 빈 것끼리 같은 사건이 돼 버린다
+    if ka.count("-") < 1 or kb.count("-") < 1:  # [고침] 남은 낱말이 둘 미만이면(빈 라벨 포함) 사건을 특정할 수 없어 비교하지 않는다
         return False
     return SequenceMatcher(None, ka, kb).ratio() >= 0.8
 
@@ -269,11 +277,7 @@ def save_history(arts):                         # 실제로 보냈을 때만 run
               "url": a["url"], "event": a.get("event", "")} for a in arts]
     HISTORY.write_text(json.dumps(hist, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
-PROMO = re.compile(                             # [고침] 제목만 봐도 홍보성인 기사는 LLM 에 넘기기 전에 거른다
-    r"\braises? \$|\bseries [a-f]\b|\bfunding\b|\bseed round\b|\bvaluation\b|\bunicorn\b"
-    r"|\bmou\b|\bwins?\b.*\baward|투자\s?유치|시리즈\s?[a-f]\b|펀딩|기업\s?가치|업무\s?협약|협약\s?체결|수상|시상"
-    r"|조달|금융\s?지원|^\[게시판\]",               # [게시판] 은 AI타임스의 보도자료 단신 모음
-    re.I)
+PROMO = re.compile("|".join(AUD["promo_title_patterns"]), re.I)   # [고침] 제목만 봐도 홍보성인 기사는 LLM 에 넘기기 전에 거른다
 
 def heats(items):                               # [고침] 후보가 적어도 묶음을 둘 이상 만든다
     n = max(MIN_HEATS, math.ceil(len(items) / BATCH))
@@ -436,24 +440,28 @@ def is_korean(d):                               # [고침] 24장 한글 검사�
     return bool(re.search(r"[가-힣]", d["headline"] + d["summary"]))
 
 def verify(s: dict) -> dict:
-    kept, dropped = [], []
+    kept, dropped, rejected = [], [], []
+    def reject(d, why, problems=()):            # 떨어진 기사와 이유 — 스킵하고 예비로 채운다
+        dropped.append(d["source"] + (f"({why})" if why != "근거 없음" else ""))
+        rejected.append({"source": d["source"], "headline": d["headline"], "rank": d["rank"],
+                         "why": why, "problems": list(problems)})
     for d in sorted(s["drafted"], key=lambda d: d["rank"]):   # [고침] 순위대로 보고 다섯이 차면 멈춘다
         if len(kept) == TARGET:
             break
         if not is_korean(d):
-            dropped.append(f"{d['source']}(영어)")
+            reject(d, "영어")
             continue
         try:
-            ok = check(d).ok
+            v = check(d)
         except Exception as e:                  # [고침] 검수 호출이 터져도 그 기사만 빼고 계속
-            dropped.append(f"{d['source']}({type(e).__name__})")
+            reject(d, type(e).__name__)
             continue
-        if ok:
+        if v.ok:
             kept.append(d)
         else:
-            dropped.append(d["source"])
+            reject(d, "근거 없음", v.problems)
     spare = sum(d["rank"] >= TARGET for d in kept)
-    return {"verified": kept,                   # 리듀서 없는 칸에 담는다
+    return {"verified": kept, "rejected": rejected,   # 리듀서 없는 칸에 담는다
             "log": [f"④ 검수   {len(s['drafted'])} → {len(kept)}건"
                     + (f" · 불합격 {dropped}" if dropped else "")
                     + (f" · 예비 투입 {spare}" if spare else "")]}

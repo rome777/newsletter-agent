@@ -56,13 +56,13 @@ jobs:
           path: runs/
           retention-days: 90
 
-      - name: 발행 기록 커밋         # 다음 날 같은 사건을 거르려면 보낸 기사를 저장소에 남겨야 한다
+      - name: 실행·발행 기록 커밋     # 보낸 기사(다음 날 중복 거르기)와 실행 지표를 저장소에 남긴다
         run: |
-          git add history.json last_sent.txt 2>/dev/null || true
+          git add history.json last_sent.txt store/ 2>/dev/null || true
           if git diff --cached --quiet; then
-            echo "보낸 기사 없음 — 할 일 없음"
+            echo "남길 기록 없음 — 할 일 없음"
           else
-            git commit -m "history: $(TZ=Asia/Seoul date +%F) 발행 기록"
+            git commit -m "history: $(TZ=Asia/Seoul date +%F) 실행 기록"
             git pull --rebase --quiet      # 실행 중에 다른 커밋이 올라왔어도 밀어 넣을 수 있게
             git push
           fi

@@ -27,7 +27,11 @@ python run.py --once             # 오늘 이미 보냈으면 건너뜀 (예약 
 
 ## 기록
 
-실행마다 `runs/날짜_시각.json`에 **왜 골랐는지**(선정 이유·사건 라벨·성격)와 **왜 떨어졌는지**(홍보 제거, 예선·본선 탈락, 같은 사건, 매체 상한), 발행한 기사를 남긴다. Actions에서는 실행 페이지의 artifact로 90일 보관.
+실행마다 `runs/날짜_시각.json`에 **왜 골랐는지**(선정 이유·사건 라벨·성격)와 **왜 떨어졌는지**(홍보 제거, 예선·본선 탈락, 같은 사건, 매체 상한, 검수 불합격), 발행한 기사를 남긴다. Actions에서는 실행 페이지의 artifact로 90일 보관. `runs/`는 커밋하지 않으므로 마지막 회차는 `store/last_run.json`에 덮어써 커밋한다.
+
+`store/metrics.jsonl`에는 실행마다 한 줄씩 단계별 건수를 쌓는다. 소스별 수집 건수, 홍보 제외, 예선 묶음 크기와 통과 수, 같은 사건 제외, 본문 추출 성공률, 검수 불합격, 발행 건수와 성격·토픽이 들어간다. `trigger`가 `schedule`이면 예약 실행, `local`이면 로컬 실행이다.
+
+소스를 다시 고를 때는 `python tools/measure_sources.py`로 후보를 재서 `store/sources.json`을 갱신한다. 기준은 [REPORT.md](REPORT.md) 2절에 있다.
 
 실제로 보낸 기사는 `history.json`에 14일치를 남기고, 다음 날 선별에서 최근 3일치와 비교해 같은 사건을 거른다.
 
@@ -37,7 +41,14 @@ python run.py --once             # 오늘 이미 보냈으면 건너뜀 (예약 
 |---|---|
 | `graph.py` | State, 노드 다섯 개, 그래프 |
 | `run.py` | 진입점, 기록 저장 |
+| `audience.yaml` | 타깃 독자, 중요도 기준, 제외 조건(홍보성 제목, 제외 매체), 발행 건수 |
+| `REPORT.md` | 과제 수행 보고서 |
+| `tools/measure_sources.py` | 소스 후보 측정 (관문 G1·G2·G3 + AI 비율) |
+| `store/sources.json` | 소스 측정 결과 |
+| `store/metrics.jsonl` | 실행마다 단계별 건수 (Actions가 커밋) |
+| `store/last_run.json` | 마지막 회차의 선정·탈락 기록 (Actions가 커밋) |
 | `history.json` | 최근 14일 동안 보낸 기사 (Actions가 커밋) |
 | `last_sent.txt` | 마지막으로 실제 발행한 날 (Actions가 커밋) |
+| `docs/` | 발행 화면 캡처 |
 | `requirements.txt` / `.lock` | 직접 쓰는 패키지 / 실제 설치할 전체 버전 |
 | `.github/workflows/daily.yml` | 매일 KST 06:47·07:07·07:27 예약 실행 |

@@ -2,6 +2,7 @@
 
 - 저장소: https://github.com/rome777/newsletter-agent
 - 받아 보기: Discord 채널 https://discord.gg/TjqctHFZJ
+- 발표 자료: https://claude.ai/artifact/K2GhsHGukkCsvvYF2xxMuk?sk=RSqxy1I7iBQCUlnWs8d1xg (모두의연구소 AI Agent 2기 구성원만 열람 가능)
 - 실행: GitHub Actions가 매일 아침 자동 실행 (KST 06:47·07:07·07:27 예약 중 먼저 시작한 한 번만 발행)
 
 ## 1. 분야 및 독자 정의

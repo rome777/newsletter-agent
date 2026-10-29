@@ -2,6 +2,8 @@
 
 **뉴스레터 받아 보기 → Discord 채널 초대 링크: https://discord.gg/TjqctHFZJ**
 
+발표 자료(슬라이드 10장): https://claude.ai/artifact/K2GhsHGukkCsvvYF2xxMuk?sk=RSqxy1I7iBQCUlnWs8d1xg — 모두의연구소 AI Agent 2기 구성원만 열람 가능
+
 올라오는 시각은 날마다 다르다. 07:30 정각에 오지 않고, 몇 시간 늦게 올라오는 날도 있다.
 
 매일 아침 해외 화제 기사 약 65건 중 점심시간에 동료에게 꺼낼 만한 **기묘한 이야기 5건**을 골라 한국어로 요약해 **Discord 채널**에 올리는 LangGraph 에이전트. 기사마다 세 문장 요약과 원문에서 찾은 **알고 보면** 한 줄을 붙인다.

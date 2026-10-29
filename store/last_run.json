@@ -1,274 +1,466 @@
 {
-  "at": "2026-10-29T12:10:16",
-  "sent": "sent",
+  "at": "2026-10-29T14:31:24",
+  "sent": "dry-run",
   "log": [
-    "① 수집   24시간 time window · 86건 · 소스 12곳",
-    "② 선별   86 → 이미 보냄 제외 84 → 홍보 제외 82 → 예선 3조 24 → 5건 + 예비 3 · 같은 사건 1 · 최근 발행 3",
-    "   선정 [SiliconANGLE] Nvidia releases all-in-one adaptable Nemotron 3.5  — 엔비디아가 다국어 음성 인식·번역·화자 인식이 가능한 Nemotron 3.5 모델을 공개해 음성 AI 제품 개발에 즉시 활용 가능한 최신 모델을 제공함.",
-    "   선정 [The Decoder] Google opens Android development to third-party AI — 구글이 Android Studio에 40여개 타사 AI 에이전트를 지원하는 'Bring Your Own Agent' 기능과 Gemini API를 공개해 AI 개발 환경과 도구가 확장됨.",
-    "   선정 [SiliconANGLE] Jedify formally launches Data Agents for building  — Jedify가 비전문가도 자연어로 AI 분석가를 구축할 수 있는 Data Agents 제품을 출시해 AI 분석 자동화 도구를 실제 제공함.",
-    "   선정 [인공지능신문] 고가 GPU 한 대를 여러 AI가 나눠 쓴다… 엔비디아, 메모리까지 통제하는 공유 기술 공 — GPU 자원을 여러 AI가 효율적으로 공유할 수 있는 기술이 공개되어, AI 모델 운영 비용과 인프라 활용 방식에 즉각적인 영향을 줄 수 있음.",
-    "   선정 [인공지능신문] 노트북이 개인용 AI 슈퍼컴퓨터로…엔비디아, 128GB 메모리·1페타플롭스 성능으로 로컬  — 개인용 노트북에서 고성능 AI 모델을 구동할 수 있는 하드웨어가 출시되어, 개발팀의 작업 환경과 AI 모델 실험 방식에 직접적인 변화를 가져올 가능성이 큼.",
-    "   예비 [AWS ML] Building an Agentic AI Platform on Amazon Bedrock  — Amazon Bedrock AgentCore를 활용한 에이전틱 AI 플랫폼 구축 아키텍처와 오픈소스 블루프린트가 공개되어, 실제 제품에 AI를 붙이는 개발팀에 유용한 실무 정보 제공.",
-    "   예비 [InfoQ] Airbnb Cuts Recommendation Staleness from 2 Days t — Airbnb가 추천 시스템의 임베딩 업데이트 지연 시간을 기존 2일에서 몇 초로 대폭 단축하는 기능을 실제로 도입했다는 점에서, AI를 제품에 붙이는 개발팀이 참고할 만한 실질적인 기술 변화와 운영 방식 개선 사례임.",
-    "   예비 [Analytics India] GitHub Expands Infra With 4 Mn Cores, Debuts Copil — GitHub가 대규모 인프라 확장과 함께 Copilot Fusion이라는 멀티 모델 라우팅 기능을 실제로 출시했으며, AI 기반 코드 스캔 등 보안 기능도 도입해 개발팀의 작업 방식과 도구 활용에 직접적인 영향을 줄 수 있음.",
-    "④ 검수   8 → 5건",
-    "⑤ 발행   5건 · sent"
+    "① 수집   24시간 time window · 66건 · 소스 7곳",
+    "② 선별   66 → 홍보 제외 65 → 라벨 제외 18 → 예선 2조 10 → 5건 + 예비 2",
+    "   선정 [Metro] A giant ball of 2,800,000 eels is having an orgy o — 실제로 호주 해안에서 280만 마리의 장어가 모여 번식하는 현상이 관찰되었다는 점이 매우 신기하고 놀랍다. 누구나 처음 들으면 '진짜?'라고 할 만한 자연 현상이며, 남에게 이야기해주기 좋은 흥미로운 소재다.",
+    "   선정 [Hindustan Times] Nanotyrannus: Rare dinosaur skeleton shatters esti — 뉴욕에서 희귀 공룡 골격이 4730만 달러에 팔렸다는 사실은 매우 놀랍고 흥미롭다. 공룡 화석 경매라는 독특한 사건이며, 구체적인 장소와 가격이 명확히 나와 있어 신뢰할 만하다.",
+    "   선정 [Daily Star] Man trots through McDonald's Drive-Thru on his hor — 한 남성이 말 타고 맥도날드 드라이브 스루를 이용했다는 재미있고 훈훈한 이야기다. 실제 일어난 일이며, 직원들의 반응도 따뜻해 직장인들이 점심시간에 가볍게 읽기 좋다.",
+    "   선정 [Good News Network] Bizarre Rescue Sees Divers Save Kangaroo That Foun — 호주 근해에서 바다에 떠 있던 캥거루를 잠수부들이 구조했다는 믿기 힘든 사건이다. 실제 사건이며, 장소와 상황이 명확해 흥미롭고 남에게 이야기하기 좋은 내용이다.",
+    "   선정 [Indian Express] Obstacle course racing champion crosses South Afri — 남아프리카공화국의 가장 높은 다리를 600개의 원숭이 막대를 이용해 건넜다는 독특하고 신기한 기록이다. 실제 인물과 장소가 명확해 흥미롭다.",
+    "   예비 [Hindustan Times] 6-year-old boy from Madhya Pradesh wins Toyota For — 6살 소년이 할머니가 산 200루피 복권으로 자동차를 당첨된 훈훈한 이야기다. 실제 사건이며, 인물과 장소가 분명해 직장인들이 점심시간에 읽기 좋다.",
+    "   예비 [Good News Network] Good News in History, October 28 — 미국 세인트루이스의 게이트웨이 아치 완공은 실제로 일어난 역사적 사건이며, 국내 20~30대 직장인이 점심시간에 가볍게 읽기 좋은 흥미로운 역사적 사실입니다. '진짜?'라는 반응을 유발할 정도로 신기하거나 웃긴 내용은 아니지만, 훈훈하고 남에게 이야기해주기 좋은 내용입니다. 기사에 누가, 어디서, 무엇을 했는지가 분명히 나옵니다.",
+    "④ 검수   7 → 5건",
+    "⑤ 발행   5건 · dry-run"
   ],
   "selection": {
-    "candidates": 86,
-    "already_sent": [
-      {
-        "source": "Analytics India",
-        "title": "Akamai Launches AI Inference and Agent Sandbox Services",
-        "url": "https://analyticsindiamag.com/ai-news/akamai-launches-ai-inference-and-agent-sandbox-services"
-      },
-      {
-        "source": "Analytics India",
-        "title": "Oracle Partners With OpenAI to Bring ChatGPT and Codex to Enterprise Workflows",
-        "url": "https://analyticsindiamag.com/ai-news/oracle-partners-with-openai-to-bring-chatgpt-and-codex-to-enterprise-workflows"
-      }
-    ],
+    "candidates": 66,
+    "already_sent": [],
     "promo": [
       {
-        "source": "Analytics India",
-        "title": "IIIT Hyderabad and NPCI Sign MoU to Strengthen Cybersecurity in Digital Payments",
-        "url": "https://analyticsindiamag.com/ai-news/iiit-hyderabad-and-npci-sign-mou-to-strengthen-cybersecurity-in-digital-payments"
+        "source": "Vice",
+        "title": "Daily Horoscope: October 29, 2026",
+        "url": "https://www.vice.com/en/article/daily-horoscope-october-29-2026/",
+        "kind": null
+      }
+    ],
+    "labels": {
+      "사람·도전": 10,
+      "일반 뉴스": 27,
+      "발견·장소": 4,
+      "동물": 3,
+      "비극·범죄": 18,
+      "법·행정": 3
+    },
+    "label_dropped": [
+      {
+        "source": "Daily Star",
+        "title": "Why Gen Z and Millennials tie 'cute' with connection – not looks",
+        "url": "https://www.dailystar.co.uk/news/weird-news/gen-z-millennials-tie-cute-37818106",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
       },
       {
-        "source": "Analytics India",
-        "title": "Live2.ai Raises ₹130 Cr in Pre-Series B Round Led by IvyCap Ventures",
-        "url": "https://analyticsindiamag.com/ai-news/live2ai-raises-130-cr-in-pre-series-b-round-led-by-ivycap-ventures"
+        "source": "Daily Star",
+        "title": "Andy Burnham forced to break silence as public demands answers on one nation",
+        "url": "https://www.dailystar.co.uk/news/latest-news/andy-burnham-forced-break-silence-37817799",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Deepinder Goyal accepts man's suggestion for ‘Zomato Mehmaan mode’ to hide menu prices for guests",
+        "url": "https://www.hindustantimes.com/trending/deepinder-goyal-accepts-mans-suggestion-for-zomato-mehmaan-mode-to-hide-menu-prices-for-guests-101793243806926.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Fact check: Parody account’s viral post falsely claims singer R Kelly has passed away, Grok debunks rumor",
+        "url": "https://www.hindustantimes.com/trending/us/fact-check-parody-account-s-viral-post-falsely-claims-singer-r-kelly-has-passed-away-grok-debunks-rumor-101793236763890.html",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Microsoft offered buyouts to 60,000 employees. It expects only 3,000 to accept",
+        "url": "https://www.hindustantimes.com/trending/microsoft-offered-buyouts-to-60-000-employees-it-expects-only-3-000-to-accept-101793238920378.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Video: Mexican TV host kicks drone during live show, accidentally hits model in face",
+        "url": "https://www.hindustantimes.com/trending/video-mexican-tv-host-kicks-drone-during-live-show-accidentally-hits-model-in-face-101793199969346.html",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "UK sees spike in Google Searches for emergency supplies, bunker-building after government updates 'be ready checklist'",
+        "url": "https://www.hindustantimes.com/trending/uk-sees-spike-in-google-searches-for-emergency-supplies-bunker-building-after-government-updates-be-ready-checklist-101793196012285.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Nikhil Kamath advises 17-year-olds to build on emerging AI technologies: 'I would build on the application layer'",
+        "url": "https://www.hindustantimes.com/trending/nikhil-kamath-advises-17-year-olds-to-build-on-emerging-ai-technologies-i-would-build-on-the-application-layer-101793190434455.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Man who staged sit-in at Kochi airport after iPhone 18 Pro seized plans to approach court",
+        "url": "https://www.hindustantimes.com/trending/man-who-staged-sit-in-at-kochi-airport-after-iphone-18-pro-seized-plans-to-approach-court-101793182981039.html",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Keralam police officer booked for stealing lost Redmi phone, selling it for  ₹1,500",
+        "url": "https://www.hindustantimes.com/trending/keralam-police-officer-booked-for-stealing-lost-redmi-phone-selling-it-for-1500-101793181667343.html",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Elon Musk’s AI Grok unveils first 'Odyssey' chapter in step toward full-length series",
+        "url": "https://www.hindustantimes.com/trending/elon-musk-s-ai-grok-unveils-first-odyssey-chapter-in-step-toward-full-length-series-101793177264978.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Mukesh Ambani gets teary-eyed during Isha and Anant Ambani's speeches at Jio Platforms listing",
+        "url": "https://www.hindustantimes.com/trending/mukesh-ambani-gets-teary-eyed-during-isha-and-anant-ambanis-speeches-at-jio-platforms-listing-101793173443440.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "‘Why were you recording me?’ Bengaluru woman confronts man at metro station, FIR filed",
+        "url": "https://www.hindustantimes.com/trending/bengaluru-woman-confronts-man-at-namma-metro-station-for-allegedly-filming-her-fir-filed-101793170346711.html",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Indian Express",
+        "title": "Kachori in hand, Rs 20 lakh gone: Jaipur businessman chases thieves in viral video",
+        "url": "https://indianexpress.com/article/trending/trending-in-india/kachori-in-hand-rs-20-lakh-gone-jaipur-businessman-chases-thieves-in-viral-video-10940002/",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Indian Express",
+        "title": "Mukesh Ambani gets emotional as Anant, Isha Ambani speak at Jio’s listing",
+        "url": "https://indianexpress.com/article/trending/trending-in-india/mukesh-ambani-gets-emotional-as-anant-isha-ambani-speaks-at-jios-listing-10940164/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "Demi Lovato Hospitalized After Suspected Reaction to Sushi or Passionfruit",
+        "url": "https://www.vice.com/en/article/demi-lovato-hospitalized-after-suspected-reaction-to-sushi-or-passionfruit/",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Vice",
+        "title": "Doctor Found 11 Parasitic Worms Living in a Man’s Eye (And Some Were Pregnant)",
+        "url": "https://www.vice.com/en/article/doctor-found-11-parasitic-worms-living-in-a-mans-eye-and-some-were-pregnant/",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Vice",
+        "title": "GTA 6 Edge Magazine Reveals New Screenshots and Gameplay Features",
+        "url": "https://www.vice.com/en/article/gta-6-edge-magazine-new-screenshots-features/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "Your Dog Might Be Carrying a Human Mouth Parasite. But Is It Dangerous?",
+        "url": "https://www.vice.com/en/article/your-dog-might-be-carrying-a-human-mouth-parasite-but-is-it-dangerous/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "Scientists Turned Toad Venom Into a Nasal Spray to Fight Depression. But Does It Work?",
+        "url": "https://www.vice.com/en/article/scientists-turned-toad-venom-into-a-nasal-spray-to-fight-depression-but-does-it-work/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "Are the Rumors About ‘Star Wars Battlefront 3’ True? Here’s Everything We Know.",
+        "url": "https://www.vice.com/en/article/are-the-rumors-about-star-wars-battlefront-3-true-heres-everything-we-know/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "The Entire ‘Tomb Raider’ Survivor Trilogy Is Finally Available on Nintendo Switch 2",
+        "url": "https://www.vice.com/en/article/the-entire-tomb-raider-survivor-trilogy-is-finally-available-on-nintendo-switch-2/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "6 Real Historical Figures Who Appeared in the ‘Assassin’s Creed’ Games",
+        "url": "https://www.vice.com/en/article/6-real-historical-figures-who-appeared-in-the-assassins-creed-games/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "NFL Commissioner Roger Goodell Says ‘GOAT’ Jay-Z Was ‘Putting Off’ Super Bowl Halftime Show Until Now",
+        "url": "https://www.vice.com/en/article/nfl-commissioner-roger-goodell-says-goat-jay-z-was-putting-off-super-bowl-halftime-show-until-now/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Nature-Inspired Tech Prevents Microplastics Entering Atlantic Ocean Through Wastewater",
+        "url": "https://www.goodnewsnetwork.org/nature-inspired-tech-prevents-microplastics-entering-atlantic-ocean-through-wastewater/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Etsy Cracks Down on AI-Generated Content to Protect Buyers from Barrage of Slop",
+        "url": "https://www.goodnewsnetwork.org/etsy-cracks-down-on-ai-generated-content-to-protect-buyers-from-barrage-of-slop/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Stranger Anonymously Pays $420 Lunch Tab for 27 Disabled Residents and Caregivers",
+        "url": "https://www.goodnewsnetwork.org/anonymously-pays-dinner-tab-for-27-disability-staff-in-south-korea/",
+        "kind": "사람·도전",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“‘니하오’라고 안 했는데요” ‘손흥민 인종차별’ 뭇매 맞았던 팬의 반전 “내가 한 말은”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500046",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "발코니서 침 뱉은 60대男 감전사…침줄기 타고 온 고압 전류에 숨져 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500042",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“닭 목·뼈 갈아 소시지 만들었다”…中 업체 “속 채운 음식 적게 먹어라”[월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500004",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "(영상)“남편 따라 호텔 방 들어간 女, 5초 만에 의문사”…CCTV 공개에 ‘발칵’[월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261028500408",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "3년간 묻혀 있던 ‘그 영상’…日 40대 교사 성인물 출연, 결국 꼬리 잡혔다 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261028500401",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "[포착] “사망자 전원 북한인” 사고 났는데 러 ‘쉬쉬’…‘쾅쾅쾅’ 처참한 현장",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261028500343",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“한국, 우리와 뜻 같지 않아” 러 밀착 우려하는 유럽…그래도 “대체 불가” [배틀라인]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261028500251",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "109시간 불·1140억 피해…‘쿠팡 화재’ 배터리 발화 추정",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500116",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“누가 맡아도 흔들리지 않는 조직 만들겠다”…이은상 중대범죄수사청 기획조정관 인터뷰",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500114",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "제주 출생아 30년 새 63% 급감… 초혼 늦어지고 출산 연령 높아졌다",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500112",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "‘지속 가능한 도시관광 협력 기반 확인’…부산 글로벌도시관광서밋 성료",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500111",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "특검 ‘내란 우두머리’ 尹 항소심도 사형 구형",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500109",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "부산 연고 5개 프로구단 굿즈 한자리에…29~31일 스포츠 굿즈 페스타",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500108",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "배우 박시후, ‘가정 파탄’ 누명 벗었다… “전남편에 여성 소개” 허위사실 유포자 징역 10개월 ‘실형’",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500107",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "핼러윈 대비 광안리·해운대 등 인파 밀집지 집중 관리",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500106",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "헤어진 연인 스토킹 끝 살해한 60대… 강성은 신상 30일간 공개",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500099",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "전북도, ‘2027 국가예산 확보’ 정치권과 공조",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500098",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "기업 현장서 배우고 취업까지…국립창원대-DN솔루션즈 협력",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500095",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "벡스코, 폐현수막 업사이클링 용품 전통시장 기부",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500093",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“울릉 여행 중 강매·강금”…허위사실에 울릉군 법적대응 추진",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500092",
+        "kind": "법·행정",
+        "result": "버림(국내)"
       }
     ],
     "heats": [
       {
-        "size": 28,
+        "size": 9,
         "picks": [
           {
-            "source": "인공지능신문",
-            "title": "KT, AI 고객센터 월 120만건 상담 처리…상담시간 11% 줄이고 해결률 81%로 높였다",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42474",
-            "kind": "출시·변경",
-            "event": "kt-ai-contact-center",
-            "reason": "KT가 생성형 AI를 실제 고객센터 상담에 적용해 월 120만건 상담 처리, 상담시간 11% 단축, 해결률 81%로 개선한 실사용 사례로, 국내 개발팀에 직접적인 업무 효율 개선 사례임.",
+            "source": "Hindustan Times",
+            "title": "6-year-old boy from Madhya Pradesh wins Toyota Fortuner with grandmother's  ₹200 lucky draw coupon",
+            "url": "https://www.hindustantimes.com/trending/6yearold-boy-from-madhya-pradesh-wins-toyota-fortuner-with-grandmothers-rs-200-lucky-draw-coupon-101793202285183.html",
+            "kind": "사람·도전",
+            "event": "india-lucky-draw-car-win",
+            "reason": "6살 소년이 할머니가 산 200루피 복권으로 고가의 자동차를 당첨된 이야기는 매우 놀랍고 훈훈해서 직장인들이 점심시간에 가볍게 읽고 주변에 이야기하기 좋다. 누가, 어디서, 무엇을 했는지 명확하다.",
             "result": "통과"
           },
           {
-            "source": "SiliconANGLE",
-            "title": "Virtana lets its AI agents pull in agents from other vendors to work IT incidents",
-            "url": "https://siliconangle.com/2026/10/28/virtana-lets-its-ai-agents-pull-in-agents-from-other-vendors-to-work-it-incidents/",
-            "kind": "출시·변경",
-            "event": "agentic-ai-integration",
-            "reason": "Virtana가 자사 AI 에이전트가 타사 에이전트를 불러와 IT 인시던트를 처리하는 기능을 출시해 AI 에이전트 통합 및 협업 방식에 변화를 주는 실제 기능 업데이트임.",
+            "source": "Daily Star",
+            "title": "Man trots through McDonald's Drive-Thru on his horse and staff's reaction is heartwarming",
+            "url": "https://www.dailystar.co.uk/news/weird-news/man-trots-through-mcdonalds-drive-37819053",
+            "kind": "사람·도전",
+            "event": "uk-horse-mcdonalds-drive-thru",
+            "reason": "영국에서 한 남성이 말 타고 맥도날드 드라이브 스루에 나타난 사건은 신기하고 웃긴 이야기로, 실제 상황과 직원들의 반응이 훈훈하게 묘사되어 있어 공유할 만하다.",
             "result": "통과"
           },
           {
-            "source": "The Decoder",
-            "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
-            "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
-            "kind": "출시·변경",
-            "event": "nvidia-nemotron-3.5",
-            "reason": "Nvidia가 오픈 소스 음성 인식 모델 Nemotron 3.5를 출시해 음성 인식, 번역, 화자 인식 기능을 통합한 실제 도구로, AI 음성 처리 개발에 직접 활용 가능함.",
+            "source": "Hindustan Times",
+            "title": "Nanotyrannus: Rare dinosaur skeleton shatters estimates with $47.3 million sale in New York",
+            "url": "https://www.hindustantimes.com/trending/nanotyrannus-rare-dinosaur-skeleton-shatters-estimates-with-47-3-million-sale-in-new-york-101793165369336.html",
+            "kind": "발견·장소",
+            "event": "us-dinosaur-auction",
+            "reason": "뉴욕에서 희귀 공룡 골격이 4730만 달러에 팔린 사건은 실제로 일어난 놀라운 경매 소식으로, 신기하고 흥미로운 이야기다.",
             "result": "통과"
           },
           {
-            "source": "The Decoder",
-            "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
-            "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
-            "kind": "출시·변경",
-            "event": "google-gemini-apis",
-            "reason": "구글이 Android Studio에 타사 AI 에이전트 지원을 추가하고 Gemini API를 공개해 개발 환경에서 AI 에이전트 활용이 가능해진 실제 변화임.",
+            "source": "Hindustan Times",
+            "title": "Top UAE honour for Captain Smit Machchhar: Indians who have received Order of Zayed II before flydubai pilot",
+            "url": "https://www.hindustantimes.com/trending/top-uae-honour-for-captain-smit-machchhar-indians-who-have-received-order-of-zayed-ii-before-flydubai-pilot-101793181457020.html",
+            "kind": "사람·도전",
+            "event": "uae-flydubai-pilot-honour",
+            "reason": "인도 출신 비행기 조종사가 UAE 최고 훈장을 받은 사실은 신기하고 자랑스러운 이야기로, 누가 어디서 무엇을 했는지 분명하다.",
             "result": "통과"
           },
           {
-            "source": "인공지능신문",
-            "title": "SK AX, AI로 1800명 면접 평가 6시간 만에 완료…채용도 실무역량 중심으로 바꾼다",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42476",
-            "kind": "출시·변경",
-            "event": "sk-ax-ai-hiring",
-            "reason": "SK AX가 AI를 활용해 대규모 면접 평가를 6시간 만에 완료하는 솔루션을 도입해 AI 기반 채용 평가가 실제 업무에 적용된 사례임.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "내 건강 상태, AI가 또래와 비교해 알려준다…질병청, 500만건 빅데이터 기반 '건강 챗봇' 서비스 개방",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42468",
-            "kind": "출시·변경",
-            "event": "health-ai-chatbot",
-            "reason": "질병관리청이 500만건 빅데이터 기반 건강 챗봇 서비스를 개방해 AI를 활용한 공공 건강관리 서비스가 실제로 시작된 점이 국내 개발팀에 참고가 됨.",
-            "result": "통과"
-          },
-          {
-            "source": "Analytics India",
-            "title": "GitHub Expands Infra With 4 Mn Cores, Debuts Copilot Fusion for Multi-Model Routing",
-            "url": "https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing",
-            "kind": "출시·변경",
-            "event": "github-copilot-fusion",
-            "reason": "GitHub가 400만 코어 인프라 확장과 멀티 모델 라우팅을 지원하는 Copilot Fusion을 출시해 AI 코딩 도구의 성능과 기능이 실제로 강화됨.",
-            "result": "통과"
-          },
-          {
-            "source": "InfoQ",
-            "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
-            "url": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-            "kind": "출시·변경",
-            "event": "airbnb-chronon",
-            "reason": "Airbnb가 추천 시스템 임베딩 업데이트 지연 시간을 2일에서 몇 초로 단축하는 Chronon 기능을 실제 도입해 AI 추천 시스템 실시간성 개선 사례임.",
+            "source": "Hindustan Times",
+            "title": "Know Your Neighbourhood: The story of how Delhi’s Majnu ka Tila got its name",
+            "url": "https://www.hindustantimes.com/trending/know-your-neighbourhood-the-story-of-how-delhi-s-majnu-ka-tila-got-its-name-101793244391453.html",
+            "kind": "발견·장소",
+            "event": "india-majnu-ka-tila-history",
+            "reason": "델리의 유명한 지역 이름 유래에 관한 이야기로, 흥미롭고 신기한 역사적 사실을 담고 있어 가볍게 읽기 좋다.",
             "result": "통과"
           }
         ]
       },
       {
-        "size": 27,
+        "size": 9,
         "picks": [
           {
-            "source": "인공지능신문",
-            "title": "고가 GPU 한 대를 여러 AI가 나눠 쓴다… 엔비디아, 메모리까지 통제하는 공유 기술 공개",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42461",
-            "kind": "출시·변경",
-            "event": "nvidia-gpu-memory-sharing",
-            "reason": "GPU 한 대를 여러 AI가 메모리까지 통제하며 공유하는 기술이 공개되어 AI 모델 실행 효율성이 즉시 개선될 수 있음.",
+            "source": "Metro",
+            "title": "A giant ball of 2,800,000 eels is having an orgy off the coast of Australia",
+            "url": "https://metro.co.uk/2026/10/28/a-giant-ball-2-800-000-eels-orgy-off-coast-australia-29745511/",
+            "kind": "동물",
+            "event": "australia-eel-orgy",
+            "reason": "호주 해안에서 280만 마리의 장어가 대규모 번식을 하는 진귀한 자연 현상으로, 실제로 일어난 일이며 듣자마자 '진짜?'라는 반응이 나올 만한 신기한 이야기입니다. 국내 20~30대 직장인들이 점심시간에 가볍게 읽기 좋고, 친구에게도 흥미롭게 이야기할 수 있습니다.",
             "result": "통과"
           },
           {
-            "source": "인공지능신문",
-            "title": "노트북이 개인용 AI 슈퍼컴퓨터로…엔비디아, 128GB 메모리·1페타플롭스 성능으로 로컬 AI 시대 확대",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42482",
-            "kind": "출시·변경",
-            "event": "nvidia-local-ai-supercomputer",
-            "reason": "엔비디아가 대용량 메모리와 고성능 AI 가속기를 통합한 노트북용 AI 슈퍼컴퓨터 기술을 공개해, 로컬 AI 개발 및 추론 환경에 즉각적 변화 가능.",
+            "source": "Good News Network",
+            "title": "Bizarre Rescue Sees Divers Save Kangaroo That Found Itself Over a Mile from Dry Land",
+            "url": "https://www.goodnewsnetwork.org/bizarre-rescue-sees-divers-save-kangaroo-that-found-itself-over-a-mile-from-dry-land/",
+            "kind": "동물",
+            "event": "australia-kangaroo-rescue",
+            "reason": "호주에서 스쿠버 다이버들이 육지에서 1마일 이상 떨어진 바다에서 캥거루를 구조한 독특한 사건입니다. 실제 사건이며, 매우 이색적이고 웃기면서도 훈훈한 이야기로 직장인들이 점심시간에 읽기 적합합니다.",
             "result": "통과"
           },
           {
-            "source": "SiliconANGLE",
-            "title": "Nvidia releases all-in-one adaptable Nemotron 3.5 audio transcription and translation model",
-            "url": "https://siliconangle.com/2026/10/28/nvidia-releases-all-in-one-adaptable-nemotron-3-5-audio-transcription-and-translation-model/",
-            "kind": "출시·변경",
-            "event": "nvidia-nemotron-3.5",
-            "reason": "엔비디아가 다국어 음성 인식 및 번역 AI 모델 Nemotron 3.5를 공개해, 음성 AI 제품 개발에 바로 활용 가능.",
+            "source": "Indian Express",
+            "title": "Obstacle course racing champion crosses South Africa’s highest bridge on 600 monkey bars",
+            "url": "https://indianexpress.com/article/trending/trending-globally/obstacle-course-racing-champion-crosses-south-africas-highest-bridge-on-600-monkey-bars-10940086/",
+            "kind": "사람·도전",
+            "event": "southafrica-bridge-monkeybars",
+            "reason": "남아프리카공화국의 가장 높은 다리에서 600개의 원숭이 막대를 건넌 장애물 경주 챔피언의 실제 도전 이야기로, 신기하고 흥미로운 내용입니다. 국내 직장인들이 가볍게 읽기에 좋습니다.",
             "result": "통과"
           },
           {
-            "source": "Hugging Face",
-            "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-            "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-            "kind": "출시·변경",
-            "event": "nvidia-nemotron-3.5",
-            "reason": "Nemotron 3.5 모델과 관련된 Hugging Face의 공개로, 개발팀이 즉시 모델을 활용하거나 커스터마이징 가능.",
+            "source": "Hindustan Times",
+            "title": "Bahadur, the leopard king of Jhalana, wears his battle scars with pride",
+            "url": "https://www.hindustantimes.com/specials/bahadur-the-leopard-wears-his-battle-scars-101793170214724.html",
+            "kind": "동물",
+            "event": "india-leopard-bahadur",
+            "reason": "인도 잘라나의 표범 바하두르가 전투 상처를 자랑스럽게 드러내는 사진과 이야기는 신기하고 훈훈한 동물 이야기로, 실제 사건이며 국내 독자들이 흥미롭게 읽을 수 있습니다.",
             "result": "통과"
           },
           {
-            "source": "AWS ML",
-            "title": "Distributed training with Ray Train DLCs and EFA on EKS",
-            "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
-            "kind": "출시·변경",
-            "event": "aws-ray-train-efa",
-            "reason": "AWS가 Ray Train DLC와 EFA를 이용한 분산 학습 환경을 제공, Qwen2.5-1.5B 모델 파인튜닝에 바로 적용 가능.",
-            "result": "통과"
-          },
-          {
-            "source": "The Decoder",
-            "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
-            "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
-            "kind": "출시·변경",
-            "event": "google-gemini-4-carbon",
-            "reason": "Google DeepMind가 Gemini 4 Carbon 모델을 출시해 AI 성능 향상과 함께 즉시 활용 가능한 신모델 공개.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "AI 상담원, 답변 넘어 고객 업무까지 직접 처리…플래티어·GS네오텍, 에이전틱 AICC 공동 개발",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42465",
-            "kind": "출시·변경",
-            "event": "agentic-ai-aicc",
-            "reason": "AI가 고객 업무까지 직접 처리하는 차세대 AI 컨택센터 기술이 공동 개발되어, 고객 서비스 자동화에 즉시 적용 가능.",
-            "result": "통과"
-          },
-          {
-            "source": "AWS ML",
-            "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
-            "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
-            "kind": "출시·변경",
-            "event": "aws-agentcore-platform",
-            "reason": "AWS가 Amazon Bedrock AgentCore 기반 에이전틱 AI 플랫폼 구축 아키텍처와 오픈소스 참조 블루프린트를 공개해, 즉시 플랫폼 구축에 활용 가능.",
-            "result": "통과"
-          }
-        ]
-      },
-      {
-        "size": 27,
-        "picks": [
-          {
-            "source": "인공지능신문",
-            "title": "AI가 우주정거장 고장까지 예측한다…SAP·HPE, 지구 전송 없이 우주에서 직접 분석",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42460",
-            "kind": "출시·변경",
-            "event": "sap-space-ai",
-            "reason": "우주정거장 센서 데이터를 지구 전송 없이 AI가 직접 분석해 고장 예측하는 기술이 실제 추진 중이며, 이는 AI 데이터 처리 방식에 큰 변화를 줄 수 있어 이번 주 업무 방식에 영향 가능성이 크다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "애플, AI 성능 최대 13배 높인 M6 맥북 프로 공개…온디바이스 AI 성능 강화, LLM도 직접 실행",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42470",
-            "kind": "출시·변경",
-            "event": "apple-m6-macbook",
-            "reason": "애플이 AI 연산 성능을 대폭 강화한 M6 칩 탑재 맥북 프로를 공개해 온디바이스 AI 처리 성능이 크게 향상되었으며, 이는 AI 제품 개발과 운영에 직접적인 영향을 준다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "적과 동침?…오라클 클라우드에 구글 TPU 들어간다, 외부 하이퍼스케일러 첫 공급",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42459",
-            "kind": "출시·변경",
-            "event": "oracle-google-tpu",
-            "reason": "오라클 클라우드가 구글 TPU를 도입해 AI 인프라 경쟁 구도에 변화가 생겼으며, 실제 TPU 사용 가능성이 열려 국내 개발팀에도 가격·정책 변화 영향이 예상된다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "삼성전자, AI로 수면 중 호흡 장애 3단계 분석…갤럭시 워치·링 식약처 허가 획득",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42456",
-            "kind": "출시·변경",
-            "event": "samsung-ai-sleep",
-            "reason": "삼성전자가 AI 기반 수면 무호흡 분석 기능을 국내에 도입하며 실제 제품에 AI 기능이 강화되어, AI 적용 사례와 정책 변화에 참고할 만하다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "AI 데이터센터 전력 수요 잡는다…HD건설기계, 초대형 발전 엔진 연 1250대 생산체제 구축",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42464",
-            "kind": "출시·변경",
-            "event": "hd-engine-production",
-            "reason": "AI 데이터센터 확산에 따른 전력 수요 증가에 대응해 HD건설기계가 대형 발전 엔진 생산을 확대하는 등 AI 인프라 관련 실제 공급 능력이 강화되어 가격·한도 변화에 영향 가능성이 있다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "“말로 지시하면 로봇이 움직인다”…휴리엇로보틱스·다이퀘스트, 음성 AI 결합한 제조 현장 구축",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42477",
-            "kind": "출시·변경",
-            "event": "huriot-voice-ai",
-            "reason": "음성 AI를 활용해 제조 현장에서 로봇을 자연어로 제어하는 피지컬 AI 환경 구축이 실제 추진 중이며, AI 적용 방식에 직접적인 변화를 주는 사례다.",
-            "result": "통과"
-          },
-          {
-            "source": "인공지능신문",
-            "title": "“변호사도 따를 수밖에 없다”…앤트로픽, 법률 AI로 계약 검토·규제 분석·법무 관리까지 자동화",
-            "url": "https://www.aitimes.kr/news/articleView.html?idxno=42481",
-            "kind": "출시·변경",
-            "event": "anthropic-legal-ai",
-            "reason": "앤트로픽이 법률 AI를 통해 계약 검토와 규제 분석 등 법무 업무 자동화를 실제로 제공하며, AI 도구의 업무 자동화 범위가 확장되어 개발팀에 참고가 된다.",
-            "result": "통과"
-          },
-          {
-            "source": "SiliconANGLE",
-            "title": "Jedify formally launches Data Agents for building AI analysts in plain language",
-            "url": "https://siliconangle.com/2026/10/28/jedify-formally-launches-data-agents-for-building-ai-analysts-in-plain-language/",
-            "kind": "출시·변경",
-            "event": "jedify-data-agents",
-            "reason": "Jedify가 자연어로 AI 분석가를 구축하는 Data Agents 제품을 공식 출시해, AI 분석 자동화 도구를 실제 사용할 수 있게 되어 업무 방식 변화에 직접적 영향을 준다.",
+            "source": "Good News Network",
+            "title": "Good News in History, October 28",
+            "url": "https://www.goodnewsnetwork.org/events061028/",
+            "kind": "발견·장소",
+            "event": "gateway-arch-history",
+            "reason": "미국 세인트루이스의 게이트웨이 아치 완공 61주년을 기념하는 역사적 사실로, 실제 사건이며 국내 20~30대 직장인들이 가볍게 읽으며 흥미를 느낄 수 있는 내용입니다.",
             "result": "통과"
           }
         ]
@@ -276,232 +468,147 @@
     ],
     "final": [
       {
-        "source": "인공지능신문",
-        "title": "KT, AI 고객센터 월 120만건 상담 처리…상담시간 11% 줄이고 해결률 81%로 높였다",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42474",
-        "kind": "출시·변경",
-        "event": "kt-ai-contact-center",
-        "reason": "KT가 생성형 AI를 실제 고객센터에 적용해 월 120만건 상담 처리, 상담시간 11% 단축, 해결률 81%로 개선한 구체적 성과를 발표해 국내 AI 제품 적용에 직접적 참고가 됨.",
-        "result": "최근 발행"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "애플, AI 성능 최대 13배 높인 M6 맥북 프로 공개…온디바이스 AI 성능 강화, LLM도 직접 실행",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42470",
-        "kind": "출시·변경",
-        "event": "apple-m6-macbook-pro",
-        "reason": "애플이 AI 연산 성능을 최대 13배 높인 M6 칩 탑재 맥북 프로를 출시해 온디바이스 AI 실행 환경이 크게 개선되어 AI 제품 개발 및 배포에 영향을 줄 수 있음.",
-        "result": "최근 발행"
-      },
-      {
-        "source": "SiliconANGLE",
-        "title": "Nvidia releases all-in-one adaptable Nemotron 3.5 audio transcription and translation model",
-        "url": "https://siliconangle.com/2026/10/28/nvidia-releases-all-in-one-adaptable-nemotron-3-5-audio-transcription-and-translation-model/",
-        "kind": "출시·변경",
-        "event": "nvidia-nemotron-3.5",
-        "reason": "엔비디아가 다국어 음성 인식·번역·화자 인식이 가능한 Nemotron 3.5 모델을 공개해 음성 AI 제품 개발에 즉시 활용 가능한 최신 모델을 제공함.",
+        "source": "Metro",
+        "title": "A giant ball of 2,800,000 eels is having an orgy off the coast of Australia",
+        "url": "https://metro.co.uk/2026/10/28/a-giant-ball-2-800-000-eels-orgy-off-coast-australia-29745511/",
+        "kind": "동물",
+        "event": "australia-eel-orgy",
+        "reason": "실제로 호주 해안에서 280만 마리의 장어가 모여 번식하는 현상이 관찰되었다는 점이 매우 신기하고 놀랍다. 누구나 처음 들으면 '진짜?'라고 할 만한 자연 현상이며, 남에게 이야기해주기 좋은 흥미로운 소재다.",
         "result": "선정"
       },
       {
-        "source": "The Decoder",
-        "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
-        "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
-        "kind": "출시·변경",
-        "event": "google-android-ai-agents",
-        "reason": "구글이 Android Studio에 40여개 타사 AI 에이전트를 지원하는 'Bring Your Own Agent' 기능과 Gemini API를 공개해 AI 개발 환경과 도구가 확장됨.",
+        "source": "Hindustan Times",
+        "title": "Nanotyrannus: Rare dinosaur skeleton shatters estimates with $47.3 million sale in New York",
+        "url": "https://www.hindustantimes.com/trending/nanotyrannus-rare-dinosaur-skeleton-shatters-estimates-with-47-3-million-sale-in-new-york-101793165369336.html",
+        "kind": "발견·장소",
+        "event": "dinosaur-skeleton-sale",
+        "reason": "뉴욕에서 희귀 공룡 골격이 4730만 달러에 팔렸다는 사실은 매우 놀랍고 흥미롭다. 공룡 화석 경매라는 독특한 사건이며, 구체적인 장소와 가격이 명확히 나와 있어 신뢰할 만하다.",
         "result": "선정"
       },
       {
-        "source": "인공지능신문",
-        "title": "AI 상담원, 답변 넘어 고객 업무까지 직접 처리…플래티어·GS네오텍, 에이전틱 AICC 공동 개발",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42465",
-        "kind": "출시·변경",
-        "event": "agentic-ai-contact-center",
-        "reason": "플래티어와 GS네오텍이 AI가 기업 내부 시스템에 접속해 업무까지 처리하는 차세대 AI 컨택센터를 공동 개발해 실제 업무 자동화에 적용 가능한 AI 솔루션을 선보임.",
-        "result": "같은 사건"
-      },
-      {
-        "source": "SiliconANGLE",
-        "title": "Jedify formally launches Data Agents for building AI analysts in plain language",
-        "url": "https://siliconangle.com/2026/10/28/jedify-formally-launches-data-agents-for-building-ai-analysts-in-plain-language/",
-        "kind": "출시·변경",
-        "event": "jedify-data-agents",
-        "reason": "Jedify가 비전문가도 자연어로 AI 분석가를 구축할 수 있는 Data Agents 제품을 출시해 AI 분석 자동화 도구를 실제 제공함.",
+        "source": "Daily Star",
+        "title": "Man trots through McDonald's Drive-Thru on his horse and staff's reaction is heartwarming",
+        "url": "https://www.dailystar.co.uk/news/weird-news/man-trots-through-mcdonalds-drive-37819053",
+        "kind": "사람·도전",
+        "event": "horse-mcdonalds-drive-thru",
+        "reason": "한 남성이 말 타고 맥도날드 드라이브 스루를 이용했다는 재미있고 훈훈한 이야기다. 실제 일어난 일이며, 직원들의 반응도 따뜻해 직장인들이 점심시간에 가볍게 읽기 좋다.",
         "result": "선정"
       },
       {
-        "source": "인공지능신문",
-        "title": "고가 GPU 한 대를 여러 AI가 나눠 쓴다… 엔비디아, 메모리까지 통제하는 공유 기술 공개",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42461",
-        "kind": "출시·변경",
-        "event": "nvidia-gpu-sharing-2024",
-        "reason": "GPU 자원을 여러 AI가 효율적으로 공유할 수 있는 기술이 공개되어, AI 모델 운영 비용과 인프라 활용 방식에 즉각적인 영향을 줄 수 있음.",
+        "source": "Good News Network",
+        "title": "Bizarre Rescue Sees Divers Save Kangaroo That Found Itself Over a Mile from Dry Land",
+        "url": "https://www.goodnewsnetwork.org/bizarre-rescue-sees-divers-save-kangaroo-that-found-itself-over-a-mile-from-dry-land/",
+        "kind": "동물",
+        "event": "kangaroo-sea-rescue",
+        "reason": "호주 근해에서 바다에 떠 있던 캥거루를 잠수부들이 구조했다는 믿기 힘든 사건이다. 실제 사건이며, 장소와 상황이 명확해 흥미롭고 남에게 이야기하기 좋은 내용이다.",
         "result": "선정"
       },
       {
-        "source": "인공지능신문",
-        "title": "노트북이 개인용 AI 슈퍼컴퓨터로…엔비디아, 128GB 메모리·1페타플롭스 성능으로 로컬 AI 시대 확대",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42482",
-        "kind": "출시·변경",
-        "event": "nvidia-local-ai-2024",
-        "reason": "개인용 노트북에서 고성능 AI 모델을 구동할 수 있는 하드웨어가 출시되어, 개발팀의 작업 환경과 AI 모델 실험 방식에 직접적인 변화를 가져올 가능성이 큼.",
+        "source": "Indian Express",
+        "title": "Obstacle course racing champion crosses South Africa’s highest bridge on 600 monkey bars",
+        "url": "https://indianexpress.com/article/trending/trending-globally/obstacle-course-racing-champion-crosses-south-africas-highest-bridge-on-600-monkey-bars-10940086/",
+        "kind": "사람·도전",
+        "event": "south-africa-bridge-monkey-bars",
+        "reason": "남아프리카공화국의 가장 높은 다리를 600개의 원숭이 막대를 이용해 건넜다는 독특하고 신기한 기록이다. 실제 인물과 장소가 명확해 흥미롭다.",
         "result": "선정"
       },
       {
-        "source": "AWS ML",
-        "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
-        "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
-        "kind": "출시·변경",
-        "event": "amazon-bedrock-agentcore-2024",
-        "reason": "Amazon Bedrock AgentCore를 활용한 에이전틱 AI 플랫폼 구축 아키텍처와 오픈소스 블루프린트가 공개되어, 실제 제품에 AI를 붙이는 개발팀에 유용한 실무 정보 제공.",
+        "source": "Hindustan Times",
+        "title": "6-year-old boy from Madhya Pradesh wins Toyota Fortuner with grandmother's  ₹200 lucky draw coupon",
+        "url": "https://www.hindustantimes.com/trending/6yearold-boy-from-madhya-pradesh-wins-toyota-fortuner-with-grandmothers-rs-200-lucky-draw-coupon-101793202285183.html",
+        "kind": "사람·도전",
+        "event": "toyota-fortuner-lucky-draw",
+        "reason": "6살 소년이 할머니가 산 200루피 복권으로 자동차를 당첨된 훈훈한 이야기다. 실제 사건이며, 인물과 장소가 분명해 직장인들이 점심시간에 읽기 좋다.",
         "result": "예비"
       },
       {
-        "source": "인공지능신문",
-        "title": "삼성전자, AI로 수면 중 호흡 장애 3단계 분석…갤럭시 워치·링 식약처 허가 획득",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42456",
-        "kind": "출시·변경",
-        "event": "samsung-ai-health-2024",
-        "reason": "AI 기반 수면 무호흡 분석 기능이 식약처 허가를 받고 실제 제품에 적용되어, AI 헬스케어 제품 개발에 참고할 만한 사례임.",
+        "source": "Hindustan Times",
+        "title": "Bahadur, the leopard king of Jhalana, wears his battle scars with pride",
+        "url": "https://www.hindustantimes.com/specials/bahadur-the-leopard-wears-his-battle-scars-101793170214724.html",
+        "kind": "동물",
+        "event": "leopard-king-jhalana",
+        "reason": "인도 잘라나의 표범 왕 바하두르가 전투 상처를 자랑스럽게 지니고 있다는 사진과 이야기로, 신기하고 흥미로운 동물 이야기다. 실제 인물과 장소가 명확하다.",
         "result": "매체 상한"
       },
       {
-        "source": "The Decoder",
-        "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
-        "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
-        "kind": "출시·변경",
-        "event": "google-gemini4-carbon-2024",
-        "reason": "Google DeepMind가 최신 AI 모델 Gemini 4 Carbon을 출시해 성능이 크게 향상되었으며, 실제 AI 제품에 적용 가능한 최신 모델임.",
-        "result": "최근 발행"
+        "source": "Hindustan Times",
+        "title": "Top UAE honour for Captain Smit Machchhar: Indians who have received Order of Zayed II before flydubai pilot",
+        "url": "https://www.hindustantimes.com/trending/top-uae-honour-for-captain-smit-machchhar-indians-who-have-received-order-of-zayed-ii-before-flydubai-pilot-101793181457020.html",
+        "kind": "사람·도전",
+        "event": "uae-honour-captain-machchhar",
+        "reason": "인도인 조종사가 UAE 최고 훈장을 받은 이야기로, 실제 인물과 수상 내역이 명확하다. 다만 같은 매체에서 2건까지만 선택 가능해 다른 기사와 함께 선정했다.",
+        "result": "매체 상한"
       },
       {
-        "source": "InfoQ",
-        "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
-        "url": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-        "kind": "출시·변경",
-        "event": "airbnb-chronon-update",
-        "reason": "Airbnb가 추천 시스템의 임베딩 업데이트 지연 시간을 기존 2일에서 몇 초로 대폭 단축하는 기능을 실제로 도입했다는 점에서, AI를 제품에 붙이는 개발팀이 참고할 만한 실질적인 기술 변화와 운영 방식 개선 사례임.",
-        "result": "예비"
-      },
-      {
-        "source": "Analytics India",
-        "title": "GitHub Expands Infra With 4 Mn Cores, Debuts Copilot Fusion for Multi-Model Routing",
-        "url": "https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing",
-        "kind": "출시·변경",
-        "event": "github-copilot-fusion",
-        "reason": "GitHub가 대규모 인프라 확장과 함께 Copilot Fusion이라는 멀티 모델 라우팅 기능을 실제로 출시했으며, AI 기반 코드 스캔 등 보안 기능도 도입해 개발팀의 작업 방식과 도구 활용에 직접적인 영향을 줄 수 있음.",
+        "source": "Good News Network",
+        "title": "Good News in History, October 28",
+        "url": "https://www.goodnewsnetwork.org/events061028/",
+        "kind": "발견·장소",
+        "event": "usa-st-louis-gateway-arch-completion",
+        "reason": "미국 세인트루이스의 게이트웨이 아치 완공은 실제로 일어난 역사적 사건이며, 국내 20~30대 직장인이 점심시간에 가볍게 읽기 좋은 흥미로운 역사적 사실입니다. '진짜?'라는 반응을 유발할 정도로 신기하거나 웃긴 내용은 아니지만, 훈훈하고 남에게 이야기해주기 좋은 내용입니다. 기사에 누가, 어디서, 무엇을 했는지가 분명히 나옵니다.",
         "result": "예비"
       }
     ],
     "final_out": [
       {
-        "source": "SiliconANGLE",
-        "title": "Virtana lets its AI agents pull in agents from other vendors to work IT incidents",
-        "url": "https://siliconangle.com/2026/10/28/virtana-lets-its-ai-agents-pull-in-agents-from-other-vendors-to-work-it-incidents/"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "AI가 우주정거장 고장까지 예측한다…SAP·HPE, 지구 전송 없이 우주에서 직접 분석",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42460"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "SK AX, AI로 1800명 면접 평가 6시간 만에 완료…채용도 실무역량 중심으로 바꾼다",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42476"
-      },
-      {
-        "source": "Hugging Face",
-        "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-        "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
-      },
-      {
-        "source": "The Decoder",
-        "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
-        "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "“말로 지시하면 로봇이 움직인다”…휴리엇로보틱스·다이퀘스트, 음성 AI 결합한 제조 현장 구축",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42477"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "AI 데이터센터 전력 수요 잡는다…HD건설기계, 초대형 발전 엔진 연 1250대 생산체제 구축",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42464"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "내 건강 상태, AI가 또래와 비교해 알려준다…질병청, 500만건 빅데이터 기반 '건강 챗봇' 서비스 개방",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42468"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "적과 동침?…오라클 클라우드에 구글 TPU 들어간다, 외부 하이퍼스케일러 첫 공급",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42459"
-      },
-      {
-        "source": "AWS ML",
-        "title": "Distributed training with Ray Train DLCs and EFA on EKS",
-        "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/"
-      },
-      {
-        "source": "인공지능신문",
-        "title": "“변호사도 따를 수밖에 없다”…앤트로픽, 법률 AI로 계약 검토·규제 분석·법무 관리까지 자동화",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42481"
+        "source": "Hindustan Times",
+        "title": "Know Your Neighbourhood: The story of how Delhi’s Majnu ka Tila got its name",
+        "url": "https://www.hindustantimes.com/trending/know-your-neighbourhood-the-story-of-how-delhi-s-majnu-ka-tila-got-its-name-101793244391453.html",
+        "kind": "발견·장소"
       }
     ]
   },
   "rejected": [],
   "published": [
     {
-      "source": "SiliconANGLE",
-      "headline": "엔비디아, 다국어 오디오 전사·번역 가능한 Nemotron 3.5 공개",
-      "url": "https://siliconangle.com/2026/10/28/nvidia-releases-all-in-one-adaptable-nemotron-3-5-audio-transcription-and-translation-model/",
-      "kind": "출시·변경",
-      "topic": "도구·프레임워크",
-      "event": "nvidia-nemotron-3.5",
-      "reason": "엔비디아가 다국어 음성 인식·번역·화자 인식이 가능한 Nemotron 3.5 모델을 공개해 음성 AI 제품 개발에 즉시 활용 가능한 최신 모델을 제공함.",
-      "why": "개발팀은 Nemotron 3.5의 공개 데이터 파이프라인과 미세 조정 기능을 확인해 자사 서비스에 맞는 맞춤형 음성 인식 및 번역 모델 개발을 검토해야 합니다."
+      "source": "Metro",
+      "headline": "호주 인근 해저산에서 매년 280만 마리 장어가 번식 위해 모인다",
+      "url": "https://metro.co.uk/2026/10/28/a-giant-ball-2-800-000-eels-orgy-off-coast-australia-29745511/",
+      "kind": "동물",
+      "topic": "동물",
+      "event": "australia-eel-orgy",
+      "reason": "실제로 호주 해안에서 280만 마리의 장어가 모여 번식하는 현상이 관찰되었다는 점이 매우 신기하고 놀랍다. 누구나 처음 들으면 '진짜?'라고 할 만한 자연 현상이며, 남에게 이야기해주기 좋은 흥미로운 소재다.",
+      "why": "장어들이 매년 같은 해저산에 모이는 이유는 그곳이 번식에 가장 적합한 환경이기 때문이며, 이 행동은 유럽 장어의 이동과 유사한 것으로 연구자들이 설명했습니다."
     },
     {
-      "source": "The Decoder",
-      "headline": "구글, 안드로이드 스튜디오에 40여 AI 에이전트 연동 및 제미니 API 공개",
-      "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
-      "kind": "출시·변경",
-      "topic": "도구·프레임워크",
-      "event": "google-android-ai-agents",
-      "reason": "구글이 Android Studio에 40여개 타사 AI 에이전트를 지원하는 'Bring Your Own Agent' 기능과 Gemini API를 공개해 AI 개발 환경과 도구가 확장됨.",
-      "why": "개발팀은 새로운 AI 에이전트 통합과 제미니 API를 활용해 개발 효율성을 높이고, 앱 기능을 구글 검색 및 제미니 앱과 연동하는 방안을 검토해야 합니다."
+      "source": "Hindustan Times",
+      "headline": "뉴욕 경매서 희귀 공룡 나노티라누스 골격 4730만 달러에 낙찰",
+      "url": "https://www.hindustantimes.com/trending/nanotyrannus-rare-dinosaur-skeleton-shatters-estimates-with-47-3-million-sale-in-new-york-101793165369336.html",
+      "kind": "발견·장소",
+      "topic": "발견·장소",
+      "event": "dinosaur-skeleton-sale",
+      "reason": "뉴욕에서 희귀 공룡 골격이 4730만 달러에 팔렸다는 사실은 매우 놀랍고 흥미롭다. 공룡 화석 경매라는 독특한 사건이며, 구체적인 장소와 가격이 명확히 나와 있어 신뢰할 만하다.",
+      "why": "나노티라누스 골격은 거의 완전한 두개골을 포함해 약 191개의 화석 뼈로 구성되어 있어 과학적 가치가 매우 높기 때문입니다."
     },
     {
-      "source": "SiliconANGLE",
-      "headline": "제디파이, 자연어로 AI 분석가 구축 가능한 데이터 에이전트 공식 출시",
-      "url": "https://siliconangle.com/2026/10/28/jedify-formally-launches-data-agents-for-building-ai-analysts-in-plain-language/",
-      "kind": "출시·변경",
-      "topic": "도구·프레임워크",
-      "event": "jedify-data-agents",
-      "reason": "Jedify가 비전문가도 자연어로 AI 분석가를 구축할 수 있는 Data Agents 제품을 출시해 AI 분석 자동화 도구를 실제 제공함.",
-      "why": "개발팀은 데이터 에이전트 도입 시 권한 관리와 비용 효율성을 확인하고, 기존 대시보드 업무를 자동화하는 방안을 검토해야 합니다."
+      "source": "Daily Star",
+      "headline": "말 타고 맥도날드 드라이브스루 방문한 남성, 직원들의 따뜻한 반응",
+      "url": "https://www.dailystar.co.uk/news/weird-news/man-trots-through-mcdonalds-drive-37819053",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "horse-mcdonalds-drive-thru",
+      "reason": "한 남성이 말 타고 맥도날드 드라이브 스루를 이용했다는 재미있고 훈훈한 이야기다. 실제 일어난 일이며, 직원들의 반응도 따뜻해 직장인들이 점심시간에 가볍게 읽기 좋다.",
+      "why": "맥도날드 공식 규정상 말은 드라이브스루 이용이 금지되어 있으나, 일부 지점에서는 예외적으로 말을 탄 손님을 환영하고 간식을 제공하기도 합니다."
     },
     {
-      "source": "인공지능신문",
-      "headline": "엔비디아, GPU 메모리 사용량 제한하는 오픈소스 기술로 AI 데이터센터 자원 효율화",
-      "url": "https://www.aitimes.kr/news/articleView.html?idxno=42461",
-      "kind": "출시·변경",
-      "topic": "도구·프레임워크",
-      "event": "nvidia-gpu-sharing-2024",
-      "reason": "GPU 자원을 여러 AI가 효율적으로 공유할 수 있는 기술이 공개되어, AI 모델 운영 비용과 인프라 활용 방식에 즉각적인 영향을 줄 수 있음.",
-      "why": "개발팀은 쿠버네티스 환경에서 GPU 메모리 할당 정책과 연산 공유 방식을 새로 도입된 GPU 프랙셔닝 오퍼레이터와 KAI 스케줄러를 통해 재검토하고 최적화해야 합니다."
+      "source": "Good News Network",
+      "headline": "호주 남부 바다에서 스쿠버 다이버와 선원들이 바다에 빠진 캥거루 구조",
+      "url": "https://www.goodnewsnetwork.org/bizarre-rescue-sees-divers-save-kangaroo-that-found-itself-over-a-mile-from-dry-land/",
+      "kind": "동물",
+      "topic": "동물",
+      "event": "kangaroo-sea-rescue",
+      "reason": "호주 근해에서 바다에 떠 있던 캥거루를 잠수부들이 구조했다는 믿기 힘든 사건이다. 실제 사건이며, 장소와 상황이 명확해 흥미롭고 남에게 이야기하기 좋은 내용이다.",
+      "why": "캥거루가 바다로 나간 이유는 명확하지 않으나, 캥거루가 바다 근처까지 가는 경우가 있어 때때로 구조가 필요하기 때문입니다."
     },
     {
-      "source": "인공지능신문",
-      "headline": "엔비디아 RTX 스파크, 노트북에서 40개 언어 음성 인식·AI 에이전트 GPU 자원 배분 지원 확대",
-      "url": "https://www.aitimes.kr/news/articleView.html?idxno=42482",
-      "kind": "출시·변경",
-      "topic": "도구·프레임워크",
-      "event": "nvidia-local-ai-2024",
-      "reason": "개인용 노트북에서 고성능 AI 모델을 구동할 수 있는 하드웨어가 출시되어, 개발팀의 작업 환경과 AI 모델 실험 방식에 직접적인 변화를 가져올 가능성이 큼.",
-      "why": "개발팀은 RTX 스파크의 통합 메모리 구조와 GPU 자원 관리 기능을 확인해 노트북에서 AI 모델 실행과 에이전트 개발 시 최적화 방안을 마련해야 합니다."
+      "source": "Indian Express",
+      "headline": "남아공 장애물 경주 챔피언, 블루크란스 다리에서 600개 원숭이봉 도전 성공",
+      "url": "https://indianexpress.com/article/trending/trending-globally/obstacle-course-racing-champion-crosses-south-africas-highest-bridge-on-600-monkey-bars-10940086/",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "south-africa-bridge-monkey-bars",
+      "reason": "남아프리카공화국의 가장 높은 다리를 600개의 원숭이 막대를 이용해 건넜다는 독특하고 신기한 기록이다. 실제 인물과 장소가 명확해 흥미롭다.",
+      "why": "원숭이봉은 다리 아치 아래 45도 경사로 설치되어 있어 손으로만 이동하는 데 큰 체력과 정신력이 요구되었기 때문입니다."
     }
   ]
 }

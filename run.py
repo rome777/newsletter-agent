@@ -66,7 +66,8 @@ if __name__ == "__main__":
         "promo_dropped": len(trace.get("promo", [])),
         "heats": [h["size"] for h in trace.get("heats", [])],
         "heat_passed": sum(r.get("result") == "통과" for h in trace.get("heats", []) for r in h["picks"]),
-        "kind_dropped": sum(r.get("result", "").startswith("버림") for h in trace.get("heats", []) for r in h["picks"])
+        "labels": trace.get("labels", {}),       # 후보 전체의 성격 라벨 분포
+        "kind_dropped": len(trace.get("label_dropped", []))
                         + sum(r.get("result", "").startswith("버림") for r in trace.get("final", [])),
         "same_event_dropped": sum(r.get("result") in ("같은 사건", "최근 발행") for r in trace.get("final", [])),
         "picked": len(picked),

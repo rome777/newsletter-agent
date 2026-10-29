@@ -52,23 +52,19 @@ INIT = {"hours": 24, "collected": [], "picked": [], "drafted": [],
 
 # ── ① 수집 · collect ───────────────────────────────────────────────────
 UA = {"User-Agent": "Mozilla/5.0 (newsletter-agent-course)"}
-SOURCES = [                                     # tools/measure_sources.py 로 후보 31곳을 재서 관문을 다 넘은 11곳 (REPORT.md 소스 채택표)
-    # 1차 소스 · 당사자 블로그
-    ("Hugging Face",   "https://huggingface.co/blog/feed.xml"),
-    ("NVIDIA",         "https://blogs.nvidia.com/feed/"),
-    ("AWS ML",         "https://aws.amazon.com/blogs/machine-learning/feed/"),
-    # 2차 소스 · 영어
-    ("Ars Technica",   "https://arstechnica.com/ai/feed/"),
-    ("Wired",          "https://www.wired.com/feed/tag/ai/latest/rss"),
-    ("The Decoder",    "https://the-decoder.com/feed/"),
-    ("MarkTechPost",   "https://www.marktechpost.com/feed/"),
-    ("InfoQ",          "https://feed.infoq.com/ai-ml-data-eng/"),
-    ("SiliconANGLE",   "https://siliconangle.com/category/ai/feed/"),
-    ("Analytics India","https://analyticsindiamag.com/feed/"),
-    # 2차 소스 · 한국어 — AI타임스(과제 제외) 대신. 종합 IT 매체는 AI 비율이 낮아 탈락
-    ("인공지능신문",     "https://www.aitimes.kr/rss/allArticle.xml"),
+SOURCES = [                                     # tools/measure_sources.py 로 후보 38곳을 재서 관문을 다 넘은 7곳 (REPORT.md 소스 채택표)
+    # 기묘한 뉴스 전용 섹션 · 영국
+    ("Daily Star",       "https://www.dailystar.co.uk/news/weird-news/?service=rss"),
+    ("Metro",            "https://metro.co.uk/news/weird/feed/"),
+    # 화제 섹션 · 인도
+    ("Hindustan Times",  "https://www.hindustantimes.com/feeds/rss/trending/rssfeed.xml"),
+    ("Indian Express",   "https://indianexpress.com/section/trending/feed/"),
+    # 화제·잡학 · 미국
+    ("Vice",             "https://www.vice.com/en/rss"),
+    ("Good News Network","https://www.goodnewsnetwork.org/feed/"),
+    # 국제면 · 한국어 — 해외 화제 전용 피드는 찾지 못했고, 국제면 중 기묘한 기사 비율이 30%를 넘은 곳
+    ("서울신문",          "https://www.seoul.co.kr/xml/rss/rss_international.xml"),
 ]
-HN_MIN_POINTS = 30                              # Hacker News 는 공개 API(사다리 ①칸)로 가져온다
 
 EXCLUDED_DOMAINS = AUD["excluded_domains"]      # 과제가 제외한 소스
 
@@ -99,22 +95,9 @@ def rss_entries(name, url, cutoff):
             yield {"title": e.title, "url": e.link, "source": name, "at": at,
                    "summary": strip_tags(e.get("summary", ""))[:300]}
 
-def hn_entries(cutoff):
-    r = requests.get("https://hn.algolia.com/api/v1/search_by_date", timeout=20,
-                     params={"tags": "story", "query": "AI", "hitsPerPage": 100,
-                             "numericFilters": f"created_at_i>{int(cutoff.timestamp())},"
-                                               f"points>={HN_MIN_POINTS}"})
-    r.raise_for_status()
-    for h in r.json()["hits"]:
-        yield {"title": h["title"], "source": "Hacker News",
-               "url": h.get("url") or f"https://news.ycombinator.com/item?id={h['objectID']}",
-               "at": datetime.fromtimestamp(h["created_at_i"], timezone.utc),
-               "summary": f"HN {h.get('points', 0)}점 · 댓글 {h.get('num_comments', 0)}개"}
-
 def collect(s: dict) -> dict:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=s["hours"])
     fetchers = [(name, lambda n=name, u=url: rss_entries(n, u, cutoff)) for name, url in SOURCES]
-    fetchers.append(("Hacker News", lambda: hn_entries(cutoff)))
     items, dead, empty, seen, excluded = [], [], [], set(), 0
     for name, fetch in fetchers:
         try:
@@ -124,7 +107,7 @@ def collect(s: dict) -> dict:
             continue
         n = 0
         for it in entries:
-            if is_excluded(it["url"]):          # HN 이 제외 매체 기사를 링크한 경우
+            if is_excluded(it["url"]):          # 피드가 제외 매체 기사를 실어 나른 경우
                 excluded += 1
                 continue
             key = url_key(it["url"])
@@ -152,23 +135,69 @@ CRITERIA = (f"독자는 {AUD['reader']}입니다.\n"   # [고침] 기준을 audi
             + "버릴 것 (절대 고르지 마세요):\n" + "".join(f"- {r}\n" for r in AUD["reject"])
             + AUD["notes"])
 
-KINDS = ("출시·변경", "연구·기법", "사례·적용", "규제·정책", "로드맵·예고", "투자·MOU·수상", "기타")
+KINDS = ("동물", "사람·도전", "발견·장소", "법·행정", "음식·물건", "비극·범죄", "일반 뉴스", "연예·운세·쇼핑", "기타")
 DROP_KINDS = set(AUD["drop_kinds"])             # [고침] '버릴 것'을 프롬프트 부탁이 아니라 코드로 강제한다
 assert DROP_KINDS <= set(KINDS), "audience.yaml 의 drop_kinds 는 KINDS 중에서 고른다"
 
 class Pick(BaseModel):                          # [고침] 제목을 먼저 옮겨 적게 해 이유가 엉뚱한 기사에 붙지 않게 한다
     title: str = Field(description="고른 후보의 제목을 목록에 있는 그대로 복사")
     index: int = Field(description="그 후보의 목록 번호")
-    event: str = Field(description="사건 라벨. 영어 소문자 '회사-제품' 형식으로, 반드시 기사 속 회사 이름으로 시작 "
-                                   "(예: openai-gpt-6.1, nvidia-nemotron-3.5, kt-ai-contact-center). "
+    event: str = Field(description="사건 라벨. 영어 소문자 '장소-주인공-일' 형식으로, 반드시 사건이 일어난 나라나 도시 이름으로 시작 "
+                                   "(예: florida-alligator-pool, japan-vending-machine-wedding, india-monkey-bank-robbery). "
                                    "한국어 기사도 영어로 쓰세요. 같은 사건이면 기사 언어·매체가 달라도 같은 라벨",
                        pattern=r"^[a-z0-9]+(-[a-z0-9.]+)+$")   # [고침] 프롬프트로는 절반이 비어 와서 형식으로 강제한다
-    kind: Literal[KINDS] = Field(description="기사 성격. 투자·펀딩·MOU·수상이면 '투자·MOU·수상', "
-                                             "아직 안 나온 계획·예고면 '로드맵·예고'")
     reason: str = Field(description="독자 기준으로 왜 골랐는지 한 문장. 영어 기사라도 반드시 한국어로")
 
 class Shortlist(BaseModel):
     picks: list[Pick]
+
+KOREA = re.compile(r"^(south-?korea|korea|seoul|busan|incheon|daegu|gwangju|daejeon|ulsan|jeju)\b")
+
+class Label(BaseModel):                         # [고침] 순위 매기기와 따로, 후보마다 한 번만 성격을 붙인다
+    index:    int  = Field(description="기사 번호")
+    kind:     Literal[KINDS]
+    country:  str = Field(description="사건이 일어난 나라 이름을 영어로 (예: India, United Kingdom, Australia, South Korea). "
+                                      "모르면 Unknown")   # [고침] in_korea 참/거짓으로 물었더니 인도 기사에도 true 를 붙였다
+
+class Labels(BaseModel):
+    items: list[Label]
+
+SYS_LABEL = ("아래 기사마다 성격(kind)과 사건이 일어난 나라(country)를 판정하세요. 고르지 말고 모든 번호에 답하세요.\n"
+             "kind:\n"
+             "- 동물 / 사람·도전 / 발견·장소 / 법·행정 / 음식·물건: 실제로 일어난 기묘하거나 신기하거나 훈훈한 이야기. "
+             "이야기의 주인공으로 고르세요\n"
+             "- 비극·범죄: 사망·중상·성범죄·학대가 이야기의 중심\n"
+             "- 일반 뉴스: 정치·전쟁·재난·경제, 기업 발표·신제품·기술 소식, 인터뷰·조언\n"
+             "- 연예·운세·쇼핑: 연예인 가십, 운세·퀴즈, 쇼핑·할인\n"
+             "- 기타: 어느 것도 아님\n"
+             "웃기거나 신기한 사람·동물 이야기는 가볍더라도 '일반 뉴스'가 아닙니다.")
+
+def label_all(items):                           # [고침] 본선에서 다시 분류하게 했더니 캥거루 구조까지 '일반 뉴스'가 됐다 — 한 번만 붙인다
+    for k in range(0, len(items), BATCH):
+        chunk = items[k:k + BATCH]
+        listing = "\n".join(f"{i}. {it['title']}" + (f"\n    {it['summary'][:200]}" if it.get("summary") else "")
+                            for i, it in enumerate(chunk))
+        try:
+            out = client().chat.completions.parse(
+                model=MODEL, temperature=0,
+                messages=[{"role": "system", "content": SYS_LABEL},
+                          {"role": "user", "content": listing}],
+                response_format=Labels).choices[0].message.parsed
+        except Exception:                       # 분류가 실패하면 라벨 없이 예선으로 넘긴다
+            continue
+        for lb in out.items:
+            if 0 <= lb.index < len(chunk):
+                chunk[lb.index] |= {"kind": lb.kind, "country": lb.country}
+
+def is_korea(country):
+    return re.sub(r"[^a-z]", "", (country or "").lower()) in ("southkorea", "korea", "republicofkorea")
+
+def drop_reason(it, event=""):                  # 프롬프트와 별개로 코드에서 버리는 이유 — 없으면 None
+    if it.get("kind") in DROP_KINDS:
+        return f"버림({it['kind']})"
+    if is_korea(it.get("country")) or KOREA.match(event):   # [고침] 국내 제외를 부탁만 하면 고른 뒤 '국내외'라고 둘러댔다
+        return "버림(국내)"
+    return None
 
 def ask_picks(items, n, extra=""):
     listing = "\n".join(f"{i}. [{it['source']}] {it['title']}"          # [고침] 제목만이 아니라 요약도 본다
@@ -177,7 +206,6 @@ def ask_picks(items, n, extra=""):
     sys = (f"{CRITERIA}\n\n아래 후보의 제목과 요약을 함께 읽고, 중요한 순서대로 {n}건을 고르세요.\n"
            "목록 순서는 중요도와 무관합니다. 전부 비교한 뒤 가장 중요한 것부터 답하세요.\n"
            "같은 사건을 다룬 기사에는 같은 event 라벨을 붙이세요.\n"
-           "kind는 기사 성격 그대로 정직하게 분류하세요.\n"
            "reason은 목록이 모두 영어여도 한국어로 쓰세요." + (f"\n{extra}" if extra else ""))   # [고침] 영어 목록이면 영어로 따라 썼다
     out = client().chat.completions.parse(
         model=MODEL, temperature=0,
@@ -207,11 +235,21 @@ GENERIC = {"launch", "launches", "release", "releases", "released", "announce", 
            # [고침] 'product-update'·'infra-expansion' 처럼 회사·대상이 없는 라벨끼리 같은 사건이 돼
            # 서로 다른 기사(Gemini 4 Carbon 과 Airbnb 추천 개선)가 빠졌다 — 이런 낱말은 사건을 가리키지 못한다
            "product", "feature", "model", "tool", "service", "platform", "ai", "open", "tech",
-           "infra", "expansion", "development", "news", "report", "partnership", "integration"}
+           "infra", "expansion", "development", "news", "report", "partnership", "integration",
+           # 기묘한 뉴스 라벨에 흔한 낱말 — 'uk-man-viral-video' 끼리 같은 사건이 되지 않게
+           "man", "woman", "boy", "girl", "people", "viral", "video", "weird", "bizarre", "odd",
+           "strange", "funny", "story", "incident"}
 
 def event_key(label):                           # [고침] 라벨이 '출시'·'launch'처럼 달라도 같은 사건으로 본다
     words = re.findall(r"[0-9a-z가-힣.]+", label.lower())
     return "-".join(w for w in words if w not in GENERIC)
+
+def subject_words(label):                       # 라벨에서 장소(첫 낱말)와 흔한 낱말을 뺀 나머지
+    return set(event_key(label).split("-")[1:]) - {""}
+
+def shares_subject(labels):                     # 묶인 기사마다 다른 기사와 겹치는 핵심 낱말이 하나는 있는가
+    words = [subject_words(l) for l in labels]
+    return all(any(w & v for j, v in enumerate(words) if j != i) for i, w in enumerate(words))
 
 def same_event(a, b):
     ka, kb = event_key(a), event_key(b)
@@ -219,16 +257,16 @@ def same_event(a, b):
         return False
     return SequenceMatcher(None, ka, kb).ratio() >= 0.8
 
-class Group(BaseModel):                         # 사건을 먼저 적게 해 '같은 회사'만으로 묶지 않게 한다
-    event: str      = Field(description="묶인 기사들이 모두 다룬 단 하나의 발표·출시·사고")
+class Group(BaseModel):                         # 사건을 먼저 적게 해 '같은 나라'만으로 묶지 않게 한다
+    event: str      = Field(description="묶인 기사들이 모두 다룬 단 하나의 사건 (누가, 어디서, 무엇을)")
     ids:   list[int] = Field(description="그 사건을 다룬 기사 번호, 두 개 이상")
 
 class Dupes(BaseModel):
     groups: list[Group] = Field(description="같은 사건 묶음. 없으면 빈 목록")
 
 SYS_DUPES = ("아래 기사 중 같은 사건을 다룬 것끼리 번호를 묶으세요.\n"
-             "같은 사건 = 같은 발표·같은 출시·같은 사고. 언어·매체·제목이 달라도 같은 사건이면 묶습니다.\n"
-             "같은 회사의 다른 발표, 같은 제품의 다른 기능, 같은 주제의 다른 소식은 다른 사건입니다.\n"
+             "같은 사건 = 같은 사람이나 동물이, 같은 곳에서 겪은 같은 일. 언어·매체·제목이 달라도 같은 사건이면 묶습니다.\n"
+             "같은 나라의 다른 사건, 같은 종류(예: 탈출한 동물, 기네스 기록)의 다른 사건은 다른 사건입니다.\n"
              "'~관련 소식'처럼 넓게 말해야 묶이는 것은 다른 사건입니다. 확실하지 않으면 묶지 마세요.")
 
 def dupes(picked, past):                        # [고침] 라벨 비교가 놓친 같은 사건을 LLM 이 한 번 더 묶는다
@@ -251,6 +289,8 @@ def dupes(picked, past):                        # [고침] 라벨 비교가 놓�
         today = [i - off for i in g if i >= off]
         if len(g) - len(today) > 1:             # 최근 발행끼리는 이미 서로 다른 사건 — 주제로 묶은 것이니 믿지 않는다
             continue
+        if not shares_subject([rows[i][1].get("event", "") for i in g]):
+            continue                            # [고침] 서로 다른 기사 7건을 한 묶음으로 뭉뚱그린 날이 있었다 — 라벨이 받쳐 줄 때만 믿는다
         old = len(today) < len(g)               # 최근에 보낸 기사와 묶였으면 오늘 것은 모두 뺀다
         for i in (today if old else today[1:]):
             drop.setdefault(i, "최근 발행" if old else "같은 사건")
@@ -286,9 +326,9 @@ def heats(items):                               # [고침] 후보가 적어도 �
     return [h for h in (mixed[k::n] for k in range(n)) if h]
 
 def brief(it, p=None, result=None):             # 기록용 한 줄 — 왜 골랐고 어떻게 됐는지
-    row = {"source": it["source"], "title": it["title"], "url": it["url"]}
+    row = {"source": it["source"], "title": it["title"], "url": it["url"], "kind": it.get("kind")}
     if p:
-        row |= {"kind": p.kind, "event": p.event, "reason": p.reason}
+        row |= {"event": p.event, "reason": p.reason}
     if result:
         row["result"] = result
     return row
@@ -304,16 +344,19 @@ def select(s: dict) -> dict:
     fresh = [it for it in items if url_key(it["url"]) not in sent_urls]
     promo = [it for it in fresh if PROMO.search(it["title"])]
     pool = [it for it in fresh if not PROMO.search(it["title"])]
+    label_all(pool)                             # 성격 라벨 — 예선 전에 코드로 버린다
+    labels = dict(Counter(it.get("kind", "없음") for it in pool))
+    off = [brief(it, result=drop_reason(it)) for it in pool if drop_reason(it)]
+    labeled = len(pool)
+    pool = [it for it in pool if not drop_reason(it)]
 
     survivors, trace_heats, dropped = [], [], 0
     for chunk in heats(pool):                   # 예선 — 묶음마다 여덟 건
         rows = []
-        for p in ask_picks(chunk, PASS):
-            ok = p.kind not in DROP_KINDS
-            dropped += not ok
-            rows.append(brief(chunk[p.index], p, "통과" if ok else f"버림({p.kind})"))
-            if ok:
-                survivors.append(chunk[p.index])
+        n = min(PASS, max(TARGET, len(chunk) // 2))   # [고침] 라벨에서 많이 빠진 날 9건 중 8건이 통과해 예선이 고르지 않았다 — 작은 조는 절반만
+        for p in ask_picks(chunk, n):
+            rows.append(brief(chunk[p.index], p, "통과"))
+            survivors.append(chunk[p.index])
         trace_heats.append({"size": len(chunk), "picks": rows})
 
     random.Random(len(survivors)).shuffle(survivors)   # [고침] 몇 조 출신인지가 순위에 새지 않게 섞는다
@@ -331,8 +374,8 @@ def select(s: dict) -> dict:
             ranked.add(id(it))
             if len(picked) == TARGET + SPARE:
                 result = "남음"
-            elif p.kind in DROP_KINDS:
-                result, dropped = f"버림({p.kind})", dropped + 1
+            elif drop_reason(it, p.event):      # 라벨이 놓친 국내 사건 — 사건 라벨이 한국 지명으로 시작
+                result, dropped = drop_reason(it, p.event), dropped + 1
             elif any(same_event(p.event, x["event"]) for x in picked):   # [고침] 같은 사건은 한 건만
                 result = "같은 사건"
                 dup[result] += 1
@@ -341,7 +384,7 @@ def select(s: dict) -> dict:
             else:                               # [고침] 예비도 같은 규칙으로 뽑아 두고 빈자리에 쓴다
                 result = "선정"
                 per_src[it["source"]] += 1
-                picked.append({**it, "event": p.event, "kind": p.kind, "reason": p.reason})
+                picked.append({**it, "event": p.event, "reason": p.reason})
             row_of[it["url"]] = brief(it, p, result)
             rows.append(row_of[it["url"]])
         for x, why in dupes(picked, past):      # 라벨이 달라 위에서 못 거른 같은 사건
@@ -353,12 +396,13 @@ def select(s: dict) -> dict:
         x["rank"] = r
         row_of[x["url"]]["result"] = "선정" if r < TARGET else "예비"
     trace = {"candidates": len(items), "already_sent": [brief(it) for it in again],
-             "promo": [brief(it) for it in promo], "heats": trace_heats, "final": rows,
+             "promo": [brief(it) for it in promo], "labels": labels, "label_dropped": off,
+             "heats": trace_heats, "final": rows,
              "final_out": [brief(it) for it in survivors if id(it) not in ranked]}
 
     spare = len(picked[TARGET:])
     log = [f"② 선별   {len(items)}" + (f" → 이미 보냄 제외 {len(fresh)}" if again else "")
-           + f" → 홍보 제외 {len(pool)} → 예선 {len(trace_heats)}조 {len(survivors)}"
+           + f" → 홍보 제외 {labeled} → 라벨 제외 {len(pool)} → 예선 {len(trace_heats)}조 {len(survivors)}"
            f" → {len(picked) - spare}건" + (f" + 예비 {spare}" if spare else "")
            + (f" · 버림 {dropped}" if dropped else "")
            + "".join(f" · {k} {n}" for k, n in dup.items())]
@@ -369,32 +413,43 @@ def select(s: dict) -> dict:
 
 # ── ③ 취재·요약 · report ───────────────────────────────────────────────
 MIN_BODY = 600                                  # G1 기준선 (11장)
-TOPICS = ("모델·API", "도구·프레임워크", "정책·규제", "사례·적용", "연구")
+TOPICS = ("동물", "사람", "발견·장소", "법·행정", "음식·물건")
 
 class Draft(BaseModel):
     headline: str = Field(description="30자 이내의 한국어 헤드라인")
     summary:  str = Field(description="한국어 세 문장 요약. 모든 문장을 '~합니다'로 끝낸다")
-    why:      str = Field(description="국내 개발팀에게 왜 중요한지 한국어 한 문장, 80자 이내")
+    why:      str = Field(description="알고 보면: 이 일이 왜 일어났는지, 또는 어떤 규칙·배경·숫자가 있는지 "
+                                      "원문에 나온 내용으로 한국어 한 문장, 80자 이내")
     topic:    Literal[TOPICS] = Field(description="기사 분류")      # [고침] 카드 색에 쓴다
 
-SYS = ("당신은 국내 개발팀을 위한 AI 뉴스레터 기자입니다.\n"
-       "아래 기사 본문을 읽고 헤드라인·요약·왜 중요한지를 반드시 한국어로 쓰세요.\n"
+SYS = ("당신은 해외 화제 뉴스를 한국어로 전하는 뉴스레터 기자입니다.\n"
+       "아래 기사 본문을 읽고 헤드라인·요약·'알고 보면'을 반드시 한국어로 쓰세요.\n"
        "- 요약은 정확히 세 문장, 문장 끝은 모두 '~합니다'·'~했습니다' (~다체 금지)\n"
-       "- why는 한 문장. 개발팀이 무엇을 확인하거나 바꿔야 하는지 구체적으로\n"
-       "'주목된다·기대를 모은다·시사한다' 같은 기자체 표현은 쓰지 마세요.\n"
-       "topic은 기사의 중심이 무엇인지로 고르세요. 모델 이름이 나온다고 모델·API가 아닙니다.\n"   # [고침] 다 모델·API 로 몰렸다
-       "- 모델·API: 새 모델 공개, 모델 API의 기능·가격·한도 변경\n"
-       "- 도구·프레임워크: SDK·라이브러리·개발 도구·클라우드 서비스·인프라\n"
-       "- 정책·규제: 법·정부 정책·약관, 보안·안전 사고\n"
-       "- 사례·적용: 회사가 AI를 제품·업무에 붙인 이야기, 비용·성과 사례\n"
-       "- 연구: 논문·벤치마크·새 기법")
+       "- 누가, 어디서, 무엇을 했는지 첫 문장에 넣으세요\n"
+       "- why는 '알고 보면' 한 문장. 요약에 없는 배경·이유·규칙·숫자를 원문에서 찾아 쓰세요. "
+       "원문에 없는 이유를 짐작해 쓰지 마세요\n"
+       "원문에 없는 숫자·이름·지명은 쓰지 마세요. 과장하거나 기사 속 사람을 놀리지 마세요.\n"
+       "'충격·경악·화제다' 같은 낚시성 표현은 쓰지 마세요.\n"
+       "topic은 이야기의 주인공이 무엇인지로 고르세요.\n"
+       "- 동물: 동물이 주인공\n"
+       "- 사람: 사람의 행동·도전·기록\n"
+       "- 발견·장소: 유물·자연 현상·이상한 장소의 발견\n"
+       "- 법·행정: 황당한 법·규칙·재판·관청 일\n"
+       "- 음식·물건: 음식·상품·발명품")
 
 class ReportIn(TypedDict):                      # 워커가 받는 것은 기사 하나뿐
     item: dict
 
+INDIAN_UNITS = re.compile(r"(\d+(?:\.\d+)?)\s*(lakh|lac|crore)s?\b", re.I)
+
+def expand_units(text):                         # [고침] '41.39 lakh'를 요약도 검수도 '4,139만'으로 10배 틀렸다 — 숫자로 풀어 준다
+    unit = lambda u: 10**7 if u.lower() == "crore" else 10**5
+    return INDIAN_UNITS.sub(lambda m: f"{float(m[1]) * unit(m[2]):,.0f}", text)
+
 def extract_body(url):
     d = trafilatura.fetch_url(url)
-    return trafilatura.extract(d) if d else None
+    body = trafilatura.extract(d) if d else None
+    return expand_units(body) if body else body
 
 def draft(body):
     return client().chat.completions.parse(
@@ -421,15 +476,20 @@ def report(s: ReportIn) -> dict:
 
 # ── ④ 검수 · verify ────────────────────────────────────────────────────
 class Verdict(BaseModel):
-    ok:       bool      = Field(description="요약이 원문에 근거하면 true")
-    problems: list[str] = Field(description="근거 없는 부분. 없으면 빈 목록")
+    real:     bool      = Field(description="원문이 출처가 드러난 실제 사건 보도면 true")
+    country:  str       = Field(description="원문의 사건이 일어난 나라 이름을 영어로. 모르면 Unknown")   # [고침] 선별은 제목·요약 200자만 봐서 인천 이야기를 놓쳤다
+    ok:       bool      = Field(description="헤드라인·요약·알고 보면이 모두 원문에 근거하면 true")
+    problems: list[str] = Field(description="근거 없는 부분이나 출처 문제. 없으면 빈 목록")
 
-SYS_CHECK = ("요약이 원문에서 뒷받침되는지 판정하세요.\n"
-             "헤드라인과 요약만 보고 판단하고, 번역이나 단위 환산은 문제가 아닙니다.")
+SYS_CHECK = ("세 가지를 판정하세요. country는 원문의 사건이 일어난 나라입니다.\n"
+             "1. real: 원문이 실제 사건 보도인가. 경찰·관청·당사자 인터뷰·현지 언론 등 출처가 원문에 나오면 true. "
+             "풍자·창작, 출처 없는 소문, SNS 글 하나를 옮긴 것뿐이면 false.\n"
+             "2. ok: 헤드라인·요약·알고 보면이 원문에서 뒷받침되는가. 원문에 없는 숫자·이름·지명·이유가 있으면 false. "
+             "번역 표현 차이는 문제가 아니지만, 환산한 숫자는 원문 숫자로 직접 다시 계산해 틀리면 false.")   # [고침] '단위 환산은 문제가 아니다'라고 적었더니 10배 틀린 환산도 통과시켰다
 
 def check(d):                                   # 요약을 쓴 호출과 따로 부른다
     user = (f"[원문]\n{d['body'][:5000]}\n\n"
-            f"[헤드라인]\n{d['headline']}\n\n[요약]\n{d['summary']}")
+            f"[헤드라인]\n{d['headline']}\n\n[요약]\n{d['summary']}\n\n[알고 보면]\n{d['why']}")
     return client().chat.completions.parse(
         model=MODEL, temperature=0,
         messages=[{"role": "system", "content": SYS_CHECK},
@@ -456,7 +516,11 @@ def verify(s: dict) -> dict:
         except Exception as e:                  # [고침] 검수 호출이 터져도 그 기사만 빼고 계속
             reject(d, type(e).__name__)
             continue
-        if v.ok:
+        if not v.real:                          # 지어낸 이야기·소문은 요약이 맞아도 보내지 않는다
+            reject(d, "출처 불명", v.problems)
+        elif is_korea(v.country):
+            reject(d, "국내")
+        elif v.ok:
             kept.append(d)
         else:
             reject(d, "근거 없음", v.problems)
@@ -468,8 +532,8 @@ def verify(s: dict) -> dict:
 
 
 # ── ⑤ 발행 · publish ───────────────────────────────────────────────────
-COLORS = {"모델·API": 0x0B6E77, "도구·프레임워크": 0x3B6FB6,     # [고침] 청록·초록이 비슷해 잘 안 갈렸다
-          "정책·규제": 0xB7791F, "사례·적용": 0xB5475A, "연구": 0x6A4A9C}
+COLORS = {"동물": 0x0B6E77, "사람": 0x3B6FB6,                  # [고침] 청록·초록이 비슷해 잘 안 갈렸다
+          "발견·장소": 0x6A4A9C, "법·행정": 0xB7791F, "음식·물건": 0xB5475A}
 DEFAULT = 0x5F7476
 TITLE_MAX, DESC_MAX, EMBED_MAX, TOTAL_MAX = 256, 4096, 10, 5800   # 6000에서 여유를 둔다
 
@@ -477,11 +541,11 @@ def build_embeds(run_id, lead, articles):
     if not articles:                            # 조용한 날에도 한 장은 보낸다
         return [{"title": f"🗞️ {run_id}", "color": DEFAULT,
                  "description": "오늘은 조용합니다."}]
-    embeds = [{"title": f"🗞️ {run_id} · AI 브리핑", "description": lead, "color": DEFAULT}]
+    embeds = [{"title": f"🗞️ {run_id} · 해외 기묘한 뉴스", "description": lead, "color": DEFAULT}]
     for i, a in enumerate(articles, 1):
         desc = a["summary"]
         if a.get("why"):
-            desc += f"\n\n💡 **{a['why']}**"
+            desc += f"\n\n🔎 **알고 보면** {a['why']}"
         embeds.append({
             "title":       f"{i}. {a['headline']}"[:TITLE_MAX],
             "description": desc[:DESC_MAX],

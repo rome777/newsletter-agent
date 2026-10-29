@@ -43,7 +43,7 @@ python run.py --once             # 오늘 이미 보냈으면 건너뜀 (예약 
 | `run.py` | 진입점, 기록 저장 |
 | `audience.yaml` | 타깃 독자, 중요도 기준, 제외 조건(홍보성 제목, 제외 매체), 발행 건수 |
 | `REPORT.md` | 과제 수행 보고서 |
-| `tools/measure_sources.py` | 소스 후보 측정 (관문 G1·G2·G3 + AI 비율) |
+| `tools/measure_sources.py` | 소스 후보 측정 (관문 G1·G2·G3 + 기묘한 기사 비율) |
 | `store/sources.json` | 소스 측정 결과 |
 | `store/metrics.jsonl` | 실행마다 단계별 건수 (Actions가 커밋) |
 | `store/last_run.json` | 마지막 회차의 선정·탈락 기록 (Actions가 커밋) |

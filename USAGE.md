@@ -33,7 +33,7 @@ python run.py --once             # 오늘 이미 보냈으면 건너뜀 (예약 
 
 소스를 다시 고를 때는 `python tools/measure_sources.py`로 후보를 재서 `store/sources.json`을 갱신한다. 기준은 [REPORT.md](REPORT.md) 2절에 있다.
 
-실제로 보낸 기사는 `history.json`에 14일치를 남기고, 다음 날 선별에서 최근 3일치와 비교해 같은 사건을 거른다.
+실제로 보낸 기사는 `history.json`에 14일치를 남기고, 다음 날 선별에서 최근 3일치와 비교해 같은 사건을 거른다. 손으로 돌린 실행(로컬, Actions 수동 실행)은 오늘 보낸 기사로는 거르지 않는다. 같은 날 여러 번 테스트해도 그날 첫 실행과 같은 후보로 돈다.
 
 ## 파일
 

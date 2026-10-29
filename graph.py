@@ -129,13 +129,18 @@ def collect(s: dict) -> dict:
 BATCH, MIN_HEATS, PASS = 40, 2, 8               # 예선 묶음 최대 크기, 최소 묶음 수, 묶음당 통과 — 길게 받으면 비교 대신 목록을 베낀다
 TARGET, SPARE = AUD["target"], AUD["spare"]     # 최종 건수, 본선 예비
 MAX_PER_SOURCE = AUD["max_per_source"]          # 한 매체가 브리핑을 독차지하지 않게 (20장)
+MAX_PER_COUNTRY = AUD["max_per_country"]        # 한 나라 이야기로 도배되지 않게 — 나라는 라벨의 country
+
+def country_key(it):                            # 'United Kingdom'·'UK' 같은 표기 차이는 남지만, 모르는 나라는 상한을 걸지 않는다
+    k = re.sub(r"[^a-z]", "", (it.get("country") or "").lower())
+    return "" if k in ("", "unknown") else k
 
 CRITERIA = (f"독자는 {AUD['reader']}입니다.\n"   # [고침] 기준을 audience.yaml 로 뺐다 (44장)
             "고를 것:\n" + "".join(f"- {c}\n" for c in AUD["criteria"])
             + "버릴 것 (절대 고르지 마세요):\n" + "".join(f"- {r}\n" for r in AUD["reject"])
             + AUD["notes"])
 
-KINDS = ("동물", "사람·도전", "발견·장소", "법·행정", "음식·물건", "비극·범죄", "일반 뉴스", "연예·운세·쇼핑", "기타")
+KINDS = ("동물", "사람·도전", "발견·장소", "법·행정", "음식·물건", "비극·범죄", "연예·운세", "일반 뉴스", "기타")
 DROP_KINDS = set(AUD["drop_kinds"])             # [고침] '버릴 것'을 프롬프트 부탁이 아니라 코드로 강제한다
 assert DROP_KINDS <= set(KINDS), "audience.yaml 의 drop_kinds 는 KINDS 중에서 고른다"
 
@@ -166,9 +171,9 @@ SYS_LABEL = ("아래 기사마다 성격(kind)과 사건이 일어난 나라(cou
              "kind:\n"
              "- 동물 / 사람·도전 / 발견·장소 / 법·행정 / 음식·물건: 실제로 일어난 기묘하거나 신기하거나 훈훈한 이야기. "
              "이야기의 주인공으로 고르세요\n"
-             "- 비극·범죄: 사망·중상·성범죄·학대가 이야기의 중심\n"
-             "- 일반 뉴스: 정치·전쟁·재난·경제, 기업 발표·신제품·기술 소식, 인터뷰·조언\n"
-             "- 연예·운세·쇼핑: 연예인 가십, 운세·퀴즈, 쇼핑·할인\n"
+             "- 비극·범죄: 사망·부상·범죄가 이야기의 중심인 사건 사고\n"
+             "- 연예·운세: 연예인 이야기, 운세·점성술\n"
+             "- 일반 뉴스: 정치·전쟁·재난·경제, 기업 발표·신제품·기술 소식, 인터뷰·조언, 쇼핑·할인 광고\n"
              "- 기타: 어느 것도 아님\n"
              "웃기거나 신기한 사람·동물 이야기는 가볍더라도 '일반 뉴스'가 아닙니다.")
 
@@ -309,7 +314,10 @@ def days_ago(n):
     return (datetime.now() - timedelta(days=n)).strftime("%Y-%m-%d")
 
 def recent_sent():
-    return [h for h in load_history() if h["date"] >= days_ago(LOOKBACK)]
+    hist = [h for h in load_history() if h["date"] >= days_ago(LOOKBACK)]
+    if os.environ.get("GITHUB_EVENT_NAME", "local") != "schedule":   # 손으로 돌린 테스트는 그날 첫 실행처럼 — 오늘 보낸 기사로 거르지 않는다
+        hist = [h for h in hist if h["date"] != days_ago(0)]
+    return hist
 
 def save_history(arts):                         # 실제로 보냈을 때만 run.py 가 부른다
     hist = [h for h in load_history() if h["date"] >= days_ago(KEEP)]
@@ -360,15 +368,18 @@ def select(s: dict) -> dict:
         trace_heats.append({"size": len(chunk), "picks": rows})
 
     random.Random(len(survivors)).shuffle(survivors)   # [고침] 몇 조 출신인지가 순위에 새지 않게 섞는다
-    picked, per_src, rows, row_of, ranked = [], Counter(), [], {}, set()
+    picked, per_src, per_country, rows, row_of, ranked = [], Counter(), Counter(), [], {}, set()
     dup = Counter()
+    full = lambda it: (per_src[it["source"]] >= MAX_PER_SOURCE
+                       or bool(country_key(it)) and per_country[country_key(it)] >= MAX_PER_COUNTRY)
     for _ in range(3):                          # 본선 — 걸러져서 다섯 + 예비가 안 차면 남은 후보로 다시
-        remaining = [it for it in survivors     # 상한이 찬 매체는 다음 판에 올리지 않는다
-                     if id(it) not in ranked and per_src[it["source"]] < MAX_PER_SOURCE]
+        remaining = [it for it in survivors     # 상한이 찬 매체·나라는 다음 판에 올리지 않는다
+                     if id(it) not in ranked and not full(it)]
         if len(picked) >= TARGET + SPARE or not remaining:
             break
         finals = ask_picks(remaining, TARGET - len(picked) + SPARE,
-                           f"같은 매체(대괄호 안 이름)에서는 최대 {MAX_PER_SOURCE}건까지만 고르세요.")
+                           f"같은 매체(대괄호 안 이름)에서는 최대 {MAX_PER_SOURCE}건, "
+                           f"같은 나라 이야기는 최대 {MAX_PER_COUNTRY}건까지만 고르세요.")
         for p in finals:
             it = remaining[p.index]
             ranked.add(id(it))
@@ -381,15 +392,19 @@ def select(s: dict) -> dict:
                 dup[result] += 1
             elif per_src[it["source"]] >= MAX_PER_SOURCE:
                 result = "매체 상한"
+            elif full(it):                      # [고침] 인도 매체 두 곳이 2건씩 채워 인도 이야기로 도배될 수 있었다
+                result = "나라 상한"
             else:                               # [고침] 예비도 같은 규칙으로 뽑아 두고 빈자리에 쓴다
                 result = "선정"
                 per_src[it["source"]] += 1
+                per_country[country_key(it)] += 1
                 picked.append({**it, "event": p.event, "reason": p.reason})
             row_of[it["url"]] = brief(it, p, result)
             rows.append(row_of[it["url"]])
         for x, why in dupes(picked, past):      # 라벨이 달라 위에서 못 거른 같은 사건
             picked = [y for y in picked if y is not x]
             per_src[x["source"]] -= 1
+            per_country[country_key(x)] -= 1
             row_of[x["url"]]["result"] = why
             dup[why] += 1
     for r, x in enumerate(picked):              # 순위는 마지막에 매긴다 — 앞의 다섯이 선정, 나머지는 예비
@@ -413,7 +428,7 @@ def select(s: dict) -> dict:
 
 # ── ③ 취재·요약 · report ───────────────────────────────────────────────
 MIN_BODY = 600                                  # G1 기준선 (11장)
-TOPICS = ("동물", "사람", "발견·장소", "법·행정", "음식·물건")
+TOPICS = ("동물", "사람", "발견·장소", "법·행정", "음식·물건", "사건·사고", "연예·운세")
 
 class Draft(BaseModel):
     headline: str = Field(description="30자 이내의 한국어 헤드라인")
@@ -429,6 +444,7 @@ SYS = ("당신은 해외 화제 뉴스를 한국어로 전하는 뉴스레터 �
        "- why는 '알고 보면' 한 문장. 요약에 없는 배경·이유·규칙·숫자를 원문에서 찾아 쓰세요. "
        "원문에 없는 이유를 짐작해 쓰지 마세요\n"
        "원문에 없는 숫자·이름·지명은 쓰지 마세요. 과장하거나 기사 속 사람을 놀리지 마세요.\n"
+       "사고·범죄 기사는 피해자를 웃음거리로 만들지 말고 사실만 전하세요.\n"
        "돈은 원문 통화 그대로 쓰세요 (12,000달러, 50만 엔). 원화로 환산하지 마세요.\n"   # [고침] '$12,000'을 환율을 지어내 '1,200만원'으로 옮겼다
        "'충격·경악·화제다' 같은 낚시성 표현은 쓰지 마세요.\n"
        "topic은 이야기의 주인공이 무엇인지로 고르세요.\n"
@@ -436,7 +452,9 @@ SYS = ("당신은 해외 화제 뉴스를 한국어로 전하는 뉴스레터 �
        "- 사람: 사람의 행동·도전·기록\n"
        "- 발견·장소: 유물·자연 현상·이상한 장소의 발견\n"
        "- 법·행정: 황당한 법·규칙·재판·관청 일\n"
-       "- 음식·물건: 음식·상품·발명품")
+       "- 음식·물건: 음식·상품·발명품\n"
+       "- 사건·사고: 기묘한 사고·범죄·재판\n"
+       "- 연예·운세: 연예인 이야기, 운세·점성술")
 
 class ReportIn(TypedDict):                      # 워커가 받는 것은 기사 하나뿐
     item: dict
@@ -549,7 +567,8 @@ def verify(s: dict) -> dict:
 
 # ── ⑤ 발행 · publish ───────────────────────────────────────────────────
 COLORS = {"동물": 0x0B6E77, "사람": 0x3B6FB6,                  # [고침] 청록·초록이 비슷해 잘 안 갈렸다
-          "발견·장소": 0x6A4A9C, "법·행정": 0xB7791F, "음식·물건": 0xB5475A}
+          "발견·장소": 0x6A4A9C, "법·행정": 0xB7791F, "음식·물건": 0xB5475A,
+          "사건·사고": 0x8A3B3B, "연예·운세": 0xC2569B}
 DEFAULT = 0x5F7476
 TITLE_MAX, DESC_MAX, EMBED_MAX, TOTAL_MAX = 256, 4096, 10, 5800   # 6000에서 여유를 둔다
 

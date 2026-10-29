@@ -4,13 +4,20 @@
     python run.py --dry-run    # 무조건 보내지 않음
     python run.py --silent     # 보내되 알림은 안 울리게 (테스트 발행)
     python run.py --delete ID  # 이 웹훅으로 보낸 메시지 ID 를 지운다
+    python run.py --once       # 오늘 이미 보냈으면 건너뛴다 (Actions 예약 실행용)
 """
 import json, os, sys
 from datetime import datetime
 from pathlib import Path
 
+SENT_ON = Path(__file__).with_name("last_sent.txt")   # 마지막으로 실제 발행한 날 — Actions 가 커밋한다
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")   # 윈도우 콘솔에서 한글·이모지가 깨지지 않게
+    today = datetime.now().strftime("%Y-%m-%d")
+    if "--once" in sys.argv and SENT_ON.exists() and SENT_ON.read_text(encoding="utf-8").strip() == today:
+        print(f"오늘({today}) 이미 발행함 — 건너뜀")   # 예약을 여러 번 걸어 두고 먼저 돈 한 번만 보낸다
+        sys.exit(0)
     if "--delete" in sys.argv:
         from graph import delete_message
         mid = sys.argv[sys.argv.index("--delete") + 1]
@@ -43,6 +50,7 @@ if __name__ == "__main__":
     if out["sent"] == "sent":                  # 실제로 보낸 것만 남겨 다음 날 같은 사건을 거른다
         from graph import save_history
         save_history(out["verified"])
+        SENT_ON.write_text(today + "\n", encoding="utf-8")   # 0건인 날("조용합니다")도 보낸 날로 남긴다
 
     if out["sent"] == "failed":                # Discord 가 거절하면 실행을 실패로 끝내 메일이 오게 한다
         sys.exit(1)

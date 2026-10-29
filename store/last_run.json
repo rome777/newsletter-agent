@@ -1,18 +1,16 @@
 {
-  "at": "2026-10-29T16:02:17",
+  "at": "2026-10-29T16:10:59",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 60건 · 소스 7곳 · 응답 없음 ['Indian Express']",
-    "② 선별   60 → 이미 보냄 제외 55 → 홍보 제외 54 → 라벨 제외 10 → 예선 2조 10 → 4건",
-    "   선정 [Hindustan Times] 6-year-old boy from Madhya Pradesh wins Toyota For — 6살 아이가 조부모가 산 200루피 복권으로 고가의 자동차를 당첨된 실제 사건으로, 듣자마자 '진짜?' 할 만한 놀라운 이야기이며, 가족과 관련된 훈훈한 내용이라 직장인 점심시간 가벼운 읽을거리로 적합하다.",
-    "   선정 [Metro] ‘I love hanging out in cemeteries – some say it’s  — 평범하지 않은 취미로 수백 번 낯선 이들의 묘지를 방문한 여성의 이야기로 신기하고 흥미로워 남에게 이야기해주고 싶은 내용이다. 어디서 무슨 일을 했는지도 분명하다.",
-    "   선정 [Hindustan Times] Bahadur, the leopard king of Jhalana, wears his ba — 인도 Jhalana의 표범 바하두르가 전투 상처를 자랑스럽게 지니고 있다는 사진과 이야기로 신기하고 훈훈한 동물 이야기이다. 실제 사건이며 누가 어디서 무엇을 했는지 명확하다.",
-    "   선정 [서울신문] “아버님~ 손주 안기 전 허락받으세요” 조부모 혐오 논란 ‘발칵’…논란된 광고 결국 [월드 — 아일랜드에서 조부모가 손주를 안기 전에 동의를 구해야 한다는 공익광고가 조부모 혐오 논란으로 삭제된 실제 사건이다. 사회적 이슈지만 비극적이지 않고 신기하거나 웃긴 요소가 있어 이야기할 만하다.",
-    "④ 검수   4 → 4건",
-    "⑤ 발행   4건 · sent"
+    "① 수집   24시간 time window · 62건 · 소스 7곳 · 응답 없음 ['Indian Express']",
+    "② 선별   62 → 이미 보냄 제외 53 → 홍보 제외 52 → 라벨 제외 14 → 예선 2조 10 → 2건",
+    "   선정 [Hindustan Times] Man who staged sit-in at Kochi airport after iPhon — 실제로 일어난 독특한 사건으로, iPhone 18 Pro를 빼앗긴 인도인이 공항에서 시위를 벌이고 법적 대응을 준비하는 내용이 흥미롭고 신기하다. 누가, 어디서, 무엇을 했는지 분명하다.",
+    "   선정 [Hindustan Times] Deepinder Goyal accepts man's suggestion for ‘Zoma — 실제로 일어난 일이며, 유명 인사가 고객 아이디어를 받아들인 사례로 신기하고 재미있다. 누가, 어디서, 무엇을 했는지 명확하다.",
+    "④ 검수   2 → 2건",
+    "⑤ 발행   2건 · sent"
   ],
   "selection": {
-    "candidates": 60,
+    "candidates": 62,
     "already_sent": [
       {
         "source": "Daily Star",
@@ -24,6 +22,12 @@
         "source": "Metro",
         "title": "A giant ball of 2,800,000 eels is having an orgy off the coast of Australia",
         "url": "https://metro.co.uk/2026/10/28/a-giant-ball-2-800-000-eels-orgy-off-coast-australia-29745511/",
+        "kind": null
+      },
+      {
+        "source": "Metro",
+        "title": "‘I love hanging out in cemeteries – some say it’s morbid but I think they’re beautiful’",
+        "url": "https://metro.co.uk/2026/10/28/i-love-hanging-cemeteries-say-morbid-think-beautiful-29744785/",
         "kind": null
       },
       {
@@ -39,9 +43,27 @@
         "kind": null
       },
       {
+        "source": "Hindustan Times",
+        "title": "6-year-old boy from Madhya Pradesh wins Toyota Fortuner with grandmother's  ₹200 lucky draw coupon",
+        "url": "https://www.hindustantimes.com/trending/6yearold-boy-from-madhya-pradesh-wins-toyota-fortuner-with-grandmothers-rs-200-lucky-draw-coupon-101793202285183.html",
+        "kind": null
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Bahadur, the leopard king of Jhalana, wears his battle scars with pride",
+        "url": "https://www.hindustantimes.com/specials/bahadur-the-leopard-wears-his-battle-scars-101793170214724.html",
+        "kind": null
+      },
+      {
         "source": "Good News Network",
         "title": "Bizarre Rescue Sees Divers Save Kangaroo That Found Itself Over a Mile from Dry Land",
         "url": "https://www.goodnewsnetwork.org/bizarre-rescue-sees-divers-save-kangaroo-that-found-itself-over-a-mile-from-dry-land/",
+        "kind": null
+      },
+      {
+        "source": "서울신문",
+        "title": "“아버님~ 손주 안기 전 허락받으세요” 조부모 혐오 논란 ‘발칵’…논란된 광고 결국 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500019",
         "kind": null
       }
     ],
@@ -54,12 +76,12 @@
       }
     ],
     "labels": {
-      "일반 뉴스": 24,
-      "사람·도전": 9,
-      "법·행정": 3,
-      "동물": 2,
+      "일반 뉴스": 22,
+      "사람·도전": 7,
+      "법·행정": 8,
+      "동물": 1,
       "발견·장소": 1,
-      "비극·범죄": 14,
+      "비극·범죄": 12,
       "연예·운세·쇼핑": 1
     },
     "label_dropped": [
@@ -67,34 +89,6 @@
         "source": "Daily Star",
         "title": "Scientists warn 'collapse of civilisation most likely outcome'",
         "url": "https://www.dailystar.co.uk/news/weird-news/scientists-warn-collapse-civilisation-most-37818904",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Daily Star",
-        "title": "Why Gen Z and Millennials tie 'cute' with connection – not looks",
-        "url": "https://www.dailystar.co.uk/news/weird-news/gen-z-millennials-tie-cute-37818106",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Daily Star",
-        "title": "Andy Burnham forced to break silence as public demands answers on one nation",
-        "url": "https://www.dailystar.co.uk/news/latest-news/andy-burnham-forced-break-silence-37817799",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Deepinder Goyal accepts man's suggestion for ‘Zomato Mehmaan mode’ to hide menu prices for guests",
-        "url": "https://www.hindustantimes.com/trending/deepinder-goyal-accepts-mans-suggestion-for-zomato-mehmaan-mode-to-hide-menu-prices-for-guests-101793243806926.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Fact check: Parody account’s viral post falsely claims singer R Kelly has passed away, Grok debunks rumor",
-        "url": "https://www.hindustantimes.com/trending/us/fact-check-parody-account-s-viral-post-falsely-claims-singer-r-kelly-has-passed-away-grok-debunks-rumor-101793236763890.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
@@ -116,20 +110,6 @@
         "source": "Hindustan Times",
         "title": "UK sees spike in Google Searches for emergency supplies, bunker-building after government updates 'be ready checklist'",
         "url": "https://www.hindustantimes.com/trending/uk-sees-spike-in-google-searches-for-emergency-supplies-bunker-building-after-government-updates-be-ready-checklist-101793196012285.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Nikhil Kamath advises 17-year-olds to build on emerging AI technologies: 'I would build on the application layer'",
-        "url": "https://www.hindustantimes.com/trending/nikhil-kamath-advises-17-year-olds-to-build-on-emerging-ai-technologies-i-would-build-on-the-application-layer-101793190434455.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Top UAE honour for Captain Smit Machchhar: Indians who have received Order of Zayed II before flydubai pilot",
-        "url": "https://www.hindustantimes.com/trending/top-uae-honour-for-captain-smit-machchhar-indians-who-have-received-order-of-zayed-ii-before-flydubai-pilot-101793181457020.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
@@ -282,13 +262,6 @@
       },
       {
         "source": "서울신문",
-        "title": "[NCP CMS TEST][KME-1072] 美, ESTA 심사 강화…신청자 5년치 소셜미디어 정보 수집 추진",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261028500388",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
         "title": "[포착] “사망자 전원 북한인” 사고 났는데 러 ‘쉬쉬’…‘쾅쾅쾅’ 처참한 현장",
         "url": "https://www.seoul.co.kr/news/newsView.php?id=20261028500343",
         "kind": "비극·범죄",
@@ -296,24 +269,45 @@
       },
       {
         "source": "서울신문",
+        "title": "‘삼성물산-제일모직 합병’ 주주들 손배소 패소…법원 “위법 없어”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500180",
+        "kind": "법·행정",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "복부 수술 흉터, 수년 지난 뒤 불룩해졌다면?…방치하면 ‘장 괴사’ 위험",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500179",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "보청기 맞추고도 불편한 이유? ‘의학적 평가’가 빠졌기 때문",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500175",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
         "title": "울진 산지농업 직접 체험한다…“세계중요농업유산 가치 알려”",
         "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500171",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
         "title": "암 환자 괴롭히는 식욕부진·근육손실 막는 물질 찾았다",
         "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500164",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
         "title": "“턱에서 ‘딸깍’ 소리 나는데 괜찮을까?”…턱관절 장애의 원인과 치료법",
         "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500163",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
@@ -347,51 +341,78 @@
         "source": "서울신문",
         "title": "그냥 나왔다더니…대실 20분 만에 환불, 객실엔 샤워 흔적 [사연잇슈]",
         "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500139",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
         "title": "본지 ‘소녀에게’, 아동학대예방 우수보도 기자상 수상",
         "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500137",
-        "kind": "비극·범죄",
-        "result": "버림(비극·범죄)"
-      },
-      {
-        "source": "서울신문",
-        "title": "금 거래로 현금 만들어 해외 송금…보이스피싱 범죄수익 세탁 일당 무더기 검거",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500134",
-        "kind": "비극·범죄",
-        "result": "버림(비극·범죄)"
-      },
-      {
-        "source": "서울신문",
-        "title": "APEC 1주년 앞둔 경주, 보문관광단지서 기념행사 열린다",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500131",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
+        "kind": "법·행정",
+        "result": "버림(국내)"
       }
     ],
     "heats": [
       {
-        "size": 5,
+        "size": 7,
         "picks": [
-          {
-            "source": "Metro",
-            "title": "‘I love hanging out in cemeteries – some say it’s morbid but I think they’re beautiful’",
-            "url": "https://metro.co.uk/2026/10/28/i-love-hanging-cemeteries-say-morbid-think-beautiful-29744785/",
-            "kind": "사람·도전",
-            "event": "woman-cemetery-visits-uk",
-            "reason": "실제로 영국에서 한 여성이 수백 번이나 낯선 사람들의 묘지를 방문하며 즐긴다는 독특한 이야기로, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고 훈훈한 내용입니다. 누가, 어디서, 무엇을 했는지 분명히 나와 있어 직장인들이 점심시간에 가볍게 읽기 좋습니다.",
-            "result": "통과"
-          },
           {
             "source": "Hindustan Times",
             "title": "Man who staged sit-in at Kochi airport after iPhone 18 Pro seized plans to approach court",
             "url": "https://www.hindustantimes.com/trending/man-who-staged-sit-in-at-kochi-airport-after-iphone-18-pro-seized-plans-to-approach-court-101793182981039.html",
             "kind": "법·행정",
-            "event": "iphone-18-pro-seizure-india",
-            "reason": "인도에서 한 남성이 아이폰 18 프로를 압수당한 후 공항에서 시위를 벌이고 법적 대응을 준비한다는 실제 사건으로, 처음 들으면 놀랍고 흥미로운 이야기입니다. 누가, 어디서, 무엇을 했는지 명확히 나와 있습니다.",
+            "event": "india-iphone18pro-airport-sitin",
+            "reason": "실제로 인도에서 아이폰 18 프로가 압수되어 한 인도인이 공항에서 시위를 벌였다는 사건은 신기하고 흥미로워서 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Top UAE honour for Captain Smit Machchhar: Indians who have received Order of Zayed II before flydubai pilot",
+            "url": "https://www.hindustantimes.com/trending/top-uae-honour-for-captain-smit-machchhar-indians-who-have-received-order-of-zayed-ii-before-flydubai-pilot-101793181457020.html",
+            "kind": "사람·도전",
+            "event": "uae-captain-machchhar-honour",
+            "reason": "인도 출신 조종사가 UAE 최고 영예를 받았다는 사실은 신기하고 자랑스러운 이야기로, 누가 어디서 무엇을 했는지가 분명하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "Why Gen Z and Millennials tie 'cute' with connection – not looks",
+            "url": "https://www.dailystar.co.uk/news/weird-news/gen-z-millennials-tie-cute-37818106",
+            "kind": "사람·도전",
+            "event": "genz-millennials-cute-meaning",
+            "reason": "Z세대와 밀레니얼 세대가 '귀엽다'는 의미를 외모가 아닌 연결과 친절로 재정의했다는 내용은 신기하고 가볍게 읽기 좋다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Nikhil Kamath advises 17-year-olds to build on emerging AI technologies: 'I would build on the application layer'",
+            "url": "https://www.hindustantimes.com/trending/nikhil-kamath-advises-17-year-olds-to-build-on-emerging-ai-technologies-i-would-build-on-the-application-layer-101793190434455.html",
+            "kind": "사람·도전",
+            "event": "nikhil-kamath-ai-advice",
+            "reason": "젊은 세대가 AI 기술을 활용해 미래를 준비하라는 조언은 흥미롭고 긍정적인 이야기로, 누가 무엇을 했는지 명확하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Mukesh Ambani gets teary-eyed during Isha and Anant Ambani's speeches at Jio Platforms listing",
+            "url": "https://www.hindustantimes.com/trending/mukesh-ambani-gets-teary-eyed-during-isha-and-anant-ambanis-speeches-at-jio-platforms-listing-101793173443440.html",
+            "kind": "사람·도전",
+            "event": "ambani-family-jioplatforms-listing",
+            "reason": "인도 유명 기업가 가족의 감동적인 순간을 다룬 기사로, 훈훈하고 누가 어디서 무엇을 했는지 분명하다.",
+            "result": "통과"
+          }
+        ]
+      },
+      {
+        "size": 7,
+        "picks": [
+          {
+            "source": "Hindustan Times",
+            "title": "UAE President examines stitches on Smit Machchhar's head during award ceremony",
+            "url": "https://www.hindustantimes.com/trending/uae-president-says-i-want-to-train-you-how-to-fight-to-smit-machchhar-inspects-his-stitches-101793238858918.html",
+            "kind": "사람·도전",
+            "event": "uae-president-smit-machchhar-award",
+            "reason": "실제로 UAE 대통령이 상을 수여하는 자리에서 수상자의 상처를 살펴본 독특한 상황으로, '진짜?'라는 반응을 유발할 수 있고, 누가 어디서 무엇을 했는지가 명확하다. 국내 20~30대 직장인이 점심시간에 가볍게 읽기 좋다.",
             "result": "통과"
           },
           {
@@ -400,66 +421,16 @@
             "url": "https://www.hindustantimes.com/trending/us/lida-bida-boda-butt-dog-dead-owner-confirms-viral-pets-demise-as-social-media-mourns-passing-101793245329684.html",
             "kind": "동물",
             "event": "viral-dog-death",
-            "reason": "SNS에서 유명했던 강아지의 사망 소식으로, 반려동물 팬들에게 훈훈하고 남에게 이야기해주고 싶은 내용입니다. 실제 사건이며 주인과 상황이 분명히 나와 있습니다.",
+            "reason": "SNS에서 유명했던 반려견의 사망 소식으로, 반려동물과 관련된 훈훈하고 신기한 이야기로 남에게 말해주기 좋다. 다만 사망 소식이지만 피해자가 아닌 반려동물이라 선정 기준에 부합한다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Mukesh Ambani gets teary-eyed during Isha and Anant Ambani's speeches at Jio Platforms listing",
-            "url": "https://www.hindustantimes.com/trending/mukesh-ambani-gets-teary-eyed-during-isha-and-anant-ambanis-speeches-at-jio-platforms-listing-101793173443440.html",
-            "kind": "사람·도전",
-            "event": "ambani-family-event-india",
-            "reason": "인도의 유명 기업가 무케시 암바니가 가족의 연설 도중 눈물을 보인 감동적인 순간으로, 실제 사건이며 누가, 어디서, 무엇을 했는지 명확합니다. 다만 국내 20~30대 직장인에게는 다소 덜 흥미로울 수 있습니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Karachi Bakery among Hyderabad sweet shops facing action over hygiene violations",
-            "url": "https://www.hindustantimes.com/trending/karachi-bakery-among-hyderabad-sweet-shops-facing-action-over-hygiene-violations-101793253286480.html",
+            "title": "Deepinder Goyal accepts man's suggestion for ‘Zomato Mehmaan mode’ to hide menu prices for guests",
+            "url": "https://www.hindustantimes.com/trending/deepinder-goyal-accepts-mans-suggestion-for-zomato-mehmaan-mode-to-hide-menu-prices-for-guests-101793243806926.html",
             "kind": "법·행정",
-            "event": "hyderabad-bakery-hygiene-india",
-            "reason": "인도 하이데라바드에서 유명 제과점들이 위생 문제로 행정 조치를 받았다는 실제 사건입니다. 다만 비극적이거나 흥미로운 이야기는 아니어서 우선순위가 낮습니다.",
-            "result": "통과"
-          }
-        ]
-      },
-      {
-        "size": 5,
-        "picks": [
-          {
-            "source": "Hindustan Times",
-            "title": "6-year-old boy from Madhya Pradesh wins Toyota Fortuner with grandmother's  ₹200 lucky draw coupon",
-            "url": "https://www.hindustantimes.com/trending/6yearold-boy-from-madhya-pradesh-wins-toyota-fortuner-with-grandmothers-rs-200-lucky-draw-coupon-101793202285183.html",
-            "kind": "사람·도전",
-            "event": "india-lucky-draw-car-win",
-            "reason": "6살 어린이가 할머니가 산 200루피 복권으로 고가의 자동차를 당첨된 실제 사건으로, 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고 신기하다. 누가, 어디서, 무엇을 했는지 명확히 나온다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "UAE President examines stitches on Smit Machchhar's head during award ceremony",
-            "url": "https://www.hindustantimes.com/trending/uae-president-says-i-want-to-train-you-how-to-fight-to-smit-machchhar-inspects-his-stitches-101793238858918.html",
-            "kind": "사람·도전",
-            "event": "uae-president-award-stitches",
-            "reason": "UAE 대통령이 상을 수여하는 자리에서 수상자의 상처를 직접 살피는 이색적인 장면이 실제로 일어난 일로, 신기하고 훈훈해 남에게 이야기하기 좋다. 누가, 어디서, 무엇을 했는지 분명하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Bahadur, the leopard king of Jhalana, wears his battle scars with pride",
-            "url": "https://www.hindustantimes.com/specials/bahadur-the-leopard-wears-his-battle-scars-101793170214724.html",
-            "kind": "동물",
-            "event": "india-leopard-bahadur",
-            "reason": "인도의 표범 '바하두르'가 전투 상처를 자랑스럽게 드러내는 사진과 이야기는 신기하고 흥미로워 가볍게 읽기 좋다. 누가, 어디서, 무엇을 했는지 명확하다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "“아버님~ 손주 안기 전 허락받으세요” 조부모 혐오 논란 ‘발칵’…논란된 광고 결국 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500019",
-            "kind": "법·행정",
-            "event": "ireland-grandparent-hug-ad-controversy",
-            "reason": "아일랜드에서 조부모와 손주 간 포옹 전에 동의를 구하라는 공익 광고가 실제로 논란이 된 사건으로, 신기하고 웃기면서도 사회적 이슈를 담았다. 누가, 어디서, 무엇을 했는지 분명하다.",
+            "event": "zomato-mehmaan-mode",
+            "reason": "Zomato CEO가 고객 아이디어를 받아들인 재미있고 신기한 일화로, 국내외 직장인들이 공감할 만한 내용이다. 누가 무엇을 했는지가 분명하다.",
             "result": "통과"
           },
           {
@@ -467,8 +438,17 @@
             "title": "Know Your Neighbourhood: The story of how Delhi’s Majnu ka Tila got its name",
             "url": "https://www.hindustantimes.com/trending/know-your-neighbourhood-the-story-of-how-delhi-s-majnu-ka-tila-got-its-name-101793244391453.html",
             "kind": "발견·장소",
-            "event": "india-majnu-ka-tila-origin",
-            "reason": "델리의 유명한 지역 이름 유래에 관한 흥미로운 역사 이야기로, 신기하고 훈훈한 내용이다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+            "event": "delhi-majnu-ka-tila-origin",
+            "reason": "인도 델리의 유명 지역 이름 유래에 관한 흥미로운 역사 이야기로, 신기하고 남에게 소개하기 좋은 내용이다. 누가 어디서 무엇을 했는지가 명확하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Karachi Bakery among Hyderabad sweet shops facing action over hygiene violations",
+            "url": "https://www.hindustantimes.com/trending/karachi-bakery-among-hyderabad-sweet-shops-facing-action-over-hygiene-violations-101793253286480.html",
+            "kind": "법·행정",
+            "event": "hyderabad-sweet-shops-hygiene",
+            "reason": "인도 하이데라바드에서 유명 제과점이 위생 문제로 행정 조치를 받은 사건으로, 국내외에서 흔치 않은 일이라 신기할 수 있다. 다만 비극적 피해자가 없고 누가 어디서 무엇을 했는지가 분명하다.",
             "result": "통과"
           }
         ]
@@ -477,69 +457,66 @@
     "final": [
       {
         "source": "Hindustan Times",
-        "title": "6-year-old boy from Madhya Pradesh wins Toyota Fortuner with grandmother's  ₹200 lucky draw coupon",
-        "url": "https://www.hindustantimes.com/trending/6yearold-boy-from-madhya-pradesh-wins-toyota-fortuner-with-grandmothers-rs-200-lucky-draw-coupon-101793202285183.html",
-        "kind": "사람·도전",
-        "event": "india-lucky-draw-car-win",
-        "reason": "6살 아이가 조부모가 산 200루피 복권으로 고가의 자동차를 당첨된 실제 사건으로, 듣자마자 '진짜?' 할 만한 놀라운 이야기이며, 가족과 관련된 훈훈한 내용이라 직장인 점심시간 가벼운 읽을거리로 적합하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Metro",
-        "title": "‘I love hanging out in cemeteries – some say it’s morbid but I think they’re beautiful’",
-        "url": "https://metro.co.uk/2026/10/28/i-love-hanging-cemeteries-say-morbid-think-beautiful-29744785/",
-        "kind": "사람·도전",
-        "event": "woman-cemetery-visits",
-        "reason": "평범하지 않은 취미로 수백 번 낯선 이들의 묘지를 방문한 여성의 이야기로 신기하고 흥미로워 남에게 이야기해주고 싶은 내용이다. 어디서 무슨 일을 했는지도 분명하다.",
+        "title": "Man who staged sit-in at Kochi airport after iPhone 18 Pro seized plans to approach court",
+        "url": "https://www.hindustantimes.com/trending/man-who-staged-sit-in-at-kochi-airport-after-iphone-18-pro-seized-plans-to-approach-court-101793182981039.html",
+        "kind": "법·행정",
+        "event": "india-iphone18pro-airport-protest-2024",
+        "reason": "실제로 일어난 독특한 사건으로, iPhone 18 Pro를 빼앗긴 인도인이 공항에서 시위를 벌이고 법적 대응을 준비하는 내용이 흥미롭고 신기하다. 누가, 어디서, 무엇을 했는지 분명하다.",
         "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "Bahadur, the leopard king of Jhalana, wears his battle scars with pride",
-        "url": "https://www.hindustantimes.com/specials/bahadur-the-leopard-wears-his-battle-scars-101793170214724.html",
-        "kind": "동물",
-        "event": "leopard-bahadur-jhalana",
-        "reason": "인도 Jhalana의 표범 바하두르가 전투 상처를 자랑스럽게 지니고 있다는 사진과 이야기로 신기하고 훈훈한 동물 이야기이다. 실제 사건이며 누가 어디서 무엇을 했는지 명확하다.",
+        "title": "Deepinder Goyal accepts man's suggestion for ‘Zomato Mehmaan mode’ to hide menu prices for guests",
+        "url": "https://www.hindustantimes.com/trending/deepinder-goyal-accepts-mans-suggestion-for-zomato-mehmaan-mode-to-hide-menu-prices-for-guests-101793243806926.html",
+        "kind": "법·행정",
+        "event": "zomato-mehmaan-mode-suggestion-2024",
+        "reason": "실제로 일어난 일이며, 유명 인사가 고객 아이디어를 받아들인 사례로 신기하고 재미있다. 누가, 어디서, 무엇을 했는지 명확하다.",
         "result": "선정"
       },
+      {
+        "source": "Hindustan Times",
+        "title": "Nikhil Kamath advises 17-year-olds to build on emerging AI technologies: 'I would build on the application layer'",
+        "url": "https://www.hindustantimes.com/trending/nikhil-kamath-advises-17-year-olds-to-build-on-emerging-ai-technologies-i-would-build-on-the-application-layer-101793190434455.html",
+        "kind": "사람·도전",
+        "event": "nikhil-kamath-ai-advice-2024",
+        "reason": "젊은 세대에게 유익한 조언으로, AI 시대에 맞는 교육 방향을 제시해 흥미롭고 이야기할 만하다. 누가, 어디서, 무엇을 했는지 명확하다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Mukesh Ambani gets teary-eyed during Isha and Anant Ambani's speeches at Jio Platforms listing",
+        "url": "https://www.hindustantimes.com/trending/mukesh-ambani-gets-teary-eyed-during-isha-and-anant-ambanis-speeches-at-jio-platforms-listing-101793173443440.html",
+        "kind": "사람·도전",
+        "event": "ambani-family-jio-listing-2024",
+        "reason": "실제로 일어난 일이며, 유명 기업가 가족의 감동적인 순간으로 훈훈하고 이야기할 만하다. 누가, 어디서, 무엇을 했는지 분명하다.",
+        "result": "매체 상한"
+      }
+    ],
+    "final_out": [
       {
         "source": "Hindustan Times",
         "title": "UAE President examines stitches on Smit Machchhar's head during award ceremony",
         "url": "https://www.hindustantimes.com/trending/uae-president-says-i-want-to-train-you-how-to-fight-to-smit-machchhar-inspects-his-stitches-101793238858918.html",
-        "kind": "사람·도전",
-        "event": "uae-president-award-smit-machchhar",
-        "reason": "UAE 대통령이 상을 수여하며 수상자의 상처를 살펴본 실제 사건으로, 신기하고 훈훈한 순간을 담았다. 누가 어디서 무엇을 했는지 분명하다.",
-        "result": "매체 상한"
+        "kind": "사람·도전"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Why Gen Z and Millennials tie 'cute' with connection – not looks",
+        "url": "https://www.dailystar.co.uk/news/weird-news/gen-z-millennials-tie-cute-37818106",
+        "kind": "사람·도전"
       },
       {
         "source": "Hindustan Times",
-        "title": "Man who staged sit-in at Kochi airport after iPhone 18 Pro seized plans to approach court",
-        "url": "https://www.hindustantimes.com/trending/man-who-staged-sit-in-at-kochi-airport-after-iphone-18-pro-seized-plans-to-approach-court-101793182981039.html",
-        "kind": "법·행정",
-        "event": "iphone-18-pro-seizure-kochi",
-        "reason": "iPhone 18 Pro 압수에 항의하며 공항에서 시위를 벌인 인도인 남성의 실제 사건으로, 신기하고 흥미로운 이야기이다. 누가 어디서 무엇을 했는지 명확하다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "서울신문",
-        "title": "“아버님~ 손주 안기 전 허락받으세요” 조부모 혐오 논란 ‘발칵’…논란된 광고 결국 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500019",
-        "kind": "법·행정",
-        "event": "ireland-grandparent-hug-consent-ad",
-        "reason": "아일랜드에서 조부모가 손주를 안기 전에 동의를 구해야 한다는 공익광고가 조부모 혐오 논란으로 삭제된 실제 사건이다. 사회적 이슈지만 비극적이지 않고 신기하거나 웃긴 요소가 있어 이야기할 만하다.",
-        "result": "선정"
+        "title": "Top UAE honour for Captain Smit Machchhar: Indians who have received Order of Zayed II before flydubai pilot",
+        "url": "https://www.hindustantimes.com/trending/top-uae-honour-for-captain-smit-machchhar-indians-who-have-received-order-of-zayed-ii-before-flydubai-pilot-101793181457020.html",
+        "kind": "사람·도전"
       },
       {
         "source": "Hindustan Times",
         "title": "Know Your Neighbourhood: The story of how Delhi’s Majnu ka Tila got its name",
         "url": "https://www.hindustantimes.com/trending/know-your-neighbourhood-the-story-of-how-delhi-s-majnu-ka-tila-got-its-name-101793244391453.html",
-        "kind": "발견·장소",
-        "event": "delhi-majnu-ka-tila-origin",
-        "reason": "델리의 유명한 지역 이름 유래에 관한 이야기로, 역사적 사실에 기반한 신기한 이야기이며 누가 어디서 무엇을 했는지 분명하다. 가볍게 읽기 좋다.",
-        "result": "매체 상한"
-      }
-    ],
-    "final_out": [
+        "kind": "발견·장소"
+      },
       {
         "source": "Hindustan Times",
         "title": "Lida Bida Boda Butt dog dead; owner confirms viral pet's demise as social media mourns passing",
@@ -551,12 +528,6 @@
         "title": "Karachi Bakery among Hyderabad sweet shops facing action over hygiene violations",
         "url": "https://www.hindustantimes.com/trending/karachi-bakery-among-hyderabad-sweet-shops-facing-action-over-hygiene-violations-101793253286480.html",
         "kind": "법·행정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Mukesh Ambani gets teary-eyed during Isha and Anant Ambani's speeches at Jio Platforms listing",
-        "url": "https://www.hindustantimes.com/trending/mukesh-ambani-gets-teary-eyed-during-isha-and-anant-ambanis-speeches-at-jio-platforms-listing-101793173443440.html",
-        "kind": "사람·도전"
       }
     ]
   },
@@ -564,43 +535,25 @@
   "published": [
     {
       "source": "Hindustan Times",
-      "headline": "마디아프라데시 6세 소년, 할머니가 산 200루피 복권으로 토요타 포튜너 당첨",
-      "url": "https://www.hindustantimes.com/trending/6yearold-boy-from-madhya-pradesh-wins-toyota-fortuner-with-grandmothers-rs-200-lucky-draw-coupon-101793202285183.html",
-      "kind": "사람·도전",
-      "topic": "사람",
-      "event": "india-lucky-draw-car-win",
-      "reason": "6살 아이가 조부모가 산 200루피 복권으로 고가의 자동차를 당첨된 실제 사건으로, 듣자마자 '진짜?' 할 만한 놀라운 이야기이며, 가족과 관련된 훈훈한 내용이라 직장인 점심시간 가벼운 읽을거리로 적합하다.",
-      "why": "복권은 Shri Sarkar Dham에서 열린 추첨 행사에서 판매되었으며, 토요타 포튜너의 인도르 온로드 가격은 약 413만 루피부터 607만 루피까지 다양합니다."
-    },
-    {
-      "source": "Metro",
-      "headline": "미국 여성, 수백 곳 묘지 방문하며 잊힌 이야기 발굴",
-      "url": "https://metro.co.uk/2026/10/28/i-love-hanging-cemeteries-say-morbid-think-beautiful-29744785/",
-      "kind": "사람·도전",
-      "topic": "사람",
-      "event": "woman-cemetery-visits",
-      "reason": "평범하지 않은 취미로 수백 번 낯선 이들의 묘지를 방문한 여성의 이야기로 신기하고 흥미로워 남에게 이야기해주고 싶은 내용이다. 어디서 무슨 일을 했는지도 분명하다.",
-      "why": "트레이시는 대학 시절 신문사 인턴으로 부고를 작성하며 묘지 기록에 관심을 갖게 되었고, 이후 자원봉사로 묘지 사진을 촬영하는 웹사이트를 통해 활동을 시작했습니다."
+      "headline": "아이폰 18 프로 압수된 인도인, 코치 공항 시위 후 법원에 소송 제기 계획",
+      "url": "https://www.hindustantimes.com/trending/man-who-staged-sit-in-at-kochi-airport-after-iphone-18-pro-seized-plans-to-approach-court-101793182981039.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/10/28/1600x900/logo/iPhone_18_Pro_Kochi_Airport_Sit_In_Kerala_man_1793184550433_dgvF_1793184550643_AqVe_7877f09a-df9f-4ded-af6d-a3550b9c8f09_pA9o.jpg",
+      "kind": "법·행정",
+      "topic": "법·행정",
+      "event": "india-iphone18pro-airport-protest-2024",
+      "reason": "실제로 일어난 독특한 사건으로, iPhone 18 Pro를 빼앗긴 인도인이 공항에서 시위를 벌이고 법적 대응을 준비하는 내용이 흥미롭고 신기하다. 누가, 어디서, 무엇을 했는지 분명하다.",
+      "why": "인도 관세법 제81조에 따르면 세관은 수하물의 내용 신고, 검사, 관세 평가 및 통관을 규정할 수 있으나, 개인 물품의 신품과 중고품을 구분하지 않습니다."
     },
     {
       "source": "Hindustan Times",
-      "headline": "인도 자이푸르 숲의 13세 표범 바하두르, 영토 회복 중",
-      "url": "https://www.hindustantimes.com/specials/bahadur-the-leopard-wears-his-battle-scars-101793170214724.html",
-      "kind": "동물",
-      "topic": "동물",
-      "event": "leopard-bahadur-jhalana",
-      "reason": "인도 Jhalana의 표범 바하두르가 전투 상처를 자랑스럽게 지니고 있다는 사진과 이야기로 신기하고 훈훈한 동물 이야기이다. 실제 사건이며 누가 어디서 무엇을 했는지 명확하다.",
-      "why": "표범들은 영토 싸움 중 심하게 다치면 잠시 은둔하며, 바하두르가 영토를 확장할 수 있었던 것은 경쟁 표범 라나가 최근 보이지 않았기 때문입니다."
-    },
-    {
-      "source": "서울신문",
-      "headline": "아일랜드 조부모 포옹 동의 강조 광고, 혐오 논란에 삭제",
-      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500019",
+      "headline": "딥인더 고얄, '조마토 메흐만 모드' 아이디어 수용해 메뉴 가격 숨기는 기능 도입",
+      "url": "https://www.hindustantimes.com/trending/deepinder-goyal-accepts-mans-suggestion-for-zomato-mehmaan-mode-to-hide-menu-prices-for-guests-101793243806926.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/10/29/1600x900/logo/Deepinder_Goyal_Zomato_Feature_Mehmaan_Mode_Viral_1793244456227_qQ8d_1793244456439_uExJ_f7914803-90a7-4edd-ab10-7a5bf1c83182_vlUk.png",
       "kind": "법·행정",
-      "topic": "법·행정",
-      "event": "ireland-grandparent-hug-consent-ad",
-      "reason": "아일랜드에서 조부모가 손주를 안기 전에 동의를 구해야 한다는 공익광고가 조부모 혐오 논란으로 삭제된 실제 사건이다. 사회적 이슈지만 비극적이지 않고 신기하거나 웃긴 요소가 있어 이야기할 만하다.",
-      "why": "이 광고는 아일랜드 법무부의 재정 지원을 받은 동의 교육 캠페인 ‘위 콘센트(We-Consent)’의 일환으로, 일상에서 동의의 중요성을 알리기 위해 제작됐습니다."
+      "topic": "사람",
+      "event": "zomato-mehmaan-mode-suggestion-2024",
+      "reason": "실제로 일어난 일이며, 유명 인사가 고객 아이디어를 받아들인 사례로 신기하고 재미있다. 누가, 어디서, 무엇을 했는지 명확하다.",
+      "why": "이 기능은 특히 명절 시즌에 호스트와 손님 모두가 가격을 두고 느끼는 어색함과 망설임을 줄이기 위해 제안되었습니다."
     }
   ]
 }

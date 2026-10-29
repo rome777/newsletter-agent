@@ -1,0 +1,575 @@
+{
+  "at": "2026-10-29T15:50:37",
+  "sent": "sent",
+  "log": [
+    "① 수집   24시간 time window · 64건 · 소스 7곳 · 응답 없음 ['Indian Express']",
+    "② 선별   64 → 홍보 제외 63 → 라벨 제외 22 → 예선 2조 10 → 5건 + 예비 2",
+    "   선정 [Good News Network] Bizarre Rescue Sees Divers Save Kangaroo That Foun — 호주에서 스쿠버 다이버들이 바다 한 마일 이상 떨어진 곳에서 캥거루를 구조한 실제 사건으로, 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고 훈훈한 이야기입니다. 누가, 어디서, 무엇을 했는지가 명확히 나와 있어 직장인들이 점심시간에 가볍게 읽기 좋습니다.",
+    "   선정 [Daily Star] Man trots through McDonald's Drive-Thru on his hor — 영국에서 한 남성이 말 타고 맥도날드 드라이브 스루를 이용한 사건으로, 직원들의 따뜻한 반응이 훈훈한 이야기입니다. 실제 사건이며, 웃기고 남에게 이야기해주고 싶은 내용입니다.",
+    "   선정 [Hindustan Times] In Bengaluru, over 200 devotees bring old religiou — 인도 벵갈루루에서 200명 이상의 신도들이 오래된 종교 사진과 우상을 존중하는 방식으로 폐기하기 위해 모인 실제 행사로, 훈훈하고 신기한 문화적 이야기입니다.",
+    "   선정 [Hindustan Times] US streamer Lacy faces $12,000 food bill in Japan  — 일본에서 미국 스트리머가 라이브 방송 중 식당 QR코드가 노출되어 12,000달러 음식값을 청구받은 사건으로, 웃기고 신기한 해외 일화입니다.",
+    "   선정 [Metro] A giant ball of 2,800,000 eels is having an orgy o — 호주 해안에서 280만 마리의 장어가 모여 번식하는 자연 현상으로, 신기하고 흥미로운 자연 이야기입니다.",
+    "   예비 [Daily Star] Chilling burial ground found under major road - de — 실제로 영국 노스요크셔에서 고고학자들이 발견한 독특한 고분지에 관한 기사로, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고 흥미롭습니다. 누가, 어디서, 무엇을 했는지가 분명히 나와 있으며, 역사적이고 신비로운 이야기라 직장인들이 점심시간에 가볍게 읽기 좋습니다.",
+    "   예비 [Good News Network] Good News in History, October 28 — 미국 세인트루이스의 게이트웨이 아치 완공은 실제로 일어난 역사적 사건이며, 높고 독특한 건축물에 관한 이야기로 직장인들이 점심시간에 흥미롭게 읽을 수 있는 내용입니다. '진짜?'라는 반응을 유발할 정도로 신기하고, 누군가에게 이야기해주기 좋은 훈훈한 역사적 사실입니다.",
+    "④ 검수   7 → 5건",
+    "⑤ 발행   5건 · sent"
+  ],
+  "selection": {
+    "candidates": 64,
+    "already_sent": [],
+    "promo": [
+      {
+        "source": "Vice",
+        "title": "Daily Horoscope: October 29, 2026",
+        "url": "https://www.vice.com/en/article/daily-horoscope-october-29-2026/",
+        "kind": null
+      }
+    ],
+    "labels": {
+      "사람·도전": 13,
+      "일반 뉴스": 20,
+      "발견·장소": 4,
+      "동물": 4,
+      "법·행정": 7,
+      "비극·범죄": 14,
+      "연예·운세·쇼핑": 1
+    },
+    "label_dropped": [
+      {
+        "source": "Daily Star",
+        "title": "Why Gen Z and Millennials tie 'cute' with connection – not looks",
+        "url": "https://www.dailystar.co.uk/news/weird-news/gen-z-millennials-tie-cute-37818106",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Andy Burnham forced to break silence as public demands answers on one nation",
+        "url": "https://www.dailystar.co.uk/news/latest-news/andy-burnham-forced-break-silence-37817799",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Fact check: Parody account’s viral post falsely claims singer R Kelly has passed away, Grok debunks rumor",
+        "url": "https://www.hindustantimes.com/trending/us/fact-check-parody-account-s-viral-post-falsely-claims-singer-r-kelly-has-passed-away-grok-debunks-rumor-101793236763890.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Microsoft offered buyouts to 60,000 employees. It expects only 3,000 to accept",
+        "url": "https://www.hindustantimes.com/trending/microsoft-offered-buyouts-to-60-000-employees-it-expects-only-3-000-to-accept-101793238920378.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "UK sees spike in Google Searches for emergency supplies, bunker-building after government updates 'be ready checklist'",
+        "url": "https://www.hindustantimes.com/trending/uk-sees-spike-in-google-searches-for-emergency-supplies-bunker-building-after-government-updates-be-ready-checklist-101793196012285.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Nikhil Kamath advises 17-year-olds to build on emerging AI technologies: 'I would build on the application layer'",
+        "url": "https://www.hindustantimes.com/trending/nikhil-kamath-advises-17-year-olds-to-build-on-emerging-ai-technologies-i-would-build-on-the-application-layer-101793190434455.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Keralam police officer booked for stealing lost Redmi phone, selling it for  ₹1,500",
+        "url": "https://www.hindustantimes.com/trending/keralam-police-officer-booked-for-stealing-lost-redmi-phone-selling-it-for-1500-101793181667343.html",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Elon Musk’s AI Grok unveils first 'Odyssey' chapter in step toward full-length series",
+        "url": "https://www.hindustantimes.com/trending/elon-musk-s-ai-grok-unveils-first-odyssey-chapter-in-step-toward-full-length-series-101793177264978.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "‘Why were you recording me?’ Bengaluru woman confronts man at metro station, FIR filed",
+        "url": "https://www.hindustantimes.com/trending/bengaluru-woman-confronts-man-at-namma-metro-station-for-allegedly-filming-her-fir-filed-101793170346711.html",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Vice",
+        "title": "Demi Lovato Hospitalized After Suspected Reaction to Sushi or Passionfruit",
+        "url": "https://www.vice.com/en/article/demi-lovato-hospitalized-after-suspected-reaction-to-sushi-or-passionfruit/",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Vice",
+        "title": "Doctor Found 11 Parasitic Worms Living in a Man’s Eye (And Some Were Pregnant)",
+        "url": "https://www.vice.com/en/article/doctor-found-11-parasitic-worms-living-in-a-mans-eye-and-some-were-pregnant/",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "Vice",
+        "title": "GTA 6 Edge Magazine Reveals New Screenshots and Gameplay Features",
+        "url": "https://www.vice.com/en/article/gta-6-edge-magazine-new-screenshots-features/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "Your Dog Might Be Carrying a Human Mouth Parasite. But Is It Dangerous?",
+        "url": "https://www.vice.com/en/article/your-dog-might-be-carrying-a-human-mouth-parasite-but-is-it-dangerous/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "Scientists Turned Toad Venom Into a Nasal Spray to Fight Depression. But Does It Work?",
+        "url": "https://www.vice.com/en/article/scientists-turned-toad-venom-into-a-nasal-spray-to-fight-depression-but-does-it-work/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "Are the Rumors About ‘Star Wars Battlefront 3’ True? Here’s Everything We Know.",
+        "url": "https://www.vice.com/en/article/are-the-rumors-about-star-wars-battlefront-3-true-heres-everything-we-know/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "The Entire ‘Tomb Raider’ Survivor Trilogy Is Finally Available on Nintendo Switch 2",
+        "url": "https://www.vice.com/en/article/the-entire-tomb-raider-survivor-trilogy-is-finally-available-on-nintendo-switch-2/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "6 Real Historical Figures Who Appeared in the ‘Assassin’s Creed’ Games",
+        "url": "https://www.vice.com/en/article/6-real-historical-figures-who-appeared-in-the-assassins-creed-games/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "NFL Commissioner Roger Goodell Says ‘GOAT’ Jay-Z Was ‘Putting Off’ Super Bowl Halftime Show Until Now",
+        "url": "https://www.vice.com/en/article/nfl-commissioner-roger-goodell-says-goat-jay-z-was-putting-off-super-bowl-halftime-show-until-now/",
+        "kind": "연예·운세·쇼핑",
+        "result": "버림(연예·운세·쇼핑)"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Nature-Inspired Tech Prevents Microplastics Entering Atlantic Ocean Through Wastewater",
+        "url": "https://www.goodnewsnetwork.org/nature-inspired-tech-prevents-microplastics-entering-atlantic-ocean-through-wastewater/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Etsy Cracks Down on AI-Generated Content to Protect Buyers from Barrage of Slop",
+        "url": "https://www.goodnewsnetwork.org/etsy-cracks-down-on-ai-generated-content-to-protect-buyers-from-barrage-of-slop/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Stranger Anonymously Pays $420 Lunch Tab for 27 Disabled Residents and Caregivers",
+        "url": "https://www.goodnewsnetwork.org/anonymously-pays-dinner-tab-for-27-disability-staff-in-south-korea/",
+        "kind": "사람·도전",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“항공모함까지 떴다”…코앞에 몰려든 중국 군함 53척에 대만이 발끈한 이유 [밀리터리노트]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500205",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“‘니하오’라고 안 했는데요” ‘손흥민 인종차별’ 뭇매 맞았던 팬의 반전 “내가 한 말은”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500046",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "발코니서 침 뱉은 60대男 감전사…침줄기 타고 온 고압 전류에 숨져 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500042",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“닭 목·뼈 갈아 소시지 만들었다”…中 업체 “속 채운 음식 적게 먹어라”[월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500004",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "(영상)“남편 따라 호텔 방 들어간 女, 5초 만에 의문사”…CCTV 공개에 ‘발칵’[월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261028500408",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "3년간 묻혀 있던 ‘그 영상’…日 40대 교사 성인물 출연, 결국 꼬리 잡혔다 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261028500401",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "[포착] “사망자 전원 북한인” 사고 났는데 러 ‘쉬쉬’…‘쾅쾅쾅’ 처참한 현장",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261028500343",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "암 환자 괴롭히는 식욕부진·근육손실 막는 물질 찾았다",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500164",
+        "kind": "발견·장소",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“턱에서 ‘딸깍’ 소리 나는데 괜찮을까?”…턱관절 장애의 원인과 치료법",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500163",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "경주시, 세계유산도시 이사 도시로 선정…“국제 협력 확대”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500158",
+        "kind": "법·행정",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "천안서 30대 남성이 20대 일본 여성 살해 후 도주…체포",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500156",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“표본도 엉터리, 비용 계산도 왜곡”…‘검체검사 수가 인하’에 의료계 거센 반발",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500153",
+        "kind": "법·행정",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "포스코 포항제철소, 부서 간 협업으로 설비 개선 및 조업 안정성 향상",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500151",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "그냥 나왔다더니…대실 20분 만에 환불, 객실엔 샤워 흔적 [사연잇슈]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500139",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "본지 ‘소녀에게’, 아동학대예방 우수보도 기자상 수상",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500137",
+        "kind": "사람·도전",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "금 거래로 현금 만들어 해외 송금…보이스피싱 범죄수익 세탁 일당 무더기 검거",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500134",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      },
+      {
+        "source": "서울신문",
+        "title": "APEC 1주년 앞둔 경주, 보문관광단지서 기념행사 열린다",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500131",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "민사 재판서 위증 혐의 30대 “고의성 없다” 불송치",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500130",
+        "kind": "법·행정",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "밥퍼에 영상자서전까지...쪼그라드는 김영환표 사업들",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500128",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“제가 사람을 죽여 자수하려고 합니다” 알고 보니 ‘허위 신고’…50대 검거",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500127",
+        "kind": "비극·범죄",
+        "result": "버림(비극·범죄)"
+      }
+    ],
+    "heats": [
+      {
+        "size": 11,
+        "picks": [
+          {
+            "source": "Hindustan Times",
+            "title": "6-year-old boy from Madhya Pradesh wins Toyota Fortuner with grandmother's  ₹200 lucky draw coupon",
+            "url": "https://www.hindustantimes.com/trending/6yearold-boy-from-madhya-pradesh-wins-toyota-fortuner-with-grandmothers-rs-200-lucky-draw-coupon-101793202285183.html",
+            "kind": "사람·도전",
+            "event": "india-lucky-draw-car-win",
+            "reason": "6살 어린이가 조부모가 산 200루피 복권으로 큰 차를 당첨된 실제 사건으로, 듣자마자 '진짜?'라는 반응이 나오고 주변에 이야기하기 좋은 신기한 이야기이다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Metro",
+            "title": "A giant ball of 2,800,000 eels is having an orgy off the coast of Australia",
+            "url": "https://metro.co.uk/2026/10/28/a-giant-ball-2-800-000-eels-orgy-off-coast-australia-29745511/",
+            "kind": "동물",
+            "event": "australia-eel-orgy",
+            "reason": "호주 해안에서 280만 마리의 장어가 모여 번식하는 독특하고 신기한 자연 현상으로, 직장인들이 점심시간에 가볍게 읽기 좋은 흥미로운 이야기이다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "Chilling burial ground found under major road - decapitated heads at feet and coins stuffed in mouths",
+            "url": "https://www.dailystar.co.uk/news/uk-news/chilling-burial-ground-found-under-37813505",
+            "kind": "발견·장소",
+            "event": "uk-burial-ground-ritual",
+            "reason": "영국 노스요크셔에서 발견된 의식적인 고대 매장지로, 머리가 잘린 시신과 입에 동전을 넣은 관습 등 충격적이고 신기한 고고학적 발견이다. 실제 사건이며 누가, 어디서, 무엇을 했는지가 명확하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "US streamer Lacy faces $12,000 food bill in Japan after viewers spot restaurant QR code during livestream",
+            "url": "https://www.hindustantimes.com/trending/us-streamer-lacy-faces-12-000-food-bill-in-japan-after-viewers-spot-restaurant-qr-code-during-livestream-101793251141117.html",
+            "kind": "사람·도전",
+            "event": "japan-streamer-food-bill",
+            "reason": "미국 스트리머가 일본에서 라이브 방송 중 식당 QR코드가 노출되어 1만 2천 달러 음식값을 내야 했던 황당한 실제 사건으로, 웃기고 신기해서 주변에 이야기하기 좋다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "UAE President examines stitches on Smit Machchhar's head during award ceremony",
+            "url": "https://www.hindustantimes.com/trending/uae-president-says-i-want-to-train-you-how-to-fight-to-smit-machchhar-inspects-his-stitches-101793238858918.html",
+            "kind": "사람·도전",
+            "event": "uae-president-award-pilot",
+            "reason": "UAE 대통령이 인도인 파일럿 스밋 마차르의 상처를 직접 살피며 상을 수여한 훈훈한 실제 사건으로, 누가, 어디서, 무엇을 했는지가 명확하다. 훈훈한 이야기로 공유하기 좋다.",
+            "result": "통과"
+          }
+        ]
+      },
+      {
+        "size": 11,
+        "picks": [
+          {
+            "source": "Good News Network",
+            "title": "Bizarre Rescue Sees Divers Save Kangaroo That Found Itself Over a Mile from Dry Land",
+            "url": "https://www.goodnewsnetwork.org/bizarre-rescue-sees-divers-save-kangaroo-that-found-itself-over-a-mile-from-dry-land/",
+            "kind": "동물",
+            "event": "australia-kangaroo-sea-rescue",
+            "reason": "호주에서 스쿠버 다이버들이 바다 한 마일 이상 떨어진 곳에서 캥거루를 구조한 이야기로, 실제로 일어난 일이며 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고 흥미롭다. 누가 어디서 무엇을 했는지 분명히 나온다.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "Man trots through McDonald's Drive-Thru on his horse and staff's reaction is heartwarming",
+            "url": "https://www.dailystar.co.uk/news/weird-news/man-trots-through-mcdonalds-drive-37819053",
+            "kind": "사람·도전",
+            "event": "man-horse-mcdonalds-drive-thru",
+            "reason": "한 남성이 말 타고 맥도날드 드라이브 스루에 나타난 이야기로, 웃기고 훈훈해서 주변에 말해주고 싶은 내용이다. 누가 어디서 무엇을 했는지 명확하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "In Bengaluru, over 200 devotees bring old religious photos, idols to a temple for respectful disposal",
+            "url": "https://www.hindustantimes.com/trending/in-bengaluru-over-200-devotees-bring-old-religious-photos-idols-to-a-temple-for-respectful-disposal-101793248801738.html",
+            "kind": "사람·도전",
+            "event": "india-temple-idol-disposal",
+            "reason": "인도 벵갈루루에서 200명 이상의 신도들이 오래된 종교 사진과 우상을 존중하는 방식으로 폐기하기 위해 모인 실제 행사로, 신기하고 훈훈한 이야기이며 누가 어디서 무엇을 했는지 분명하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Video: Mexican TV host kicks drone during live show, accidentally hits model in face",
+            "url": "https://www.hindustantimes.com/trending/video-mexican-tv-host-kicks-drone-during-live-show-accidentally-hits-model-in-face-101793199969346.html",
+            "kind": "사람·도전",
+            "event": "mexico-tv-drone-incident",
+            "reason": "멕시코 TV 진행자가 라이브 방송 중 드론을 차다가 모델 얼굴을 실수로 때린 사건으로, 실제 일어난 일이며 웃기고 신기한 사건이다. 누가 어디서 무엇을 했는지 명확하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Good News Network",
+            "title": "Good News in History, October 28",
+            "url": "https://www.goodnewsnetwork.org/events061028/",
+            "kind": "발견·장소",
+            "event": "usa-gateway-arch-completion",
+            "reason": "미국 미주리주 세인트루이스의 게이트웨이 아치 완공 61주년을 다룬 역사적 사실로, 실제로 일어난 일이며 흥미로운 역사적 이야기이다. 누가 어디서 무엇을 했는지 분명히 나온다.",
+            "result": "통과"
+          }
+        ]
+      }
+    ],
+    "final": [
+      {
+        "source": "Good News Network",
+        "title": "Bizarre Rescue Sees Divers Save Kangaroo That Found Itself Over a Mile from Dry Land",
+        "url": "https://www.goodnewsnetwork.org/bizarre-rescue-sees-divers-save-kangaroo-that-found-itself-over-a-mile-from-dry-land/",
+        "kind": "동물",
+        "event": "australia-kangaroo-sea-rescue",
+        "reason": "호주에서 스쿠버 다이버들이 바다 한 마일 이상 떨어진 곳에서 캥거루를 구조한 실제 사건으로, 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고 훈훈한 이야기입니다. 누가, 어디서, 무엇을 했는지가 명확히 나와 있어 직장인들이 점심시간에 가볍게 읽기 좋습니다.",
+        "result": "선정"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Man trots through McDonald's Drive-Thru on his horse and staff's reaction is heartwarming",
+        "url": "https://www.dailystar.co.uk/news/weird-news/man-trots-through-mcdonalds-drive-37819053",
+        "kind": "사람·도전",
+        "event": "uk-mcdonalds-horse-drive-thru",
+        "reason": "영국에서 한 남성이 말 타고 맥도날드 드라이브 스루를 이용한 사건으로, 직원들의 따뜻한 반응이 훈훈한 이야기입니다. 실제 사건이며, 웃기고 남에게 이야기해주고 싶은 내용입니다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "In Bengaluru, over 200 devotees bring old religious photos, idols to a temple for respectful disposal",
+        "url": "https://www.hindustantimes.com/trending/in-bengaluru-over-200-devotees-bring-old-religious-photos-idols-to-a-temple-for-respectful-disposal-101793248801738.html",
+        "kind": "사람·도전",
+        "event": "india-bengaluru-temple-idol-disposal",
+        "reason": "인도 벵갈루루에서 200명 이상의 신도들이 오래된 종교 사진과 우상을 존중하는 방식으로 폐기하기 위해 모인 실제 행사로, 훈훈하고 신기한 문화적 이야기입니다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "US streamer Lacy faces $12,000 food bill in Japan after viewers spot restaurant QR code during livestream",
+        "url": "https://www.hindustantimes.com/trending/us-streamer-lacy-faces-12-000-food-bill-in-japan-after-viewers-spot-restaurant-qr-code-during-livestream-101793251141117.html",
+        "kind": "사람·도전",
+        "event": "japan-streamer-qr-code-food-bill",
+        "reason": "일본에서 미국 스트리머가 라이브 방송 중 식당 QR코드가 노출되어 12,000달러 음식값을 청구받은 사건으로, 웃기고 신기한 해외 일화입니다.",
+        "result": "선정"
+      },
+      {
+        "source": "Metro",
+        "title": "A giant ball of 2,800,000 eels is having an orgy off the coast of Australia",
+        "url": "https://metro.co.uk/2026/10/28/a-giant-ball-2-800-000-eels-orgy-off-coast-australia-29745511/",
+        "kind": "동물",
+        "event": "australia-eel-orgy",
+        "reason": "호주 해안에서 280만 마리의 장어가 모여 번식하는 자연 현상으로, 신기하고 흥미로운 자연 이야기입니다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "6-year-old boy from Madhya Pradesh wins Toyota Fortuner with grandmother's  ₹200 lucky draw coupon",
+        "url": "https://www.hindustantimes.com/trending/6yearold-boy-from-madhya-pradesh-wins-toyota-fortuner-with-grandmothers-rs-200-lucky-draw-coupon-101793202285183.html",
+        "kind": "사람·도전",
+        "event": "india-lucky-draw-car-win",
+        "reason": "인도에서 6세 소년이 할머니가 산 200루피 복권으로 토요타 포튜너를 당첨된 실제 사건으로, 훈훈하고 놀라운 이야기입니다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "UAE President examines stitches on Smit Machchhar's head during award ceremony",
+        "url": "https://www.hindustantimes.com/trending/uae-president-says-i-want-to-train-you-how-to-fight-to-smit-machchhar-inspects-his-stitches-101793238858918.html",
+        "kind": "사람·도전",
+        "event": "uae-president-award-smit-machchhar",
+        "reason": "UAE 대통령이 상을 받은 인도의 스미트 마차르의 상처를 직접 살피는 모습이 담긴 실제 사건으로, 훈훈하고 신기한 해외 뉴스입니다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Video: Mexican TV host kicks drone during live show, accidentally hits model in face",
+        "url": "https://www.hindustantimes.com/trending/video-mexican-tv-host-kicks-drone-during-live-show-accidentally-hits-model-in-face-101793199969346.html",
+        "kind": "사람·도전",
+        "event": "mexico-tv-host-drone-accident",
+        "reason": "멕시코 TV 진행자가 라이브 방송 중 드론을 발로 차다가 모델 얼굴을 맞힌 사건으로, 웃기고 신기한 해외 방송 사고입니다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Chilling burial ground found under major road - decapitated heads at feet and coins stuffed in mouths",
+        "url": "https://www.dailystar.co.uk/news/uk-news/chilling-burial-ground-found-under-37813505",
+        "kind": "발견·장소",
+        "event": "uk-north-yorkshire-archaeology-burial",
+        "reason": "실제로 영국 노스요크셔에서 고고학자들이 발견한 독특한 고분지에 관한 기사로, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고 흥미롭습니다. 누가, 어디서, 무엇을 했는지가 분명히 나와 있으며, 역사적이고 신비로운 이야기라 직장인들이 점심시간에 가볍게 읽기 좋습니다.",
+        "result": "예비"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Good News in History, October 28",
+        "url": "https://www.goodnewsnetwork.org/events061028/",
+        "kind": "발견·장소",
+        "event": "gateway-arch-completion-1965",
+        "reason": "미국 세인트루이스의 게이트웨이 아치 완공은 실제로 일어난 역사적 사건이며, 높고 독특한 건축물에 관한 이야기로 직장인들이 점심시간에 흥미롭게 읽을 수 있는 내용입니다. '진짜?'라는 반응을 유발할 정도로 신기하고, 누군가에게 이야기해주기 좋은 훈훈한 역사적 사실입니다.",
+        "result": "예비"
+      }
+    ],
+    "final_out": []
+  },
+  "rejected": [],
+  "published": [
+    {
+      "source": "Good News Network",
+      "headline": "호주 남부 바다에서 스쿠버 다이버와 선원들이 바다에 빠진 캥거루 구조",
+      "url": "https://www.goodnewsnetwork.org/bizarre-rescue-sees-divers-save-kangaroo-that-found-itself-over-a-mile-from-dry-land/",
+      "kind": "동물",
+      "topic": "동물",
+      "event": "australia-kangaroo-sea-rescue",
+      "reason": "호주에서 스쿠버 다이버들이 바다 한 마일 이상 떨어진 곳에서 캥거루를 구조한 실제 사건으로, 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고 훈훈한 이야기입니다. 누가, 어디서, 무엇을 했는지가 명확히 나와 있어 직장인들이 점심시간에 가볍게 읽기 좋습니다.",
+      "why": "캥거루가 바다로 나간 이유는 명확하지 않으나, 캥거루가 바다 근처까지 가는 경우가 있고 때때로 파도에 밀려 구조가 필요한 상황이 발생하기 때문입니다."
+    },
+    {
+      "source": "Daily Star",
+      "headline": "말 타고 맥도날드 드라이브스루 방문한 남성, 직원들의 따뜻한 반응",
+      "url": "https://www.dailystar.co.uk/news/weird-news/man-trots-through-mcdonalds-drive-37819053",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "uk-mcdonalds-horse-drive-thru",
+      "reason": "영국에서 한 남성이 말 타고 맥도날드 드라이브 스루를 이용한 사건으로, 직원들의 따뜻한 반응이 훈훈한 이야기입니다. 실제 사건이며, 웃기고 남에게 이야기해주고 싶은 내용입니다.",
+      "why": "맥도날드 공식 규정상 말은 드라이브스루 이용이 금지되어 있으나, 일부 지점에서는 예외적으로 말을 타고 방문한 손님을 환영하고 말에게 간식을 제공하기도 합니다."
+    },
+    {
+      "source": "Hindustan Times",
+      "headline": "방갈로르 사원에서 200명 이상 신도, 오래된 종교 사진과 우상을 존중하며 처리하는 행사 참여",
+      "url": "https://www.hindustantimes.com/trending/in-bengaluru-over-200-devotees-bring-old-religious-photos-idols-to-a-temple-for-respectful-disposal-101793248801738.html",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "india-bengaluru-temple-idol-disposal",
+      "reason": "인도 벵갈루루에서 200명 이상의 신도들이 오래된 종교 사진과 우상을 존중하는 방식으로 폐기하기 위해 모인 실제 행사로, 훈훈하고 신기한 문화적 이야기입니다.",
+      "why": "이 행사는 종교적 의미가 있는 우상과 사진이 무분별하게 버려지는 문제를 해결하고, 지속 가능한 폐기 방식을 알리기 위해 시작되었습니다."
+    },
+    {
+      "source": "Hindustan Times",
+      "headline": "미국 스트리머 레이시, 일본서 QR 코드 노출로 1,200만원 음식값 부담",
+      "url": "https://www.hindustantimes.com/trending/us-streamer-lacy-faces-12-000-food-bill-in-japan-after-viewers-spot-restaurant-qr-code-during-livestream-101793251141117.html",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "japan-streamer-qr-code-food-bill",
+      "reason": "일본에서 미국 스트리머가 라이브 방송 중 식당 QR코드가 노출되어 12,000달러 음식값을 청구받은 사건으로, 웃기고 신기한 해외 일화입니다.",
+      "why": "식당의 QR 코드 주문 시스템은 테이블별로 고유하지만, 라이브 방송 중 QR 코드가 노출돼 누구나 접근할 수 있었기 때문에 시청자들이 원격으로 주문할 수 있었습니다."
+    },
+    {
+      "source": "Metro",
+      "headline": "호주 인근 해저산에서 매년 280만 마리 장어가 번식 위해 모인다",
+      "url": "https://metro.co.uk/2026/10/28/a-giant-ball-2-800-000-eels-orgy-off-coast-australia-29745511/",
+      "kind": "동물",
+      "topic": "동물",
+      "event": "australia-eel-orgy",
+      "reason": "호주 해안에서 280만 마리의 장어가 모여 번식하는 자연 현상으로, 신기하고 흥미로운 자연 이야기입니다.",
+      "why": "장어들은 매년 같은 해저산으로 이동하는데, 이는 번식에 가장 적합한 장소이기 때문이며, 이 행동은 유럽 장어의 이동 습성과 유사합니다."
+    }
+  ]
+}

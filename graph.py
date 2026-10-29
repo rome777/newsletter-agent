@@ -429,6 +429,7 @@ SYS = ("당신은 해외 화제 뉴스를 한국어로 전하는 뉴스레터 �
        "- why는 '알고 보면' 한 문장. 요약에 없는 배경·이유·규칙·숫자를 원문에서 찾아 쓰세요. "
        "원문에 없는 이유를 짐작해 쓰지 마세요\n"
        "원문에 없는 숫자·이름·지명은 쓰지 마세요. 과장하거나 기사 속 사람을 놀리지 마세요.\n"
+       "돈은 원문 통화 그대로 쓰세요 (12,000달러, 50만 엔). 원화로 환산하지 마세요.\n"   # [고침] '$12,000'을 환율을 지어내 '1,200만원'으로 옮겼다
        "'충격·경악·화제다' 같은 낚시성 표현은 쓰지 마세요.\n"
        "topic은 이야기의 주인공이 무엇인지로 고르세요.\n"
        "- 동물: 동물이 주인공\n"
@@ -440,11 +441,11 @@ SYS = ("당신은 해외 화제 뉴스를 한국어로 전하는 뉴스레터 �
 class ReportIn(TypedDict):                      # 워커가 받는 것은 기사 하나뿐
     item: dict
 
-INDIAN_UNITS = re.compile(r"(\d+(?:\.\d+)?)\s*(lakh|lac|crore)s?\b", re.I)
+BIG_UNITS = re.compile(r"(\d+(?:\.\d+)?)\s*(lakh|lac|crore|million|billion)s?\b", re.I)
+UNIT = {"lakh": 10**5, "lac": 10**5, "crore": 10**7, "million": 10**6, "billion": 10**9}
 
-def expand_units(text):                         # [고침] '41.39 lakh'를 요약도 검수도 '4,139만'으로 10배 틀렸다 — 숫자로 풀어 준다
-    unit = lambda u: 10**7 if u.lower() == "crore" else 10**5
-    return INDIAN_UNITS.sub(lambda m: f"{float(m[1]) * unit(m[2]):,.0f}", text)
+def expand_units(text):                         # [고침] '41.39 lakh'를 '4,139만'으로, '1.5 million yen'을 '1,500만 엔'으로 10배 틀렸다 — 숫자로 풀어 준다
+    return BIG_UNITS.sub(lambda m: f"{float(m[1]) * UNIT[m[2].lower()]:,.0f}", text)
 
 def extract_body(url):
     d = trafilatura.fetch_url(url)
@@ -485,7 +486,8 @@ SYS_CHECK = ("세 가지를 판정하세요. country는 원문의 사건이 일�
              "1. real: 원문이 실제 사건 보도인가. 경찰·관청·당사자 인터뷰·현지 언론 등 출처가 원문에 나오면 true. "
              "풍자·창작, 출처 없는 소문, SNS 글 하나를 옮긴 것뿐이면 false.\n"
              "2. ok: 헤드라인·요약·알고 보면이 원문에서 뒷받침되는가. 원문에 없는 숫자·이름·지명·이유가 있으면 false. "
-             "번역 표현 차이는 문제가 아니지만, 환산한 숫자는 원문 숫자로 직접 다시 계산해 틀리면 false.")   # [고침] '단위 환산은 문제가 아니다'라고 적었더니 10배 틀린 환산도 통과시켰다
+             "번역 표현 차이는 문제가 아니지만, 환산한 숫자는 원문 숫자로 직접 다시 계산해 틀리면 false. "
+             "원문에 없는 통화로 바꾼 금액(달러를 원화로 등)도 false.")   # [고침] '단위 환산은 문제가 아니다'라고 적었더니 10배 틀린 환산도 통과시켰다
 
 def check(d):                                   # 요약을 쓴 호출과 따로 부른다
     user = (f"[원문]\n{d['body'][:5000]}\n\n"
@@ -495,6 +497,13 @@ def check(d):                                   # 요약을 쓴 호출과 따로
         messages=[{"role": "system", "content": SYS_CHECK},
                   {"role": "user", "content": user}],
         response_format=Verdict).choices[0].message.parsed
+
+WON_IN_TEXT = re.compile(r"\d[\d,.]*\s*[만억천]?\s*원")
+WON_IN_BODY = re.compile(r"₩|\bKRW\b|\d\s*won\b|원")
+
+def made_up_won(d):                             # [고침] '$12,000'을 '1,200만원'으로 옮긴 요약을 검수 LLM 이 통과시켰다 — 원문에 없는 원화 금액
+    return bool(WON_IN_TEXT.search(d["headline"] + d["summary"] + d.get("why", ""))) \
+        and not WON_IN_BODY.search(d["body"])
 
 def is_korean(d):                               # [고침] 24장 한글 검사를 연결한다
     return bool(re.search(r"[가-힣]", d["headline"] + d["summary"]))
@@ -510,6 +519,9 @@ def verify(s: dict) -> dict:
             break
         if not is_korean(d):
             reject(d, "영어")
+            continue
+        if made_up_won(d):
+            reject(d, "원화 환산")
             continue
         try:
             v = check(d)

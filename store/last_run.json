@@ -1,236 +1,81 @@
 {
-  "at": "2026-10-30T10:22:33",
+  "at": "2026-11-01T09:27:11",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 62건 · 소스 7곳 · 응답 없음 ['Indian Express']",
-    "② 선별   62 → 이미 보냄 제외 59 → 홍보 제외 59 → 라벨 제외 33 → 예선 2조 16 → 5건 + 예비 3",
-    "   선정 [Vice] Archaeologists Just Discovered a 4,000-Year-Old Do — 4000년 전 고대 벽돌에 새겨진 개 발자국 발견은 매우 신기하고 흥미로운 고고학적 발견으로, 국내외 독자들이 점심시간에 가볍게 읽기 좋으며 남에게도 이야기해주고 싶을 만한 내용이다.",
-    "   선정 [Hindustan Times] Indian man in UAE had nearly 2 cm-long fish bone s — 인도인이 UAE에서 2개월 넘게 기도에 생선 가시가 박혀 고생하다 의사가 제거한 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고 흥미롭다.",
-    "   선정 [Daily Star] Man goes shopping for Christmas decorations but ca — 크리스마스 장식 쇼핑 중 눈사람이 음란한 행동을 하는 장면을 목격한 이야기는 웃기고 독특해 점심시간 가볍게 읽기 좋으며 남에게도 이야기해주고 싶다.",
-    "   선정 [Hindustan Times] Bugatti CEO Mate Rimac’s Chiron stolen after he le — 부가티 CEO가 차 키를 차 안에 두고 도난당했으나 도둑이 오스트리아에서 붙잡힌 사건은 실제로 일어난 일이며, 흥미롭고 놀라운 이야기로 독자들의 관심을 끌기에 충분하다.",
-    "   선정 [Good News Network] Disabled Veteran Receives Donated Car Beautifully  — 장애 참전용사가 학생들이 정성껏 수리한 자동차를 선물받은 훈훈한 이야기로, 직장인 독자들이 점심시간에 읽으며 기분 좋아질 수 있는 따뜻한 내용이다.",
-    "   예비 [Vice] Florida Cop Allegedly Stole a Dead Man’s Identity  — 플로리다 경찰이 사망자의 신원을 도용해 몇 년간 그의 집에 살았다는 충격적인 사건으로, 실제 발생한 일이며 독자들이 '진짜?'라고 할 만한 흥미로운 이야기다.",
-    "   예비 [서울신문] [포착] “걸그룹 할래요” 키 148cm·몸무게 132kg로 무대 오른 여성…“AI 아냐” — 키 148cm, 몸무게 132kg의 일본 여성이 아이돌 오디션에 참가해 화제가 된 이야기는 독특하고 훈훈하며, 국내외 독자들이 흥미롭게 읽을 수 있다.",
-    "   예비 [Good News Network] ‘Panther Pat’ Shines a Light on the Nearly Forgott — 이 기사는 거의 잊혀진 최초의 여성 프로 미식축구 선수에 대해 다루고 있어, 처음 들으면 '진짜?'라는 반응을 불러일으킬 수 있습니다. 또한 여성 스포츠 역사에 관한 훈훈하고 흥미로운 이야기로, 직장인들이 점심시간에 가볍게 읽고 주변에 이야기해주기 좋습니다. 누가, 어디서, 무엇을 했는지 분명히 나와 있어 선정 기준에 부합합니다.",
+    "① 수집   24시간 time window · 40건 · 소스 7곳 · 응답 없음 ['Indian Express'] · 0건 ['Metro']",
+    "② 선별   40 → 홍보 제외 40 → 라벨 제외 33 → 예선 2조 16 → 5건 + 예비 3",
+    "   선정 [Hindustan Times] US man discovers $1 million winning lottery ticket — 미시간의 한 남성이 2개월 동안 지갑에 100만 달러 당첨 복권을 모르고 가지고 다닌 사건은 놀랍고 흥미로워 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지 명확하다.",
+    "   선정 [Hindustan Times] Chinese groom invites strangers to wedding after f — 중국의 24세 신랑이 가족을 잃고 하객이 적을까봐 낯선 사람들을 초대한 사연과 주변의 훈훈한 반응이 인상적이다. 누가, 어디서, 무엇을 했는지 분명하다.",
+    "   선정 [Good News Network] Girl Sitting in Dirt at Bus Stop Gets Surprise Ben — 플로리다 교사 부부가 버스 정류장에 앉아있던 소녀에게 벤치를 선물한 따뜻한 이야기로, 실제 인물과 장소가 명확해 공유하기 좋다.",
+    "   선정 [Good News Network] Retirees Who Lost Spouses Fall in Love Again at 88 — 88세의 두 은퇴자가 체육관에서 만나 다시 사랑에 빠진 훈훈한 이야기로, 누가 어디서 무엇을 했는지 분명해 읽기 좋다.",
+    "   선정 [Vice] Man Sentenced to Prison After Setting Bar on Fire  — 마요네즈가 없다는 이유로 술집에 불을 지른 남성의 황당한 사건으로, 누가 어디서 무엇을 했는지 분명해 충격적이고 흥미롭다.",
+    "   예비 [Vice] A Rare Deep-Sea Creature With a Transparent Head W — 희귀한 투명 머리 심해 생물이 카메라에 포착된 신기한 자연 이야기로, 연구자와 장소가 명확해 신기하고 공유할 만하다.",
+    "   예비 [Daily Star] Aldi training next generation of 'bossmen' with to — 어린이들이 장난감 케밥 카트와 카드 리더기를 통해 일하는 세계를 체험하는 독특한 사례로, 실제 제품이 출시되어 흥미롭고 웃음을 자아낼 수 있음. 누가, 어디서, 무엇을 했는지가 명확히 나옴.",
+    "   예비 [서울신문] ‘이 나라’ 과일 유명한데…“발톱 파내던 칼로 손질” 관광객 ‘경악’ [월드픽] — 태국에서 실제로 일어난 일로, 노점상이 주방용 칼로 자신의 발톱을 파내는 모습을 관광객이 촬영해 온라인에서 화제가 된 사건입니다. 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고, 누가 어디서 무엇을 했는지가 분명히 나와 있어 점심시간에 가볍게 읽기 좋고, 주변에 이야기하기에도 흥미로운 내용입니다.",
     "④ 검수   8 → 5건",
     "⑤ 발행   5건 · sent"
   ],
   "selection": {
-    "candidates": 62,
-    "already_sent": [
-      {
-        "source": "Hindustan Times",
-        "title": "US streamer Lacy faces $12,000 food bill in Japan after viewers spot restaurant QR code during livestream",
-        "url": "https://www.hindustantimes.com/trending/us-streamer-lacy-faces-12-000-food-bill-in-japan-after-viewers-spot-restaurant-qr-code-during-livestream-101793251141117.html",
-        "kind": null
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "In Bengaluru, over 200 devotees bring old religious photos, idols to a temple for respectful disposal",
-        "url": "https://www.hindustantimes.com/trending/in-bengaluru-over-200-devotees-bring-old-religious-photos-idols-to-a-temple-for-respectful-disposal-101793248801738.html",
-        "kind": null
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Deepinder Goyal accepts man's suggestion for ‘Zomato Mehmaan mode’ to hide menu prices for guests",
-        "url": "https://www.hindustantimes.com/trending/deepinder-goyal-accepts-mans-suggestion-for-zomato-mehmaan-mode-to-hide-menu-prices-for-guests-101793243806926.html",
-        "kind": null
-      }
-    ],
+    "candidates": 40,
+    "already_sent": [],
     "promo": [],
     "labels": {
-      "비극·범죄": 18,
-      "동물": 5,
-      "일반 뉴스": 19,
-      "연예·운세": 5,
-      "발견·장소": 4,
-      "법·행정": 2,
-      "기타": 2,
-      "사람·도전": 3,
-      "음식·물건": 1
+      "사람·도전": 11,
+      "연예·운세": 8,
+      "일반 뉴스": 7,
+      "비극·범죄": 10,
+      "발견·장소": 3,
+      "동물": 1
     },
     "label_dropped": [
       {
         "source": "Daily Star",
-        "title": "I paid for an AI search engine to find out if my family are related to any Nazis",
-        "url": "https://www.dailystar.co.uk/news/latest-news/paid-ai-search-engine-find-37781055",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Daily Star",
-        "title": "Scientists warn 'collapse of civilisation most likely outcome'",
-        "url": "https://www.dailystar.co.uk/news/weird-news/scientists-warn-collapse-civilisation-most-37818904",
+        "title": "Super-sized rats set to invade our homes with warnings Christmas could be ruined",
+        "url": "https://www.dailystar.co.uk/news/latest-news/super-sized-rats-set-invade-37827464",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Sam Altman says MBA students chase what was 'cool five years ago' instead of trying something new",
-        "url": "https://www.hindustantimes.com/trending/sam-altman-says-mba-students-chase-what-was-cool-five-years-ago-instead-of-trying-something-new-101793293096479.html",
+        "title": "Indian families turn to eldercare start-ups for medical support and companionship for ageing parents",
+        "url": "https://www.hindustantimes.com/trending/indian-families-turn-to-eldercare-start-ups-for-medical-support-and-companionship-for-ageing-parents-101793440493017.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Two BITS Pilani alumni raise $52 million for AI startup after visiting 140 businesses in US",
-        "url": "https://www.hindustantimes.com/trending/us/two-bits-pilani-alumni-raise-52-million-for-ai-startup-after-visiting-140-businesses-in-us-101793288219493.html",
+        "title": "Sarvam AI co-founder warns India risks becoming a 'digital colony' over dependence on foreign AI",
+        "url": "https://www.hindustantimes.com/trending/sarvam-ai-co-founder-warns-india-risks-becoming-a-digital-colony-over-dependence-on-foreign-ai-101793434992286.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Colorado man wants to fly his electric plane to work, flights for approval",
-        "url": "https://www.hindustantimes.com/trending/colorado-man-wants-to-fly-his-electric-plane-to-work-flights-for-approval-101793276987620.html",
+        "title": "Elon Musk calls cockroach milk ‘Gross’ as new study explores its potential as a superfood",
+        "url": "https://www.hindustantimes.com/trending/elon-musk-calls-cockroach-milk-gross-as-new-study-explores-its-potential-as-a-superfood-101793425909924.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Indian rupee was once used in Gulf countries: Former Indian ambassador revisits little-known history in new book",
-        "url": "https://www.hindustantimes.com/trending/indian-rupee-was-once-used-in-gulf-countries-former-indian-ambassador-revisits-little-known-history-in-new-book-101793273481344.html",
+        "title": "Google's Project Suncatcher satellite sends first AI response from space, writes a haiku",
+        "url": "https://www.hindustantimes.com/trending/googles-project-suncatcher-satellite-sends-first-ai-response-from-space-writes-a-haiku-101793421265614.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
-        "source": "Hindustan Times",
-        "title": "Indian-origin surgeon removes cancer patient's prostate from 56 km away in first US robotic telesurgery",
-        "url": "https://www.hindustantimes.com/trending/us/indianorigin-surgeon-removes-cancer-patients-prostate-from-56-km-away-in-first-us-robotic-telesurgery-101793268774578.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Paper straws may be worse for the environment than plastic, South Korea study finds",
-        "url": "https://www.hindustantimes.com/trending/paper-straws-may-be-worse-for-the-environment-than-plastic-south-korea-study-finds-101793266850527.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Dubai real estate company surprises top-performing employee of 2026 with Lamborghini Urus",
-        "url": "https://www.hindustantimes.com/trending/dubai-real-estate-company-surprises-top-performing-employee-of-2026-with-lamborghini-urus-101793262099454.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "A look at past radiation scares after South Carolina lab fire",
-        "url": "https://www.hindustantimes.com/trending/a-look-at-past-radiation-scares-after-south-carolina-lab-fire-101793260158087.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "After IPO, Zetwerk CEO reveals father’s doubts over his return to India from US: 'I walked away from Indian dream of job abroad'",
-        "url": "https://www.hindustantimes.com/trending/after-ipo-zetwerk-ceo-reveals-father-s-doubts-over-his-return-to-india-from-the-us-101793257023172.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Microsoft offered buyouts to 60,000 employees. It expects only 3,000 to accept",
-        "url": "https://www.hindustantimes.com/trending/microsoft-offered-buyouts-to-60-000-employees-it-expects-only-3-000-to-accept-101793238920378.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "Why This Seemingly Innocent Apple Ad Sparked an Unexpected NSFW Controversy",
-        "url": "https://www.vice.com/en/article/why-this-seemingly-innocent-apple-ad-sparked-an-unexpected-nsfw-controversy/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "Nintendo’s Original ‘Donkey Kong’ Artwork Just Sold for an Absolutely Insane Amount",
-        "url": "https://www.vice.com/en/article/nintendos-original-donkey-kong-artwork-just-sold-for-an-absolutely-insane-amount/",
+        "source": "Good News Network",
+        "title": "B-Vitamin Supplement Can Treat Psoriasis, a Skin Condition with No Cure",
+        "url": "https://www.goodnewsnetwork.org/b-vitamin-supplement-can-treat-psoriasis/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "대선 패배 보우소나루, 트럼프 정치적 고향서 “내가 브라질 지도자”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500237",
+        "title": "“돈 한 푼 안 쓰고 하루 종일 놀아요”…中청년들 ‘이곳’으로 몰리는 이유 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261031500020",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“항공모함까지 떴다”…코앞에 몰려든 중국 군함 53척에 대만이 발끈한 이유 [밀리터리노트]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500205",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "‘가상자산 은닉 의혹’ 유정복 전 인천시장 송치",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261030500026",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "경기 버스 노사 임단협 ‘극적 타결’…시급 3.2% 인상",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261030500007",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“공정위 기획, 구조적 문제 파헤친 수작… 단정적 제목 아쉬워”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261030022001",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "특검, 尹 내란 우두머리 2심도 사형 구형",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261030010009",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "벤젠·비소… 전자담배도 발암물질 범벅",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261030010007",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“공소장 부실” 경고받은 종합특검… 법정서 ‘무더기 퇴짜’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261030010006",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "흉기 위협하는 아들 살해한 의대교수…징역 4년 확정",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500341",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "광화문광장 내 손으로 만들어요…서울시, 한정판 ‘서울블록’ 출시",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500340",
-        "kind": "음식·물건",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“127억→0원” ‘한지민 언니’ 은혜씨 오열, 추미애 지사 “챙기겠다”…경기도에 무슨 일?",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500338",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "‘판소리 명창’ 전 국립전통예고 교장 구속…채용 비리·뇌물혐의",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500332",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
       }
     ],
     "heats": [
@@ -238,75 +83,75 @@
         "size": 17,
         "picks": [
           {
+            "source": "Good News Network",
+            "title": "Retirees Who Lost Spouses Fall in Love Again at 88, After Meeting in the Gym",
+            "url": "https://www.goodnewsnetwork.org/retirees-who-lost-spouses-fall-in-love-again-at-88-meeting-in-gym/",
+            "kind": "사람·도전",
+            "event": "usa-retirees-love-gym",
+            "reason": "88세의 두 은퇴자가 체육관에서 만나 다시 사랑에 빠졌다는 이야기는 매우 훈훈하고 놀라워서 점심시간에 읽기 좋으며, 누가 어디서 무엇을 했는지가 명확하다.",
+            "result": "통과"
+          },
+          {
             "source": "Hindustan Times",
-            "title": "Woman carried 'stone baby' in her abdomen for around 3 years, doctors reveal rare case in Somaliland",
-            "url": "https://www.hindustantimes.com/trending/woman-carried-stone-baby-in-her-abdomen-for-around-3-years-doctors-reveal-rare-case-in-somaliland-101793281295560.html",
+            "title": "Russian man suffers headaches for 4 months, doctors find sprouted seed inside his eye",
+            "url": "https://www.hindustantimes.com/trending/russian-man-suffers-headaches-for-4-months-doctors-find-sprouted-seed-inside-his-eye-101793459948801.html",
             "kind": "비극·범죄",
-            "event": "somaliland-stone-baby",
-            "reason": "실제로 일어난 매우 희귀하고 놀라운 의료 사건으로, '돌아버린 아기'가 3년간 복부에 있었다는 사실이 처음 들으면 '진짜?'라는 반응을 유발합니다. 누가, 어디서, 무엇을 했는지 명확히 나와 있어 직장인들이 점심시간에 흥미롭게 읽을 수 있습니다.",
+            "event": "russia-seed-in-eye",
+            "reason": "러시아 남성이 4개월간 두통을 겪다가 눈에서 싹이 튼 씨앗이 발견되었다는 기사는 신기하고 오싹한 이야기로, 실제 사건이며 누가 어디서 무엇을 했는지가 분명하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Chinese groom invites strangers to wedding after fearing low turnout, well-wishers arrange gifts and a Maybach",
+            "url": "https://www.hindustantimes.com/trending/chinese-groom-invites-strangers-to-wedding-after-fearing-low-turnout-well-wishers-arrange-gifts-and-a-maybach-101793447949423.html",
+            "kind": "사람·도전",
+            "event": "china-stranger-wedding",
+            "reason": "중국 신랑이 가족을 잃고 하객이 적을까봐 낯선 사람들을 초대했고, 이들이 선물과 고급차를 준비했다는 이야기는 신기하고 훈훈해 남에게 말해주기 좋다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Indian chef leaves Michelin Guide-listed restaurant to sell  ₹520 chole bhature in Dubai, draws hour-long queues",
+            "url": "https://www.hindustantimes.com/trending/indian-chef-leaves-michelin-guide-listed-restaurant-to-sell-520-chole-bhature-in-dubai-draws-hour-long-queues-101793451297864.html",
+            "kind": "사람·도전",
+            "event": "india-chef-dubai-food-queue",
+            "reason": "미슐랭 레스토랑 셰프가 두바이에서 저렴한 음식 장사를 시작해 긴 줄이 생겼다는 이야기는 흥미롭고 신기하며, 누가 어디서 무엇을 했는지가 명확하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Gujarat man who set lawyer’s parked car on fire over noisy alarm arrested",
+            "url": "https://www.hindustantimes.com/trending/gujarat-man-who-set-lawyer-s-parked-car-on-fire-over-noisy-alarm-arrested-101793411958710.html",
+            "kind": "비극·범죄",
+            "event": "india-car-alarm-fire",
+            "reason": "인도 구자라트에서 시끄러운 자동차 경보음 때문에 변호사의 차를 불태운 남성이 체포된 사건은 실제로 일어난 황당한 일로 흥미롭다.",
             "result": "통과"
           },
           {
             "source": "Daily Star",
-            "title": "Man goes shopping for Christmas decorations but catches snowman in lewd act",
-            "url": "https://www.dailystar.co.uk/news/weird-news/man-goes-shopping-christmas-decorations-37821617",
-            "kind": "동물",
-            "event": "christmas-snowman-lewd-act",
-            "reason": "일상에서 흔히 볼 수 없는 웃기고 신기한 사건으로, 크리스마스 장식을 사러 간 남성이 부끄러운 행동을 하는 눈사람을 목격했다는 내용이 재미있고 가볍게 읽기 좋습니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Bugatti CEO Mate Rimac’s Chiron stolen after he leaves keys inside; thief caught in Austria",
-            "url": "https://www.hindustantimes.com/trending/bugatti-ceo-mate-rimac-s-chiron-stolen-after-he-leaves-keys-inside-thief-caught-in-austria-101793308874906.html",
-            "kind": "비극·범죄",
-            "event": "bugatti-chiron-theft",
-            "reason": "세계적인 슈퍼카 CEO가 키를 차 안에 두고 도난당한 사건으로, 범인이 잡혔다는 점에서 흥미롭고 신기한 이야기입니다. 누가, 어디서, 무엇을 했는지 분명히 나와 있습니다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "“증거 있냐”…10억원어치 다이아 귀걸이 훔쳐 ‘꿀꺽’ 삼킨 남성의 최후 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500172",
-            "kind": "비극·범죄",
-            "event": "diamond-earring-theft",
-            "reason": "미국에서 10억원 상당의 다이아몬드 귀걸이를 훔친 남성이 보석을 삼킨 사건으로, 실제 범죄와 그 결과가 명확히 드러나 있어 충격적이고 흥미롭습니다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "[포착] “걸그룹 할래요” 키 148cm·몸무게 132kg로 무대 오른 여성…“AI 아냐” 해명한 사연",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261030500051",
+            "title": "Aldi training next generation of 'bossmen' with toy kebab carts and card readers",
+            "url": "https://www.dailystar.co.uk/news/latest-news/aldi-training-next-generation-bossmen-37819477",
             "kind": "사람·도전",
-            "event": "japan-idol-audition",
-            "reason": "키와 몸무게가 독특한 일본 여성이 아이돌 오디션에 참가한 이야기로, 신기하고 훈훈한 내용이며 누가, 어디서, 무엇을 했는지 분명히 나와 있습니다.",
+            "event": "uk-aldi-toy-kebab-carts",
+            "reason": "영국 Aldi가 아이들에게 장난감 케밥 카트와 카드 리더기로 일 경험을 제공한다는 이야기는 귀엽고 훈훈하며, 누가 어디서 무엇을 했는지가 분명하다.",
             "result": "통과"
           },
           {
-            "source": "Good News Network",
-            "title": "Disabled Veteran Receives Donated Car Beautifully Refurbished by Auto Collision Students",
-            "url": "https://www.goodnewsnetwork.org/disabled-veteran-receives-donated-car-beautifully-refurbished-by-auto-collision-students/",
-            "kind": "동물",
-            "event": "veteran-car-donation",
-            "reason": "장애 참전 용사가 학생들로부터 새롭게 수리된 자동차를 선물받은 훈훈한 이야기로, 직장인들이 점심시간에 읽기 좋은 따뜻한 뉴스입니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Former Swiss model Beatrice Keul, who accused Donald Trump of rape, alleges receiving threat call",
-            "url": "https://www.hindustantimes.com/trending/us/former-swiss-model-beatrice-keul-who-accused-donald-trump-of-rape-says-she-received-threatening-phone-call-101793264954099.html",
+            "source": "Vice",
+            "title": "This Popular NYC Clothing Store Has a Dark History (and Some Say It’s Haunted)",
+            "url": "https://www.vice.com/en/article/this-popular-nyc-clothing-store-has-a-dark-history-and-some-say-its-haunted/",
             "kind": "비극·범죄",
-            "event": "beatrice-keul-threat-call",
-            "reason": "스위스 출신 모델이 도널드 트럼프를 고소한 후 위협 전화를 받았다는 실제 사건으로, 누가, 어디서, 무엇을 했는지 분명히 나와 있어 흥미롭습니다.",
+            "event": "usa-nyc-haunted-store",
+            "reason": "뉴욕 소호의 유명 의류 매장이 유령이 나온다는 소문과 어두운 역사를 가진다는 이야기는 오싹하고 흥미로워 점심시간 읽을거리로 적합하다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "JoyDrops: Short Films Big on Inspiration and Bigger Awards Aspirations",
-            "url": "https://www.goodnewsnetwork.org/joydrops-short-films-big-on-inspiration-and-bigger-awards-aspirations/",
-            "kind": "기타",
-            "event": "joydrops-short-films",
-            "reason": "영감을 주는 단편 영화 시리즈에 관한 이야기로, 가볍게 읽기 좋고 긍정적인 내용이라 직장인들이 점심시간에 즐기기 적합합니다.",
+            "title": "Your Halloween Horoscope Advice: ‘Free Will Astrology’ by Rob Brezsny",
+            "url": "https://www.goodnewsnetwork.org/horoscope-from-rob-brezsnys-free-will-astrology-10-31-2026/",
+            "kind": "연예·운세",
+            "event": "halloween-horoscope-rob-brezsny",
+            "reason": "할로윈 시즌에 맞춘 점성술 조언은 가볍고 재미있으며, 직장인들이 점심시간에 읽기 좋은 콘텐츠이다.",
             "result": "통과"
           }
         ]
@@ -316,74 +161,74 @@
         "picks": [
           {
             "source": "Hindustan Times",
-            "title": "Indian man in UAE had nearly 2 cm-long fish bone stuck in airway for over 2 months before doctors removed it",
-            "url": "https://www.hindustantimes.com/trending/indian-man-in-uae-had-nearly-2-cm-long-fish-bone-stuck-in-airway-for-over-2-months-before-doctors-removed-it-101793277092355.html",
-            "kind": "비극·범죄",
-            "event": "india-uae-fish-bone-airway-removal",
-            "reason": "실제로 인도 출신 남성이 UAE에서 2개월 넘게 기도에 물고기 가시가 박혀 있었던 사건으로, 처음 들으면 '진짜?' 소리가 나오는 신기한 의료 사례이다. 누가, 어디서, 무엇을 했는지가 명확히 나온다.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Florida Cop Allegedly Stole a Dead Man’s Identity and Lived in His House for Years",
-            "url": "https://www.vice.com/en/article/florida-cop-allegedly-stole-a-dead-mans-identity-and-lived-in-his-house-for-years/",
-            "kind": "비극·범죄",
-            "event": "florida-cop-identity-theft",
-            "reason": "플로리다 경찰이 사망자의 신원을 도용해 몇 년간 그의 집에 살았다는 믿기 힘든 사건이다. 누가, 어디서, 무엇을 했는지가 분명히 나오며, 흥미롭고 남에게 이야기하고 싶은 내용이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Archaeologists Just Discovered a 4,000-Year-Old Dog Paw Print Preserved in Ancient Brick",
-            "url": "https://www.vice.com/en/article/archaeologists-just-discovered-a-4000-year-old-dog-paw-print-preserved-in-ancient-brick/",
-            "kind": "발견·장소",
-            "event": "ancient-dog-paw-print",
-            "reason": "고고학자들이 4000년 된 고대 벽돌에 보존된 개 발자국을 발견한 신기한 고고학적 발견이다. 국내외 직장인들이 점심시간에 가볍게 읽기 좋고, 누가 어디서 무엇을 했는지가 명확하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Meet the ‘Picasso of Pumpkin Carving,’ Whose Halloween Creations Are Absolutely Insane",
-            "url": "https://www.vice.com/en/article/meet-the-picasso-of-pumpkin-carving-whose-halloween-creations-are-absolutely-insane/",
-            "kind": "동물",
-            "event": "pumpkin-carving-artist",
-            "reason": "세계 최고의 호박 조각가에 관한 이야기로, 재미있고 신기하며 남에게 소개하고 싶은 기사이다. 누가 무엇을 했는지가 분명히 나온다.",
+            "title": "US man discovers $1 million winning lottery ticket in wallet after running short of cash at store",
+            "url": "https://www.hindustantimes.com/trending/us/us-man-discovers-1-million-winning-lottery-ticket-in-wallet-after-running-short-of-cash-at-store-101793456271131.html",
+            "kind": "사람·도전",
+            "event": "us-lottery-ticket-discovery",
+            "reason": "미국에서 한 남성이 현금이 부족해 가게에서 결제하려다 지갑 속에 있던 100만 달러 당첨 복권을 거의 두 달 동안 모르고 있었다는 놀라운 실제 사건으로, 직장인들이 점심시간에 가볍게 읽기 좋고 주변에 이야기하기 좋은 흥미로운 내용이다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "‘Panther Pat’ Shines a Light on the Nearly Forgotten First Woman to Play Pro Football",
-            "url": "https://www.goodnewsnetwork.org/panther-pat-shines-a-light-on-the-nearly-forgotten-first-woman-to-play-pro-football/",
-            "kind": "동물",
-            "event": "panther-pat-pro-football-woman",
-            "reason": "프로 미식축구 최초 여성 선수에 관한 훈훈한 다큐멘터리 소개 기사로, 국내 20~30대 직장인들이 점심시간에 읽기 좋고, 누가 무엇을 했는지가 명확하다.",
+            "title": "Girl Sitting in Dirt at Bus Stop Gets Surprise Bench From Homeowner–Camera Catches her Jig (WATCH)",
+            "url": "https://www.goodnewsnetwork.org/girl-sitting-in-dirt-at-bus-stop-gets-surprise-bench-from-couple/",
+            "kind": "사람·도전",
+            "event": "florida-bus-stop-bench-surprise",
+            "reason": "플로리다에서 버스 정류장에 앉아 있던 소녀에게 집주인이 깜짝 벤치를 선물하는 훈훈한 이야기로, 실제 일어난 일이며 따뜻한 감동을 주어 공유하고 싶어지는 기사이다.",
             "result": "통과"
           },
           {
-            "source": "Good News Network",
-            "title": "Romans Made Color-Changing Glass–and We’ve Just Replicated After 1,600 Years",
-            "url": "https://www.goodnewsnetwork.org/romans-made-color-changing-glass-and-weve-just-replicated-after-1600-years/",
-            "kind": "발견·장소",
-            "event": "roman-color-changing-glass",
-            "reason": "로마 시대의 색깔 변하는 유리를 현대에 재현한 흥미로운 과학 발견 기사로, 신기하고 남에게 이야기하고 싶은 내용이다. 누가 무엇을 했는지가 분명하다.",
+            "source": "Vice",
+            "title": "Man Sentenced to Prison After Setting Bar on Fire Because It Didn’t Have Mayonnaise",
+            "url": "https://www.vice.com/en/article/man-sentenced-to-prison-after-setting-bar-on-fire-because-it-didnt-have-mayonnaise/",
+            "kind": "비극·범죄",
+            "event": "mayonnaise-bar-fire",
+            "reason": "한 남성이 마요네즈가 없다는 이유로 술집에 불을 지른 황당한 사건으로, 실제 일어난 일이며 듣자마자 '진짜?'라는 반응을 유발할 만큼 신기하고 웃긴 이야기이다.",
+            "result": "통과"
+          },
+          {
+            "source": "서울신문",
+            "title": "‘이 나라’ 과일 유명한데…“발톱 파내던 칼로 손질” 관광객 ‘경악’ [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261031500026",
+            "kind": "비극·범죄",
+            "event": "thailand-nail-cutting-knife",
+            "reason": "태국의 노점상이 주방용 칼로 발톱을 파내는 모습이 관광객에게 포착되어 논란이 된 실제 사건으로, 신기하고 놀라운 내용이라 주변에 이야기하기 좋다.",
+            "result": "통과"
+          },
+          {
+            "source": "Vice",
+            "title": "A Rare Deep-Sea Creature With a Transparent Head Was Just Caught on Camera",
+            "url": "https://www.vice.com/en/article/a-rare-deep-sea-creature-with-a-transparent-head-was-just-caught-on-camera/",
+            "kind": "동물",
+            "event": "deep-sea-transparent-head-creature",
+            "reason": "희귀한 투명 머리 심해 생물이 카메라에 포착된 신기한 자연 현상으로, 국내외 직장인들이 점심시간에 흥미롭게 읽을 수 있는 기사이다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Lida Bida Boda Butt dog dead; owner confirms viral pet's demise as social media mourns passing",
-            "url": "https://www.hindustantimes.com/trending/us/lida-bida-boda-butt-dog-dead-owner-confirms-viral-pets-demise-as-social-media-mourns-passing-101793245329684.html",
-            "kind": "동물",
-            "event": "viral-dog-lida-bida-boda-butt-death",
-            "reason": "SNS에서 유명했던 반려견의 사망 소식으로, 국내외 20~30대 직장인들이 관심 가질 만한 훈훈하고 슬픈 이야기이다. 누가 무엇을 했는지가 명확하다.",
+            "title": "Astronomers discover possible new dwarf planet beyond Pluto, measuring up to 1,500 km across",
+            "url": "https://www.hindustantimes.com/trending/astronomers-discover-possible-new-dwarf-planet-beyond-pluto-measuring-up-to-1-500-km-across-101793445061898.html",
+            "kind": "발견·장소",
+            "event": "new-dwarf-planet-discovery",
+            "reason": "천문학자들이 명왕성 너머에서 새로운 왜소행성을 발견했다는 과학적 발견으로, 신기하고 흥미로운 우주 이야기라 가볍게 읽기 좋다.",
+            "result": "통과"
+          },
+          {
+            "source": "Vice",
+            "title": "Harry Styles Has Had Enough of $10 Cappuccinos and Tipping Culture: ‘It’s Out of Control’",
+            "url": "https://www.vice.com/en/article/harry-styles-has-had-enough-of-10-cappuccinos-and-tipping-culture-its-out-of-control/",
+            "kind": "연예·운세",
+            "event": "harry-styles-cappuccino-complaint",
+            "reason": "해리 스타일스가 10달러짜리 카푸치노와 팁 문화에 불만을 표출한 유명인의 일상 이야기로, 가볍고 웃기며 공유하기 좋은 기사이다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Scientists discover 237-million-year-old fossils of first known amphibian to live entirely in the ocean",
-            "url": "https://www.hindustantimes.com/trending/scientists-discover-237-million-year-old-fossils-of-first-known-amphibian-to-live-entirely-in-the-ocean-101793285522031.html",
-            "kind": "발견·장소",
-            "event": "marine-amphibian-fossils",
-            "reason": "2억 3천7백만 년 전 완전 해양 생활을 한 최초 양서류 화석 발견이라는 신기한 과학 뉴스로, 누가 무엇을 했는지가 분명히 나온다.",
+            "title": "Bryce Hall jumped outside N3on's Halloween party; shows bloodied face and shares message after beating",
+            "url": "https://www.hindustantimes.com/trending/us/bryce-hall-jumped-outside-n3ons-halloween-party-shows-bloodied-face-and-shares-message-after-beating-watch-video-101793427935869.html",
+            "kind": "비극·범죄",
+            "event": "bryce-hall-halloween-beating",
+            "reason": "할로윈 파티 밖에서 폭행당한 미국 인플루언서의 실제 사건으로, 충격적이지만 국내 20~30대 직장인들이 관심 가질 만한 해외 사건이다.",
             "result": "통과"
           }
         ]
@@ -391,188 +236,191 @@
     ],
     "final": [
       {
-        "source": "Vice",
-        "title": "Archaeologists Just Discovered a 4,000-Year-Old Dog Paw Print Preserved in Ancient Brick",
-        "url": "https://www.vice.com/en/article/archaeologists-just-discovered-a-4000-year-old-dog-paw-print-preserved-in-ancient-brick/",
-        "kind": "발견·장소",
-        "event": "ancient-dog-paw-print-discovery",
-        "reason": "4000년 전 고대 벽돌에 새겨진 개 발자국 발견은 매우 신기하고 흥미로운 고고학적 발견으로, 국내외 독자들이 점심시간에 가볍게 읽기 좋으며 남에게도 이야기해주고 싶을 만한 내용이다.",
+        "source": "Hindustan Times",
+        "title": "US man discovers $1 million winning lottery ticket in wallet after running short of cash at store",
+        "url": "https://www.hindustantimes.com/trending/us/us-man-discovers-1-million-winning-lottery-ticket-in-wallet-after-running-short-of-cash-at-store-101793456271131.html",
+        "kind": "사람·도전",
+        "event": "us-lottery-wallet-discovery",
+        "reason": "미시간의 한 남성이 2개월 동안 지갑에 100만 달러 당첨 복권을 모르고 가지고 다닌 사건은 놀랍고 흥미로워 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지 명확하다.",
         "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "Indian man in UAE had nearly 2 cm-long fish bone stuck in airway for over 2 months before doctors removed it",
-        "url": "https://www.hindustantimes.com/trending/indian-man-in-uae-had-nearly-2-cm-long-fish-bone-stuck-in-airway-for-over-2-months-before-doctors-removed-it-101793277092355.html",
-        "kind": "비극·범죄",
-        "event": "fish-bone-airway-incident-uae",
-        "reason": "인도인이 UAE에서 2개월 넘게 기도에 생선 가시가 박혀 고생하다 의사가 제거한 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고 흥미롭다.",
-        "result": "선정"
-      },
-      {
-        "source": "Daily Star",
-        "title": "Man goes shopping for Christmas decorations but catches snowman in lewd act",
-        "url": "https://www.dailystar.co.uk/news/weird-news/man-goes-shopping-christmas-decorations-37821617",
-        "kind": "동물",
-        "event": "snowman-lewd-act",
-        "reason": "크리스마스 장식 쇼핑 중 눈사람이 음란한 행동을 하는 장면을 목격한 이야기는 웃기고 독특해 점심시간 가볍게 읽기 좋으며 남에게도 이야기해주고 싶다.",
-        "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Bugatti CEO Mate Rimac’s Chiron stolen after he leaves keys inside; thief caught in Austria",
-        "url": "https://www.hindustantimes.com/trending/bugatti-ceo-mate-rimac-s-chiron-stolen-after-he-leaves-keys-inside-thief-caught-in-austria-101793308874906.html",
-        "kind": "비극·범죄",
-        "event": "bugatti-chiron-theft",
-        "reason": "부가티 CEO가 차 키를 차 안에 두고 도난당했으나 도둑이 오스트리아에서 붙잡힌 사건은 실제로 일어난 일이며, 흥미롭고 놀라운 이야기로 독자들의 관심을 끌기에 충분하다.",
+        "title": "Chinese groom invites strangers to wedding after fearing low turnout, well-wishers arrange gifts and a Maybach",
+        "url": "https://www.hindustantimes.com/trending/chinese-groom-invites-strangers-to-wedding-after-fearing-low-turnout-well-wishers-arrange-gifts-and-a-maybach-101793447949423.html",
+        "kind": "사람·도전",
+        "event": "china-wedding-strangers-invited",
+        "reason": "중국의 24세 신랑이 가족을 잃고 하객이 적을까봐 낯선 사람들을 초대한 사연과 주변의 훈훈한 반응이 인상적이다. 누가, 어디서, 무엇을 했는지 분명하다.",
         "result": "선정"
       },
       {
         "source": "Good News Network",
-        "title": "Disabled Veteran Receives Donated Car Beautifully Refurbished by Auto Collision Students",
-        "url": "https://www.goodnewsnetwork.org/disabled-veteran-receives-donated-car-beautifully-refurbished-by-auto-collision-students/",
-        "kind": "동물",
-        "event": "veteran-donated-car",
-        "reason": "장애 참전용사가 학생들이 정성껏 수리한 자동차를 선물받은 훈훈한 이야기로, 직장인 독자들이 점심시간에 읽으며 기분 좋아질 수 있는 따뜻한 내용이다.",
+        "title": "Girl Sitting in Dirt at Bus Stop Gets Surprise Bench From Homeowner–Camera Catches her Jig (WATCH)",
+        "url": "https://www.goodnewsnetwork.org/girl-sitting-in-dirt-at-bus-stop-gets-surprise-bench-from-couple/",
+        "kind": "사람·도전",
+        "event": "florida-bus-stop-bench-surprise",
+        "reason": "플로리다 교사 부부가 버스 정류장에 앉아있던 소녀에게 벤치를 선물한 따뜻한 이야기로, 실제 인물과 장소가 명확해 공유하기 좋다.",
         "result": "선정"
       },
       {
-        "source": "Vice",
-        "title": "Florida Cop Allegedly Stole a Dead Man’s Identity and Lived in His House for Years",
-        "url": "https://www.vice.com/en/article/florida-cop-allegedly-stole-a-dead-mans-identity-and-lived-in-his-house-for-years/",
-        "kind": "비극·범죄",
-        "event": "florida-cop-identity-theft",
-        "reason": "플로리다 경찰이 사망자의 신원을 도용해 몇 년간 그의 집에 살았다는 충격적인 사건으로, 실제 발생한 일이며 독자들이 '진짜?'라고 할 만한 흥미로운 이야기다.",
-        "result": "예비"
+        "source": "Good News Network",
+        "title": "Retirees Who Lost Spouses Fall in Love Again at 88, After Meeting in the Gym",
+        "url": "https://www.goodnewsnetwork.org/retirees-who-lost-spouses-fall-in-love-again-at-88-meeting-in-gym/",
+        "kind": "사람·도전",
+        "event": "retirees-fall-in-love-again",
+        "reason": "88세의 두 은퇴자가 체육관에서 만나 다시 사랑에 빠진 훈훈한 이야기로, 누가 어디서 무엇을 했는지 분명해 읽기 좋다.",
+        "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "Woman carried 'stone baby' in her abdomen for around 3 years, doctors reveal rare case in Somaliland",
-        "url": "https://www.hindustantimes.com/trending/woman-carried-stone-baby-in-her-abdomen-for-around-3-years-doctors-reveal-rare-case-in-somaliland-101793281295560.html",
+        "title": "Russian man suffers headaches for 4 months, doctors find sprouted seed inside his eye",
+        "url": "https://www.hindustantimes.com/trending/russian-man-suffers-headaches-for-4-months-doctors-find-sprouted-seed-inside-his-eye-101793459948801.html",
         "kind": "비극·범죄",
-        "event": "stone-baby-somaliland",
-        "reason": "소말릴란드에서 여성이 3년간 복부에 '돌 아기'를 품고 있었던 희귀한 의학 사례는 신기하고 오싹한 이야기로, 점심시간에 읽기 적합하다.",
+        "event": "russian-man-seed-in-eye",
+        "reason": "러시아 남성이 4개월간 두통을 겪다가 눈에서 싹이 튼 씨앗이 발견된 기이한 사건으로, 실제 인물과 장소가 명확해 흥미롭다.",
         "result": "매체 상한"
       },
       {
-        "source": "서울신문",
-        "title": "[포착] “걸그룹 할래요” 키 148cm·몸무게 132kg로 무대 오른 여성…“AI 아냐” 해명한 사연",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261030500051",
-        "kind": "사람·도전",
-        "event": "japanese-idol-audition",
-        "reason": "키 148cm, 몸무게 132kg의 일본 여성이 아이돌 오디션에 참가해 화제가 된 이야기는 독특하고 훈훈하며, 국내외 독자들이 흥미롭게 읽을 수 있다.",
+        "source": "Vice",
+        "title": "Man Sentenced to Prison After Setting Bar on Fire Because It Didn’t Have Mayonnaise",
+        "url": "https://www.vice.com/en/article/man-sentenced-to-prison-after-setting-bar-on-fire-because-it-didnt-have-mayonnaise/",
+        "kind": "비극·범죄",
+        "event": "man-sets-bar-on-fire-mayo",
+        "reason": "마요네즈가 없다는 이유로 술집에 불을 지른 남성의 황당한 사건으로, 누가 어디서 무엇을 했는지 분명해 충격적이고 흥미롭다.",
+        "result": "선정"
+      },
+      {
+        "source": "Vice",
+        "title": "A Rare Deep-Sea Creature With a Transparent Head Was Just Caught on Camera",
+        "url": "https://www.vice.com/en/article/a-rare-deep-sea-creature-with-a-transparent-head-was-just-caught-on-camera/",
+        "kind": "동물",
+        "event": "rare-transparent-headed-creature",
+        "reason": "희귀한 투명 머리 심해 생물이 카메라에 포착된 신기한 자연 이야기로, 연구자와 장소가 명확해 신기하고 공유할 만하다.",
         "result": "예비"
       },
       {
-        "source": "Good News Network",
-        "title": "‘Panther Pat’ Shines a Light on the Nearly Forgotten First Woman to Play Pro Football",
-        "url": "https://www.goodnewsnetwork.org/panther-pat-shines-a-light-on-the-nearly-forgotten-first-woman-to-play-pro-football/",
-        "kind": "동물",
-        "event": "first-woman-pro-football-player",
-        "reason": "이 기사는 거의 잊혀진 최초의 여성 프로 미식축구 선수에 대해 다루고 있어, 처음 들으면 '진짜?'라는 반응을 불러일으킬 수 있습니다. 또한 여성 스포츠 역사에 관한 훈훈하고 흥미로운 이야기로, 직장인들이 점심시간에 가볍게 읽고 주변에 이야기해주기 좋습니다. 누가, 어디서, 무엇을 했는지 분명히 나와 있어 선정 기준에 부합합니다.",
+        "source": "Hindustan Times",
+        "title": "Indian chef leaves Michelin Guide-listed restaurant to sell  ₹520 chole bhature in Dubai, draws hour-long queues",
+        "url": "https://www.hindustantimes.com/trending/indian-chef-leaves-michelin-guide-listed-restaurant-to-sell-520-chole-bhature-in-dubai-draws-hour-long-queues-101793451297864.html",
+        "kind": "사람·도전",
+        "event": "indian-chef-dubai-street-food",
+        "reason": "미쉐린 가이드 레스토랑 셰프가 두바이에서 저렴한 인도 음식으로 긴 줄을 만든 이야기로, 누가 어디서 무엇을 했는지 분명해 흥미롭다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Aldi training next generation of 'bossmen' with toy kebab carts and card readers",
+        "url": "https://www.dailystar.co.uk/news/latest-news/aldi-training-next-generation-bossmen-37819477",
+        "kind": "사람·도전",
+        "event": "uk-aldi-toy-kebab-cart",
+        "reason": "어린이들이 장난감 케밥 카트와 카드 리더기를 통해 일하는 세계를 체험하는 독특한 사례로, 실제 제품이 출시되어 흥미롭고 웃음을 자아낼 수 있음. 누가, 어디서, 무엇을 했는지가 명확히 나옴.",
+        "result": "예비"
+      },
+      {
+        "source": "서울신문",
+        "title": "‘이 나라’ 과일 유명한데…“발톱 파내던 칼로 손질” 관광객 ‘경악’ [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261031500026",
+        "kind": "비극·범죄",
+        "event": "thailand-street-vendor-nail-knife",
+        "reason": "태국에서 실제로 일어난 일로, 노점상이 주방용 칼로 자신의 발톱을 파내는 모습을 관광객이 촬영해 온라인에서 화제가 된 사건입니다. 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고, 누가 어디서 무엇을 했는지가 분명히 나와 있어 점심시간에 가볍게 읽기 좋고, 주변에 이야기하기에도 흥미로운 내용입니다.",
         "result": "예비"
       }
     ],
     "final_out": [
       {
         "source": "Hindustan Times",
-        "title": "Scientists discover 237-million-year-old fossils of first known amphibian to live entirely in the ocean",
-        "url": "https://www.hindustantimes.com/trending/scientists-discover-237-million-year-old-fossils-of-first-known-amphibian-to-live-entirely-in-the-ocean-101793285522031.html",
-        "kind": "발견·장소"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Romans Made Color-Changing Glass–and We’ve Just Replicated After 1,600 Years",
-        "url": "https://www.goodnewsnetwork.org/romans-made-color-changing-glass-and-weve-just-replicated-after-1600-years/",
-        "kind": "발견·장소"
-      },
-      {
-        "source": "서울신문",
-        "title": "“증거 있냐”…10억원어치 다이아 귀걸이 훔쳐 ‘꿀꺽’ 삼킨 남성의 최후 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261029500172",
+        "title": "Bryce Hall jumped outside N3on's Halloween party; shows bloodied face and shares message after beating",
+        "url": "https://www.hindustantimes.com/trending/us/bryce-hall-jumped-outside-n3ons-halloween-party-shows-bloodied-face-and-shares-message-after-beating-watch-video-101793427935869.html",
         "kind": "비극·범죄"
       },
       {
         "source": "Hindustan Times",
-        "title": "Former Swiss model Beatrice Keul, who accused Donald Trump of rape, alleges receiving threat call",
-        "url": "https://www.hindustantimes.com/trending/us/former-swiss-model-beatrice-keul-who-accused-donald-trump-of-rape-says-she-received-threatening-phone-call-101793264954099.html",
-        "kind": "비극·범죄"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Lida Bida Boda Butt dog dead; owner confirms viral pet's demise as social media mourns passing",
-        "url": "https://www.hindustantimes.com/trending/us/lida-bida-boda-butt-dog-dead-owner-confirms-viral-pets-demise-as-social-media-mourns-passing-101793245329684.html",
-        "kind": "동물"
-      },
-      {
-        "source": "Good News Network",
-        "title": "JoyDrops: Short Films Big on Inspiration and Bigger Awards Aspirations",
-        "url": "https://www.goodnewsnetwork.org/joydrops-short-films-big-on-inspiration-and-bigger-awards-aspirations/",
-        "kind": "기타"
+        "title": "Astronomers discover possible new dwarf planet beyond Pluto, measuring up to 1,500 km across",
+        "url": "https://www.hindustantimes.com/trending/astronomers-discover-possible-new-dwarf-planet-beyond-pluto-measuring-up-to-1-500-km-across-101793445061898.html",
+        "kind": "발견·장소"
       },
       {
         "source": "Vice",
-        "title": "Meet the ‘Picasso of Pumpkin Carving,’ Whose Halloween Creations Are Absolutely Insane",
-        "url": "https://www.vice.com/en/article/meet-the-picasso-of-pumpkin-carving-whose-halloween-creations-are-absolutely-insane/",
-        "kind": "동물"
+        "title": "This Popular NYC Clothing Store Has a Dark History (and Some Say It’s Haunted)",
+        "url": "https://www.vice.com/en/article/this-popular-nyc-clothing-store-has-a-dark-history-and-some-say-its-haunted/",
+        "kind": "비극·범죄"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Gujarat man who set lawyer’s parked car on fire over noisy alarm arrested",
+        "url": "https://www.hindustantimes.com/trending/gujarat-man-who-set-lawyer-s-parked-car-on-fire-over-noisy-alarm-arrested-101793411958710.html",
+        "kind": "비극·범죄"
+      },
+      {
+        "source": "Vice",
+        "title": "Harry Styles Has Had Enough of $10 Cappuccinos and Tipping Culture: ‘It’s Out of Control’",
+        "url": "https://www.vice.com/en/article/harry-styles-has-had-enough-of-10-cappuccinos-and-tipping-culture-its-out-of-control/",
+        "kind": "연예·운세"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Your Halloween Horoscope Advice: ‘Free Will Astrology’ by Rob Brezsny",
+        "url": "https://www.goodnewsnetwork.org/horoscope-from-rob-brezsnys-free-will-astrology-10-31-2026/",
+        "kind": "연예·운세"
       }
     ]
   },
   "rejected": [],
   "published": [
     {
-      "source": "Vice",
-      "headline": "터키 청동기 시대 유적에서 4000년 전 개 발자국 벽돌 발견",
-      "url": "https://www.vice.com/en/article/archaeologists-just-discovered-a-4000-year-old-dog-paw-print-preserved-in-ancient-brick/",
-      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Archaeologists-Just-Discovered-a-4000-Year-Old-Dog-Paw-Print-Preserved-in-Ancient-Brick.jpg?w=2000",
-      "kind": "발견·장소",
-      "topic": "발견·장소",
-      "event": "ancient-dog-paw-print-discovery",
-      "reason": "4000년 전 고대 벽돌에 새겨진 개 발자국 발견은 매우 신기하고 흥미로운 고고학적 발견으로, 국내외 독자들이 점심시간에 가볍게 읽기 좋으며 남에게도 이야기해주고 싶을 만한 내용이다.",
-      "why": "터키 타브산르 회욱 유적은 최대 8000년 전부터 사람들이 거주한 곳으로, 개와 인간의 관계가 최소 1만6000년 전까지 거슬러 올라간다는 고대 매장 유물이 발견된 지역입니다."
+      "source": "Hindustan Times",
+      "headline": "미시간 남성, 현금 부족해 복권 확인하다 100만 달러 당첨 사실 발견",
+      "url": "https://www.hindustantimes.com/trending/us/us-man-discovers-1-million-winning-lottery-ticket-in-wallet-after-running-short-of-cash-at-store-101793456271131.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/10/31/1600x900/logo/dbfdbgf_1793456925005_CxWF_1793456925178_TRO9_9169649a-877e-4e75-8733-7e80e4170731_lZNa.png",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "us-lottery-wallet-discovery",
+      "reason": "미시간의 한 남성이 2개월 동안 지갑에 100만 달러 당첨 복권을 모르고 가지고 다닌 사건은 놀랍고 흥미로워 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지 명확하다.",
+      "why": "밴더 러그트는 당첨 복권을 확인하지 않고 지갑에 여러 장의 복권과 함께 보관하다가 현금 부족 상황에서 작은 상금이 당첨된 복권을 확인하려다 당첨 사실을 알게 됐습니다."
     },
     {
       "source": "Hindustan Times",
-      "headline": "UAE 거주 인도인, 2개월간 기도에 박힌 2cm 생선 가시 제거 성공",
-      "url": "https://www.hindustantimes.com/trending/indian-man-in-uae-had-nearly-2-cm-long-fish-bone-stuck-in-airway-for-over-2-months-before-doctors-removed-it-101793277092355.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/10/29/1600x900/logo/gnfngfmhg_1793278992417_83nO_1793278992603_2EL2_ecd11aef-0555-445e-bfc1-cf971a6d2697_wB4q.png",
-      "kind": "비극·범죄",
-      "topic": "사건·사고",
-      "event": "fish-bone-airway-incident-uae",
-      "reason": "인도인이 UAE에서 2개월 넘게 기도에 생선 가시가 박혀 고생하다 의사가 제거한 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고 흥미롭다.",
-      "why": "기도에 이물질이 장기간 남으면 염증과 조직 증식이 발생해 제거가 어려워지기 때문에 전문 의료진의 협력이 필수적이었습니다."
-    },
-    {
-      "source": "Daily Star",
-      "headline": "미국 쇼핑객, 크리스마스 장식용 눈사람이 부적절한 행동하는 모습 목격",
-      "url": "https://www.dailystar.co.uk/news/weird-news/man-goes-shopping-christmas-decorations-37821617",
-      "image": "https://i2-prod.dailystar.co.uk/article37822048.ece/ALTERNATES/s1200d/1_Inflatable-snow-man.jpg",
-      "kind": "동물",
-      "topic": "사건·사고",
-      "event": "snowman-lewd-act",
-      "reason": "크리스마스 장식 쇼핑 중 눈사람이 음란한 행동을 하는 장면을 목격한 이야기는 웃기고 독특해 점심시간 가볍게 읽기 좋으며 남에게도 이야기해주고 싶다.",
-      "why": "이 눈사람 인형은 빨간색과 흰색 사탕 지팡이를 들고 빠르게 상하로 움직이는 기계적 동작 때문에 부적절하게 보이는 제스처를 취하는 것처럼 보입니다."
-    },
-    {
-      "source": "Hindustan Times",
-      "headline": "부가티 CEO 마테 리막, 차 키 안에 둔 채 치론 도난…범인 오스트리아서 검거",
-      "url": "https://www.hindustantimes.com/trending/bugatti-ceo-mate-rimac-s-chiron-stolen-after-he-leaves-keys-inside-thief-caught-in-austria-101793308874906.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/10/29/1600x900/logo/materimacc_1793317612505_KeDb_1793317622325_hDzW_92ff7660-b8c4-45ca-9c23-669ea344e6dd_cOOj.png",
-      "kind": "비극·범죄",
-      "topic": "사건·사고",
-      "event": "bugatti-chiron-theft",
-      "reason": "부가티 CEO가 차 키를 차 안에 두고 도난당했으나 도둑이 오스트리아에서 붙잡힌 사건은 실제로 일어난 일이며, 흥미롭고 놀라운 이야기로 독자들의 관심을 끌기에 충분하다.",
-      "why": "리막은 크로아티아가 안전하다고 믿어 차 키를 차 안에 두는 습관이 있었으나, 이번 사건으로 인해 그 방심이 도난으로 이어졌음을 알게 되었습니다."
+      "headline": "중국 신랑, 적은 하객 걱정에 낯선 이들 초대해 결혼식 성황",
+      "url": "https://www.hindustantimes.com/trending/chinese-groom-invites-strangers-to-wedding-after-fearing-low-turnout-well-wishers-arrange-gifts-and-a-maybach-101793447949423.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/10/31/1600x900/logo/Untitled_design_1793449922924_rkMV_1793449957161_jAaf_ca4a979b-3989-473d-80b0-9317fb81439a_y70i.png",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "china-wedding-strangers-invited",
+      "reason": "중국의 24세 신랑이 가족을 잃고 하객이 적을까봐 낯선 사람들을 초대한 사연과 주변의 훈훈한 반응이 인상적이다. 누가, 어디서, 무엇을 했는지 분명하다.",
+      "why": "쉬청홍은 어린 시절 아버지와 할머니를 잃고 이웃의 도움으로 자라 결혼식에 초대할 친척이 거의 없었기 때문에 SNS를 통해 낯선 이들을 초대했습니다."
     },
     {
       "source": "Good News Network",
-      "headline": "미네소타 공대 학생들, 퇴역 군인에게 새 차 선물해 생활 변화 선사",
-      "url": "https://www.goodnewsnetwork.org/disabled-veteran-receives-donated-car-beautifully-refurbished-by-auto-collision-students/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/4cafc2d5-67da-40f6-a326-76e7548bf9ad.jpg",
-      "kind": "동물",
+      "headline": "플로리다 교사 부부, 버스 정류장에 벤치와 작은 도서관 설치해 학생들에 따뜻한 배려",
+      "url": "https://www.goodnewsnetwork.org/girl-sitting-in-dirt-at-bus-stop-gets-surprise-bench-from-couple/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Bus-stop-kindness-Courtesy-of-TikTok-Teacher-and-Traveler.jpg",
+      "kind": "사람·도전",
       "topic": "사람",
-      "event": "veteran-donated-car",
-      "reason": "장애 참전용사가 학생들이 정성껏 수리한 자동차를 선물받은 훈훈한 이야기로, 직장인 독자들이 점심시간에 읽으며 기분 좋아질 수 있는 따뜻한 내용이다.",
-      "why": "이 프로그램은 사고 차량을 회수해 수리 후 필요한 사람에게 전달하는 비영리 단체의 사회 공헌 활동으로, 학생들에게 실무 경험을 제공하고 수혜자에게는 이동 편의를 지원하기 위해 운영됩니다."
+      "event": "florida-bus-stop-bench-surprise",
+      "reason": "플로리다 교사 부부가 버스 정류장에 앉아있던 소녀에게 벤치를 선물한 따뜻한 이야기로, 실제 인물과 장소가 명확해 공유하기 좋다.",
+      "why": "학생이 버스 정류장에 인도가 없어 교통 위험에 노출되어 있었기에 부부가 벤치와 도서관을 설치해 안전과 편의를 도왔습니다."
+    },
+    {
+      "source": "Good News Network",
+      "headline": "88세 은퇴 부부, 체육관에서 만나 다시 사랑에 빠지다",
+      "url": "https://www.goodnewsnetwork.org/retirees-who-lost-spouses-fall-in-love-again-at-88-meeting-in-gym/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Seniors-working-out-w-weights-in-gym-by-ExtraCare-Charitable-Trust-via-SWNS.jpeg",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "retirees-fall-in-love-again",
+      "reason": "88세의 두 은퇴자가 체육관에서 만나 다시 사랑에 빠진 훈훈한 이야기로, 누가 어디서 무엇을 했는지 분명해 읽기 좋다.",
+      "why": "바바라는 10년 전 남편을 암으로 잃고 은퇴 마을로 이사했으며, 프레드는 3년 전 아내를 잃은 후 체육관에서 바바라를 만나 운동을 지도하며 가까워졌습니다."
+    },
+    {
+      "source": "Vice",
+      "headline": "마요네즈 없다는 이유로 식당에 불 지른 남성, 징역 3년 6개월 선고",
+      "url": "https://www.vice.com/en/article/man-sentenced-to-prison-after-setting-bar-on-fire-because-it-didnt-have-mayonnaise/",
+      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Man-Sentenced-to-Prison-After-Setting-Bar-on-Fire-Because-It-Didnt-Have-Mayonnaise.jpg?w=2000",
+      "kind": "비극·범죄",
+      "topic": "사건·사고",
+      "event": "man-sets-bar-on-fire-mayo",
+      "reason": "마요네즈가 없다는 이유로 술집에 불을 지른 남성의 황당한 사건으로, 누가 어디서 무엇을 했는지 분명해 충격적이고 흥미롭다.",
+      "why": "피해 식당은 주로 아침 식사를 제공하며 간단한 간식만 판매해 마요네즈와 케첩을 제공하지 않았다고 밝혔습니다."
     }
   ]
 }

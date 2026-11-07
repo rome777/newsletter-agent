@@ -1,355 +1,282 @@
 {
-  "at": "2026-11-06T10:50:11",
+  "at": "2026-11-07T10:14:49",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 62건 · 소스 7곳 · 응답 없음 ['Indian Express']",
-    "② 선별   62 → 홍보 제외 62 → 라벨 제외 38 → 예선 2조 16 → 5건 + 예비 3",
-    "   선정 [Hindustan Times] California assistant steals $18 million from boss, — 실제로 일어난 일이며, 10년간 1,800만 달러를 훔쳐 명품과 사치 여행에 쓴 사건은 충격적이고 흥미로워 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지 명확하다.",
-    "   선정 [Hindustan Times] UK man allegedly stored body of ‘soulmate’ with he — 영국에서 발생한 기괴한 사건으로, 시신을 3년간 냉동고에 보관했다는 내용이 매우 충격적이고 남에게 이야기하고 싶어지는 소재다. 사건의 주체와 장소가 분명하다.",
-    "   선정 [Daily Star] Woman running marathon is floored after spotting f — 뉴욕 마라톤에서 친숙한 얼굴을 발견한 훈훈한 이야기로, 가볍게 읽기 좋고 긍정적인 내용이다. 누가 어디서 무엇을 했는지 명확하다.",
-    "   선정 [Metro] Police helicopter makes penis-shaped flight path – — 경찰 헬리콥터가 우연히 음경 모양의 비행 경로를 그린 해프닝으로 웃음을 주는 이야기다. 누가 어디서 무엇을 했는지 명확하다.",
-    "   선정 [Good News Network] 400-yo Shipwreck Puzzle Finally Cracked After More — 웨일스에서 발견된 400년 된 난제의 자물쇠를 CT 스캐너로 해독한 과학적 발견으로 신기하고 흥미롭다. 누가 어디서 무엇을 했는지 분명하다.",
-    "   예비 [Metro] Pilot claims he spotted UFOs moving across sky dur — 영국에서 조종사가 7번의 비행 중 UFO를 목격했다고 주장한 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지가 분명히 나와 있어 독자들이 점심시간에 가볍게 읽기 좋다.",
-    "   예비 [Good News Network] Got Bad Breath? Get Free Dental Care at This Store — 스웨덴의 한 가게에서 입냄새가 나면 무료로 치약, 칫솔 등을 제공하는 독특한 할인 행사는 실제로 일어난 일이며, 웃기고 신기해서 주변에 이야기해주고 싶다. 누가, 어디서, 무엇을 했는지가 명확하다.",
-    "   예비 [서울신문] 화장 고치다 ‘삐끼삐끼’…대만서 ‘아이돌급 인기’ 대박 난 韓치어리더, 깜짝 근황 — 한국 치어리더 이주은이 대만에서 아이돌급 인기를 얻고 농구장 응원단에 정식 합류한 이야기는 실제 사건이며, 신기하고 훈훈해서 공유할 만하다. 누가, 어디서, 무엇을 했는지가 분명히 나온다.",
-    "④ 검수   8 → 5건",
+    "① 수집   24시간 time window · 47건 · 소스 7곳 · 응답 없음 ['Indian Express']",
+    "② 선별   47 → 홍보 제외 47 → 라벨 제외 33 → 예선 2조 16 → 5건 + 예비 1",
+    "   선정 [Hindustan Times] Utah teen held captive for over 500 days used vide — 실제로 일어난 매우 드문 사건으로, 18개월간 감금된 십대가 온라인 게임을 통해 구조된 이야기라 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+    "   선정 [Hindustan Times] Bhutan builds and consecrates 108 Buddhist stupas  — 부탄에서 108개의 불교 스투파를 단 9시간 만에 건설하고 봉헌해 기네스 기록에 오른 일로, 신기하고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지 명확하다.",
+    "   선정 [Good News Network] Man Spends 12 Days Returning Lost Cash a Laborer N — 브라질에서 한 남성이 노동자가 딸을 위해 필요했던 현금을 12일간 찾아 돌려준 훈훈한 이야기로, 실제 사건이며 누가, 어디서, 무엇을 했는지 분명하다.",
+    "   선정 [Good News Network] Venomous Primate Believed Extinct for 100 Years Wa — 100년간 멸종된 줄 알았던 독이 있는 영장류가 발견된 신기한 자연 이야기로, 누가, 어디서, 무엇을 했는지 명확하며 흥미롭다.",
+    "   선정 [Metro] The man who sleeps with thousands of bedbugs for s — 실제로 일어난 독특한 과학 실험 이야기로, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나와 있어 점심시간 가볍게 읽기 좋다.",
+    "   예비 [Vice] WWE Star Rhea Ripley Makes Surprise Appearance at  — 유명 WWE 스타가 메탈 콘서트에 깜짝 등장해 밴드가 노래를 헌정했다는 훈훈하고 신기한 이야기로, 누가 어디서 무엇을 했는지 명확하다.",
+    "④ 검수   6 → 5건",
     "⑤ 발행   5건 · sent"
   ],
   "selection": {
-    "candidates": 62,
+    "candidates": 47,
     "already_sent": [],
     "promo": [],
     "labels": {
-      "사람·도전": 7,
-      "발견·장소": 6,
-      "기타": 3,
-      "동물": 4,
-      "일반 뉴스": 20,
-      "비극·범죄": 13,
-      "연예·운세": 8,
-      "음식·물건": 1
+      "비극·범죄": 12,
+      "사람·도전": 11,
+      "일반 뉴스": 10,
+      "발견·장소": 3,
+      "연예·운세": 7,
+      "기타": 2,
+      "법·행정": 2
     },
     "label_dropped": [
       {
         "source": "Hindustan Times",
-        "title": "Fact check: Viral post falsely claims Cardi B shared Offset's messages questioning the paternity of her son",
-        "url": "https://www.hindustantimes.com/trending/us/fact-check-viral-post-falsely-claims-cardi-b-shared-offsets-messages-questioning-the-paternity-of-her-son-with-stefon-diggs-101793909978778.html",
+        "title": "NASA’s Swift space telescope crashes back to Earth over Indonesia after 22 years in orbit",
+        "url": "https://www.hindustantimes.com/trending/nasas-swift-space-telescope-crashes-back-to-earth-over-indonesia-after-22-years-in-orbit-101793980209989.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Deepinder Goyal defends Temple amid criticism over its science, says it's not a scam",
-        "url": "https://www.hindustantimes.com/trending/deepinder-goyal-defends-temple-amid-criticism-over-its-science-says-its-not-a-scam-101793897079921.html",
+        "title": "Airbnb CEO Brian Chesky says almost entire executive team quit after he changed his leadership style",
+        "url": "https://www.hindustantimes.com/trending/airbnb-ceo-brian-chesky-says-almost-entire-executive-team-quit-after-he-changed-his-leadership-style-101793950848062.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "South Korea Army admits catwalk training for elite forces soldiers was 'inappropriate': 'It had not been properly reviewed beforehand'",
-        "url": "https://www.hindustantimes.com/trending/south-korea-army-admits-catwalk-training-for-elite-forces-soldiers-was-inappropriate-it-had-not-been-properly-reviewed-beforehand-101793886554782.html",
+        "title": "Planning to buy gold this Dhanteras? Experts explain what’s worth your money",
+        "url": "https://www.hindustantimes.com/htcity/leisure/planning-to-buy-gold-this-dhanteras-experts-explain-what-s-worth-your-money-101793956887904.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Australia's oldest department store chain David Jones faces financial trouble after 188 years, 6,000 jobs at risk",
-        "url": "https://www.hindustantimes.com/trending/australias-oldest-department-store-chain-david-jones-enters-administration-after-188-years-6-000-jobs-at-risk-101793875113116.html",
+        "title": "Dutch airline KLM announces 1,000 job cuts; CEO Marjan Rintel cites rising fuel prices, global instability",
+        "url": "https://www.hindustantimes.com/trending/dutch-airline-klm-announces-1-000-job-cuts-ceo-marjan-rintel-cites-rising-fuel-prices-global-instability-101793932553441.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Danish comedian secretly filmed over 4 months for reality show, TV channel apologises",
-        "url": "https://www.hindustantimes.com/trending/danish-comedian-rasmus-wallbridge-secretly-filmed-over-4-months-for-reality-show-tv-channel-apologises-101793870413799.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "US Postal Service issues second Diwali stamp in 10 years, features colourful rangoli by Indian artist",
-        "url": "https://www.hindustantimes.com/trending/us-postal-service-issues-second-diwali-stamp-in-10-years-features-colourful-rangoli-by-indian-artist-101793864698737.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "GoDaddy CEO Aman Bhutani refuses to read AI-written work, says employees must write their own ideas",
-        "url": "https://www.hindustantimes.com/trending/godaddy-ceo-aman-bhutani-refuses-to-read-ai-written-work-says-employees-must-write-their-own-ideas-101793846320473.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "This Is Why So Many Couples Break Up Around Thanksgiving, According to a Relationship Expert",
-        "url": "https://www.vice.com/en/article/this-is-why-so-many-couples-break-up-around-thanksgiving-according-to-a-relationship-expert/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "Why Some Moms-to-Be Dread Hearing ‘It’s a Boy’: ‘I Am Now Grieving the Future’",
-        "url": "https://www.vice.com/en/article/why-some-moms-to-be-dread-hearing-its-a-boy-i-am-now-grieving-the-future/",
+        "title": "Britain to make salary disclosure in job ads mandatory for all employers",
+        "url": "https://www.hindustantimes.com/trending/britain-to-make-salary-disclosure-in-job-ads-mandatory-for-all-employers-101793930823392.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Good News Network",
-        "title": "Next Week’s New Moon Is Perfect Backdrop to the Blazing Tails of the Taurid Meteor Shower",
-        "url": "https://www.goodnewsnetwork.org/next-weeks-new-moon-to-highlight-the-blazing-tails-of-the-taurid-meteor-shower/",
+        "title": "Geothermal Utilities Power Wave of US Affordable Housing with 40% Energy Savings",
+        "url": "https://www.goodnewsnetwork.org/geothermal-utilities-power-wave-of-us-affordable-housing-with-40-energy-savings/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“지원 더 많이” 젤렌스키, 트럼프 참패에 잔뜩 신났다…전망은 ‘잿빛’ [배틀라인]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261105500329",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“비싸기만 한 미사일은 잊어라”… 30분 동안 빛 뿜으며 드론 사냥 나선 중국의 ‘첨단’ 신무기 [밀리터리노트]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261105500234",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "서정대 양주 중장년 행복캠퍼스, 전국 평생학습 ‘우수’ 선정",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500011",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "경북, 과수 생산기반 조성 공모 전국 4곳 중 3곳 선정…국비 45억 확보",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500010",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "조선시대 경북의 음식문화 담은 ‘수운잡방·음식디미방’ 세계기록유산 등재",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500009",
-        "kind": "음식·물건",
+        "title": "인공지능 시대 인간다움 묻는 ‘2026 인문문화축제’ 개막… 주제는 ‘인문지능’",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500271",
+        "kind": "법·행정",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "“오지 마!”…대낮 서울 도로서 환자복 입고 흉기 난동 [포착]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500008",
+        "title": "‘2026 한-아세안 포럼’ 싱가포르서 성료… CSP 비전 이행 및 한반도 평화 협력 논의",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500254",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "홍준표 대선캠프 정치자금 2억원 부정 지출 혐의…관계자 6명 송치",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500250",
         "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "“짜장면 안 온다 했더니, 배달기사가 몰래 빼먹고 있네요” …플랫폼 “파손 음식 폐기” [이슈픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500001",
-        "kind": "비극·범죄",
+        "title": "교황 만난 김기재 당진시장, ‘당진 방문’ 요청",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500248",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "전주시 흙냄새 수돗물 사태 안정기로 접어들어, 망간 농도 기준치 이하",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500246",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "잠실 가득 채운 90년의 울림… 성신여대, 윈드 오케스트라 특별연주회 성료",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500239",
+        "kind": "연예·운세",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "검사부터 진료까지 원스톱… ‘암 패스트트랙’ 골든타임 잡는다",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106040002",
+        "title": "부산기업 기후 대응 기술 사업화 금융지원…부산시·BNK·기보  맞손",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500234",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“열에너지 대신 전기장으로”… ‘최신 펄스장절제술’로 치료 정밀도 높여",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106040001",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "분당차병원, 암 다학제 진료 7000례… 난치암도 포기 없다",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106039001",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "환절기 불청객 감기·독감… 한방 치료로 ‘한 방’에 끝내볼까",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106038002",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "독감 백신 맞았는데 한약 먹어도 될까?… 면역력 높이는 병용법 주목",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106038001",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "가짜 정보 만들고 식당 예약하고… ‘통제 밖 AI’에 일상 꼬였다",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106012010",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "계좌번호 털린 ‘대구로’… 점주들 나흘간 깜깜",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106012008",
-        "kind": "비극·범죄",
+        "title": "“무대 대신 서가로”…상명대 학생들, ‘리타 길들이기’ 낭독  공연",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500232",
+        "kind": "사람·도전",
         "result": "버림(국내)"
       }
     ],
     "heats": [
       {
-        "size": 19,
+        "size": 17,
         "picks": [
           {
-            "source": "Good News Network",
-            "title": "400-yo Shipwreck Puzzle Finally Cracked After More Than 20 Years of Mystery",
-            "url": "https://www.goodnewsnetwork.org/400-yo-padlock-code-finally-cracked-more-than-20-years-after-being-found-in-shipwreck-treasure/",
-            "kind": "발견·장소",
-            "event": "wales-shipwreck-padlock-2024",
-            "reason": "400년 된 배의 보물 자물쇠를 CT 스캐너로 해독한 과학자들의 이야기는 신기하고 흥미로워 점심시간에 읽기 좋다. 누가 어디서 무엇을 했는지가 명확하다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "97세 노인, 생일파티서 춤춘 뒤 사망…주변인도 몰랐던 ‘사실’ 있었다 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261105500304",
-            "kind": "비극·범죄",
-            "event": "california-97yo-birthday-dance-2024",
-            "reason": "97세 노인이 생일파티에서 춤을 춘 뒤 세상을 떠난 사연은 훈훈하고 감동적이며, 미국 캘리포니아에서 일어난 일이라 국내 직장인들이 흥미롭게 읽을 수 있다.",
-            "result": "통과"
-          },
-          {
             "source": "Hindustan Times",
-            "title": "US man grows 5-foot-3-inch natural beard locks over 20 years, earns Guinness title",
-            "url": "https://www.hindustantimes.com/trending/us-man-grows-5-foot-3-inch-natural-beard-locks-over-20-years-earns-guinness-title-101793852437979.html",
+            "title": "Peru airport security finds 3,000 tarantulas hidden in dirty socks inside three suitcases",
+            "url": "https://www.hindustantimes.com/trending/peru-airport-security-finds-3-000-tarantulas-hidden-in-dirty-socks-inside-three-suitcases-101793927552579.html",
             "kind": "사람·도전",
-            "event": "us-beard-guinness-record-2024",
-            "reason": "20년간 자연스럽게 기른 5피트 3인치 수염으로 기네스 기록을 세운 미국 남성 이야기는 신기하고 웃긴 소재로 가볍게 읽기 좋다.",
+            "event": "peru-tarantulas-suitcases",
+            "reason": "페루 공항 보안요원이 세 개의 여행가방에서 더러운 양말 속에 숨겨진 3,000마리의 타란튤라를 발견한 사건은 매우 이색적이고 놀랍다. 누가, 어디서, 무엇을 했는지가 명확하며, 직장인들이 점심시간에 친구에게 이야기하기 좋은 흥미로운 내용이다.",
             "result": "통과"
           },
           {
-            "source": "Hindustan Times",
-            "title": "British man faces up to 7 years in prison for allegedly hiding camera in toilet on Japan-Singapore flight",
-            "url": "https://www.hindustantimes.com/trending/british-man-faces-up-to-7-years-in-prison-for-allegedly-hiding-camera-in-toilet-on-japan-singapore-flight-101793891514469.html",
-            "kind": "비극·범죄",
-            "event": "british-man-toilet-camera-flight-2024",
-            "reason": "일본-싱가포르 비행기에서 화장실에 몰래카메라를 숨긴 영국 남성 사건은 실제 일어난 일이며, 누가 어디서 무엇을 했는지가 분명해 흥미롭다.",
+            "source": "Good News Network",
+            "title": "Venomous Primate Believed Extinct for 100 Years Was Hiding in Plain Sight All Along",
+            "url": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
+            "kind": "발견·장소",
+            "event": "bangka-slow-loris-discovery",
+            "reason": "100년 동안 멸종된 것으로 여겨졌던 독이 있는 영장류 방카 슬로우 로리스가 사실은 여전히 존재한다는 발견은 신기하고 놀라운 뉴스다. 동물과 자연에 관심 있는 20~30대 직장인들이 흥미롭게 읽을 수 있다.",
+            "result": "통과"
+          },
+          {
+            "source": "Good News Network",
+            "title": "People Around the World Help Buy Royal Estate for Wildlife Conservation",
+            "url": "https://www.goodnewsnetwork.org/people-around-the-world-help-buy-royal-estate-for-wildlife-conservation/",
+            "kind": "사람·도전",
+            "event": "wildlife-conservation-estate",
+            "reason": "전 세계 사람들이 모여 야생동물 보호를 위해 왕실 부동산을 구입했다는 훈훈한 소식이다. 누가, 어디서, 무엇을 했는지가 분명하며, 긍정적인 이야기로 점심시간에 읽기 좋다.",
             "result": "통과"
           },
           {
             "source": "Vice",
-            "title": "Will Smith Caught on Camera Moshing to Unexpected Metal Band at Daughter’s Birthday Party",
-            "url": "https://www.vice.com/en/article/will-smith-caught-on-camera-moshing-to-unexpected-metal-band-at-daughters-birthday-party/",
+            "title": "WWE Star Rhea Ripley Makes Surprise Appearance at Metal Concert as Band Dedicates Song to Her",
+            "url": "https://www.vice.com/en/article/wwe-star-rhea-ripley-makes-surprise-appearance-at-metal-concert-as-band-dedicates-song-to-her/",
             "kind": "연예·운세",
-            "event": "will-smith-metal-party-2024",
-            "reason": "윌 스미스가 딸 생일파티에서 예상치 못한 메탈 밴드에 맞춰 모싱하는 모습은 웃기고 신기해 남에게 이야기하기 좋다.",
+            "event": "wwe-rhea-ripley-metal-concert",
+            "reason": "WWE 스타 리아 리플리가 메탈 콘서트에 깜짝 등장하고 밴드가 그녀에게 노래를 헌정한 사건은 재미있고 신기하다. 누가, 어디서, 무엇을 했는지가 명확해 공유하기 좋다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Kazakhstan releases second Amur tiger in the wild as country works to revive lost population",
-            "url": "https://www.hindustantimes.com/trending/kazakhstan-releases-second-amur-tiger-in-the-wild-as-country-works-to-revive-lost-population-101793856860059.html",
-            "kind": "동물",
-            "event": "kazakhstan-amur-tiger-release-2024",
-            "reason": "카자흐스탄에서 아무르 호랑이 복원을 위해 두 번째 호랑이를 야생에 방사한 이야기는 훈훈하고 자연보호에 관심 있는 독자에게 흥미롭다.",
+            "title": "Scammers create fake AI images of missing pets in UK to extort reward money from owners",
+            "url": "https://www.hindustantimes.com/trending/scammers-create-fake-ai-images-of-missing-pets-in-uk-to-extort-reward-money-from-owners-101793944185659.html",
+            "kind": "비극·범죄",
+            "event": "uk-pet-scammers-ai",
+            "reason": "영국에서 사라진 반려동물의 가짜 AI 이미지를 만들어 보상금을 갈취하려는 사기 사건은 신기하고 경각심을 줄 수 있는 이야기다. 누가, 어디서, 무엇을 했는지가 분명하다.",
             "result": "통과"
           },
           {
-            "source": "Metro",
-            "title": "Pilot claims he spotted UFOs moving across sky during ‘seven flights’",
-            "url": "https://metro.co.uk/2026/11/05/pilot-claims-spotted-ufos-moving-across-sky-seven-flights-29768862/",
-            "kind": "기타",
-            "event": "pilot-ufo-sightings-2024",
-            "reason": "조종사가 7번의 비행 중 UFO를 목격했다고 주장한 이야기는 신기하고 흥미로워 점심시간 가벼운 읽을거리로 적합하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Good News Network",
-            "title": "Got Bad Breath? Get Free Dental Care at This Store",
-            "url": "https://www.goodnewsnetwork.org/got-bad-breath-get-free-dental-care-at-this-store/",
+            "source": "Hindustan Times",
+            "title": "Anand Mahindra’s Nanhi Kali to support girl who was hurt trying to save friend from chainsaw attack in Andhra Pradesh",
+            "url": "https://www.hindustantimes.com/trending/anand-mahindra-s-nanhi-kali-to-support-girl-who-was-hurt-trying-to-save-friend-from-chainsaw-attack-in-andhra-pradesh-101793945476964.html",
             "kind": "사람·도전",
-            "event": "stockholm-bad-breath-dental-care-2024",
-            "reason": "스톡홀름의 한 가게에서 입냄새가 나면 무료 치과용품을 주는 독특한 이벤트는 웃기고 신기해 국내 20~30대 직장인들이 재미있게 읽을 수 있다.",
+            "event": "nanhi-kali-support",
+            "reason": "인도 안드라프라데시에서 친구를 구하려다 체인톱 공격을 당한 소녀를 위해 아난드 마힌드라의 나니 칼리가 교육 지원을 약속한 훈훈한 이야기다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Vice",
+            "title": "Mötley Crüe Singer Vince Neil Allegedly Kicked in the Groin by Girlfriend During Violent Domestic Dispute",
+            "url": "https://www.vice.com/en/article/motley-crue-singer-vince-neil-allegedly-kicked-in-the-groin-by-girlfriend-during-violent-domestic-dispute/",
+            "kind": "비극·범죄",
+            "event": "vince-neil-domestic-dispute",
+            "reason": "모틀리 크루의 보컬 빈스 닐이 여자친구에게 폭력적으로 공격당했다는 사건은 충격적이고 흥미로운 연예계 뉴스다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "Houdini's ghost 'haunts' mysterious magic club – but can we speak to dead icon",
+            "url": "https://www.dailystar.co.uk/news/weird-news/houdinis-ghost-haunts-mysterious-magic-37826041",
+            "kind": "사람·도전",
+            "event": "houdini-ghost-magic-club",
+            "reason": "할리우드의 신비한 매직 클럽에서 해리 후디니의 유령이 출몰한다는 이야기는 오싹하고 흥미롭다. 누가, 어디서, 무엇을 했는지가 명확해 점심시간에 읽기 좋은 이야기다.",
             "result": "통과"
           }
         ]
       },
       {
-        "size": 19,
+        "size": 16,
         "picks": [
           {
             "source": "Hindustan Times",
-            "title": "UK man allegedly stored body of ‘soulmate’ with her guinea pigs in freezer for 3 years",
-            "url": "https://www.hindustantimes.com/trending/uk-man-allegedly-stored-body-of-soulmate-with-her-guinea-pigs-in-freezer-for-3-years-101793868053725.html",
+            "title": "Utah teen held captive for over 500 days used video game ‘Among Us’ to alert player, get rescued",
+            "url": "https://www.hindustantimes.com/trending/utah-teen-held-captive-for-over-500-days-used-video-game-among-us-to-alert-player-get-rescued-101793950121520.html",
             "kind": "비극·범죄",
-            "event": "uk-man-freezer-body-2024",
-            "reason": "영국에서 한 남성이 3년간 연인의 시신을 냉동고에 보관했다는 충격적인 사건으로, 실제 발생한 일이며 누가, 어디서, 무엇을 했는지 명확하게 나온다. 듣자마자 '진짜?'라는 반응이 나올 만한 이야기다.",
-            "result": "통과"
-          },
-          {
-            "source": "Metro",
-            "title": "Police helicopter makes penis-shaped flight path – but not on purpose",
-            "url": "https://metro.co.uk/2026/11/05/police-helicopter-denies-making-penis-shaped-flight-path-purpose-29767323/",
-            "kind": "기타",
-            "event": "police-helicopter-flight-path-2024",
-            "reason": "경찰 헬리콥터가 의도치 않게 음경 모양의 비행 경로를 그린 사건으로, 웃기고 신기한 이야기라 점심시간 가볍게 읽기 좋다. 누가, 어디서 했는지도 분명하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "California assistant steals $18 million from boss, spends it on Louis Vuitton bags, private jet trips",
-            "url": "https://www.hindustantimes.com/trending/us/california-assistant-steals-18-million-from-boss-spends-it-on-louis-vuitton-bags-private-jet-trips-101793853358750.html",
-            "kind": "비극·범죄",
-            "event": "california-theft-luxury-spending-2024",
-            "reason": "미국 캘리포니아에서 한 여성이 1,800만 달러를 훔쳐 명품과 사치 여행에 쓴 사건으로, 실제 일어난 일이며 누가, 어디서, 무엇을 했는지 명확하다. 흥미롭고 남에게 이야기하기 좋은 내용이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Peru airport security finds 3,000 tarantulas hidden in dirty socks inside three suitcases",
-            "url": "https://www.hindustantimes.com/trending/peru-airport-security-finds-3-000-tarantulas-hidden-in-dirty-socks-inside-three-suitcases-101793927552579.html",
-            "kind": "동물",
-            "event": "peru-tarantulas-socks-2024",
-            "reason": "페루 공항에서 양말 속에 3,000마리의 타란튤라가 숨겨진 사건으로, 신기하고 놀라운 이야기다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "Woman running marathon is floored after spotting familiar face jogging by her side",
-            "url": "https://www.dailystar.co.uk/real-life/woman-running-marathon-floored-after-37847233",
-            "kind": "사람·도전",
-            "event": "marathon-familiar-face-2024",
-            "reason": "뉴욕 마라톤에서 한 여성이 옆에서 함께 달리는 익숙한 얼굴을 발견해 놀란 이야기로, 훈훈하고 남에게 말해주기 좋은 실제 사건이다.",
+            "event": "utah-teen-among-us-rescue",
+            "reason": "실제로 500일 넘게 감금된 10대가 온라인 게임을 통해 구조된 사건으로, 처음 들으면 '진짜?' 소리가 나고 매우 놀랍고 훈훈한 이야기이다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "Seabird Sees Miracle Recovery After Avian Flu Wiped Them Out",
-            "url": "https://www.goodnewsnetwork.org/miracle-recovery-sees-seabirds-reclaim-former-colony-after-avian-flu-wiped-them-out/",
-            "kind": "동물",
-            "event": "seabird-recovery-2024",
-            "reason": "조류독감으로 멸종 위기에 처했던 바닷새가 기적적으로 회복된 이야기로, 훈훈하고 희망적인 내용이다. 누가, 어디서 일어난 일인지 분명하다.",
+            "title": "Man Spends 12 Days Returning Lost Cash a Laborer Needed for His Daughter",
+            "url": "https://www.goodnewsnetwork.org/man-spends-12-days-returning-lost-cash-a-laborer-needed-for-his-daughter/",
+            "kind": "사람·도전",
+            "event": "brazil-man-returns-lost-cash",
+            "reason": "브라질에서 한 남성이 길에서 발견한 현금을 12일간 찾아 돌려준 훈훈한 이야기로, 남에게 말해주고 싶은 따뜻한 사건이다. 누가, 어디서, 무엇을 했는지 명확하다.",
             "result": "통과"
           },
           {
-            "source": "서울신문",
-            "title": "‘32㎏ 중국제 포탄’ 발견에 中 “와인병” 황당 주장…미국까지 나섰다 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261105500232",
+            "source": "Hindustan Times",
+            "title": "Bhutan builds and consecrates 108 Buddhist stupas in just 9 hours, enters Guinness World Records",
+            "url": "https://www.hindustantimes.com/trending/bhutan-builds-and-consecrates-108-buddhist-stupas-in-just-9-hours-enters-guinness-world-records-101793969004203.html",
+            "kind": "사람·도전",
+            "event": "bhutan-buddhist-stupas-guinness",
+            "reason": "부탄에서 108개의 불탑을 9시간 만에 세우고 봉헌해 기네스 기록에 오른 신기한 사건으로, 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Georgia O’Keeffe painting found under fur coats in New York closet after 40 years, heads to auction",
+            "url": "https://www.hindustantimes.com/trending/georgia-o-keeffe-painting-found-under-fur-coats-in-new-york-closet-after-40-years-heads-to-auction-101793974362444.html",
+            "kind": "발견·장소",
+            "event": "georgia-okeeffe-painting-found",
+            "reason": "뉴욕에서 40년간 숨겨져 있던 유명 화가의 그림이 발견된 신기한 사건으로, 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Off-duty fire captain jumps into action after EV crashes into California nail salon and bursts into flames",
+            "url": "https://www.hindustantimes.com/trending/offduty-fire-captain-jumps-into-action-after-ev-crashes-into-california-nail-salon-and-bursts-into-flames-101793938271484.html",
             "kind": "비극·범죄",
-            "event": "china-papua-new-guinea-shell-2024",
-            "reason": "파푸아뉴기니에서 발견된 32kg 중국제 포탄을 두고 중국이 와인병이라고 주장하는 황당한 사건으로, 실제 발생한 국제적 논란이며 누가, 어디서, 무엇을 했는지 명확하다.",
+            "event": "california-ev-fire-rescue",
+            "reason": "캘리포니아에서 전기차가 네일샵에 충돌 후 화재가 발생했을 때, 비번 소방관이 즉시 대응한 실제 사건으로, 누가, 어디서, 무엇을 했는지 분명하다.",
             "result": "통과"
           },
           {
-            "source": "서울신문",
-            "title": "화장 고치다 ‘삐끼삐끼’…대만서 ‘아이돌급 인기’ 대박 난 韓치어리더, 깜짝 근황",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500052",
-            "kind": "연예·운세",
-            "event": "korean-cheerleader-taiwan-2024",
-            "reason": "대만에서 아이돌급 인기를 얻은 한국 치어리더 이주은의 근황 소식으로, 신기하고 훈훈한 이야기이며 누가, 어디서 무엇을 했는지 분명하다.",
+            "source": "Hindustan Times",
+            "title": "Know Your Neighbourhood: Kolkata's Chinatown got its name from an Italian",
+            "url": "https://www.hindustantimes.com/trending/know-your-neighbourhood-kolkatas-chinatown-got-its-name-from-an-italian-101793963729321.html",
+            "kind": "발견·장소",
+            "event": "kolkata-chinatown-italian-origin",
+            "reason": "인도 콜카타 차이나타운이 18세기 이탈리아 이민자 이름에서 유래했다는 흥미로운 역사적 사실로, 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+            "result": "통과"
+          },
+          {
+            "source": "Metro",
+            "title": "The man who sleeps with thousands of bedbugs for science",
+            "url": "https://metro.co.uk/2026/11/06/man-sleeps-thousands-bedbugs-science-29770892/",
+            "kind": "사람·도전",
+            "event": "man-sleeps-with-bedbugs",
+            "reason": "과학 연구를 위해 수천 마리 빈대와 함께 자는 남성의 독특하고 신기한 이야기로, 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "PVR denies reusing disposable cups after Bengaluru juice counter is shut by Karnataka health department",
+            "url": "https://www.hindustantimes.com/trending/pvr-juice-counter-in-bengaluru-mall-shut-down-after-complaint-about-reusing-disposable-cups-101793939201683.html",
+            "kind": "비극·범죄",
+            "event": "bengaluru-pvr-juice-counter-closure",
+            "reason": "인도 벵갈루루에서 PVR 영화관 내 주스 판매대가 일회용 컵 재사용 의혹으로 보건 당국에 의해 폐쇄된 사건으로, 누가, 어디서, 무엇을 했는지 분명히 나온다.",
             "result": "통과"
           }
         ]
@@ -358,134 +285,131 @@
     "final": [
       {
         "source": "Hindustan Times",
-        "title": "California assistant steals $18 million from boss, spends it on Louis Vuitton bags, private jet trips",
-        "url": "https://www.hindustantimes.com/trending/us/california-assistant-steals-18-million-from-boss-spends-it-on-louis-vuitton-bags-private-jet-trips-101793853358750.html",
+        "title": "Utah teen held captive for over 500 days used video game ‘Among Us’ to alert player, get rescued",
+        "url": "https://www.hindustantimes.com/trending/utah-teen-held-captive-for-over-500-days-used-video-game-among-us-to-alert-player-get-rescued-101793950121520.html",
         "kind": "비극·범죄",
-        "event": "california-theft-luxury-spending",
-        "reason": "실제로 일어난 일이며, 10년간 1,800만 달러를 훔쳐 명품과 사치 여행에 쓴 사건은 충격적이고 흥미로워 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지 명확하다.",
+        "event": "utah-teen-among-us-rescue",
+        "reason": "실제로 일어난 매우 드문 사건으로, 18개월간 감금된 십대가 온라인 게임을 통해 구조된 이야기라 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
         "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "UK man allegedly stored body of ‘soulmate’ with her guinea pigs in freezer for 3 years",
-        "url": "https://www.hindustantimes.com/trending/uk-man-allegedly-stored-body-of-soulmate-with-her-guinea-pigs-in-freezer-for-3-years-101793868053725.html",
-        "kind": "비극·범죄",
-        "event": "uk-freezer-body-storage",
-        "reason": "영국에서 발생한 기괴한 사건으로, 시신을 3년간 냉동고에 보관했다는 내용이 매우 충격적이고 남에게 이야기하고 싶어지는 소재다. 사건의 주체와 장소가 분명하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Daily Star",
-        "title": "Woman running marathon is floored after spotting familiar face jogging by her side",
-        "url": "https://www.dailystar.co.uk/real-life/woman-running-marathon-floored-after-37847233",
+        "title": "Bhutan builds and consecrates 108 Buddhist stupas in just 9 hours, enters Guinness World Records",
+        "url": "https://www.hindustantimes.com/trending/bhutan-builds-and-consecrates-108-buddhist-stupas-in-just-9-hours-enters-guinness-world-records-101793969004203.html",
         "kind": "사람·도전",
-        "event": "ny-marathon-familiar-face",
-        "reason": "뉴욕 마라톤에서 친숙한 얼굴을 발견한 훈훈한 이야기로, 가볍게 읽기 좋고 긍정적인 내용이다. 누가 어디서 무엇을 했는지 명확하다.",
+        "event": "bhutan-stupas-guinness-record",
+        "reason": "부탄에서 108개의 불교 스투파를 단 9시간 만에 건설하고 봉헌해 기네스 기록에 오른 일로, 신기하고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지 명확하다.",
         "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "US man grows 5-foot-3-inch natural beard locks over 20 years, earns Guinness title",
-        "url": "https://www.hindustantimes.com/trending/us-man-grows-5-foot-3-inch-natural-beard-locks-over-20-years-earns-guinness-title-101793852437979.html",
-        "kind": "사람·도전",
-        "event": "us-guinness-beard-record",
-        "reason": "미국 남성이 20년간 기른 긴 수염으로 기네스 기록을 세운 흥미로운 사실로, 웃기고 신기한 이야기다. 누가 어디서 무엇을 했는지 분명하다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "Metro",
-        "title": "Police helicopter makes penis-shaped flight path – but not on purpose",
-        "url": "https://metro.co.uk/2026/11/05/police-helicopter-denies-making-penis-shaped-flight-path-purpose-29767323/",
-        "kind": "기타",
-        "event": "police-helicopter-flight-path",
-        "reason": "경찰 헬리콥터가 우연히 음경 모양의 비행 경로를 그린 해프닝으로 웃음을 주는 이야기다. 누가 어디서 무엇을 했는지 명확하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Good News Network",
-        "title": "400-yo Shipwreck Puzzle Finally Cracked After More Than 20 Years of Mystery",
-        "url": "https://www.goodnewsnetwork.org/400-yo-padlock-code-finally-cracked-more-than-20-years-after-being-found-in-shipwreck-treasure/",
-        "kind": "발견·장소",
-        "event": "wales-shipwreck-padlock",
-        "reason": "웨일스에서 발견된 400년 된 난제의 자물쇠를 CT 스캐너로 해독한 과학적 발견으로 신기하고 흥미롭다. 누가 어디서 무엇을 했는지 분명하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Seabird Sees Miracle Recovery After Avian Flu Wiped Them Out",
-        "url": "https://www.goodnewsnetwork.org/miracle-recovery-sees-seabirds-reclaim-former-colony-after-avian-flu-wiped-them-out/",
-        "kind": "동물",
-        "event": "uk-bird-recovery",
-        "reason": "영국 해안에서 조류독감으로 사라졌던 새들이 기적적으로 회복된 이야기로 훈훈하고 희망적이다. 누가 어디서 무엇을 했는지 명확하다.",
-        "result": "나라 상한"
       },
       {
         "source": "Hindustan Times",
         "title": "Peru airport security finds 3,000 tarantulas hidden in dirty socks inside three suitcases",
         "url": "https://www.hindustantimes.com/trending/peru-airport-security-finds-3-000-tarantulas-hidden-in-dirty-socks-inside-three-suitcases-101793927552579.html",
-        "kind": "동물",
+        "kind": "사람·도전",
         "event": "peru-tarantulas-suitcases",
-        "reason": "페루 공항에서 양말 속에 3,000마리 타란튤라를 숨긴 사건으로 신기하고 놀라운 이야기다. 누가 어디서 무엇을 했는지 분명하다.",
+        "reason": "페루 공항에서 3,000마리의 타란튤라가 양말 속에 숨겨진 채 발견된 사건으로, 처음 들으면 놀랍고 신기하며 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Man Spends 12 Days Returning Lost Cash a Laborer Needed for His Daughter",
+        "url": "https://www.goodnewsnetwork.org/man-spends-12-days-returning-lost-cash-a-laborer-needed-for-his-daughter/",
+        "kind": "사람·도전",
+        "event": "brazil-man-returns-lost-cash",
+        "reason": "브라질에서 한 남성이 노동자가 딸을 위해 필요했던 현금을 12일간 찾아 돌려준 훈훈한 이야기로, 실제 사건이며 누가, 어디서, 무엇을 했는지 분명하다.",
+        "result": "선정"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Venomous Primate Believed Extinct for 100 Years Was Hiding in Plain Sight All Along",
+        "url": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
+        "kind": "발견·장소",
+        "event": "bangka-slow-loris-discovery",
+        "reason": "100년간 멸종된 줄 알았던 독이 있는 영장류가 발견된 신기한 자연 이야기로, 누가, 어디서, 무엇을 했는지 명확하며 흥미롭다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Anand Mahindra’s Nanhi Kali to support girl who was hurt trying to save friend from chainsaw attack in Andhra Pradesh",
+        "url": "https://www.hindustantimes.com/trending/anand-mahindra-s-nanhi-kali-to-support-girl-who-was-hurt-trying-to-save-friend-from-chainsaw-attack-in-andhra-pradesh-101793945476964.html",
+        "kind": "사람·도전",
+        "event": "andhra-pradesh-chainsaw-attack-support",
+        "reason": "인도 안드라프라데시에서 친구를 구하려다 부상당한 소녀를 유명 기업가가 지원한다는 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지 분명하다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Good News Network",
+        "title": "People Around the World Help Buy Royal Estate for Wildlife Conservation",
+        "url": "https://www.goodnewsnetwork.org/people-around-the-world-help-buy-royal-estate-for-wildlife-conservation/",
+        "kind": "사람·도전",
+        "event": "wildlife-conservation-royal-estate",
+        "reason": "전 세계 사람들이 모여 야생동물 보호를 위해 왕실 부동산을 구입한 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지 명확하다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Off-duty fire captain jumps into action after EV crashes into California nail salon and bursts into flames",
+        "url": "https://www.hindustantimes.com/trending/offduty-fire-captain-jumps-into-action-after-ev-crashes-into-california-nail-salon-and-bursts-into-flames-101793938271484.html",
+        "kind": "비극·범죄",
+        "event": "california-ev-fire-rescue",
+        "reason": "캘리포니아에서 전기차가 네일 살롱에 충돌해 불이 났을 때 비번 소방관이 즉시 대응한 실제 사건으로, 누가, 어디서, 무엇을 했는지 분명하다.",
         "result": "매체 상한"
       },
       {
         "source": "Metro",
-        "title": "Pilot claims he spotted UFOs moving across sky during ‘seven flights’",
-        "url": "https://metro.co.uk/2026/11/05/pilot-claims-spotted-ufos-moving-across-sky-seven-flights-29768862/",
-        "kind": "기타",
-        "event": "ufo-sightings-flight-uk",
-        "reason": "영국에서 조종사가 7번의 비행 중 UFO를 목격했다고 주장한 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지가 분명히 나와 있어 독자들이 점심시간에 가볍게 읽기 좋다.",
-        "result": "예비"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Got Bad Breath? Get Free Dental Care at This Store",
-        "url": "https://www.goodnewsnetwork.org/got-bad-breath-get-free-dental-care-at-this-store/",
+        "title": "The man who sleeps with thousands of bedbugs for science",
+        "url": "https://metro.co.uk/2026/11/06/man-sleeps-thousands-bedbugs-science-29770892/",
         "kind": "사람·도전",
-        "event": "dental-care-discount-sweden",
-        "reason": "스웨덴의 한 가게에서 입냄새가 나면 무료로 치약, 칫솔 등을 제공하는 독특한 할인 행사는 실제로 일어난 일이며, 웃기고 신기해서 주변에 이야기해주고 싶다. 누가, 어디서, 무엇을 했는지가 명확하다.",
-        "result": "예비"
+        "event": "bedbug-science-experiment",
+        "reason": "실제로 일어난 독특한 과학 실험 이야기로, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나와 있어 점심시간 가볍게 읽기 좋다.",
+        "result": "선정"
       },
       {
-        "source": "서울신문",
-        "title": "화장 고치다 ‘삐끼삐끼’…대만서 ‘아이돌급 인기’ 대박 난 韓치어리더, 깜짝 근황",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500052",
+        "source": "Vice",
+        "title": "WWE Star Rhea Ripley Makes Surprise Appearance at Metal Concert as Band Dedicates Song to Her",
+        "url": "https://www.vice.com/en/article/wwe-star-rhea-ripley-makes-surprise-appearance-at-metal-concert-as-band-dedicates-song-to-her/",
         "kind": "연예·운세",
-        "event": "korean-cheerleader-taiwan",
-        "reason": "한국 치어리더 이주은이 대만에서 아이돌급 인기를 얻고 농구장 응원단에 정식 합류한 이야기는 실제 사건이며, 신기하고 훈훈해서 공유할 만하다. 누가, 어디서, 무엇을 했는지가 분명히 나온다.",
+        "event": "wwe-metal-concert-surprise",
+        "reason": "유명 WWE 스타가 메탈 콘서트에 깜짝 등장해 밴드가 노래를 헌정했다는 훈훈하고 신기한 이야기로, 누가 어디서 무엇을 했는지 명확하다.",
         "result": "예비"
       }
     ],
     "final_out": [
       {
-        "source": "서울신문",
-        "title": "97세 노인, 생일파티서 춤춘 뒤 사망…주변인도 몰랐던 ‘사실’ 있었다 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261105500304",
+        "source": "Hindustan Times",
+        "title": "PVR denies reusing disposable cups after Bengaluru juice counter is shut by Karnataka health department",
+        "url": "https://www.hindustantimes.com/trending/pvr-juice-counter-in-bengaluru-mall-shut-down-after-complaint-about-reusing-disposable-cups-101793939201683.html",
         "kind": "비극·범죄"
       },
       {
         "source": "Hindustan Times",
-        "title": "Kazakhstan releases second Amur tiger in the wild as country works to revive lost population",
-        "url": "https://www.hindustantimes.com/trending/kazakhstan-releases-second-amur-tiger-in-the-wild-as-country-works-to-revive-lost-population-101793856860059.html",
-        "kind": "동물"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "British man faces up to 7 years in prison for allegedly hiding camera in toilet on Japan-Singapore flight",
-        "url": "https://www.hindustantimes.com/trending/british-man-faces-up-to-7-years-in-prison-for-allegedly-hiding-camera-in-toilet-on-japan-singapore-flight-101793891514469.html",
-        "kind": "비극·범죄"
+        "title": "Know Your Neighbourhood: Kolkata's Chinatown got its name from an Italian",
+        "url": "https://www.hindustantimes.com/trending/know-your-neighbourhood-kolkatas-chinatown-got-its-name-from-an-italian-101793963729321.html",
+        "kind": "발견·장소"
       },
       {
         "source": "Vice",
-        "title": "Will Smith Caught on Camera Moshing to Unexpected Metal Band at Daughter’s Birthday Party",
-        "url": "https://www.vice.com/en/article/will-smith-caught-on-camera-moshing-to-unexpected-metal-band-at-daughters-birthday-party/",
-        "kind": "연예·운세"
+        "title": "Mötley Crüe Singer Vince Neil Allegedly Kicked in the Groin by Girlfriend During Violent Domestic Dispute",
+        "url": "https://www.vice.com/en/article/motley-crue-singer-vince-neil-allegedly-kicked-in-the-groin-by-girlfriend-during-violent-domestic-dispute/",
+        "kind": "비극·범죄"
       },
       {
-        "source": "서울신문",
-        "title": "‘32㎏ 중국제 포탄’ 발견에 中 “와인병” 황당 주장…미국까지 나섰다 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261105500232",
+        "source": "Hindustan Times",
+        "title": "Scammers create fake AI images of missing pets in UK to extort reward money from owners",
+        "url": "https://www.hindustantimes.com/trending/scammers-create-fake-ai-images-of-missing-pets-in-uk-to-extort-reward-money-from-owners-101793944185659.html",
         "kind": "비극·범죄"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Houdini's ghost 'haunts' mysterious magic club – but can we speak to dead icon",
+        "url": "https://www.dailystar.co.uk/news/weird-news/houdinis-ghost-haunts-mysterious-magic-37826041",
+        "kind": "사람·도전"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Georgia O’Keeffe painting found under fur coats in New York closet after 40 years, heads to auction",
+        "url": "https://www.hindustantimes.com/trending/georgia-o-keeffe-painting-found-under-fur-coats-in-new-york-closet-after-40-years-heads-to-auction-101793974362444.html",
+        "kind": "발견·장소"
       }
     ]
   },
@@ -493,58 +417,58 @@
   "published": [
     {
       "source": "Hindustan Times",
-      "headline": "캘리포니아 비서, 10년간 1,800만 달러 횡령해 명품 구매와 개인 전세기 여행에 사용",
-      "url": "https://www.hindustantimes.com/trending/us/california-assistant-steals-18-million-from-boss-spends-it-on-louis-vuitton-bags-private-jet-trips-101793853358750.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/05/1600x900/logo/1_1793853422269_rLR3_1793853467831_CNCj_6263d409-6741-4e34-8fd7-7c9daeee4779_Wkgr.png",
+      "headline": "유타 10대 소녀, 온라인 게임 '어몽어스'로 납치 사실 알리고 500일 만에 구조",
+      "url": "https://www.hindustantimes.com/trending/utah-teen-held-captive-for-over-500-days-used-video-game-among-us-to-alert-player-get-rescued-101793950121520.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/06/1600x900/logo/_Kylie_Arellano_1793950203483_WVdM_1793950203831_eDTF_15d80242-63ab-487f-b389-b9c6f406ca69_8IMi.jpg",
       "kind": "비극·범죄",
       "topic": "사건·사고",
-      "event": "california-theft-luxury-spending",
-      "reason": "실제로 일어난 일이며, 10년간 1,800만 달러를 훔쳐 명품과 사치 여행에 쓴 사건은 충격적이고 흥미로워 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지 명확하다.",
-      "why": "피해자의 은행 계좌 접근 권한을 이용해 신용카드 비용을 지불하는 과정에서 범행이 이루어졌으며, 그녀는 명품을 온라인에서 재판매해 현금화하기도 했습니다."
+      "event": "utah-teen-among-us-rescue",
+      "reason": "실제로 일어난 매우 드문 사건으로, 18개월간 감금된 십대가 온라인 게임을 통해 구조된 이야기라 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+      "why": "피해자는 감금 중 휴대폰을 빼앗겼으나 와이파이 연결이 가능한 전화기를 받으면서 온라인 게임을 통해 도움을 요청할 수 있었습니다."
     },
     {
       "source": "Hindustan Times",
-      "headline": "영국 남성, 예술가 친구 살해 후 3년간 냉동고에 시신과 기니피그 보관 혐의",
-      "url": "https://www.hindustantimes.com/trending/uk-man-allegedly-stored-body-of-soulmate-with-her-guinea-pigs-in-freezer-for-3-years-101793868053725.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/05/1600x900/logo/Delia_McInerney_1793868289811_Zp9h_1793868307499_sBTF_4c551713-1023-451b-8242-34aa4e477b07_54YF.jpg",
-      "kind": "비극·범죄",
-      "topic": "사건·사고",
-      "event": "uk-freezer-body-storage",
-      "reason": "영국에서 발생한 기괴한 사건으로, 시신을 3년간 냉동고에 보관했다는 내용이 매우 충격적이고 남에게 이야기하고 싶어지는 소재다. 사건의 주체와 장소가 분명하다.",
-      "why": "맥이너니는 포르투갈로 이주할 계획이었으며, 고든은 그녀의 이주 계획을 알게 된 후 살해와 시신 은닉에 필요한 도구를 구입한 것으로 조사됐습니다."
-    },
-    {
-      "source": "Daily Star",
-      "headline": "뉴욕 마라톤에서 달리던 여성, 옆에서 함께 달린 유명인 알아채지 못해",
-      "url": "https://www.dailystar.co.uk/real-life/woman-running-marathon-floored-after-37847233",
-      "image": "https://i2-prod.dailystar.co.uk/article37847439.ece/ALTERNATES/s1200d/0_Thousands-take-part-in-transcontinental-48th-Istanbul-Marathon.jpg",
+      "headline": "부탄, 9시간 만에 108개의 불교 스투파 건립 및 봉헌으로 기네스 세계기록 달성",
+      "url": "https://www.hindustantimes.com/trending/bhutan-builds-and-consecrates-108-buddhist-stupas-in-just-9-hours-enters-guinness-world-records-101793969004203.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/06/1600x900/logo/bhutan_1793971735886_otk6_1793971814308_DuAW_db4e1ba1-2876-4469-ac45-10dbebe97cea_wr3h.png",
       "kind": "사람·도전",
-      "topic": "사람",
-      "event": "ny-marathon-familiar-face",
-      "reason": "뉴욕 마라톤에서 친숙한 얼굴을 발견한 훈훈한 이야기로, 가볍게 읽기 좋고 긍정적인 내용이다. 누가 어디서 무엇을 했는지 명확하다.",
-      "why": "마라톤은 오랜 준비와 집중이 필요한 경기여서 로티가 달리는 데 몰두하느라 옆에서 달리는 딜런을 인지하지 못했습니다."
-    },
-    {
-      "source": "Metro",
-      "headline": "영국 경찰 헬리콥터 비행 경로가 음경 모양으로 나타나 논란",
-      "url": "https://metro.co.uk/2026/11/05/police-helicopter-denies-making-penis-shaped-flight-path-purpose-29767323/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_319505875-cc68_1793875989.jpg?quality=90&strip=all&w=1200&h=630&crop=1",
-      "kind": "기타",
       "topic": "사건·사고",
-      "event": "police-helicopter-flight-path",
-      "reason": "경찰 헬리콥터가 우연히 음경 모양의 비행 경로를 그린 해프닝으로 웃음을 주는 이야기다. 누가 어디서 무엇을 했는지 명확하다.",
-      "why": "NPAS는 경찰 임무 특성상 비행 경로가 사전에 정해지지 않고 상황에 따라 유동적으로 변경된다고 설명했습니다."
+      "event": "bhutan-stupas-guinness-record",
+      "reason": "부탄에서 108개의 불교 스투파를 단 9시간 만에 건설하고 봉헌해 기네스 기록에 오른 일로, 신기하고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지 명확하다.",
+      "why": "108이라는 숫자는 불교에서 극복해야 할 108가지 세속적 욕망을 상징하며, 이번 프로젝트는 부탄의 문화와 영적 전통을 경제 허브인 게레푸 마음챙김 도시 계획과 결합하기 위해 추진되었습니다."
     },
     {
       "source": "Good News Network",
-      "headline": "400년 된 보물선 자물쇠, 병원 CT 스캔으로 암호 해독 성공",
-      "url": "https://www.goodnewsnetwork.org/400-yo-padlock-code-finally-cracked-more-than-20-years-after-being-found-in-shipwreck-treasure/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Museum-of-Wales.jpg",
+      "headline": "브라질 남성, 광장에서 발견한 219달러 현금 주인 찾아 반환",
+      "url": "https://www.goodnewsnetwork.org/man-spends-12-days-returning-lost-cash-a-laborer-needed-for-his-daughter/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Pedro-Moro-shakes-hands-with-Matheus-Reginaldo-Celestino-whose-money-Moro-returned-credit-Pedro-Moro-supplied-to-the-media.jpg",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "brazil-man-returns-lost-cash",
+      "reason": "브라질에서 한 남성이 노동자가 딸을 위해 필요했던 현금을 12일간 찾아 돌려준 훈훈한 이야기로, 실제 사건이며 누가, 어디서, 무엇을 했는지 분명하다.",
+      "why": "모로는 도시의 거대한 부처상에서 영감을 받아 정직하게 돈을 돌려주기로 결심했고, 현장 상점의 CCTV 영상을 통해 주인을 확인할 수 있었습니다."
+    },
+    {
+      "source": "Good News Network",
+      "headline": "멸종 위기였던 방카 느린로리스, 현지 보호 노력 덕분에 생존 확인",
+      "url": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Bangka-slow-loris-credit-Gunay-M.E.-CC-4.0.-BY-SA.jpg",
       "kind": "발견·장소",
-      "topic": "발견·장소",
-      "event": "wales-shipwreck-padlock",
-      "reason": "웨일스에서 발견된 400년 된 난제의 자물쇠를 CT 스캐너로 해독한 과학적 발견으로 신기하고 흥미롭다. 누가 어디서 무엇을 했는지 분명하다.",
-      "why": "자물쇠는 4개의 링에 각각 6개의 글자가 있어 총 1,296가지 조합이 가능하며, 움직이지 않는 글자들이 혼동을 주도록 설계되어 해독이 어려웠습니다."
+      "topic": "동물",
+      "event": "bangka-slow-loris-discovery",
+      "reason": "100년간 멸종된 줄 알았던 독이 있는 영장류가 발견된 신기한 자연 이야기로, 누가, 어디서, 무엇을 했는지 명확하며 흥미롭다.",
+      "why": "방카 느린로리스는 독특하게도 독을 분비하는 영장류로, 이들의 생존과 보호는 생태계 보전과 희귀종 연구에 중요한 의미를 갖기 때문입니다."
+    },
+    {
+      "source": "Metro",
+      "headline": "과학자, 침대 벌레 6만 마리와 함께 자며 해충 퇴치 제품 연구",
+      "url": "https://metro.co.uk/2026/11/06/man-sleeps-thousands-bedbugs-science-29770892/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316412214-2e8a_1793959765.jpg?quality=90&strip=all&w=1200&h=630&crop=1",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "bedbug-science-experiment",
+      "reason": "실제로 일어난 독특한 과학 실험 이야기로, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나와 있어 점심시간 가볍게 읽기 좋다.",
+      "why": "침대 벌레는 사람의 호흡에서 나오는 이산화탄소와 체온에 반응해 활동하기 때문에, 제품 테스트 시 사람이 있어야 벌레의 행동을 정확히 관찰할 수 있습니다."
     }
   ]
 }

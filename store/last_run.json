@@ -1,129 +1,55 @@
 {
-  "at": "2026-11-07T10:14:49",
+  "at": "2026-11-08T09:55:31",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 47건 · 소스 7곳 · 응답 없음 ['Indian Express']",
-    "② 선별   47 → 홍보 제외 47 → 라벨 제외 33 → 예선 2조 16 → 5건 + 예비 1",
-    "   선정 [Hindustan Times] Utah teen held captive for over 500 days used vide — 실제로 일어난 매우 드문 사건으로, 18개월간 감금된 십대가 온라인 게임을 통해 구조된 이야기라 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
-    "   선정 [Hindustan Times] Bhutan builds and consecrates 108 Buddhist stupas  — 부탄에서 108개의 불교 스투파를 단 9시간 만에 건설하고 봉헌해 기네스 기록에 오른 일로, 신기하고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지 명확하다.",
-    "   선정 [Good News Network] Man Spends 12 Days Returning Lost Cash a Laborer N — 브라질에서 한 남성이 노동자가 딸을 위해 필요했던 현금을 12일간 찾아 돌려준 훈훈한 이야기로, 실제 사건이며 누가, 어디서, 무엇을 했는지 분명하다.",
-    "   선정 [Good News Network] Venomous Primate Believed Extinct for 100 Years Wa — 100년간 멸종된 줄 알았던 독이 있는 영장류가 발견된 신기한 자연 이야기로, 누가, 어디서, 무엇을 했는지 명확하며 흥미롭다.",
-    "   선정 [Metro] The man who sleeps with thousands of bedbugs for s — 실제로 일어난 독특한 과학 실험 이야기로, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나와 있어 점심시간 가볍게 읽기 좋다.",
-    "   예비 [Vice] WWE Star Rhea Ripley Makes Surprise Appearance at  — 유명 WWE 스타가 메탈 콘서트에 깜짝 등장해 밴드가 노래를 헌정했다는 훈훈하고 신기한 이야기로, 누가 어디서 무엇을 했는지 명확하다.",
-    "④ 검수   6 → 5건",
+    "① 수집   24시간 time window · 37건 · 소스 7곳 · 응답 없음 ['Indian Express'] · 0건 ['Daily Star', 'Metro']",
+    "② 선별   37 → 홍보 제외 37 → 라벨 제외 34 → 예선 2조 15 → 5건 + 예비 2",
+    "   선정 [Hindustan Times] British runner sets world record after completing  — 영국 주자의 50개 미국 주 마라톤 완주 세계 기록은 놀랍고 훈훈한 이야기로, 누가 어디서 무엇을 했는지가 명확하다.",
+    "   선정 [Good News Network] Mayor Uses AirTag to Catch Capstone Thief who was  — 영국 시장이 첨단 기술을 이용해 300년 된 돌을 훔친 도둑을 잡은 사건은 신기하고 흥미로워 공유할 만하다.",
+    "   선정 [Good News Network] Baby Saved After Racing Heartbeat Detected by Fami — 가족 도베르만이 아기의 위험 신호를 감지해 생명을 구한 이야기는 훈훈하고 감동적이며 누가 어디서 무엇을 했는지가 분명하다.",
+    "   선정 [Hindustan Times] Drone delivers bananas to chimpanzees after severe — 플로리다 침팬지 보호구역에 홍수 피해 후 드론으로 바나나를 배달한 사건은 신기하고 재미있으며 장소와 상황이 명확하다.",
+    "   선정 [Vice] Man Dies at His 97th Birthday Party Shortly After  — 97세 생일 파티에서 춤을 추다 세상을 떠난 이야기는 오싹하면서도 훈훈한 느낌을 주어 공유할 만하다.",
+    "   예비 [Vice] Bride Allegedly Asked Her Bridesmaid to Gain 120 P — 실제로 일어난 일인데 처음 들으면 '진짜?' 소리가 나오는 매우 특이한 사례입니다. 미국에서 벌어진 일로, 누가(신부와 들러리), 어디서(미국), 무엇을 했는지가 분명히 나와 있습니다. 웃기고 신기해서 점심시간에 가볍게 읽고 주변에 이야기하기 좋습니다.",
+    "   예비 [서울신문] “집 공짜로 준다고?” 즉시 입주 가능 SNS 글에 수백명 ‘우르르’…알고 보니 [월드픽] — 미국 LA에서 실제로 벌어진 해프닝으로, 무료 주거지를 제공한다는 SNS 글에 수백명이 몰려드는 일이 있었습니다. 누가, 어디서, 무엇을 했는지가 명확하며, 웃기고 신기한 이야기라 직장인 점심시간 읽을거리로 적합합니다.",
+    "④ 검수   7 → 5건",
     "⑤ 발행   5건 · sent"
   ],
   "selection": {
-    "candidates": 47,
+    "candidates": 37,
     "already_sent": [],
     "promo": [],
     "labels": {
-      "비극·범죄": 12,
-      "사람·도전": 11,
-      "일반 뉴스": 10,
+      "법·행정": 7,
+      "비극·범죄": 4,
+      "사람·도전": 9,
+      "동물": 2,
       "발견·장소": 3,
-      "연예·운세": 7,
+      "음식·물건": 1,
+      "연예·운세": 6,
       "기타": 2,
-      "법·행정": 2
+      "일반 뉴스": 3
     },
     "label_dropped": [
       {
-        "source": "Hindustan Times",
-        "title": "NASA’s Swift space telescope crashes back to Earth over Indonesia after 22 years in orbit",
-        "url": "https://www.hindustantimes.com/trending/nasas-swift-space-telescope-crashes-back-to-earth-over-indonesia-after-22-years-in-orbit-101793980209989.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Airbnb CEO Brian Chesky says almost entire executive team quit after he changed his leadership style",
-        "url": "https://www.hindustantimes.com/trending/airbnb-ceo-brian-chesky-says-almost-entire-executive-team-quit-after-he-changed-his-leadership-style-101793950848062.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Planning to buy gold this Dhanteras? Experts explain what’s worth your money",
-        "url": "https://www.hindustantimes.com/htcity/leisure/planning-to-buy-gold-this-dhanteras-experts-explain-what-s-worth-your-money-101793956887904.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Dutch airline KLM announces 1,000 job cuts; CEO Marjan Rintel cites rising fuel prices, global instability",
-        "url": "https://www.hindustantimes.com/trending/dutch-airline-klm-announces-1-000-job-cuts-ceo-marjan-rintel-cites-rising-fuel-prices-global-instability-101793932553441.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Britain to make salary disclosure in job ads mandatory for all employers",
-        "url": "https://www.hindustantimes.com/trending/britain-to-make-salary-disclosure-in-job-ads-mandatory-for-all-employers-101793930823392.html",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Geothermal Utilities Power Wave of US Affordable Housing with 40% Energy Savings",
-        "url": "https://www.goodnewsnetwork.org/geothermal-utilities-power-wave-of-us-affordable-housing-with-40-energy-savings/",
+        "source": "서울신문",
+        "title": "“핵탄두 발사됐다” 공포…러시아가 우크라에 核미사일 진짜 쏘면 벌어질 일 [권윤희의 월드뷰]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261107500025",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "인공지능 시대 인간다움 묻는 ‘2026 인문문화축제’ 개막… 주제는 ‘인문지능’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500271",
-        "kind": "법·행정",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "‘2026 한-아세안 포럼’ 싱가포르서 성료… CSP 비전 이행 및 한반도 평화 협력 논의",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500254",
+        "title": "“벤츠·BMW 제쳤다”…태극기에 테슬라 박은 머스크, 이번엔 ‘수입차 1위’ 인증",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261107500021",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "홍준표 대선캠프 정치자금 2억원 부정 지출 혐의…관계자 6명 송치",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500250",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "교황 만난 김기재 당진시장, ‘당진 방문’ 요청",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500248",
+        "title": "“젠슨 황, 미모의 中간첩과 연인 관계” 파문…美의원·FBI까지 파고든 정보공작 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261107500020",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "전주시 흙냄새 수돗물 사태 안정기로 접어들어, 망간 농도 기준치 이하",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500246",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "잠실 가득 채운 90년의 울림… 성신여대, 윈드 오케스트라 특별연주회 성료",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500239",
-        "kind": "연예·운세",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "부산기업 기후 대응 기술 사업화 금융지원…부산시·BNK·기보  맞손",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500234",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“무대 대신 서가로”…상명대 학생들, ‘리타 길들이기’ 낭독  공연",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106500232",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
       }
     ],
     "heats": [
@@ -132,151 +58,142 @@
         "picks": [
           {
             "source": "Hindustan Times",
-            "title": "Peru airport security finds 3,000 tarantulas hidden in dirty socks inside three suitcases",
-            "url": "https://www.hindustantimes.com/trending/peru-airport-security-finds-3-000-tarantulas-hidden-in-dirty-socks-inside-three-suitcases-101793927552579.html",
+            "title": "US pilot spends 8 hours creating giant GTA 6 artwork with plane’s flight path ahead of game’s release",
+            "url": "https://www.hindustantimes.com/trending/us/us-pilot-spends-8-hours-creating-giant-gta-6-artwork-with-plane-s-flight-path-ahead-of-game-s-release-101794059029083.html",
             "kind": "사람·도전",
-            "event": "peru-tarantulas-suitcases",
-            "reason": "페루 공항 보안요원이 세 개의 여행가방에서 더러운 양말 속에 숨겨진 3,000마리의 타란튤라를 발견한 사건은 매우 이색적이고 놀랍다. 누가, 어디서, 무엇을 했는지가 명확하며, 직장인들이 점심시간에 친구에게 이야기하기 좋은 흥미로운 내용이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Good News Network",
-            "title": "Venomous Primate Believed Extinct for 100 Years Was Hiding in Plain Sight All Along",
-            "url": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
-            "kind": "발견·장소",
-            "event": "bangka-slow-loris-discovery",
-            "reason": "100년 동안 멸종된 것으로 여겨졌던 독이 있는 영장류 방카 슬로우 로리스가 사실은 여전히 존재한다는 발견은 신기하고 놀라운 뉴스다. 동물과 자연에 관심 있는 20~30대 직장인들이 흥미롭게 읽을 수 있다.",
-            "result": "통과"
-          },
-          {
-            "source": "Good News Network",
-            "title": "People Around the World Help Buy Royal Estate for Wildlife Conservation",
-            "url": "https://www.goodnewsnetwork.org/people-around-the-world-help-buy-royal-estate-for-wildlife-conservation/",
-            "kind": "사람·도전",
-            "event": "wildlife-conservation-estate",
-            "reason": "전 세계 사람들이 모여 야생동물 보호를 위해 왕실 부동산을 구입했다는 훈훈한 소식이다. 누가, 어디서, 무엇을 했는지가 분명하며, 긍정적인 이야기로 점심시간에 읽기 좋다.",
+            "event": "us-pilot-gta6-flightpath",
+            "reason": "미국 조종사가 비행 경로를 이용해 거대한 GTA 6 그림을 만든 독특한 사건으로, 실제로 일어난 일이며 신기하고 흥미로워 점심시간에 읽기 좋습니다.",
             "result": "통과"
           },
           {
             "source": "Vice",
-            "title": "WWE Star Rhea Ripley Makes Surprise Appearance at Metal Concert as Band Dedicates Song to Her",
-            "url": "https://www.vice.com/en/article/wwe-star-rhea-ripley-makes-surprise-appearance-at-metal-concert-as-band-dedicates-song-to-her/",
-            "kind": "연예·운세",
-            "event": "wwe-rhea-ripley-metal-concert",
-            "reason": "WWE 스타 리아 리플리가 메탈 콘서트에 깜짝 등장하고 밴드가 그녀에게 노래를 헌정한 사건은 재미있고 신기하다. 누가, 어디서, 무엇을 했는지가 명확해 공유하기 좋다.",
+            "title": "Bride Allegedly Asked Her Bridesmaid to Gain 120 Pounds So She’d Look Skinnier at Her Wedding",
+            "url": "https://www.vice.com/en/article/bride-allegedly-asked-her-bridesmaid-to-gain-120-pounds-so-shed-look-skinnier-at-her-wedding/",
+            "kind": "기타",
+            "event": "wedding-bridesmaid-weight",
+            "reason": "결혼식에서 신부가 들러리에게 120파운드 증량을 요구했다는 충격적인 이야기로, 누가 어디서 무엇을 했는지가 분명하며 '진짜?'라는 반응을 유발합니다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Scammers create fake AI images of missing pets in UK to extort reward money from owners",
-            "url": "https://www.hindustantimes.com/trending/scammers-create-fake-ai-images-of-missing-pets-in-uk-to-extort-reward-money-from-owners-101793944185659.html",
-            "kind": "비극·범죄",
-            "event": "uk-pet-scammers-ai",
-            "reason": "영국에서 사라진 반려동물의 가짜 AI 이미지를 만들어 보상금을 갈취하려는 사기 사건은 신기하고 경각심을 줄 수 있는 이야기다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+            "title": "Drone delivers bananas to chimpanzees after severe flooding hits Florida sanctuary",
+            "url": "https://www.hindustantimes.com/trending/us/drone-delivers-bananas-to-chimpanzees-after-severe-flooding-hits-florida-sanctuary-101794046991374.html",
+            "kind": "동물",
+            "event": "florida-chimpanzee-drone",
+            "reason": "플로리다 침팬지 보호구역에 홍수 피해 후 드론으로 바나나를 배달한 실제 사건으로, 신기하고 훈훈한 이야기입니다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Anand Mahindra’s Nanhi Kali to support girl who was hurt trying to save friend from chainsaw attack in Andhra Pradesh",
-            "url": "https://www.hindustantimes.com/trending/anand-mahindra-s-nanhi-kali-to-support-girl-who-was-hurt-trying-to-save-friend-from-chainsaw-attack-in-andhra-pradesh-101793945476964.html",
+            "title": "Indian software engineer develops free wildlife alert website after losing mother to bear attack in Kashmir",
+            "url": "https://www.hindustantimes.com/trending/indian-software-engineer-develops-free-wildlife-alert-website-after-losing-mother-to-bear-attack-in-kashmir-101794037680841.html",
             "kind": "사람·도전",
-            "event": "nanhi-kali-support",
-            "reason": "인도 안드라프라데시에서 친구를 구하려다 체인톱 공격을 당한 소녀를 위해 아난드 마힌드라의 나니 칼리가 교육 지원을 약속한 훈훈한 이야기다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+            "event": "india-wildlife-alert-website",
+            "reason": "인도 소프트웨어 엔지니어가 어머니의 곰 공격 사망 후 무료 야생동물 경고 사이트를 개발한 감동적인 이야기로, 누가 어디서 무엇을 했는지가 명확합니다.",
             "result": "통과"
           },
           {
-            "source": "Vice",
-            "title": "Mötley Crüe Singer Vince Neil Allegedly Kicked in the Groin by Girlfriend During Violent Domestic Dispute",
-            "url": "https://www.vice.com/en/article/motley-crue-singer-vince-neil-allegedly-kicked-in-the-groin-by-girlfriend-during-violent-domestic-dispute/",
+            "source": "Hindustan Times",
+            "title": "British runner sets world record after completing marathon distances in all 50 US states, raises funds for cancer research",
+            "url": "https://www.hindustantimes.com/trending/british-runner-sets-world-record-after-completing-marathon-distances-in-all-50-us-states-raises-funds-for-cancer-research-101794028424536.html",
+            "kind": "사람·도전",
+            "event": "british-runner-marathon-record",
+            "reason": "영국 주자가 미국 50개 주에서 마라톤 거리를 완주하며 세계 기록을 세우고 암 연구 기금을 모은 훈훈한 실제 사건입니다.",
+            "result": "통과"
+          },
+          {
+            "source": "서울신문",
+            "title": "“집 공짜로 준다고?” 즉시 입주 가능 SNS 글에 수백명 ‘우르르’…알고 보니 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261107500030",
+            "kind": "법·행정",
+            "event": "la-free-housing-sns-crowd",
+            "reason": "미국 LA에서 무료 주거지 제공 SNS 글에 수백명이 몰린 소동 사건으로, 누가 어디서 무엇을 했는지가 분명하며 흥미롭고 이야기할 만합니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "UK firefighters attacked with fireworks while trying to put out blaze",
+            "url": "https://www.hindustantimes.com/trending/uk-firefighters-attacked-with-fireworks-while-trying-to-put-out-blaze-101794017566172.html",
             "kind": "비극·범죄",
-            "event": "vince-neil-domestic-dispute",
-            "reason": "모틀리 크루의 보컬 빈스 닐이 여자친구에게 폭력적으로 공격당했다는 사건은 충격적이고 흥미로운 연예계 뉴스다. 누가, 어디서, 무엇을 했는지가 분명하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "Houdini's ghost 'haunts' mysterious magic club – but can we speak to dead icon",
-            "url": "https://www.dailystar.co.uk/news/weird-news/houdinis-ghost-haunts-mysterious-magic-37826041",
-            "kind": "사람·도전",
-            "event": "houdini-ghost-magic-club",
-            "reason": "할리우드의 신비한 매직 클럽에서 해리 후디니의 유령이 출몰한다는 이야기는 오싹하고 흥미롭다. 누가, 어디서, 무엇을 했는지가 명확해 점심시간에 읽기 좋은 이야기다.",
+            "event": "uk-firefighters-fireworks-attack",
+            "reason": "영국 소방관들이 화재 진압 중 폭죽 공격을 받은 사건으로, 누가 어디서 무엇을 했는지가 명확하며 놀랍고 이야기할 만한 사건입니다.",
             "result": "통과"
           }
         ]
       },
       {
-        "size": 16,
+        "size": 17,
         "picks": [
           {
             "source": "Hindustan Times",
-            "title": "Utah teen held captive for over 500 days used video game ‘Among Us’ to alert player, get rescued",
-            "url": "https://www.hindustantimes.com/trending/utah-teen-held-captive-for-over-500-days-used-video-game-among-us-to-alert-player-get-rescued-101793950121520.html",
-            "kind": "비극·범죄",
-            "event": "utah-teen-among-us-rescue",
-            "reason": "실제로 500일 넘게 감금된 10대가 온라인 게임을 통해 구조된 사건으로, 처음 들으면 '진짜?' 소리가 나고 매우 놀랍고 훈훈한 이야기이다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+            "title": "Coin toss decides mayoral election in Peru after two candidates receive exactly 671 votes",
+            "url": "https://www.hindustantimes.com/trending/coin-toss-decides-mayoral-election-in-peru-after-two-candidates-receive-exactly-671-votes-101794067989278.html",
+            "kind": "법·행정",
+            "event": "peru-mayor-coin-toss",
+            "reason": "실제로 일어난 일인데 두 후보가 정확히 같은 표를 받아 동전 던지기로 당선자를 결정했다는 점이 매우 놀랍고 흥미로워서 점심시간에 가볍게 읽기 좋다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "Man Spends 12 Days Returning Lost Cash a Laborer Needed for His Daughter",
-            "url": "https://www.goodnewsnetwork.org/man-spends-12-days-returning-lost-cash-a-laborer-needed-for-his-daughter/",
-            "kind": "사람·도전",
-            "event": "brazil-man-returns-lost-cash",
-            "reason": "브라질에서 한 남성이 길에서 발견한 현금을 12일간 찾아 돌려준 훈훈한 이야기로, 남에게 말해주고 싶은 따뜻한 사건이다. 누가, 어디서, 무엇을 했는지 명확하다.",
+            "title": "Baby Saved After Racing Heartbeat Detected by Family Doberman",
+            "url": "https://www.goodnewsnetwork.org/baby-saved-as-racing-heartbeat-detected-by-pet/",
+            "kind": "동물",
+            "event": "dog-baby-heartbeat",
+            "reason": "가족 도베르만이 아기의 빠른 심장박동을 감지해 목숨을 구한 이야기로 훈훈하고 남에게도 이야기해주고 싶은 내용이다.",
             "result": "통과"
           },
           {
-            "source": "Hindustan Times",
-            "title": "Bhutan builds and consecrates 108 Buddhist stupas in just 9 hours, enters Guinness World Records",
-            "url": "https://www.hindustantimes.com/trending/bhutan-builds-and-consecrates-108-buddhist-stupas-in-just-9-hours-enters-guinness-world-records-101793969004203.html",
-            "kind": "사람·도전",
-            "event": "bhutan-buddhist-stupas-guinness",
-            "reason": "부탄에서 108개의 불탑을 9시간 만에 세우고 봉헌해 기네스 기록에 오른 신기한 사건으로, 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+            "source": "Good News Network",
+            "title": "Mayor Uses AirTag to Catch Capstone Thief who was Stealing 18th-Century Stones Across the Countryside",
+            "url": "https://www.goodnewsnetwork.org/mayor-uses-airtag-to-catch-capstone-thief/",
+            "kind": "법·행정",
+            "event": "mayor-airtag-thief",
+            "reason": "영국 시장이 첨단 기술을 이용해 300년 된 돌을 훔치는 도둑을 잡은 사건으로 신기하고 흥미롭다.",
             "result": "통과"
           },
           {
-            "source": "Hindustan Times",
-            "title": "Georgia O’Keeffe painting found under fur coats in New York closet after 40 years, heads to auction",
-            "url": "https://www.hindustantimes.com/trending/georgia-o-keeffe-painting-found-under-fur-coats-in-new-york-closet-after-40-years-heads-to-auction-101793974362444.html",
-            "kind": "발견·장소",
-            "event": "georgia-okeeffe-painting-found",
-            "reason": "뉴욕에서 40년간 숨겨져 있던 유명 화가의 그림이 발견된 신기한 사건으로, 누가, 어디서, 무엇을 했는지 분명히 나온다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Off-duty fire captain jumps into action after EV crashes into California nail salon and bursts into flames",
-            "url": "https://www.hindustantimes.com/trending/offduty-fire-captain-jumps-into-action-after-ev-crashes-into-california-nail-salon-and-bursts-into-flames-101793938271484.html",
+            "source": "Vice",
+            "title": "Man Dies at His 97th Birthday Party Shortly After Dancing to ‘Stayin’ Alive’",
+            "url": "https://www.vice.com/en/article/man-dies-at-his-97th-birthday-party-shortly-after-dancing-to-stayin-alive/",
             "kind": "비극·범죄",
-            "event": "california-ev-fire-rescue",
-            "reason": "캘리포니아에서 전기차가 네일샵에 충돌 후 화재가 발생했을 때, 비번 소방관이 즉시 대응한 실제 사건으로, 누가, 어디서, 무엇을 했는지 분명하다.",
+            "event": "man-dies-dancing",
+            "reason": "97세 생일 파티에서 춤을 추다 바로 세상을 떠난 이야기가 오싹하면서도 감동적이다.",
+            "result": "통과"
+          },
+          {
+            "source": "Vice",
+            "title": "90s Alternative Rock Legend Comes Out as Pansexual",
+            "url": "https://www.vice.com/en/article/90s-alternative-rock-legend-comes-out-as-pansexual/",
+            "kind": "연예·운세",
+            "event": "alanis-morissette-pansexual",
+            "reason": "90년대 록 전설이자 유명 인물이 공개적으로 팬섹슈얼을 커밍아웃한 뉴스로 신기하고 흥미롭다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Know Your Neighbourhood: Kolkata's Chinatown got its name from an Italian",
-            "url": "https://www.hindustantimes.com/trending/know-your-neighbourhood-kolkatas-chinatown-got-its-name-from-an-italian-101793963729321.html",
-            "kind": "발견·장소",
-            "event": "kolkata-chinatown-italian-origin",
-            "reason": "인도 콜카타 차이나타운이 18세기 이탈리아 이민자 이름에서 유래했다는 흥미로운 역사적 사실로, 누가, 어디서, 무엇을 했는지 분명히 나온다.",
-            "result": "통과"
-          },
-          {
-            "source": "Metro",
-            "title": "The man who sleeps with thousands of bedbugs for science",
-            "url": "https://metro.co.uk/2026/11/06/man-sleeps-thousands-bedbugs-science-29770892/",
+            "title": "British runner solves 4 Rubik’s Cubes, runs a mile in just over 5 minutes to set world record",
+            "url": "https://www.hindustantimes.com/trending/british-runner-solves-4-rubik-s-cubes-runs-a-mile-in-just-over-5-minutes-to-set-world-record-101794043312682.html",
             "kind": "사람·도전",
-            "event": "man-sleeps-with-bedbugs",
-            "reason": "과학 연구를 위해 수천 마리 빈대와 함께 자는 남성의 독특하고 신기한 이야기로, 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+            "event": "rubiks-cube-runner-record",
+            "reason": "영국 주자가 달리면서 루빅스 큐브 4개를 푸는 세계 기록을 세운 독특하고 놀라운 사건이다.",
+            "result": "통과"
+          },
+          {
+            "source": "Good News Network",
+            "title": "Adventurer Finally Hugs Mom After 28-Year Walk Around the World From Home in UK",
+            "url": "https://www.goodnewsnetwork.org/adventurer-finally-hugs-mom-after-28-year-walk-around-the-world-from-home-in-uk/",
+            "kind": "사람·도전",
+            "event": "adventurer-hugs-mom",
+            "reason": "28년간 세계 일주를 마치고 고향에서 어머니와 감동적으로 재회한 이야기로 훈훈하고 감동적이다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "PVR denies reusing disposable cups after Bengaluru juice counter is shut by Karnataka health department",
-            "url": "https://www.hindustantimes.com/trending/pvr-juice-counter-in-bengaluru-mall-shut-down-after-complaint-about-reusing-disposable-cups-101793939201683.html",
-            "kind": "비극·범죄",
-            "event": "bengaluru-pvr-juice-counter-closure",
-            "reason": "인도 벵갈루루에서 PVR 영화관 내 주스 판매대가 일회용 컵 재사용 의혹으로 보건 당국에 의해 폐쇄된 사건으로, 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+            "title": "Astronaut Shubhanshu Shukla marks Diwali with breathtaking video of ‘nature’s fireworks’ from space",
+            "url": "https://www.hindustantimes.com/trending/astronaut-shubhanshu-shukla-marks-diwali-with-breathtaking-video-of-nature-s-fireworks-from-space-101794022803324.html",
+            "kind": "사람·도전",
+            "event": "indian-astronaut-diwali",
+            "reason": "인도 우주인이 국제우주정거장에서 디왈리 축제를 맞아 자연의 불꽃놀이 영상을 촬영한 신기하고 흥미로운 뉴스다.",
             "result": "통과"
           }
         ]
@@ -285,131 +202,128 @@
     "final": [
       {
         "source": "Hindustan Times",
-        "title": "Utah teen held captive for over 500 days used video game ‘Among Us’ to alert player, get rescued",
-        "url": "https://www.hindustantimes.com/trending/utah-teen-held-captive-for-over-500-days-used-video-game-among-us-to-alert-player-get-rescued-101793950121520.html",
-        "kind": "비극·범죄",
-        "event": "utah-teen-among-us-rescue",
-        "reason": "실제로 일어난 매우 드문 사건으로, 18개월간 감금된 십대가 온라인 게임을 통해 구조된 이야기라 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
-        "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Bhutan builds and consecrates 108 Buddhist stupas in just 9 hours, enters Guinness World Records",
-        "url": "https://www.hindustantimes.com/trending/bhutan-builds-and-consecrates-108-buddhist-stupas-in-just-9-hours-enters-guinness-world-records-101793969004203.html",
+        "title": "British runner sets world record after completing marathon distances in all 50 US states, raises funds for cancer research",
+        "url": "https://www.hindustantimes.com/trending/british-runner-sets-world-record-after-completing-marathon-distances-in-all-50-us-states-raises-funds-for-cancer-research-101794028424536.html",
         "kind": "사람·도전",
-        "event": "bhutan-stupas-guinness-record",
-        "reason": "부탄에서 108개의 불교 스투파를 단 9시간 만에 건설하고 봉헌해 기네스 기록에 오른 일로, 신기하고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지 명확하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Peru airport security finds 3,000 tarantulas hidden in dirty socks inside three suitcases",
-        "url": "https://www.hindustantimes.com/trending/peru-airport-security-finds-3-000-tarantulas-hidden-in-dirty-socks-inside-three-suitcases-101793927552579.html",
-        "kind": "사람·도전",
-        "event": "peru-tarantulas-suitcases",
-        "reason": "페루 공항에서 3,000마리의 타란튤라가 양말 속에 숨겨진 채 발견된 사건으로, 처음 들으면 놀랍고 신기하며 누가, 어디서, 무엇을 했는지 분명히 나온다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Man Spends 12 Days Returning Lost Cash a Laborer Needed for His Daughter",
-        "url": "https://www.goodnewsnetwork.org/man-spends-12-days-returning-lost-cash-a-laborer-needed-for-his-daughter/",
-        "kind": "사람·도전",
-        "event": "brazil-man-returns-lost-cash",
-        "reason": "브라질에서 한 남성이 노동자가 딸을 위해 필요했던 현금을 12일간 찾아 돌려준 훈훈한 이야기로, 실제 사건이며 누가, 어디서, 무엇을 했는지 분명하다.",
+        "event": "uk-runner-marathon-50states",
+        "reason": "영국 주자의 50개 미국 주 마라톤 완주 세계 기록은 놀랍고 훈훈한 이야기로, 누가 어디서 무엇을 했는지가 명확하다.",
         "result": "선정"
       },
       {
         "source": "Good News Network",
-        "title": "Venomous Primate Believed Extinct for 100 Years Was Hiding in Plain Sight All Along",
-        "url": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
-        "kind": "발견·장소",
-        "event": "bangka-slow-loris-discovery",
-        "reason": "100년간 멸종된 줄 알았던 독이 있는 영장류가 발견된 신기한 자연 이야기로, 누가, 어디서, 무엇을 했는지 명확하며 흥미롭다.",
+        "title": "Mayor Uses AirTag to Catch Capstone Thief who was Stealing 18th-Century Stones Across the Countryside",
+        "url": "https://www.goodnewsnetwork.org/mayor-uses-airtag-to-catch-capstone-thief/",
+        "kind": "법·행정",
+        "event": "uk-mayor-catches-thief",
+        "reason": "영국 시장이 첨단 기술을 이용해 300년 된 돌을 훔친 도둑을 잡은 사건은 신기하고 흥미로워 공유할 만하다.",
         "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Anand Mahindra’s Nanhi Kali to support girl who was hurt trying to save friend from chainsaw attack in Andhra Pradesh",
-        "url": "https://www.hindustantimes.com/trending/anand-mahindra-s-nanhi-kali-to-support-girl-who-was-hurt-trying-to-save-friend-from-chainsaw-attack-in-andhra-pradesh-101793945476964.html",
-        "kind": "사람·도전",
-        "event": "andhra-pradesh-chainsaw-attack-support",
-        "reason": "인도 안드라프라데시에서 친구를 구하려다 부상당한 소녀를 유명 기업가가 지원한다는 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지 분명하다.",
-        "result": "매체 상한"
       },
       {
         "source": "Good News Network",
-        "title": "People Around the World Help Buy Royal Estate for Wildlife Conservation",
-        "url": "https://www.goodnewsnetwork.org/people-around-the-world-help-buy-royal-estate-for-wildlife-conservation/",
+        "title": "Baby Saved After Racing Heartbeat Detected by Family Doberman",
+        "url": "https://www.goodnewsnetwork.org/baby-saved-as-racing-heartbeat-detected-by-pet/",
+        "kind": "동물",
+        "event": "dog-saves-baby",
+        "reason": "가족 도베르만이 아기의 위험 신호를 감지해 생명을 구한 이야기는 훈훈하고 감동적이며 누가 어디서 무엇을 했는지가 분명하다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Drone delivers bananas to chimpanzees after severe flooding hits Florida sanctuary",
+        "url": "https://www.hindustantimes.com/trending/us/drone-delivers-bananas-to-chimpanzees-after-severe-flooding-hits-florida-sanctuary-101794046991374.html",
+        "kind": "동물",
+        "event": "florida-chimpanzee-drone",
+        "reason": "플로리다 침팬지 보호구역에 홍수 피해 후 드론으로 바나나를 배달한 사건은 신기하고 재미있으며 장소와 상황이 명확하다.",
+        "result": "선정"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Adventurer Finally Hugs Mom After 28-Year Walk Around the World From Home in UK",
+        "url": "https://www.goodnewsnetwork.org/adventurer-finally-hugs-mom-after-28-year-walk-around-the-world-from-home-in-uk/",
         "kind": "사람·도전",
-        "event": "wildlife-conservation-royal-estate",
-        "reason": "전 세계 사람들이 모여 야생동물 보호를 위해 왕실 부동산을 구입한 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지 명확하다.",
+        "event": "uk-adventurer-reunion",
+        "reason": "28년간 세계 일주를 마치고 영국에서 어머니와 감동적인 재회를 한 모험가 이야기로 훈훈하고 흥미롭다.",
         "result": "매체 상한"
       },
       {
         "source": "Hindustan Times",
-        "title": "Off-duty fire captain jumps into action after EV crashes into California nail salon and bursts into flames",
-        "url": "https://www.hindustantimes.com/trending/offduty-fire-captain-jumps-into-action-after-ev-crashes-into-california-nail-salon-and-bursts-into-flames-101793938271484.html",
-        "kind": "비극·범죄",
-        "event": "california-ev-fire-rescue",
-        "reason": "캘리포니아에서 전기차가 네일 살롱에 충돌해 불이 났을 때 비번 소방관이 즉시 대응한 실제 사건으로, 누가, 어디서, 무엇을 했는지 분명하다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "Metro",
-        "title": "The man who sleeps with thousands of bedbugs for science",
-        "url": "https://metro.co.uk/2026/11/06/man-sleeps-thousands-bedbugs-science-29770892/",
+        "title": "British runner solves 4 Rubik’s Cubes, runs a mile in just over 5 minutes to set world record",
+        "url": "https://www.hindustantimes.com/trending/british-runner-solves-4-rubik-s-cubes-runs-a-mile-in-just-over-5-minutes-to-set-world-record-101794043312682.html",
         "kind": "사람·도전",
-        "event": "bedbug-science-experiment",
-        "reason": "실제로 일어난 독특한 과학 실험 이야기로, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나와 있어 점심시간 가볍게 읽기 좋다.",
-        "result": "선정"
+        "event": "uk-runner-rubik-mile",
+        "reason": "영국 주자가 루빅스 큐브 4개를 풀면서 1마일을 5분 만에 달려 세계 기록을 세운 독특한 사건으로 신기하고 흥미롭다.",
+        "result": "매체 상한"
       },
       {
         "source": "Vice",
-        "title": "WWE Star Rhea Ripley Makes Surprise Appearance at Metal Concert as Band Dedicates Song to Her",
-        "url": "https://www.vice.com/en/article/wwe-star-rhea-ripley-makes-surprise-appearance-at-metal-concert-as-band-dedicates-song-to-her/",
-        "kind": "연예·운세",
-        "event": "wwe-metal-concert-surprise",
-        "reason": "유명 WWE 스타가 메탈 콘서트에 깜짝 등장해 밴드가 노래를 헌정했다는 훈훈하고 신기한 이야기로, 누가 어디서 무엇을 했는지 명확하다.",
+        "title": "Man Dies at His 97th Birthday Party Shortly After Dancing to ‘Stayin’ Alive’",
+        "url": "https://www.vice.com/en/article/man-dies-at-his-97th-birthday-party-shortly-after-dancing-to-stayin-alive/",
+        "kind": "비극·범죄",
+        "event": "man-dies-dancing",
+        "reason": "97세 생일 파티에서 춤을 추다 세상을 떠난 이야기는 오싹하면서도 훈훈한 느낌을 주어 공유할 만하다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Coin toss decides mayoral election in Peru after two candidates receive exactly 671 votes",
+        "url": "https://www.hindustantimes.com/trending/coin-toss-decides-mayoral-election-in-peru-after-two-candidates-receive-exactly-671-votes-101794067989278.html",
+        "kind": "법·행정",
+        "event": "peru-election-coin-toss",
+        "reason": "페루 시장 선거가 동점으로 동전 던지기로 결정된 사건은 신기하고 흥미로운 해외 이야기로 적합하다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Vice",
+        "title": "Bride Allegedly Asked Her Bridesmaid to Gain 120 Pounds So She’d Look Skinnier at Her Wedding",
+        "url": "https://www.vice.com/en/article/bride-allegedly-asked-her-bridesmaid-to-gain-120-pounds-so-shed-look-skinnier-at-her-wedding/",
+        "kind": "기타",
+        "event": "wedding-bridesmaid-weight",
+        "reason": "실제로 일어난 일인데 처음 들으면 '진짜?' 소리가 나오는 매우 특이한 사례입니다. 미국에서 벌어진 일로, 누가(신부와 들러리), 어디서(미국), 무엇을 했는지가 분명히 나와 있습니다. 웃기고 신기해서 점심시간에 가볍게 읽고 주변에 이야기하기 좋습니다.",
         "result": "예비"
+      },
+      {
+        "source": "서울신문",
+        "title": "“집 공짜로 준다고?” 즉시 입주 가능 SNS 글에 수백명 ‘우르르’…알고 보니 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261107500030",
+        "kind": "법·행정",
+        "event": "la-free-housing-sns-crowd",
+        "reason": "미국 LA에서 실제로 벌어진 해프닝으로, 무료 주거지를 제공한다는 SNS 글에 수백명이 몰려드는 일이 있었습니다. 누가, 어디서, 무엇을 했는지가 명확하며, 웃기고 신기한 이야기라 직장인 점심시간 읽을거리로 적합합니다.",
+        "result": "예비"
+      },
+      {
+        "source": "Vice",
+        "title": "90s Alternative Rock Legend Comes Out as Pansexual",
+        "url": "https://www.vice.com/en/article/90s-alternative-rock-legend-comes-out-as-pansexual/",
+        "kind": "연예·운세",
+        "event": "alanis-morissette-pansexual",
+        "reason": "90년대 록 전설인 알라니스 모리셋이 팬섹슈얼로 커밍아웃한 소식입니다. 유명 인물의 개인적 고백으로 신기하고 흥미로운 이야기이며, 누가, 어디서, 무엇을 했는지가 분명히 나와 있습니다. 다만 같은 매체에서 두 건 이상 고르지 않기 위해 세 번째로 선택했습니다.",
+        "result": "매체 상한"
       }
     ],
     "final_out": [
       {
         "source": "Hindustan Times",
-        "title": "PVR denies reusing disposable cups after Bengaluru juice counter is shut by Karnataka health department",
-        "url": "https://www.hindustantimes.com/trending/pvr-juice-counter-in-bengaluru-mall-shut-down-after-complaint-about-reusing-disposable-cups-101793939201683.html",
+        "title": "UK firefighters attacked with fireworks while trying to put out blaze",
+        "url": "https://www.hindustantimes.com/trending/uk-firefighters-attacked-with-fireworks-while-trying-to-put-out-blaze-101794017566172.html",
         "kind": "비극·범죄"
       },
       {
         "source": "Hindustan Times",
-        "title": "Know Your Neighbourhood: Kolkata's Chinatown got its name from an Italian",
-        "url": "https://www.hindustantimes.com/trending/know-your-neighbourhood-kolkatas-chinatown-got-its-name-from-an-italian-101793963729321.html",
-        "kind": "발견·장소"
-      },
-      {
-        "source": "Vice",
-        "title": "Mötley Crüe Singer Vince Neil Allegedly Kicked in the Groin by Girlfriend During Violent Domestic Dispute",
-        "url": "https://www.vice.com/en/article/motley-crue-singer-vince-neil-allegedly-kicked-in-the-groin-by-girlfriend-during-violent-domestic-dispute/",
-        "kind": "비극·범죄"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Scammers create fake AI images of missing pets in UK to extort reward money from owners",
-        "url": "https://www.hindustantimes.com/trending/scammers-create-fake-ai-images-of-missing-pets-in-uk-to-extort-reward-money-from-owners-101793944185659.html",
-        "kind": "비극·범죄"
-      },
-      {
-        "source": "Daily Star",
-        "title": "Houdini's ghost 'haunts' mysterious magic club – but can we speak to dead icon",
-        "url": "https://www.dailystar.co.uk/news/weird-news/houdinis-ghost-haunts-mysterious-magic-37826041",
+        "title": "Astronaut Shubhanshu Shukla marks Diwali with breathtaking video of ‘nature’s fireworks’ from space",
+        "url": "https://www.hindustantimes.com/trending/astronaut-shubhanshu-shukla-marks-diwali-with-breathtaking-video-of-nature-s-fireworks-from-space-101794022803324.html",
         "kind": "사람·도전"
       },
       {
         "source": "Hindustan Times",
-        "title": "Georgia O’Keeffe painting found under fur coats in New York closet after 40 years, heads to auction",
-        "url": "https://www.hindustantimes.com/trending/georgia-o-keeffe-painting-found-under-fur-coats-in-new-york-closet-after-40-years-heads-to-auction-101793974362444.html",
-        "kind": "발견·장소"
+        "title": "US pilot spends 8 hours creating giant GTA 6 artwork with plane’s flight path ahead of game’s release",
+        "url": "https://www.hindustantimes.com/trending/us/us-pilot-spends-8-hours-creating-giant-gta-6-artwork-with-plane-s-flight-path-ahead-of-game-s-release-101794059029083.html",
+        "kind": "사람·도전"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Indian software engineer develops free wildlife alert website after losing mother to bear attack in Kashmir",
+        "url": "https://www.hindustantimes.com/trending/indian-software-engineer-develops-free-wildlife-alert-website-after-losing-mother-to-bear-attack-in-kashmir-101794037680841.html",
+        "kind": "사람·도전"
       }
     ]
   },
@@ -417,58 +331,58 @@
   "published": [
     {
       "source": "Hindustan Times",
-      "headline": "유타 10대 소녀, 온라인 게임 '어몽어스'로 납치 사실 알리고 500일 만에 구조",
-      "url": "https://www.hindustantimes.com/trending/utah-teen-held-captive-for-over-500-days-used-video-game-among-us-to-alert-player-get-rescued-101793950121520.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/06/1600x900/logo/_Kylie_Arellano_1793950203483_WVdM_1793950203831_eDTF_15d80242-63ab-487f-b389-b9c6f406ca69_8IMi.jpg",
-      "kind": "비극·범죄",
+      "headline": "영국 주자 윌리엄 구지, 미국 50개 주 마라톤 완주 세계 기록 세우며 암 연구 기금 모금",
+      "url": "https://www.hindustantimes.com/trending/british-runner-sets-world-record-after-completing-marathon-distances-in-all-50-us-states-raises-funds-for-cancer-research-101794028424536.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/07/1600x900/logo/Untitled_design_1794030296015_0OMj_1794030299922_gW1K_82c6312e-a64a-48e4-a610-f0237309044a_gEgU.png",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "uk-runner-marathon-50states",
+      "reason": "영국 주자의 50개 미국 주 마라톤 완주 세계 기록은 놀랍고 훈훈한 이야기로, 누가 어디서 무엇을 했는지가 명확하다.",
+      "why": "윌리엄 구지는 2018년 비호지킨 림프종으로 어머니를 잃은 후, 그녀의 기억을 기리고 암 연구를 지원하기 위해 이 도전을 시작했습니다."
+    },
+    {
+      "source": "Good News Network",
+      "headline": "영국 시장 출신 탐정, 300년 된 석벽 도둑 사건 첨단 추적기로 해결",
+      "url": "https://www.goodnewsnetwork.org/mayor-uses-airtag-to-catch-capstone-thief/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Councillor-Matt-Smith-with-GPS-AirTag-SWNS.jpeg",
+      "kind": "법·행정",
       "topic": "사건·사고",
-      "event": "utah-teen-among-us-rescue",
-      "reason": "실제로 일어난 매우 드문 사건으로, 18개월간 감금된 십대가 온라인 게임을 통해 구조된 이야기라 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
-      "why": "피해자는 감금 중 휴대폰을 빼앗겼으나 와이파이 연결이 가능한 전화기를 받으면서 온라인 게임을 통해 도움을 요청할 수 있었습니다."
+      "event": "uk-mayor-catches-thief",
+      "reason": "영국 시장이 첨단 기술을 이용해 300년 된 돌을 훔친 도둑을 잡은 사건은 신기하고 흥미로워 공유할 만하다.",
+      "why": "이 지역은 CCTV가 설치되어 있지 않고 증거 수집이 어려워 경찰이 직접 수사하기 힘들었기 때문에 주민들이 직접 첨단 추적기를 활용해 범인을 찾았습니다."
+    },
+    {
+      "source": "Good News Network",
+      "headline": "가족 도베르만 개가 아기 심장 이상 감지해 생명 구해",
+      "url": "https://www.goodnewsnetwork.org/baby-saved-as-racing-heartbeat-detected-by-pet/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Alexander-with-doberman-who-saved-his-life-SWNS.jpeg",
+      "kind": "동물",
+      "topic": "사람",
+      "event": "dog-saves-baby",
+      "reason": "가족 도베르만이 아기의 위험 신호를 감지해 생명을 구한 이야기는 훈훈하고 감동적이며 누가 어디서 무엇을 했는지가 분명하다.",
+      "why": "알렉산더는 울음으로 증상을 알리지 않았고, 울음이 멈추자 병원 방문이 망설여졌으나 개의 행동 덕분에 조기 발견과 치료가 가능했습니다."
     },
     {
       "source": "Hindustan Times",
-      "headline": "부탄, 9시간 만에 108개의 불교 스투파 건립 및 봉헌으로 기네스 세계기록 달성",
-      "url": "https://www.hindustantimes.com/trending/bhutan-builds-and-consecrates-108-buddhist-stupas-in-just-9-hours-enters-guinness-world-records-101793969004203.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/06/1600x900/logo/bhutan_1793971735886_otk6_1793971814308_DuAW_db4e1ba1-2876-4469-ac45-10dbebe97cea_wr3h.png",
-      "kind": "사람·도전",
-      "topic": "사건·사고",
-      "event": "bhutan-stupas-guinness-record",
-      "reason": "부탄에서 108개의 불교 스투파를 단 9시간 만에 건설하고 봉헌해 기네스 기록에 오른 일로, 신기하고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지 명확하다.",
-      "why": "108이라는 숫자는 불교에서 극복해야 할 108가지 세속적 욕망을 상징하며, 이번 프로젝트는 부탄의 문화와 영적 전통을 경제 허브인 게레푸 마음챙김 도시 계획과 결합하기 위해 추진되었습니다."
-    },
-    {
-      "source": "Good News Network",
-      "headline": "브라질 남성, 광장에서 발견한 219달러 현금 주인 찾아 반환",
-      "url": "https://www.goodnewsnetwork.org/man-spends-12-days-returning-lost-cash-a-laborer-needed-for-his-daughter/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Pedro-Moro-shakes-hands-with-Matheus-Reginaldo-Celestino-whose-money-Moro-returned-credit-Pedro-Moro-supplied-to-the-media.jpg",
-      "kind": "사람·도전",
-      "topic": "사람",
-      "event": "brazil-man-returns-lost-cash",
-      "reason": "브라질에서 한 남성이 노동자가 딸을 위해 필요했던 현금을 12일간 찾아 돌려준 훈훈한 이야기로, 실제 사건이며 누가, 어디서, 무엇을 했는지 분명하다.",
-      "why": "모로는 도시의 거대한 부처상에서 영감을 받아 정직하게 돈을 돌려주기로 결심했고, 현장 상점의 CCTV 영상을 통해 주인을 확인할 수 있었습니다."
-    },
-    {
-      "source": "Good News Network",
-      "headline": "멸종 위기였던 방카 느린로리스, 현지 보호 노력 덕분에 생존 확인",
-      "url": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Bangka-slow-loris-credit-Gunay-M.E.-CC-4.0.-BY-SA.jpg",
-      "kind": "발견·장소",
+      "headline": "플로리다 침팬지 보호구역, 홍수로 드론 이용해 바나나 등 먹이 전달",
+      "url": "https://www.hindustantimes.com/trending/us/drone-delivers-bananas-to-chimpanzees-after-severe-flooding-hits-florida-sanctuary-101794046991374.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/07/1600x900/logo/dbfbgfbgf_1794049424488_vrKm_1794049429972_O3wn_758144dd-5cd2-4816-bb00-240a0d47d16d_UX3x.png",
+      "kind": "동물",
       "topic": "동물",
-      "event": "bangka-slow-loris-discovery",
-      "reason": "100년간 멸종된 줄 알았던 독이 있는 영장류가 발견된 신기한 자연 이야기로, 누가, 어디서, 무엇을 했는지 명확하며 흥미롭다.",
-      "why": "방카 느린로리스는 독특하게도 독을 분비하는 영장류로, 이들의 생존과 보호는 생태계 보전과 희귀종 연구에 중요한 의미를 갖기 때문입니다."
+      "event": "florida-chimpanzee-drone",
+      "reason": "플로리다 침팬지 보호구역에 홍수 피해 후 드론으로 바나나를 배달한 사건은 신기하고 재미있으며 장소와 상황이 명확하다.",
+      "why": "홍수로 인해 넘친 운하가 물이 빠지지 못하게 막아 직원들의 접근을 어렵게 했고, 골프 카트 등 운송 수단이 침수되어 고장 나면서 드론을 통한 먹이 전달이 필요했습니다."
     },
     {
-      "source": "Metro",
-      "headline": "과학자, 침대 벌레 6만 마리와 함께 자며 해충 퇴치 제품 연구",
-      "url": "https://metro.co.uk/2026/11/06/man-sleeps-thousands-bedbugs-science-29770892/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_316412214-2e8a_1793959765.jpg?quality=90&strip=all&w=1200&h=630&crop=1",
-      "kind": "사람·도전",
+      "source": "Vice",
+      "headline": "97세 생일 파티에서 춤추다 세상 떠난 비토의 아름다운 마지막 순간",
+      "url": "https://www.vice.com/en/article/man-dies-at-his-97th-birthday-party-shortly-after-dancing-to-stayin-alive/",
+      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/Man-Dies-at-His-97th-Birthday-Party-Shortly-After-Dancing-to-Stayin-Alive.jpg?w=2000",
+      "kind": "비극·범죄",
       "topic": "사람",
-      "event": "bedbug-science-experiment",
-      "reason": "실제로 일어난 독특한 과학 실험 이야기로, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나와 있어 점심시간 가볍게 읽기 좋다.",
-      "why": "침대 벌레는 사람의 호흡에서 나오는 이산화탄소와 체온에 반응해 활동하기 때문에, 제품 테스트 시 사람이 있어야 벌레의 행동을 정확히 관찰할 수 있습니다."
+      "event": "man-dies-dancing",
+      "reason": "97세 생일 파티에서 춤을 추다 세상을 떠난 이야기는 오싹하면서도 훈훈한 느낌을 주어 공유할 만하다.",
+      "why": "비토가 긴 생애를 살 수 있었던 비결로 '싼 술을 마시지 않는 것'을 꼽았으며, 그의 생일 파티는 할로윈 테마로 준비된 와인 초콜릿 케이크와 함께 축하되었습니다."
     }
   ]
 }

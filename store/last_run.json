@@ -1,199 +1,338 @@
 {
-  "at": "2026-11-08T09:55:31",
+  "at": "2026-11-09T10:15:07",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 37건 · 소스 7곳 · 응답 없음 ['Indian Express'] · 0건 ['Daily Star', 'Metro']",
-    "② 선별   37 → 홍보 제외 37 → 라벨 제외 34 → 예선 2조 15 → 5건 + 예비 2",
-    "   선정 [Hindustan Times] British runner sets world record after completing  — 영국 주자의 50개 미국 주 마라톤 완주 세계 기록은 놀랍고 훈훈한 이야기로, 누가 어디서 무엇을 했는지가 명확하다.",
-    "   선정 [Good News Network] Mayor Uses AirTag to Catch Capstone Thief who was  — 영국 시장이 첨단 기술을 이용해 300년 된 돌을 훔친 도둑을 잡은 사건은 신기하고 흥미로워 공유할 만하다.",
-    "   선정 [Good News Network] Baby Saved After Racing Heartbeat Detected by Fami — 가족 도베르만이 아기의 위험 신호를 감지해 생명을 구한 이야기는 훈훈하고 감동적이며 누가 어디서 무엇을 했는지가 분명하다.",
-    "   선정 [Hindustan Times] Drone delivers bananas to chimpanzees after severe — 플로리다 침팬지 보호구역에 홍수 피해 후 드론으로 바나나를 배달한 사건은 신기하고 재미있으며 장소와 상황이 명확하다.",
-    "   선정 [Vice] Man Dies at His 97th Birthday Party Shortly After  — 97세 생일 파티에서 춤을 추다 세상을 떠난 이야기는 오싹하면서도 훈훈한 느낌을 주어 공유할 만하다.",
-    "   예비 [Vice] Bride Allegedly Asked Her Bridesmaid to Gain 120 P — 실제로 일어난 일인데 처음 들으면 '진짜?' 소리가 나오는 매우 특이한 사례입니다. 미국에서 벌어진 일로, 누가(신부와 들러리), 어디서(미국), 무엇을 했는지가 분명히 나와 있습니다. 웃기고 신기해서 점심시간에 가볍게 읽고 주변에 이야기하기 좋습니다.",
-    "   예비 [서울신문] “집 공짜로 준다고?” 즉시 입주 가능 SNS 글에 수백명 ‘우르르’…알고 보니 [월드픽] — 미국 LA에서 실제로 벌어진 해프닝으로, 무료 주거지를 제공한다는 SNS 글에 수백명이 몰려드는 일이 있었습니다. 누가, 어디서, 무엇을 했는지가 명확하며, 웃기고 신기한 이야기라 직장인 점심시간 읽을거리로 적합합니다.",
+    "① 수집   24시간 time window · 51건 · 소스 7곳 · 응답 없음 ['Indian Express']",
+    "② 선별   51 → 홍보 제외 51 → 라벨 제외 24 → 예선 2조 12 → 5건 + 예비 2",
+    "   선정 [서울신문] 우연 겹쳤을 뿐인데…‘영수증 먹통’ 주유기 덕에 27억원 대박 난 남성 [월드픽] — 미국 노스캐롤라이나에서 주유기 영수증이 안 나오는 바람에 편의점에 들어간 남성이 우연히 산 복권으로 27억원 당첨. 실제 일어난 일이며, '진짜?' 소리가 나고 훈훈해 주변에 이야기하기 좋음.",
+    "   선정 [서울신문] 가방 열자 거미 3000마리 ‘득실득실’…공항서 타란툴라 밀반출 적발 [월드픽] — 페루 공항에서 여행객 가방에서 타란툴라 3000마리 밀반출 시도 적발. 누가, 어디서, 무엇을 했는지 명확하고 신기하며 오싹한 이야기로 흥미로움.",
+    "   선정 [Vice] This Siberian Tomb Holds the Earliest Concrete Evi — 시베리아 청동기 시대 무덤에서 대마초 사용의 가장 오래된 증거 발견. 신기하고 흥미로운 고고학적 발견으로 이야기할 만함.",
+    "   선정 [Good News Network] Lucky Bird Found in Storm Drain a Mile From Home A — 영국에서 폭풍으로 날아간 애완 앵무새가 1마일 떨어진 배수구에서 발견된 이야기. 훈훈하고 신기하며 누가, 어디서, 무엇을 했는지 명확함.",
+    "   선정 [Hindustan Times] US skydiver returns to the skies after cancer trea — 미국 74세 스카이다이버가 암 치료 후 윙슈트 기록 세움. 실제 일어난 일이며 감동적이고 훈훈한 이야기로 공유 가치 높음.",
+    "   예비 [Vice] This Restaurant Is Putting Giant ‘Water Cockroache — 중국 광둥성 식당에서 거대한 물바퀴벌레를 계란 타르트에 올려 판매하는 독특한 사례. 신기하고 웃긴 이야기로 흥미로움.",
+    "   예비 [Good News Network] Dogs Can Sniff-Out Invasive Plant Species With Hig — 독특하고 신기한 이야기로, 독자들이 주변에 쉽게 이야기할 수 있는 내용입니다. 독일에서 실제로 훈련받는 개들이 외래 식물을 탐지한다는 점이 명확히 나와 있습니다.",
     "④ 검수   7 → 5건",
     "⑤ 발행   5건 · sent"
   ],
   "selection": {
-    "candidates": 37,
+    "candidates": 51,
     "already_sent": [],
     "promo": [],
     "labels": {
-      "법·행정": 7,
-      "비극·범죄": 4,
-      "사람·도전": 9,
-      "동물": 2,
-      "발견·장소": 3,
-      "음식·물건": 1,
-      "연예·운세": 6,
-      "기타": 2,
-      "일반 뉴스": 3
+      "사람·도전": 13,
+      "일반 뉴스": 21,
+      "발견·장소": 2,
+      "법·행정": 4,
+      "음식·물건": 2,
+      "비극·범죄": 6,
+      "연예·운세": 3
     },
     "label_dropped": [
       {
-        "source": "서울신문",
-        "title": "“핵탄두 발사됐다” 공포…러시아가 우크라에 核미사일 진짜 쏘면 벌어질 일 [권윤희의 월드뷰]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261107500025",
+        "source": "Daily Star",
+        "title": "AI 'Wild West' sparks gaming 'civil war' as expert issues 'very worried' warning",
+        "url": "https://www.dailystar.co.uk/news/latest-news/ai-wild-west-sparks-gaming-37849927",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Metro",
+        "title": "We may have just prevented a new ice age – but it’s not a good thing",
+        "url": "https://metro.co.uk/2026/11/08/may-just-prevented-a-new-ice-age-not-a-good-thing-29764836/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Bill Gates says billionaires should pay more taxes as AI widens wealth gap",
+        "url": "https://www.hindustantimes.com/trending/bill-gates-says-billionaires-should-pay-more-taxes-as-ai-widens-wealth-gap-101794124718712.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "‘Temple is not made for India’: Deepinder Goyal says wearable is designed for global market",
+        "url": "https://www.hindustantimes.com/trending/temple-is-not-made-for-india-deepinder-goyal-says-wearable-is-designed-for-global-market-101794141440508.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Burj Khalifa lights up Dubai skyline with Diwali message in Hindi, English",
+        "url": "https://www.hindustantimes.com/trending/burj-khalifa-lights-up-dubai-skyline-with-diwali-message-in-hindi-english-101794133245360.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "From Narkasur burning to Chopda Pujan: The many ways India celebrates Diwali",
+        "url": "https://www.hindustantimes.com/trending/from-narkasur-burning-to-chopda-pujan-the-many-ways-india-celebrates-diwali-101794126633726.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "IIT Madras alumni-founded AI startup offers up to $1 million to solve five longstanding materials science problems",
+        "url": "https://www.hindustantimes.com/trending/iit-madras-alumni-founded-ai-startup-offers-up-to-1-million-to-solve-five-longstanding-materials-science-problems-101794127370293.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Tim Cook, Singapore president among global personalities extending Diwali wishes",
+        "url": "https://www.hindustantimes.com/trending/tim-cook-singapore-president-among-global-personalities-extending-diwali-wishes-101794122826249.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "From horse-drawn carriages to online trades: The 69-year history of Diwali Muhurat trading",
+        "url": "https://www.hindustantimes.com/trending/from-horse-drawn-carriages-to-online-trades-the-69-year-history-of-diwali-muhurat-trading-101794114261994.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Abu Dhabi closes 10-km desert highway stretch for BYD’s electric hypercar to break 500 kmph barrier",
+        "url": "https://www.hindustantimes.com/trending/abu-dhabi-closes-10-km-desert-highway-stretch-for-byd-s-electric-hypercar-to-break-500-kmph-barrier-101794106690563.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "Addictive Drinks Are Triggering Heart Issues in Young People, According to New Study",
+        "url": "https://www.vice.com/en/article/addictive-drinks-are-triggering-heart-issues-in-young-people-according-to-new-study/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "All 12 New Fortnite Sprites Added in the November 8 Captain’s Day Update",
+        "url": "https://www.vice.com/en/article/fortnite-new-sprites-list-november-8/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Good News Network",
+        "title": "She Kept His Coat for 30 Years, Then Finally Found the Boy Who Gave It to Her After Racial Attack",
+        "url": "https://www.goodnewsnetwork.org/she-kept-his-coat-for-30-years-then-finally-found-the-boy-who-gave-it-to-her-after-racial-attack/",
+        "kind": "사람·도전",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Good News in History, November 8",
+        "url": "https://www.goodnewsnetwork.org/events061108/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“벤츠·BMW 제쳤다”…태극기에 테슬라 박은 머스크, 이번엔 ‘수입차 1위’ 인증",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261107500021",
+        "title": "“발사체 충돌” 사우디 ‘경제 심장부’ 피격…후티, 빈 살만 ‘비전 2030’ 흔드나 [배틀라인]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500045",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“젠슨 황, 미모의 中간첩과 연인 관계” 파문…美의원·FBI까지 파고든 정보공작 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261107500020",
+        "title": "이스라엘 야권, 연정 구성권 확보… 네타냐후 19년 장기집권 끝나나",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109012006",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“미국 민주당, 트럼프의 한국 압박 견제할 듯”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109012005",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“결혼 못 하면 전액 환불”…SNS서 난리 난 소개팅 앱, 커플매니저 정체 알고보니 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500094",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“107년간 이런 지진은 처음” 한밤중 日 덮친 ‘공포’…“또 터질 수도” 경고 [포착]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500033",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "美 전문가 “트럼프 韓 압박 시 민주당 제지 가능성”…쿠팡 갈등 돌파구 열릴지 주목",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500031",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "대구교도소 터에 ‘달성아레나’ 조성 본격화…청년 유입·정주여건 개선 기대",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500047",
+        "kind": "법·행정",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "서울의 가을 산길 달린 열정…‘2026 서울 구석구석 국제 트레일런’",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500046",
+        "kind": "사람·도전",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "‘줄기세포 논문조작’ 황우석 박사, 한국 국적 상실했다…UAE 국적 취득",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500045",
+        "kind": "법·행정",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "이용철 법무장관 후보 “공소취소 입장 정리 후 말씀…제가 검찰 개혁 처음 설계”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500044",
+        "kind": "법·행정",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“기부하고 과메기 받자”…포항시, 고향사랑기부자에 추가 경품",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500041",
+        "kind": "음식·물건",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "‘한복=한푸’ 韓 쇼핑몰서 버젓이 팔려 ‘경악’…“中 ‘한복 공정’ 빌미 될라”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500040",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "데이터센터 1곳 무산시 반도체 4500만개 수요 흔들…삼성·SK, 대미 전략 재점검",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500070",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       }
     ],
     "heats": [
       {
-        "size": 17,
+        "size": 12,
         "picks": [
           {
-            "source": "Hindustan Times",
-            "title": "US pilot spends 8 hours creating giant GTA 6 artwork with plane’s flight path ahead of game’s release",
-            "url": "https://www.hindustantimes.com/trending/us/us-pilot-spends-8-hours-creating-giant-gta-6-artwork-with-plane-s-flight-path-ahead-of-game-s-release-101794059029083.html",
+            "source": "서울신문",
+            "title": "우연 겹쳤을 뿐인데…‘영수증 먹통’ 주유기 덕에 27억원 대박 난 남성 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500077",
             "kind": "사람·도전",
-            "event": "us-pilot-gta6-flightpath",
-            "reason": "미국 조종사가 비행 경로를 이용해 거대한 GTA 6 그림을 만든 독특한 사건으로, 실제로 일어난 일이며 신기하고 흥미로워 점심시간에 읽기 좋습니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Bride Allegedly Asked Her Bridesmaid to Gain 120 Pounds So She’d Look Skinnier at Her Wedding",
-            "url": "https://www.vice.com/en/article/bride-allegedly-asked-her-bridesmaid-to-gain-120-pounds-so-shed-look-skinnier-at-her-wedding/",
-            "kind": "기타",
-            "event": "wedding-bridesmaid-weight",
-            "reason": "결혼식에서 신부가 들러리에게 120파운드 증량을 요구했다는 충격적인 이야기로, 누가 어디서 무엇을 했는지가 분명하며 '진짜?'라는 반응을 유발합니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Drone delivers bananas to chimpanzees after severe flooding hits Florida sanctuary",
-            "url": "https://www.hindustantimes.com/trending/us/drone-delivers-bananas-to-chimpanzees-after-severe-flooding-hits-florida-sanctuary-101794046991374.html",
-            "kind": "동물",
-            "event": "florida-chimpanzee-drone",
-            "reason": "플로리다 침팬지 보호구역에 홍수 피해 후 드론으로 바나나를 배달한 실제 사건으로, 신기하고 훈훈한 이야기입니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Indian software engineer develops free wildlife alert website after losing mother to bear attack in Kashmir",
-            "url": "https://www.hindustantimes.com/trending/indian-software-engineer-develops-free-wildlife-alert-website-after-losing-mother-to-bear-attack-in-kashmir-101794037680841.html",
-            "kind": "사람·도전",
-            "event": "india-wildlife-alert-website",
-            "reason": "인도 소프트웨어 엔지니어가 어머니의 곰 공격 사망 후 무료 야생동물 경고 사이트를 개발한 감동적인 이야기로, 누가 어디서 무엇을 했는지가 명확합니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "British runner sets world record after completing marathon distances in all 50 US states, raises funds for cancer research",
-            "url": "https://www.hindustantimes.com/trending/british-runner-sets-world-record-after-completing-marathon-distances-in-all-50-us-states-raises-funds-for-cancer-research-101794028424536.html",
-            "kind": "사람·도전",
-            "event": "british-runner-marathon-record",
-            "reason": "영국 주자가 미국 50개 주에서 마라톤 거리를 완주하며 세계 기록을 세우고 암 연구 기금을 모은 훈훈한 실제 사건입니다.",
+            "event": "usa-lottery-gas-station-winner",
+            "reason": "미국 노스캐롤라이나에서 주유기 영수증이 안 나오는 바람에 편의점에 들어간 남성이 우연히 산 복권으로 27억원 당첨. 실제 일어난 일이고, 우연한 행운 이야기라 직장인들이 점심시간에 흥미롭게 읽기 좋음.",
             "result": "통과"
           },
           {
             "source": "서울신문",
-            "title": "“집 공짜로 준다고?” 즉시 입주 가능 SNS 글에 수백명 ‘우르르’…알고 보니 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261107500030",
-            "kind": "법·행정",
-            "event": "la-free-housing-sns-crowd",
-            "reason": "미국 LA에서 무료 주거지 제공 SNS 글에 수백명이 몰린 소동 사건으로, 누가 어디서 무엇을 했는지가 분명하며 흥미롭고 이야기할 만합니다.",
+            "title": "네 남자와 아이 7명 낳은 36세 여성…“17년 애 낳고 키우기만” [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500015",
+            "kind": "사람·도전",
+            "event": "singapore-woman-7-children",
+            "reason": "싱가포르에서 네 남자와 만나 7명의 아이를 낳고 키운 여성 이야기. 독특하고 훈훈한 가족 이야기로, 국내에서 흔치 않은 사례라 흥미로움.",
+            "result": "통과"
+          },
+          {
+            "source": "서울신문",
+            "title": "‘귀신 집’에서 4년째 사는 日 아이돌…월세 30% 깎은 비결은? [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500069",
+            "kind": "사람·도전",
+            "event": "japan-ghost-house-rent-discount",
+            "reason": "일본에서 귀신이 나온다고 여겨지는 집에 살면서 월세를 깎은 아이돌 이야기. 신기하고 웃긴 소재로, 일본에서 실제 일어난 일이라 흥미로움.",
+            "result": "통과"
+          },
+          {
+            "source": "Good News Network",
+            "title": "Lucky Bird Found in Storm Drain a Mile From Home After Passing Driver Happens to Spot it Hopping in",
+            "url": "https://www.goodnewsnetwork.org/lucky-bird-found-in-storm-drain-a-mile-from-home/",
+            "kind": "사람·도전",
+            "event": "uk-lost-budgie-found",
+            "reason": "영국에서 폭풍에 날아간 애완 앵무새가 1마일 떨어진 배수구에서 발견된 이야기. 훈훈하고 신기한 사건으로 점심시간 읽기 좋음.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "UK firefighters attacked with fireworks while trying to put out blaze",
-            "url": "https://www.hindustantimes.com/trending/uk-firefighters-attacked-with-fireworks-while-trying-to-put-out-blaze-101794017566172.html",
-            "kind": "비극·범죄",
-            "event": "uk-firefighters-fireworks-attack",
-            "reason": "영국 소방관들이 화재 진압 중 폭죽 공격을 받은 사건으로, 누가 어디서 무엇을 했는지가 명확하며 놀랍고 이야기할 만한 사건입니다.",
+            "title": "US skydiver returns to the skies after cancer treatment, sets wingsuit record at 74",
+            "url": "https://www.hindustantimes.com/trending/us-skydiver-returns-to-the-skies-after-cancer-treatment-sets-wingsuit-record-at-74-101794135464441.html",
+            "kind": "사람·도전",
+            "event": "us-skydiver-wingsuit-record",
+            "reason": "미국에서 암 치료 후 74세에 윙슈트 기록을 세운 스카이다이버 이야기. 감동적이고 희망적인 실제 사건이라 공유할 만함.",
+            "result": "통과"
+          },
+          {
+            "source": "Vice",
+            "title": "This Restaurant Is Putting Giant ‘Water Cockroaches’ on Egg Tarts, and People Are Actually Eating Them",
+            "url": "https://www.vice.com/en/article/this-restaurant-is-putting-giant-water-cockroaches-on-egg-tarts-and-people-are-actually-eating-them/",
+            "kind": "음식·물건",
+            "event": "china-restaurant-water-cockroaches",
+            "reason": "중국 광둥성 식당에서 거대한 물바퀴벌레를 계란 타르트 위에 올려 손님들이 먹는다는 신기하고 충격적인 이야기. 국내 20~30대 직장인들이 놀라며 공유할 만함.",
             "result": "통과"
           }
         ]
       },
       {
-        "size": 17,
+        "size": 12,
         "picks": [
           {
-            "source": "Hindustan Times",
-            "title": "Coin toss decides mayoral election in Peru after two candidates receive exactly 671 votes",
-            "url": "https://www.hindustantimes.com/trending/coin-toss-decides-mayoral-election-in-peru-after-two-candidates-receive-exactly-671-votes-101794067989278.html",
-            "kind": "법·행정",
-            "event": "peru-mayor-coin-toss",
-            "reason": "실제로 일어난 일인데 두 후보가 정확히 같은 표를 받아 동전 던지기로 당선자를 결정했다는 점이 매우 놀랍고 흥미로워서 점심시간에 가볍게 읽기 좋다.",
-            "result": "통과"
-          },
-          {
             "source": "Good News Network",
-            "title": "Baby Saved After Racing Heartbeat Detected by Family Doberman",
-            "url": "https://www.goodnewsnetwork.org/baby-saved-as-racing-heartbeat-detected-by-pet/",
-            "kind": "동물",
-            "event": "dog-baby-heartbeat",
-            "reason": "가족 도베르만이 아기의 빠른 심장박동을 감지해 목숨을 구한 이야기로 훈훈하고 남에게도 이야기해주고 싶은 내용이다.",
+            "title": "Dogs Can Sniff-Out Invasive Plant Species With High Accuracy to Curb Their Destruction",
+            "url": "https://www.goodnewsnetwork.org/dogs-can-sniff-out-invasive-plant-species-with-75pt-accuracy/",
+            "kind": "사람·도전",
+            "event": "germany-dogs-invasive-plants",
+            "reason": "독일에서 훈련된 탐지견이 침입 식물을 정확히 찾아내 생태계 파괴를 막는다는 신기한 실제 사례로, 직장인들이 점심시간에 흥미롭게 읽을 수 있음.",
             "result": "통과"
           },
           {
-            "source": "Good News Network",
-            "title": "Mayor Uses AirTag to Catch Capstone Thief who was Stealing 18th-Century Stones Across the Countryside",
-            "url": "https://www.goodnewsnetwork.org/mayor-uses-airtag-to-catch-capstone-thief/",
-            "kind": "법·행정",
-            "event": "mayor-airtag-thief",
-            "reason": "영국 시장이 첨단 기술을 이용해 300년 된 돌을 훔치는 도둑을 잡은 사건으로 신기하고 흥미롭다.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Man Dies at His 97th Birthday Party Shortly After Dancing to ‘Stayin’ Alive’",
-            "url": "https://www.vice.com/en/article/man-dies-at-his-97th-birthday-party-shortly-after-dancing-to-stayin-alive/",
+            "source": "서울신문",
+            "title": "가방 열자 거미 3000마리 ‘득실득실’…공항서 타란툴라 밀반출 적발 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500044",
             "kind": "비극·범죄",
-            "event": "man-dies-dancing",
-            "reason": "97세 생일 파티에서 춤을 추다 바로 세상을 떠난 이야기가 오싹하면서도 감동적이다.",
+            "event": "peru-tarantula-smuggling",
+            "reason": "페루 공항에서 타란툴라 3000마리를 양말에 숨겨 밀반출하려다 적발된 황당하고 신기한 사건으로, 해외에서 일어난 일이라 흥미로움.",
+            "result": "통과"
+          },
+          {
+            "source": "서울신문",
+            "title": "日 ‘여탕 몰카’ 부부 적발…아내가 찍고 남편이 팔아 4600만원 챙겨 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500023",
+            "kind": "비극·범죄",
+            "event": "japan-spa-hidden-camera-couple",
+            "reason": "일본에서 부부가 여성 목욕탕 탈의실을 몰래 촬영해 영상을 팔아 큰 돈을 번 사건으로, 충격적이면서도 실제 발생한 일이라 이야기거리가 됨.",
             "result": "통과"
           },
           {
             "source": "Vice",
-            "title": "90s Alternative Rock Legend Comes Out as Pansexual",
-            "url": "https://www.vice.com/en/article/90s-alternative-rock-legend-comes-out-as-pansexual/",
-            "kind": "연예·운세",
-            "event": "alanis-morissette-pansexual",
-            "reason": "90년대 록 전설이자 유명 인물이 공개적으로 팬섹슈얼을 커밍아웃한 뉴스로 신기하고 흥미롭다.",
+            "title": "Former Boxing Star Adrien Broner Found Unresponsive at Detroit Rapper’s Concert in Los Angeles",
+            "url": "https://www.vice.com/en/article/former-boxing-star-adrien-broner-found-unresponsive-at-detroit-rappers-concert-in-los-angeles/",
+            "kind": "비극·범죄",
+            "event": "adrien-broner-unresponsive-concert",
+            "reason": "미국에서 전직 복서가 콘서트 도중 의식을 잃어 응급조치를 받은 사건으로, 유명 인물이 연관되어 있어 흥미롭고 놀라운 이야기임.",
             "result": "통과"
           },
           {
-            "source": "Hindustan Times",
-            "title": "British runner solves 4 Rubik’s Cubes, runs a mile in just over 5 minutes to set world record",
-            "url": "https://www.hindustantimes.com/trending/british-runner-solves-4-rubik-s-cubes-runs-a-mile-in-just-over-5-minutes-to-set-world-record-101794043312682.html",
-            "kind": "사람·도전",
-            "event": "rubiks-cube-runner-record",
-            "reason": "영국 주자가 달리면서 루빅스 큐브 4개를 푸는 세계 기록을 세운 독특하고 놀라운 사건이다.",
+            "source": "Vice",
+            "title": "Professional Boxer Nearly Dies After Intense Asthma Attack During Kanye West Concert",
+            "url": "https://www.vice.com/en/article/professional-boxer-nearly-dies-after-intense-asthma-attack-during-kanye-west-concert/",
+            "kind": "비극·범죄",
+            "event": "boxer-asthma-kanye-concert",
+            "reason": "프로 복서가 카니예 웨스트 콘서트에서 심한 천식 발작으로 거의 죽을 뻔한 실제 사건으로, 놀랍고 긴박한 상황이 흥미를 끔.",
             "result": "통과"
           },
           {
-            "source": "Good News Network",
-            "title": "Adventurer Finally Hugs Mom After 28-Year Walk Around the World From Home in UK",
-            "url": "https://www.goodnewsnetwork.org/adventurer-finally-hugs-mom-after-28-year-walk-around-the-world-from-home-in-uk/",
-            "kind": "사람·도전",
-            "event": "adventurer-hugs-mom",
-            "reason": "28년간 세계 일주를 마치고 고향에서 어머니와 감동적으로 재회한 이야기로 훈훈하고 감동적이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Astronaut Shubhanshu Shukla marks Diwali with breathtaking video of ‘nature’s fireworks’ from space",
-            "url": "https://www.hindustantimes.com/trending/astronaut-shubhanshu-shukla-marks-diwali-with-breathtaking-video-of-nature-s-fireworks-from-space-101794022803324.html",
-            "kind": "사람·도전",
-            "event": "indian-astronaut-diwali",
-            "reason": "인도 우주인이 국제우주정거장에서 디왈리 축제를 맞아 자연의 불꽃놀이 영상을 촬영한 신기하고 흥미로운 뉴스다.",
+            "source": "Vice",
+            "title": "This Siberian Tomb Holds the Earliest Concrete Evidence of Cannabis Use Ever Discovered",
+            "url": "https://www.vice.com/en/article/this-siberian-tomb-holds-the-earliest-concrete-evidence-of-cannabis-use-ever-discovered/",
+            "kind": "발견·장소",
+            "event": "siberian-cannabis-archaeology",
+            "reason": "시베리아 청동기 시대 무덤에서 대마초 사용의 가장 오래된 물리적 증거가 발견된 고고학적 사실로, 신기하고 역사적 가치가 있어 흥미로움.",
             "result": "통과"
           }
         ]
@@ -201,188 +340,164 @@
     ],
     "final": [
       {
-        "source": "Hindustan Times",
-        "title": "British runner sets world record after completing marathon distances in all 50 US states, raises funds for cancer research",
-        "url": "https://www.hindustantimes.com/trending/british-runner-sets-world-record-after-completing-marathon-distances-in-all-50-us-states-raises-funds-for-cancer-research-101794028424536.html",
+        "source": "서울신문",
+        "title": "우연 겹쳤을 뿐인데…‘영수증 먹통’ 주유기 덕에 27억원 대박 난 남성 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500077",
         "kind": "사람·도전",
-        "event": "uk-runner-marathon-50states",
-        "reason": "영국 주자의 50개 미국 주 마라톤 완주 세계 기록은 놀랍고 훈훈한 이야기로, 누가 어디서 무엇을 했는지가 명확하다.",
+        "event": "usa-lottery-winner-gas-station",
+        "reason": "미국 노스캐롤라이나에서 주유기 영수증이 안 나오는 바람에 편의점에 들어간 남성이 우연히 산 복권으로 27억원 당첨. 실제 일어난 일이며, '진짜?' 소리가 나고 훈훈해 주변에 이야기하기 좋음.",
         "result": "선정"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Mayor Uses AirTag to Catch Capstone Thief who was Stealing 18th-Century Stones Across the Countryside",
-        "url": "https://www.goodnewsnetwork.org/mayor-uses-airtag-to-catch-capstone-thief/",
-        "kind": "법·행정",
-        "event": "uk-mayor-catches-thief",
-        "reason": "영국 시장이 첨단 기술을 이용해 300년 된 돌을 훔친 도둑을 잡은 사건은 신기하고 흥미로워 공유할 만하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Baby Saved After Racing Heartbeat Detected by Family Doberman",
-        "url": "https://www.goodnewsnetwork.org/baby-saved-as-racing-heartbeat-detected-by-pet/",
-        "kind": "동물",
-        "event": "dog-saves-baby",
-        "reason": "가족 도베르만이 아기의 위험 신호를 감지해 생명을 구한 이야기는 훈훈하고 감동적이며 누가 어디서 무엇을 했는지가 분명하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Drone delivers bananas to chimpanzees after severe flooding hits Florida sanctuary",
-        "url": "https://www.hindustantimes.com/trending/us/drone-delivers-bananas-to-chimpanzees-after-severe-flooding-hits-florida-sanctuary-101794046991374.html",
-        "kind": "동물",
-        "event": "florida-chimpanzee-drone",
-        "reason": "플로리다 침팬지 보호구역에 홍수 피해 후 드론으로 바나나를 배달한 사건은 신기하고 재미있으며 장소와 상황이 명확하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Adventurer Finally Hugs Mom After 28-Year Walk Around the World From Home in UK",
-        "url": "https://www.goodnewsnetwork.org/adventurer-finally-hugs-mom-after-28-year-walk-around-the-world-from-home-in-uk/",
-        "kind": "사람·도전",
-        "event": "uk-adventurer-reunion",
-        "reason": "28년간 세계 일주를 마치고 영국에서 어머니와 감동적인 재회를 한 모험가 이야기로 훈훈하고 흥미롭다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "British runner solves 4 Rubik’s Cubes, runs a mile in just over 5 minutes to set world record",
-        "url": "https://www.hindustantimes.com/trending/british-runner-solves-4-rubik-s-cubes-runs-a-mile-in-just-over-5-minutes-to-set-world-record-101794043312682.html",
-        "kind": "사람·도전",
-        "event": "uk-runner-rubik-mile",
-        "reason": "영국 주자가 루빅스 큐브 4개를 풀면서 1마일을 5분 만에 달려 세계 기록을 세운 독특한 사건으로 신기하고 흥미롭다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "Vice",
-        "title": "Man Dies at His 97th Birthday Party Shortly After Dancing to ‘Stayin’ Alive’",
-        "url": "https://www.vice.com/en/article/man-dies-at-his-97th-birthday-party-shortly-after-dancing-to-stayin-alive/",
-        "kind": "비극·범죄",
-        "event": "man-dies-dancing",
-        "reason": "97세 생일 파티에서 춤을 추다 세상을 떠난 이야기는 오싹하면서도 훈훈한 느낌을 주어 공유할 만하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Coin toss decides mayoral election in Peru after two candidates receive exactly 671 votes",
-        "url": "https://www.hindustantimes.com/trending/coin-toss-decides-mayoral-election-in-peru-after-two-candidates-receive-exactly-671-votes-101794067989278.html",
-        "kind": "법·행정",
-        "event": "peru-election-coin-toss",
-        "reason": "페루 시장 선거가 동점으로 동전 던지기로 결정된 사건은 신기하고 흥미로운 해외 이야기로 적합하다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "Vice",
-        "title": "Bride Allegedly Asked Her Bridesmaid to Gain 120 Pounds So She’d Look Skinnier at Her Wedding",
-        "url": "https://www.vice.com/en/article/bride-allegedly-asked-her-bridesmaid-to-gain-120-pounds-so-shed-look-skinnier-at-her-wedding/",
-        "kind": "기타",
-        "event": "wedding-bridesmaid-weight",
-        "reason": "실제로 일어난 일인데 처음 들으면 '진짜?' 소리가 나오는 매우 특이한 사례입니다. 미국에서 벌어진 일로, 누가(신부와 들러리), 어디서(미국), 무엇을 했는지가 분명히 나와 있습니다. 웃기고 신기해서 점심시간에 가볍게 읽고 주변에 이야기하기 좋습니다.",
-        "result": "예비"
       },
       {
         "source": "서울신문",
-        "title": "“집 공짜로 준다고?” 즉시 입주 가능 SNS 글에 수백명 ‘우르르’…알고 보니 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261107500030",
-        "kind": "법·행정",
-        "event": "la-free-housing-sns-crowd",
-        "reason": "미국 LA에서 실제로 벌어진 해프닝으로, 무료 주거지를 제공한다는 SNS 글에 수백명이 몰려드는 일이 있었습니다. 누가, 어디서, 무엇을 했는지가 명확하며, 웃기고 신기한 이야기라 직장인 점심시간 읽을거리로 적합합니다.",
-        "result": "예비"
+        "title": "가방 열자 거미 3000마리 ‘득실득실’…공항서 타란툴라 밀반출 적발 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500044",
+        "kind": "비극·범죄",
+        "event": "peru-tarantula-smuggling",
+        "reason": "페루 공항에서 여행객 가방에서 타란툴라 3000마리 밀반출 시도 적발. 누가, 어디서, 무엇을 했는지 명확하고 신기하며 오싹한 이야기로 흥미로움.",
+        "result": "선정"
+      },
+      {
+        "source": "서울신문",
+        "title": "네 남자와 아이 7명 낳은 36세 여성…“17년 애 낳고 키우기만” [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500015",
+        "kind": "사람·도전",
+        "event": "singapore-woman-7-children",
+        "reason": "싱가포르 여성의 7명의 자녀 출산과 육아 이야기. 실제 사례이며, 독특하고 훈훈한 내용으로 직장인 점심시간 읽기에 적합.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "서울신문",
+        "title": "‘귀신 집’에서 4년째 사는 日 아이돌…월세 30% 깎은 비결은? [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500069",
+        "kind": "사람·도전",
+        "event": "japan-ghost-house-rent",
+        "reason": "일본에서 귀신 집에 사는 아이돌 이야기. 누가, 어디서, 무엇을 했는지 분명하며 신기하고 웃긴 이야기로 공유 가치 있음.",
+        "result": "매체 상한"
       },
       {
         "source": "Vice",
-        "title": "90s Alternative Rock Legend Comes Out as Pansexual",
-        "url": "https://www.vice.com/en/article/90s-alternative-rock-legend-comes-out-as-pansexual/",
-        "kind": "연예·운세",
-        "event": "alanis-morissette-pansexual",
-        "reason": "90년대 록 전설인 알라니스 모리셋이 팬섹슈얼로 커밍아웃한 소식입니다. 유명 인물의 개인적 고백으로 신기하고 흥미로운 이야기이며, 누가, 어디서, 무엇을 했는지가 분명히 나와 있습니다. 다만 같은 매체에서 두 건 이상 고르지 않기 위해 세 번째로 선택했습니다.",
-        "result": "매체 상한"
+        "title": "This Siberian Tomb Holds the Earliest Concrete Evidence of Cannabis Use Ever Discovered",
+        "url": "https://www.vice.com/en/article/this-siberian-tomb-holds-the-earliest-concrete-evidence-of-cannabis-use-ever-discovered/",
+        "kind": "발견·장소",
+        "event": "siberia-cannabis-archaeology",
+        "reason": "시베리아 청동기 시대 무덤에서 대마초 사용의 가장 오래된 증거 발견. 신기하고 흥미로운 고고학적 발견으로 이야기할 만함.",
+        "result": "선정"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Lucky Bird Found in Storm Drain a Mile From Home After Passing Driver Happens to Spot it Hopping in",
+        "url": "https://www.goodnewsnetwork.org/lucky-bird-found-in-storm-drain-a-mile-from-home/",
+        "kind": "사람·도전",
+        "event": "uk-lost-budgie-found",
+        "reason": "영국에서 폭풍으로 날아간 애완 앵무새가 1마일 떨어진 배수구에서 발견된 이야기. 훈훈하고 신기하며 누가, 어디서, 무엇을 했는지 명확함.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "US skydiver returns to the skies after cancer treatment, sets wingsuit record at 74",
+        "url": "https://www.hindustantimes.com/trending/us-skydiver-returns-to-the-skies-after-cancer-treatment-sets-wingsuit-record-at-74-101794135464441.html",
+        "kind": "사람·도전",
+        "event": "usa-skydiver-cancer-record",
+        "reason": "미국 74세 스카이다이버가 암 치료 후 윙슈트 기록 세움. 실제 일어난 일이며 감동적이고 훈훈한 이야기로 공유 가치 높음.",
+        "result": "선정"
+      },
+      {
+        "source": "Vice",
+        "title": "This Restaurant Is Putting Giant ‘Water Cockroaches’ on Egg Tarts, and People Are Actually Eating Them",
+        "url": "https://www.vice.com/en/article/this-restaurant-is-putting-giant-water-cockroaches-on-egg-tarts-and-people-are-actually-eating-them/",
+        "kind": "음식·물건",
+        "event": "china-water-cockroach-food",
+        "reason": "중국 광둥성 식당에서 거대한 물바퀴벌레를 계란 타르트에 올려 판매하는 독특한 사례. 신기하고 웃긴 이야기로 흥미로움.",
+        "result": "예비"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Dogs Can Sniff-Out Invasive Plant Species With High Accuracy to Curb Their Destruction",
+        "url": "https://www.goodnewsnetwork.org/dogs-can-sniff-out-invasive-plant-species-with-75pt-accuracy/",
+        "kind": "사람·도전",
+        "event": "germany-sniffer-dogs-invasive-plants",
+        "reason": "독특하고 신기한 이야기로, 독자들이 주변에 쉽게 이야기할 수 있는 내용입니다. 독일에서 실제로 훈련받는 개들이 외래 식물을 탐지한다는 점이 명확히 나와 있습니다.",
+        "result": "예비"
       }
     ],
     "final_out": [
       {
-        "source": "Hindustan Times",
-        "title": "UK firefighters attacked with fireworks while trying to put out blaze",
-        "url": "https://www.hindustantimes.com/trending/uk-firefighters-attacked-with-fireworks-while-trying-to-put-out-blaze-101794017566172.html",
+        "source": "Vice",
+        "title": "Former Boxing Star Adrien Broner Found Unresponsive at Detroit Rapper’s Concert in Los Angeles",
+        "url": "https://www.vice.com/en/article/former-boxing-star-adrien-broner-found-unresponsive-at-detroit-rappers-concert-in-los-angeles/",
         "kind": "비극·범죄"
       },
       {
-        "source": "Hindustan Times",
-        "title": "Astronaut Shubhanshu Shukla marks Diwali with breathtaking video of ‘nature’s fireworks’ from space",
-        "url": "https://www.hindustantimes.com/trending/astronaut-shubhanshu-shukla-marks-diwali-with-breathtaking-video-of-nature-s-fireworks-from-space-101794022803324.html",
-        "kind": "사람·도전"
+        "source": "Vice",
+        "title": "Professional Boxer Nearly Dies After Intense Asthma Attack During Kanye West Concert",
+        "url": "https://www.vice.com/en/article/professional-boxer-nearly-dies-after-intense-asthma-attack-during-kanye-west-concert/",
+        "kind": "비극·범죄"
       },
       {
-        "source": "Hindustan Times",
-        "title": "US pilot spends 8 hours creating giant GTA 6 artwork with plane’s flight path ahead of game’s release",
-        "url": "https://www.hindustantimes.com/trending/us/us-pilot-spends-8-hours-creating-giant-gta-6-artwork-with-plane-s-flight-path-ahead-of-game-s-release-101794059029083.html",
-        "kind": "사람·도전"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Indian software engineer develops free wildlife alert website after losing mother to bear attack in Kashmir",
-        "url": "https://www.hindustantimes.com/trending/indian-software-engineer-develops-free-wildlife-alert-website-after-losing-mother-to-bear-attack-in-kashmir-101794037680841.html",
-        "kind": "사람·도전"
+        "source": "서울신문",
+        "title": "日 ‘여탕 몰카’ 부부 적발…아내가 찍고 남편이 팔아 4600만원 챙겨 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500023",
+        "kind": "비극·범죄"
       }
     ]
   },
   "rejected": [],
   "published": [
     {
-      "source": "Hindustan Times",
-      "headline": "영국 주자 윌리엄 구지, 미국 50개 주 마라톤 완주 세계 기록 세우며 암 연구 기금 모금",
-      "url": "https://www.hindustantimes.com/trending/british-runner-sets-world-record-after-completing-marathon-distances-in-all-50-us-states-raises-funds-for-cancer-research-101794028424536.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/07/1600x900/logo/Untitled_design_1794030296015_0OMj_1794030299922_gW1K_82c6312e-a64a-48e4-a610-f0237309044a_gEgU.png",
+      "source": "서울신문",
+      "headline": "주유기 영수증 오류로 편의점 방문한 남성, 파워볼 복권 27억 원 당첨",
+      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500077",
+      "image": "https://img.seoul.co.kr//img/upload/2026/11/08/SSC_20261108175711_O2.jpg.webp",
       "kind": "사람·도전",
-      "topic": "사람",
-      "event": "uk-runner-marathon-50states",
-      "reason": "영국 주자의 50개 미국 주 마라톤 완주 세계 기록은 놀랍고 훈훈한 이야기로, 누가 어디서 무엇을 했는지가 명확하다.",
-      "why": "윌리엄 구지는 2018년 비호지킨 림프종으로 어머니를 잃은 후, 그녀의 기억을 기리고 암 연구를 지원하기 위해 이 도전을 시작했습니다."
-    },
-    {
-      "source": "Good News Network",
-      "headline": "영국 시장 출신 탐정, 300년 된 석벽 도둑 사건 첨단 추적기로 해결",
-      "url": "https://www.goodnewsnetwork.org/mayor-uses-airtag-to-catch-capstone-thief/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Councillor-Matt-Smith-with-GPS-AirTag-SWNS.jpeg",
-      "kind": "법·행정",
       "topic": "사건·사고",
-      "event": "uk-mayor-catches-thief",
-      "reason": "영국 시장이 첨단 기술을 이용해 300년 된 돌을 훔친 도둑을 잡은 사건은 신기하고 흥미로워 공유할 만하다.",
-      "why": "이 지역은 CCTV가 설치되어 있지 않고 증거 수집이 어려워 경찰이 직접 수사하기 힘들었기 때문에 주민들이 직접 첨단 추적기를 활용해 범인을 찾았습니다."
+      "event": "usa-lottery-winner-gas-station",
+      "reason": "미국 노스캐롤라이나에서 주유기 영수증이 안 나오는 바람에 편의점에 들어간 남성이 우연히 산 복권으로 27억원 당첨. 실제 일어난 일이며, '진짜?' 소리가 나고 훈훈해 주변에 이야기하기 좋음.",
+      "why": "파워 플레이 옵션은 당첨금을 두 배로 늘려주는 선택지로, 듀네휴가 이 옵션을 선택해 당첨금이 200만 달러가 되었습니다."
     },
     {
-      "source": "Good News Network",
-      "headline": "가족 도베르만 개가 아기 심장 이상 감지해 생명 구해",
-      "url": "https://www.goodnewsnetwork.org/baby-saved-as-racing-heartbeat-detected-by-pet/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Alexander-with-doberman-who-saved-his-life-SWNS.jpeg",
-      "kind": "동물",
-      "topic": "사람",
-      "event": "dog-saves-baby",
-      "reason": "가족 도베르만이 아기의 위험 신호를 감지해 생명을 구한 이야기는 훈훈하고 감동적이며 누가 어디서 무엇을 했는지가 분명하다.",
-      "why": "알렉산더는 울음으로 증상을 알리지 않았고, 울음이 멈추자 병원 방문이 망설여졌으나 개의 행동 덕분에 조기 발견과 치료가 가능했습니다."
-    },
-    {
-      "source": "Hindustan Times",
-      "headline": "플로리다 침팬지 보호구역, 홍수로 드론 이용해 바나나 등 먹이 전달",
-      "url": "https://www.hindustantimes.com/trending/us/drone-delivers-bananas-to-chimpanzees-after-severe-flooding-hits-florida-sanctuary-101794046991374.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/07/1600x900/logo/dbfbgfbgf_1794049424488_vrKm_1794049429972_O3wn_758144dd-5cd2-4816-bb00-240a0d47d16d_UX3x.png",
-      "kind": "동물",
-      "topic": "동물",
-      "event": "florida-chimpanzee-drone",
-      "reason": "플로리다 침팬지 보호구역에 홍수 피해 후 드론으로 바나나를 배달한 사건은 신기하고 재미있으며 장소와 상황이 명확하다.",
-      "why": "홍수로 인해 넘친 운하가 물이 빠지지 못하게 막아 직원들의 접근을 어렵게 했고, 골프 카트 등 운송 수단이 침수되어 고장 나면서 드론을 통한 먹이 전달이 필요했습니다."
+      "source": "서울신문",
+      "headline": "페루 공항서 타란툴라 3000여 마리 밀반출 시도 적발",
+      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500044",
+      "image": "https://img.seoul.co.kr//img/upload/2026/11/09/SSC_20261109095859_O2.jpg.webp",
+      "kind": "비극·범죄",
+      "topic": "사건·사고",
+      "event": "peru-tarantula-smuggling",
+      "reason": "페루 공항에서 여행객 가방에서 타란툴라 3000마리 밀반출 시도 적발. 누가, 어디서, 무엇을 했는지 명확하고 신기하며 오싹한 이야기로 흥미로움.",
+      "why": "페루에서는 허가 없이 야생동물을 포획해 국외로 반출할 경우 불법 야생동물 밀거래죄로 처벌하며, 보호종 포함 시 형량이 최대 7년까지 늘어납니다."
     },
     {
       "source": "Vice",
-      "headline": "97세 생일 파티에서 춤추다 세상 떠난 비토의 아름다운 마지막 순간",
-      "url": "https://www.vice.com/en/article/man-dies-at-his-97th-birthday-party-shortly-after-dancing-to-stayin-alive/",
-      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/Man-Dies-at-His-97th-Birthday-Party-Shortly-After-Dancing-to-Stayin-Alive.jpg?w=2000",
-      "kind": "비극·범죄",
+      "headline": "시베리아 청동기 시대 무덤에서 대마초 향정신성 사용 증거 발견",
+      "url": "https://www.vice.com/en/article/this-siberian-tomb-holds-the-earliest-concrete-evidence-of-cannabis-use-ever-discovered/",
+      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/This-Siberian-Tomb-Holds-the-Earliest-Concrete-Evidence-of-Cannabis-Use-Ever-Discovered.jpg?w=2000",
+      "kind": "발견·장소",
+      "topic": "발견·장소",
+      "event": "siberia-cannabis-archaeology",
+      "reason": "시베리아 청동기 시대 무덤에서 대마초 사용의 가장 오래된 증거 발견. 신기하고 흥미로운 고고학적 발견으로 이야기할 만함.",
+      "why": "고대 그리스 역사가 헤로도토스가 기원전 440년경 스키타이인들의 대마초 사용을 기록했으며, 이번 발견은 그 기록을 뒷받침하는 최초의 물리적 증거입니다."
+    },
+    {
+      "source": "Good News Network",
+      "headline": "영국서 폭풍에 날아간 애완 앵무새, 1마일 떨어진 배수구에서 구조",
+      "url": "https://www.goodnewsnetwork.org/lucky-bird-found-in-storm-drain-a-mile-from-home/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Bird-rescued-from-sewer-pipe-RSPCA-and-SWNS.jpeg",
+      "kind": "사람·도전",
+      "topic": "동물",
+      "event": "uk-lost-budgie-found",
+      "reason": "영국에서 폭풍으로 날아간 애완 앵무새가 1마일 떨어진 배수구에서 발견된 이야기. 훈훈하고 신기하며 누가, 어디서, 무엇을 했는지 명확함.",
+      "why": "루나는 폭풍 후 열린 창문으로 탈출했으며, 두려움을 느껴 배수구로 숨은 것으로 추정됩니다."
+    },
+    {
+      "source": "Hindustan Times",
+      "headline": "74세 미국 스카이다이버, 암 치료 후 윙수트 비행 세계 최고령 기록 경신",
+      "url": "https://www.hindustantimes.com/trending/us-skydiver-returns-to-the-skies-after-cancer-treatment-sets-wingsuit-record-at-74-101794135464441.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/08/1600x900/logo/Untitled_design_1794136197889_noBU_1794136201358_yOKW_f28cfa0d-4300-4a6b-8306-b187e5c010f3_qUcv.png",
+      "kind": "사람·도전",
       "topic": "사람",
-      "event": "man-dies-dancing",
-      "reason": "97세 생일 파티에서 춤을 추다 세상을 떠난 이야기는 오싹하면서도 훈훈한 느낌을 주어 공유할 만하다.",
-      "why": "비토가 긴 생애를 살 수 있었던 비결로 '싼 술을 마시지 않는 것'을 꼽았으며, 그의 생일 파티는 할로윈 테마로 준비된 와인 초콜릿 케이크와 함께 축하되었습니다."
+      "event": "usa-skydiver-cancer-record",
+      "reason": "미국 74세 스카이다이버가 암 치료 후 윙슈트 기록 세움. 실제 일어난 일이며 감동적이고 훈훈한 이야기로 공유 가치 높음.",
+      "why": "그는 2016년 무릎 수술과 암 진단으로 스카이다이빙을 중단했으나, 건강을 회복한 후 2023년에 복귀해 2026년에 기록에 도전했습니다."
     }
   ]
 }

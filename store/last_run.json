@@ -1,34 +1,51 @@
 {
-  "at": "2026-11-10T12:50:18",
+  "at": "2026-11-11T10:29:55",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 60건 · 소스 7곳 · 응답 없음 ['Indian Express'] · 0건 ['Metro']",
-    "② 선별   60 → 홍보 제외 60 → 라벨 제외 35 → 예선 2조 15 → 5건 + 예비 3",
-    "   선정 [Vice] 48 Years Ago, a TV Crew Went to Investigate UFO Re — 실제로 1978년 뉴질랜드에서 TV 촬영팀이 UFO를 목격하고 촬영했다는 믿기 힘든 사건으로, 국내 20~30대 직장인들이 점심시간에 흥미롭게 읽을 수 있고 주변에 이야기하기 좋은 신기한 이야기이다.",
-    "   선정 [Daily Star] 'I've buried a 737 jet in my back garden to be a w — 영국의 한 엔지니어가 자신의 뒷마당에 737 비행기 동체를 묻어 전쟁 벙커와 파티 공간으로 만든 독특하고 웃긴 이야기로, 실제 인물과 장소가 명확해 흥미롭다.",
-    "   선정 [Good News Network] Man’s Halloween Skeletons Prove Perfect Treat to W — 미국에서 할로윈 해골 장식이 유방암 투병 여성에게 큰 위로가 된 훈훈한 이야기로, 긍정적이고 따뜻한 내용이라 점심시간에 읽기 좋다.",
-    "   선정 [Vice] Volunteer Divers Just Discovered a World War II Sh — 미국 메인 해안에서 자원 다이버들이 80년 넘게 실종된 제2차 세계대전 당시의 난파선을 발견한 신기하고 역사적인 사건으로, 국내 독자에게도 흥미로울 것이다.",
-    "   선정 [Hindustan Times] 'Never too late': 91-year-old athlete still breaki — 91세의 미국 노년 운동선수가 장애물 경주 등에서 기록을 깨는 놀라운 이야기로, 긍정적이고 영감을 주는 내용이라 직장인들이 점심시간에 읽기 좋다.",
-    "   예비 [Good News Network] Fish Stocks Thrive Thanks to This Pink Seaweed and — 영국 스코틀랜드에서 핑크 해조류 보호 덕분에 어족 자원이 회복된 훈훈하고 신기한 자연 보호 이야기로, 실제 장소와 인물이 명확해 흥미롭다.",
-    "   예비 [Hindustan Times] 5 people who survived nearly 100 days adrift in Pa — 태평양에서 거의 100일간 표류하며 거북이와 새를 먹으며 생존한 5명의 실제 생존 이야기는 오싹하고 신기해 주변에 이야기하기 좋다.",
-    "   예비 [서울신문] 기내 화장실 문 열었다가 ‘얼음’…쪽지 한 장에 여객기 긴급 회항, 무슨 일 [월드픽] — 비행기 납치 협박 쪽지가 화장실에서 발견되어 비행기가 긴급 회항한 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?'라는 반응이 나올 만한 놀라운 상황입니다. 또한 승객 전원이 무사히 내렸다는 점에서 다행스럽고, 누군가가 일부러 쪽지를 놓았을 가능성도 있어 신기하고 흥미로운 이야기입니다. 누가, 어디서, 무엇을 했는지 기사에 분명히 나와 있어 독자가 점심시간에 가볍게 읽기에 적합합니다.",
-    "④ 검수   8 → 5건",
-    "⑤ 발행   5건 · sent"
+    "① 수집   24시간 time window · 68건 · 소스 7곳 · 응답 없음 ['Indian Express']",
+    "② 선별   68 → 홍보 제외 68 → 라벨 제외 43 → 예선 2조 16 → 4건",
+    "   선정 [Hindustan Times] College dropout, 23, earns six-figure salary as Wa — 미국에서 16세에 캐셔로 시작해 21세에 최연소 매장 관리자가 된 23세 대학 중퇴자의 성공 스토리는 신기하고 훈훈해 직장인들이 점심시간에 읽기 좋다.",
+    "   선정 [Hindustan Times] Deer rescued after 10 days with Halloween pumpkin  — 미국 미시간에서 할로윈 호박통이 머리에 낀 사슴이 10일 만에 구조된 사건은 신기하고 웃긴 이야기로 남에게도 소개하기 좋다.",
+    "   선정 [Good News Network] A Viral Video Led Strangers to Raise $76,000 for a — 바이럴 영상으로 모금해 전업 간병인을 지원하게 된 감동적인 이야기로, 직장인들이 점심시간에 읽기 좋다.",
+    "   선정 [서울신문] 항공기 화장실서 ‘몰카’ 촬영 중…승무원 ‘눈썰미’에 딱 걸린 50대男 [월드픽] — 일본에서 싱가포르로 향하는 항공기 화장실에서 몰래카메라를 설치한 영국 남성이 승무원의 눈썰미로 적발되어 싱가포르 법정에 서게 된 사건이다. 실제로 일어난 일이며, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고, 누가 어디서 무엇을 했는지가 명확하게 나온다. 해외에서 일어난 사건으로 독자들이 흥미를 가질 만하다.",
+    "④ 검수   4 → 4건",
+    "⑤ 발행   4건 · sent"
   ],
   "selection": {
-    "candidates": 60,
+    "candidates": 68,
     "already_sent": [],
     "promo": [],
     "labels": {
-      "비극·범죄": 15,
-      "사람·도전": 17,
+      "동물": 3,
+      "비극·범죄": 17,
+      "발견·장소": 4,
       "일반 뉴스": 21,
-      "음식·물건": 2,
-      "발견·장소": 3,
-      "연예·운세": 1,
-      "기타": 1
+      "음식·물건": 1,
+      "사람·도전": 12,
+      "연예·운세": 10
     },
     "label_dropped": [
+      {
+        "source": "Hindustan Times",
+        "title": "Better chats, easier payments and smarter AI: Kunal Shah outlines 3 priorities for WhatsApp",
+        "url": "https://www.hindustantimes.com/trending/better-chats-easier-payments-and-smarter-ai-kunal-shah-outlines-3-priorities-for-whatsapp-101794331025031.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "NASA announces $1 million in prizes for students designing solutions for future Moon base",
+        "url": "https://www.hindustantimes.com/trending/nasa-announces-1-million-in-prizes-for-students-designing-solutions-for-future-moon-base-101794316157669.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "US CEO gives employees Fridays off without pay cuts, company's revenue rises nearly 160% in 3 years",
+        "url": "https://www.hindustantimes.com/trending/us/us-ceo-gives-employees-fridays-off-without-pay-cuts-companys-revenue-rises-nearly-160-in-3-years-101794295492701.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
       {
         "source": "Hindustan Times",
         "title": "Qantas to cut 850 jobs in Australia as it plans to shift some roles to India amid AI drive",
@@ -37,30 +54,72 @@
         "result": "버림(일반 뉴스)"
       },
       {
-        "source": "Hindustan Times",
-        "title": "Hair ties, keychain in $148 advent calendar: Kim Kardashian’s Skims offers refunds after backlash",
-        "url": "https://www.hindustantimes.com/trending/hair-ties-keychain-in-148-advent-calendar-kim-kardashian-s-skims-offers-refunds-after-backlash-101794200591090.html",
+        "source": "Vice",
+        "title": "Everything New in the ‘Battlefield 6’ November 10 Update, Including a Destructible Casino Map",
+        "url": "https://www.vice.com/en/article/everything-new-in-the-battlefield-6-november-10-update-including-a-destructible-casino-map/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Vice",
-        "title": "The ‘Marvel’s Blade’ Video Game Might Not Be Dead After All. Here’s Everything We Know.",
-        "url": "https://www.vice.com/en/article/the-marvels-blade-video-game-might-not-be-dead-after-all-heres-everything-we-know/",
+        "title": "Everything We Know About a ‘Majora’s Mask’ Remake, Including Hints Hidden Inside of ‘Ocarina of Time’",
+        "url": "https://www.vice.com/en/article/everything-we-know-about-a-majoras-mask-remake-including-hints-hidden-inside-of-ocarina-of-time/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
-        "source": "Vice",
-        "title": "How ‘Mass Effect’ Fans Turned N7 Day Into Something Much Bigger This Year",
-        "url": "https://www.vice.com/en/article/how-mass-effect-fans-turned-n7-day-into-something-much-bigger-this-year/",
+        "source": "서울신문",
+        "title": "미중러 밀착에 日외교 고립 우려…APEC 중일 정상회담 사실상 무산?",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111500078",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
-        "source": "Vice",
-        "title": "Don’t Want ‘GTA 6’ Spoilers? Here Are the Words You Need to Mute on Social Media Right Now.",
-        "url": "https://www.vice.com/en/article/dont-want-gta-6-spoilers-here-are-the-words-you-need-to-mute-on-social-media-right-now/",
+        "source": "서울신문",
+        "title": "가상자산 털고 IT전문가 위장취업… 진화하는 ‘北 외화벌이’ [글로벌 인사이트]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111014001",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "日 자위대 정원 감축 추진… AI로 전력 보완",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111012010",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "프랑스, 냉장고 해킹 배후로 이란 지목",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111012009",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "행방 묘연한 앨리스 황… “中 큰손들에 엔비디아 GPU 확보 과시”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111008004",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "젠슨 황 불륜상대 42세 후난성 출신…전 직장동료 “보통사람 아냐”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500393",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "낡은 아파트 14채 사서 30살에 은퇴하더니…‘이것’ 투자해 돈 번다? [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500236",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "젠슨 황, 1년 전 ‘성추문 해결사’ 고용…내연녀와 父 사진 찍어준 딸은 알았을까",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500228",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
@@ -73,280 +132,226 @@
       },
       {
         "source": "서울신문",
-        "title": "‘젠슨 황 불륜 사진’ 일파만파…40대라는 앨리스 황, 과거 직업 보니",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500101",
+        "title": "지워도 지워도… 생겨나는 AI딥페이크 범죄",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111010002",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "40대男, 머리 위로 떨어진 1톤짜리 철판에 맞아 숨져…용접중 구조물 낙하",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500421",
         "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "캠벨 “北, 美와 대화 조건으로 핵보유국 인정 요구...트럼프 수용 불가”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500008",
+        "title": "귀국한 추미애 아들 출국금지…‘군복무 특혜 의혹’ 수사 재개",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500419",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“돈 아껴 투자하자, 여자친구와도 결별”…빈곤 선택하는 젊은이들, 무슨 일 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500003",
+        "title": "목포시, 2028 아시아U23육상대회 유치 확정",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500405",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“이란 재공격 가능성 매우 낮아”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110012009",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "다카이치 감세안에 반기… 이시바 징계",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110012007",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "美 데이터센터 충돌에 웃는 中",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110003002",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "다카이치에 반기 든 이시바 전 총리…日 자민당, 첫 전직 총재 징계",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500379",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "젠슨 황의 ‘불륜 나비효과’…“중국 간첩? 억측이자 중상모략” 中 정부 펄쩍",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500348",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“젠슨황도 당했다” 한국 괜찮나…중국인은 국가정보활동 협조가 ‘법적 의무’ [권윤희의 월드뷰]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500327",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "트럼프, 젠슨황 간첩 연루 보고에도 국빈 방중 대동",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500272",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "중국 여행에 필수? “빈대 나온 호텔 피하세요”…20만명 몰렸다 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500254",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“K방산, 새로운 시험대 직면” 콕 집었다…그래도 전망 밝은 이유 [배틀라인]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500168",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "학교 찾아가 “수능 대박”…남대문 스카프 아저씨 ‘뜻밖의 근황’ 전해졌다 [이슈픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500065",
-        "kind": "사람·도전",
+        "title": "육군 자주포에 연쇄추돌…민간인 1명 사망 (영상)",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500400",
+        "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "뇌졸중 재발 막으려면…LDL 콜레스테롤 ‘목표 수치’ 외 ‘감소 폭’도 챙겨야",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500055",
+        "title": "“500억 있어도 다문화면 ‘의대입시’ 우대?”…소득도 안따지는 특별전형 논란",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500386",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "심장성 쇼크, 병원까지 멀수록 사망 위험 높아…60분 넘으면 1.5배",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500052",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "백석예술대학교 호텔조리·제과제빵학부, 2026 KOREA월드푸드챔피언쉽대회 참가자 전원 수상",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500050",
-        "kind": "사람·도전",
+        "title": "[속보] 수중 작업하다… 제주 강정 앞바다 우주발사체 바지선서 50대 다이버 숨져",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500381",
+        "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "백석예술대학교 디자인학부, 학생의 창의력이 기업 마케팅으로…실무형 산학협력 롤모델 제시",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500049",
-        "kind": "사람·도전",
+        "title": "제주 해상서 다이버 숨져…우주발사체 바지선서 수중작업",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500380",
+        "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "광주 학교비정규직 27일 전국 총파업…급식·돌봄 대란 우려",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500034",
+        "title": "“K레미콘 품질 관리 역량 업그레이드”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500413",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "지역·소득 따라 다른 비만율… 가장 날씬한 도시 ‘경기 과천’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110010007",
+        "title": "가게 닫아도 빚은 남았다…소상공인 연체액 16조 돌파",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500406",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       }
     ],
     "heats": [
       {
-        "size": 18,
+        "size": 22,
         "picks": [
           {
-            "source": "Hindustan Times",
-            "title": "5 people who survived nearly 100 days adrift in Pacific Ocean ate turtles and birds to stay alive",
-            "url": "https://www.hindustantimes.com/trending/5-people-who-survived-nearly-100-days-adrift-in-pacific-ocean-ate-turtles-and-birds-to-stay-alive-101794240914594.html",
+            "source": "서울신문",
+            "title": "“연봉 2.2억, 그런데…” 2년 훈련받아야 간다는 근무지 ‘깜짝 정체’ [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111500006",
             "kind": "사람·도전",
-            "event": "pacific-ocean-survival-100-days",
-            "reason": "실제로 100일 가까이 태평양에서 표류하며 거북이와 새를 먹으며 살아남은 가족 이야기로, 믿기 어려운 생존기라서 흥미롭고 남에게 이야기하기 좋음.",
+            "event": "nasa-astronaut-recruitment-2026",
+            "reason": "NASA가 달 기지 건설을 위해 우주비행사를 모집한다는 소식은 국내 20~30대 직장인에게 신기하고 흥미로운 이야기로, 실제 모집 공고와 조건이 명확히 나와 있어 신뢰도가 높다. 우주 관련 소식은 가볍게 읽기 좋고 주변에 이야기하기에도 흥미롭다.",
+            "result": "통과"
+          },
+          {
+            "source": "서울신문",
+            "title": "항공기 화장실서 ‘몰카’ 촬영 중…승무원 ‘눈썰미’에 딱 걸린 50대男 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500193",
+            "kind": "비극·범죄",
+            "event": "airplane-toilet-hidden-camera-arrest",
+            "reason": "일본에서 싱가포르로 가는 비행기 화장실에 몰래카메라를 설치한 영국 남성이 승무원 덕분에 적발된 사건은 실제 발생한 일이며, 누가 어디서 무엇을 했는지 분명해 충격적이고 흥미로운 이야기다.",
+            "result": "통과"
+          },
+          {
+            "source": "서울신문",
+            "title": "백인 여성 가슴 두드리며 “우우아아” 원숭이 흉내… 신상 털리자 “유색인종 향한 고의 아냐” 해명 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111500037",
+            "kind": "비극·범죄",
+            "event": "us-racial-incident-monkey-gesture",
+            "reason": "미국에서 백인 여성들이 흑인 대학생 주택 앞에서 원숭이 흉내를 내 인종차별 논란이 일어난 사건으로, 실제 발생한 일이며 누가 어디서 무엇을 했는지 명확해 충격적이고 이야기할 만하다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "Glowworms Shine Again in the UK from Larvae Reared Pro Bono in Garden Shed",
-            "url": "https://www.goodnewsnetwork.org/glowworms-shine-again-in-the-uk-from-larvae-reared-pro-bono-in-garden-shed/",
+            "title": "A Viral Video Led Strangers to Raise $76,000 for a Full-Time Caregiver",
+            "url": "https://www.goodnewsnetwork.org/viral-video-raises-76000-for-caregiver/",
             "kind": "사람·도전",
-            "event": "uk-glowworms-conservation",
-            "reason": "영국에서 지역 보존가가 자신의 정원 창고에서 반딧불이를 키워 다시 빛나게 한 훈훈한 이야기로, 자연과 사람의 따뜻한 교감이 인상적임.",
-            "result": "통과"
-          },
-          {
-            "source": "Good News Network",
-            "title": "Man’s Halloween Skeletons Prove Perfect Treat to Woman Battling Breast Cancer",
-            "url": "https://www.goodnewsnetwork.org/mans-halloween-skeletons-prove-perfect-treat-to-woman-battling-breast-cancer/",
-            "kind": "사람·도전",
-            "event": "halloween-skeletons-cancer-support",
-            "reason": "할로윈 해골 장식을 취미로 하던 남성이 유방암 투병 여성에게 큰 힘이 된 감동적인 이야기로, 가볍게 읽기 좋고 공유하고 싶은 훈훈한 뉴스임.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Florida Man Arrested for Stealing School Bus, Claims He Thought He Could ‘Get Away With It’",
-            "url": "https://www.vice.com/en/article/florida-man-arrested-for-stealing-school-bus-claims-he-thought-he-could-get-away-with-it/",
-            "kind": "비극·범죄",
-            "event": "florida-man-school-bus-theft",
-            "reason": "미국 플로리다에서 학교 버스를 훔친 남성이 '도망칠 수 있을 줄 알았다'고 주장한 황당한 사건으로, 웃기고 신기해서 이야기하기 좋음.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "50 Years Ago, a TV Crew Discovered a Real Corpse While Filming This Iconic Show",
-            "url": "https://www.vice.com/en/article/50-years-ago-a-tv-crew-discovered-a-real-corpse-while-filming-this-iconic-show/",
-            "kind": "비극·범죄",
-            "event": "tv-crew-discovered-corpse-1976",
-            "reason": "1976년 유명 TV 촬영 중 실제 시체를 발견한 충격적인 사건으로, 놀랍고 흥미로운 역사적 일화임.",
+            "event": "viral-video-fundraising-caregiver",
+            "reason": "도어벨 영상이 바이럴되어 낯선 사람들이 7만 6천 달러를 모금해 전업 간병인을 지원한 훈훈한 이야기로, 실제 일어난 일이며 긍정적이고 공유하고 싶은 내용이다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "UK civil servant who held 5 government jobs simultaneously found guilty of fraud",
-            "url": "https://www.hindustantimes.com/trending/uk-civil-servant-who-held-5-government-jobs-simultaneously-found-guilty-of-fraud-101794247761936.html",
-            "kind": "비극·범죄",
-            "event": "uk-civil-servant-fraud",
-            "reason": "영국 공무원이 동시에 5개의 정부 직책을 맡고 사기 혐의로 유죄 판결을 받은 사건으로, 믿기 어려운 부정행위 사례임.",
+            "title": "Texas woman who worked as school janitor for nearly 40 years gets elementary school named after her",
+            "url": "https://www.hindustantimes.com/trending/us/texas-woman-who-worked-as-school-janitor-for-nearly-40-years-gets-elementary-school-named-after-her-101794304881540.html",
+            "kind": "사람·도전",
+            "event": "texas-janitor-school-named-after-her",
+            "reason": "텍사스에서 40년간 학교 청소부로 일한 여성이 초등학교 이름을 따서 명명된 훈훈한 이야기로, 누가 어디서 무엇을 했는지 분명하며 직장인들이 읽기 좋은 감동적인 뉴스다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "'Never too late': 91-year-old athlete still breaking records in steeplechase, hurdles and pole vault",
-            "url": "https://www.hindustantimes.com/trending/never-too-late-91-year-old-athlete-still-breaking-records-in-steeplechase-hurdles-and-pole-vault-101794205775554.html",
-            "kind": "사람·도전",
-            "event": "91-year-old-athlete-records",
-            "reason": "91세 노인이 장애물 경주, 허들, 장대높이뛰기에서 기록을 깨는 놀라운 이야기로, 나이와 도전을 주제로 한 감동적인 뉴스임.",
+            "title": "UK man buries Boeing 737 fuselage in backyard, plans to turn it into a 'man cave'",
+            "url": "https://www.hindustantimes.com/trending/uk-man-buries-boeing-737-fuselage-in-backyard-plans-to-turn-it-into-a-man-cave-101794324853029.html",
+            "kind": "음식·물건",
+            "event": "uk-man-buries-boeing-737",
+            "reason": "영국 남성이 보잉 737 동체를 뒷마당에 묻고 '맨 케이브'로 만들 계획이라는 독특하고 신기한 이야기로, 실제 사건이며 누가 어디서 무엇을 했는지 명확하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Vice",
+            "title": "Sombr Stops Concert to Confront Fan Who Keeps Flipping Him Off: ‘It’s Really Making Me Sad’",
+            "url": "https://www.vice.com/en/article/sombr-stops-concert-to-confront-fan-who-keeps-flipping-him-off-its-really-making-me-sad/",
+            "kind": "연예·운세",
+            "event": "sombr-concert-fan-confrontation",
+            "reason": "알트팝 가수 Sombr가 공연 중 계속 욕설 손짓을 하는 팬을 직접 제지한 사건으로, 실제 일어난 일이며 웃기고 신기한 이야기라 공유할 만하다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Former UK detective jailed for stealing £85,000 from police evidence safe to buy car, go on holiday",
+            "url": "https://www.hindustantimes.com/trending/former-uk-detective-jailed-for-stealing-85-000-from-police-evidence-safe-to-buy-car-go-on-holiday-101794278598830.html",
+            "kind": "비극·범죄",
+            "event": "uk-detective-theft-jailed",
+            "reason": "영국 전직 형사가 경찰 증거 보관소에서 8만 5천 파운드를 훔쳐 차를 사고 휴가를 간 사건으로, 실제 발생한 일이며 누가 어디서 무엇을 했는지 분명해 충격적이고 흥미롭다.",
             "result": "통과"
           }
         ]
       },
       {
-        "size": 17,
+        "size": 21,
         "picks": [
           {
-            "source": "Good News Network",
-            "title": "Fish Stocks Thrive Thanks to This Pink Seaweed and Locals Who Protected It",
-            "url": "https://www.goodnewsnetwork.org/fish-stocks-thrive-thanks-to-this-strange-seaweed-and-locals-who-protected-it/",
-            "kind": "사람·도전",
-            "event": "scotland-seaweed-fish-stock",
-            "reason": "스코틀랜드에서 해저 생태계가 10년 전 준설 금지 이후 마법 같은 해조류 보호 덕분에 회복되어 어족 자원이 번성했다는 실제 사례로, 자연 보호와 지역 주민의 노력 이야기가 훈훈하고 신기하다.",
+            "source": "Hindustan Times",
+            "title": "Deer rescued after 10 days with Halloween pumpkin bucket stuck over its mouth in US",
+            "url": "https://www.hindustantimes.com/trending/us/deer-rescued-after-10-days-with-halloween-pumpkin-bucket-stuck-over-its-mouth-in-us-101794299811844.html",
+            "kind": "동물",
+            "event": "us-deer-pumpkin-rescue",
+            "reason": "미국에서 할로윈 호박 바구니가 입에 끼어 10일 동안 고생한 사슴이 구조된 사건은 신기하고 훈훈해서 점심시간에 읽기 좋습니다. 누가, 어디서, 무엇을 했는지 명확합니다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "'She didn’t act alone': US man sues OpenAI, claims ChatGPT helped estranged wife plan his murder",
-            "url": "https://www.hindustantimes.com/trending/us/she-didn-t-act-alone-us-man-sues-openai-claims-chatgpt-helped-estranged-wife-plan-his-murder-101794224163050.html",
-            "kind": "비극·범죄",
-            "event": "us-openai-murder-plan-lawsuit",
-            "reason": "미국에서 남성이 OpenAI와 CEO를 상대로 이혼한 아내가 ChatGPT 도움으로 자신의 살인을 계획했다며 소송을 제기한 사건으로, AI 관련 충격적이고 흥미로운 실제 사건이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "'I've buried a 737 jet in my back garden to be a war bunker and party pad'",
-            "url": "https://www.dailystar.co.uk/news/uk-news/ive-buried-737-jet-back-37858653",
+            "title": "Hundreds gather to push Chicago’s iconic ‘The Bean’ to free man supposedly trapped inside",
+            "url": "https://www.hindustantimes.com/trending/us/hundreds-gather-to-push-chicago-s-iconic-the-bean-to-free-man-supposedly-trapped-inside-101794286771010.html",
             "kind": "사람·도전",
-            "event": "uk-737-jet-bunker",
-            "reason": "영국의 한 엔지니어가 3톤 무게의 보잉 737 여객기 동체를 자신의 뒷마당에 묻어 전쟁 벙커 및 파티 공간으로 만든 독특하고 웃긴 실제 사례이다.",
+            "event": "us-chicago-bean-push",
+            "reason": "시카고의 유명 조각상 '더 빈'을 사람들이 밀어 움직이려 한 황당한 사건은 웃기고 남에게 이야기하기 좋습니다. 누가, 어디서, 무엇을 했는지 분명합니다.",
             "result": "통과"
           },
           {
-            "source": "Vice",
-            "title": "South Carolina Man Arrested After Allegedly Leaving 6-Year-Old Daughter to Hold His Spot in Line for Pokémon Cards",
-            "url": "https://www.vice.com/en/article/south-carolina-man-arrested-after-allegedly-leaving-6-year-old-daughter-to-hold-his-spot-in-line-for-pokemon-cards/",
-            "kind": "비극·범죄",
-            "event": "us-pokemon-line-child-left",
-            "reason": "미국 사우스캐롤라이나에서 6살 딸을 혼자 줄서게 두고 포켓몬 카드 줄을 지키려다 체포된 사건으로, 웃기면서도 아이를 생각하게 하는 실제 사건이다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "기내 화장실 문 열었다가 ‘얼음’…쪽지 한 장에 여객기 긴급 회항, 무슨 일 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500365",
-            "kind": "비극·범죄",
-            "event": "india-plane-hijack-note",
-            "reason": "인도 여객기에서 납치 협박 쪽지가 발견되어 비행기가 긴급 회항한 사건으로, 실제로 일어난 긴박한 상황이면서도 신기하고 놀라운 이야기이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "48 Years Ago, a TV Crew Went to Investigate UFO Reports and Actually Captured Them on Camera",
-            "url": "https://www.vice.com/en/article/48-years-ago-a-tv-crew-went-to-investigate-ufo-reports-and-actually-captured-them-on-camera/",
-            "kind": "발견·장소",
-            "event": "newzealand-ufo-1978",
-            "reason": "1978년 뉴질랜드에서 TV 취재진이 UFO를 실제로 촬영한 사건으로, UFO 목격담 중에서도 신기하고 흥미로운 역사적 실제 사건이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Volunteer Divers Just Discovered a World War II Shipwreck That Had Been Missing for More Than 80 Years",
-            "url": "https://www.vice.com/en/article/volunteer-divers-just-discovered-a-world-war-ii-shipwreck-that-had-been-missing-for-more-than-80-years/",
-            "kind": "발견·장소",
-            "event": "maine-ww2-shipwreck-discovery",
-            "reason": "미국 메인 해안에서 자원봉사 다이버들이 80년 넘게 실종된 제2차 세계대전 선박 잔해를 발견한 실제 사건으로 역사적 가치와 신기함이 있다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "“한 끼 154만원짜리 초밥 먹었다”…SNS 인증한 구의원에 日 발칵 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500165",
+            "source": "Hindustan Times",
+            "title": "College dropout, 23, earns six-figure salary as Walmart's youngest US store manager",
+            "url": "https://www.hindustantimes.com/trending/us/college-dropout-23-earns-six-figure-salary-as-walmarts-youngest-us-store-manager-101794291172103.html",
             "kind": "사람·도전",
-            "event": "japan-expensive-sushi-politician",
-            "reason": "일본 구의원이 150만원짜리 초밥을 먹고 SNS에 인증샷을 올려 논란이 된 사건으로, 실제 인물과 장소가 명확하며 신기하고 웃긴 이야기이다.",
+            "event": "us-walmart-young-manager",
+            "reason": "대학 중퇴 후 23세에 월마트 최연소 점장이 된 미국 청년의 성공 스토리는 훈훈하고 흥미롭습니다. 누가, 어디서, 무엇을 했는지 명확합니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Woman and her sniffer dog clear landmines to help rebuild Azerbaijan villages",
+            "url": "https://www.hindustantimes.com/trending/woman-and-her-sniffer-dog-clear-landmines-to-help-rebuild-azerbaijan-villages-101794308074059.html",
+            "kind": "동물",
+            "event": "azerbaijan-landmine-clearance",
+            "reason": "아제르바이잔에서 여성과 탐지견이 지뢰를 제거해 마을 재건을 돕는 이야기는 신기하고 훈훈합니다. 누가, 어디서, 무엇을 했는지 분명합니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Good News Network",
+            "title": "‘Nothing short of a miracle’ – Rescuers Find Boy with Autism Missing for 3 Days",
+            "url": "https://www.goodnewsnetwork.org/nothing-short-of-a-miracle-rescuers-find-boy-with-autism-missing-for-3-days/",
+            "kind": "사람·도전",
+            "event": "us-autistic-boy-rescue",
+            "reason": "3일간 실종된 자폐아가 기적적으로 구조된 사건은 감동적이고 남에게 이야기하기 좋습니다. 누가, 어디서, 무엇을 했는지 명확합니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Indian rider wins camel race in Dubai as over 40 expats from 28 nationalities compete",
+            "url": "https://www.hindustantimes.com/trending/indian-rider-wins-camel-race-in-dubai-as-over-40-expats-from-28-nationalities-compete-101794306872113.html",
+            "kind": "사람·도전",
+            "event": "dubai-camel-race",
+            "reason": "두바이에서 인도 기수가 낙타 경주에서 우승한 사건은 신기하고 흥미롭습니다. 누가, 어디서, 무엇을 했는지 분명합니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "German Police call for reinforcements, helicopter to control crowd at shop selling kebabs at discounted price",
+            "url": "https://www.hindustantimes.com/trending/german-police-call-for-reinforcements-helicopter-to-control-crowd-at-shop-selling-kebabs-at-discounted-price-101794302709994.html",
+            "kind": "비극·범죄",
+            "event": "germany-kebab-crowd-control",
+            "reason": "독일에서 케밥 할인 판매로 경찰과 헬리콥터가 동원된 사건은 웃기고 신기합니다. 누가, 어디서, 무엇을 했는지 명확합니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Man drives excavator into Chinese government building over alleged unpaid villagers' compensation",
+            "url": "https://www.hindustantimes.com/trending/man-drives-excavator-into-chinese-government-building-over-alleged-unpaid-villagers-compensation-101794310326532.html",
+            "kind": "비극·범죄",
+            "event": "china-excavator-protest",
+            "reason": "중국에서 한 남성이 보상 미지급 문제로 굴착기를 몰고 관공서 건물을 파손한 사건은 충격적이고 흥미롭습니다. 누가, 어디서, 무엇을 했는지 분명합니다.",
             "result": "통과"
           }
         ]
@@ -354,122 +359,128 @@
     ],
     "final": [
       {
-        "source": "Vice",
-        "title": "48 Years Ago, a TV Crew Went to Investigate UFO Reports and Actually Captured Them on Camera",
-        "url": "https://www.vice.com/en/article/48-years-ago-a-tv-crew-went-to-investigate-ufo-reports-and-actually-captured-them-on-camera/",
-        "kind": "발견·장소",
-        "event": "new-zealand-ufo-1978",
-        "reason": "실제로 1978년 뉴질랜드에서 TV 촬영팀이 UFO를 목격하고 촬영했다는 믿기 힘든 사건으로, 국내 20~30대 직장인들이 점심시간에 흥미롭게 읽을 수 있고 주변에 이야기하기 좋은 신기한 이야기이다.",
-        "result": "선정"
-      },
-      {
-        "source": "Daily Star",
-        "title": "'I've buried a 737 jet in my back garden to be a war bunker and party pad'",
-        "url": "https://www.dailystar.co.uk/news/uk-news/ive-buried-737-jet-back-37858653",
+        "source": "Hindustan Times",
+        "title": "College dropout, 23, earns six-figure salary as Walmart's youngest US store manager",
+        "url": "https://www.hindustantimes.com/trending/us/college-dropout-23-earns-six-figure-salary-as-walmarts-youngest-us-store-manager-101794291172103.html",
         "kind": "사람·도전",
-        "event": "uk-737-bunker",
-        "reason": "영국의 한 엔지니어가 자신의 뒷마당에 737 비행기 동체를 묻어 전쟁 벙커와 파티 공간으로 만든 독특하고 웃긴 이야기로, 실제 인물과 장소가 명확해 흥미롭다.",
-        "result": "선정"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Man’s Halloween Skeletons Prove Perfect Treat to Woman Battling Breast Cancer",
-        "url": "https://www.goodnewsnetwork.org/mans-halloween-skeletons-prove-perfect-treat-to-woman-battling-breast-cancer/",
-        "kind": "사람·도전",
-        "event": "us-halloween-skeletons-cancer",
-        "reason": "미국에서 할로윈 해골 장식이 유방암 투병 여성에게 큰 위로가 된 훈훈한 이야기로, 긍정적이고 따뜻한 내용이라 점심시간에 읽기 좋다.",
-        "result": "선정"
-      },
-      {
-        "source": "Vice",
-        "title": "Volunteer Divers Just Discovered a World War II Shipwreck That Had Been Missing for More Than 80 Years",
-        "url": "https://www.vice.com/en/article/volunteer-divers-just-discovered-a-world-war-ii-shipwreck-that-had-been-missing-for-more-than-80-years/",
-        "kind": "발견·장소",
-        "event": "us-ww2-shipwreck",
-        "reason": "미국 메인 해안에서 자원 다이버들이 80년 넘게 실종된 제2차 세계대전 당시의 난파선을 발견한 신기하고 역사적인 사건으로, 국내 독자에게도 흥미로울 것이다.",
+        "event": "walmart-youngest-store-manager-us",
+        "reason": "미국에서 16세에 캐셔로 시작해 21세에 최연소 매장 관리자가 된 23세 대학 중퇴자의 성공 스토리는 신기하고 훈훈해 직장인들이 점심시간에 읽기 좋다.",
         "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "'Never too late': 91-year-old athlete still breaking records in steeplechase, hurdles and pole vault",
-        "url": "https://www.hindustantimes.com/trending/never-too-late-91-year-old-athlete-still-breaking-records-in-steeplechase-hurdles-and-pole-vault-101794205775554.html",
-        "kind": "사람·도전",
-        "event": "us-old-athlete-records",
-        "reason": "91세의 미국 노년 운동선수가 장애물 경주 등에서 기록을 깨는 놀라운 이야기로, 긍정적이고 영감을 주는 내용이라 직장인들이 점심시간에 읽기 좋다.",
+        "title": "Deer rescued after 10 days with Halloween pumpkin bucket stuck over its mouth in US",
+        "url": "https://www.hindustantimes.com/trending/us/deer-rescued-after-10-days-with-halloween-pumpkin-bucket-stuck-over-its-mouth-in-us-101794299811844.html",
+        "kind": "동물",
+        "event": "deer-pumpkin-bucket-rescue-us",
+        "reason": "미국 미시간에서 할로윈 호박통이 머리에 낀 사슴이 10일 만에 구조된 사건은 신기하고 웃긴 이야기로 남에게도 소개하기 좋다.",
         "result": "선정"
       },
       {
         "source": "Good News Network",
-        "title": "Fish Stocks Thrive Thanks to This Pink Seaweed and Locals Who Protected It",
-        "url": "https://www.goodnewsnetwork.org/fish-stocks-thrive-thanks-to-this-strange-seaweed-and-locals-who-protected-it/",
+        "title": "‘Nothing short of a miracle’ – Rescuers Find Boy with Autism Missing for 3 Days",
+        "url": "https://www.goodnewsnetwork.org/nothing-short-of-a-miracle-rescuers-find-boy-with-autism-missing-for-3-days/",
         "kind": "사람·도전",
-        "event": "uk-seaweed-fish-stock",
-        "reason": "영국 스코틀랜드에서 핑크 해조류 보호 덕분에 어족 자원이 회복된 훈훈하고 신기한 자연 보호 이야기로, 실제 장소와 인물이 명확해 흥미롭다.",
-        "result": "예비"
+        "event": "autistic-boy-rescue-kentucky",
+        "reason": "미국 켄터키에서 3일간 실종된 자폐아가 기적적으로 발견된 감동적인 사건으로, 직장인들이 점심시간에 읽기 좋은 훈훈한 이야기다.",
+        "result": "나라 상한"
       },
       {
-        "source": "Vice",
-        "title": "50 Years Ago, a TV Crew Discovered a Real Corpse While Filming This Iconic Show",
-        "url": "https://www.vice.com/en/article/50-years-ago-a-tv-crew-discovered-a-real-corpse-while-filming-this-iconic-show/",
-        "kind": "비극·범죄",
-        "event": "us-tv-corpse-1976",
-        "reason": "1976년 미국에서 TV 촬영팀이 실제 시체를 발견한 충격적인 사건으로, 믿기 어려운 실제 사건이라 점심시간에 읽기 좋다.",
+        "source": "Hindustan Times",
+        "title": "UK man buries Boeing 737 fuselage in backyard, plans to turn it into a 'man cave'",
+        "url": "https://www.hindustantimes.com/trending/uk-man-buries-boeing-737-fuselage-in-backyard-plans-to-turn-it-into-a-man-cave-101794324853029.html",
+        "kind": "음식·물건",
+        "event": "boeing-737-backyard-uk",
+        "reason": "영국 남성이 보잉 737 동체를 뒷마당에 묻고 지하 엔터테인먼트 공간으로 만들 계획이라는 독특하고 신기한 이야기다.",
         "result": "매체 상한"
       },
       {
         "source": "Hindustan Times",
-        "title": "5 people who survived nearly 100 days adrift in Pacific Ocean ate turtles and birds to stay alive",
-        "url": "https://www.hindustantimes.com/trending/5-people-who-survived-nearly-100-days-adrift-in-pacific-ocean-ate-turtles-and-birds-to-stay-alive-101794240914594.html",
+        "title": "Hundreds gather to push Chicago’s iconic ‘The Bean’ to free man supposedly trapped inside",
+        "url": "https://www.hindustantimes.com/trending/us/hundreds-gather-to-push-chicago-s-iconic-the-bean-to-free-man-supposedly-trapped-inside-101794286771010.html",
         "kind": "사람·도전",
-        "event": "pacific-ocean-survival",
-        "reason": "태평양에서 거의 100일간 표류하며 거북이와 새를 먹으며 생존한 5명의 실제 생존 이야기는 오싹하고 신기해 주변에 이야기하기 좋다.",
-        "result": "예비"
+        "event": "chicago-bean-push-event",
+        "reason": "시카고의 유명 조각상 ‘더 빈’을 사람들이 남자가 갇혔다며 밀어보려 모인 웃긴 사건으로, 직장인들이 점심시간에 읽기 좋은 가벼운 이야기다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Texas woman who worked as school janitor for nearly 40 years gets elementary school named after her",
+        "url": "https://www.hindustantimes.com/trending/us/texas-woman-who-worked-as-school-janitor-for-nearly-40-years-gets-elementary-school-named-after-her-101794304881540.html",
+        "kind": "사람·도전",
+        "event": "texas-janitor-school-named",
+        "reason": "미국 텍사스에서 40년간 학교 청소부로 일한 여성이 학교 이름을 받게 된 훈훈한 이야기로, 직장인들이 공유하기 좋다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Woman and her sniffer dog clear landmines to help rebuild Azerbaijan villages",
+        "url": "https://www.hindustantimes.com/trending/woman-and-her-sniffer-dog-clear-landmines-to-help-rebuild-azerbaijan-villages-101794308074059.html",
+        "kind": "동물",
+        "event": "landmine-clearance-azerbaijan",
+        "reason": "아제르바이잔에서 지뢰 제거를 돕는 여성과 탐지견의 이야기로, 신기하고 훈훈한 해외 소식이다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Good News Network",
+        "title": "A Viral Video Led Strangers to Raise $76,000 for a Full-Time Caregiver",
+        "url": "https://www.goodnewsnetwork.org/viral-video-raises-76000-for-caregiver/",
+        "kind": "사람·도전",
+        "event": "viral-video-caregiver-fundraiser",
+        "reason": "바이럴 영상으로 모금해 전업 간병인을 지원하게 된 감동적인 이야기로, 직장인들이 점심시간에 읽기 좋다.",
+        "result": "선정"
       },
       {
         "source": "서울신문",
-        "title": "기내 화장실 문 열었다가 ‘얼음’…쪽지 한 장에 여객기 긴급 회항, 무슨 일 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500365",
+        "title": "항공기 화장실서 ‘몰카’ 촬영 중…승무원 ‘눈썰미’에 딱 걸린 50대男 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500193",
         "kind": "비극·범죄",
-        "event": "india-airplane-hijack-note",
-        "reason": "비행기 납치 협박 쪽지가 화장실에서 발견되어 비행기가 긴급 회항한 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?'라는 반응이 나올 만한 놀라운 상황입니다. 또한 승객 전원이 무사히 내렸다는 점에서 다행스럽고, 누군가가 일부러 쪽지를 놓았을 가능성도 있어 신기하고 흥미로운 이야기입니다. 누가, 어디서, 무엇을 했는지 기사에 분명히 나와 있어 독자가 점심시간에 가볍게 읽기에 적합합니다.",
-        "result": "예비"
+        "event": "japan-singapore-airplane-hidden-camera",
+        "reason": "일본에서 싱가포르로 향하는 항공기 화장실에서 몰래카메라를 설치한 영국 남성이 승무원의 눈썰미로 적발되어 싱가포르 법정에 서게 된 사건이다. 실제로 일어난 일이며, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고, 누가 어디서 무엇을 했는지가 명확하게 나온다. 해외에서 일어난 사건으로 독자들이 흥미를 가질 만하다.",
+        "result": "선정"
       }
     ],
     "final_out": [
       {
-        "source": "Good News Network",
-        "title": "Glowworms Shine Again in the UK from Larvae Reared Pro Bono in Garden Shed",
-        "url": "https://www.goodnewsnetwork.org/glowworms-shine-again-in-the-uk-from-larvae-reared-pro-bono-in-garden-shed/",
-        "kind": "사람·도전"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "UK civil servant who held 5 government jobs simultaneously found guilty of fraud",
-        "url": "https://www.hindustantimes.com/trending/uk-civil-servant-who-held-5-government-jobs-simultaneously-found-guilty-of-fraud-101794247761936.html",
+        "source": "서울신문",
+        "title": "백인 여성 가슴 두드리며 “우우아아” 원숭이 흉내… 신상 털리자 “유색인종 향한 고의 아냐” 해명 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111500037",
         "kind": "비극·범죄"
       },
       {
-        "source": "Vice",
-        "title": "South Carolina Man Arrested After Allegedly Leaving 6-Year-Old Daughter to Hold His Spot in Line for Pokémon Cards",
-        "url": "https://www.vice.com/en/article/south-carolina-man-arrested-after-allegedly-leaving-6-year-old-daughter-to-hold-his-spot-in-line-for-pokemon-cards/",
+        "source": "Hindustan Times",
+        "title": "Man drives excavator into Chinese government building over alleged unpaid villagers' compensation",
+        "url": "https://www.hindustantimes.com/trending/man-drives-excavator-into-chinese-government-building-over-alleged-unpaid-villagers-compensation-101794310326532.html",
         "kind": "비극·범죄"
       },
       {
         "source": "서울신문",
-        "title": "“한 끼 154만원짜리 초밥 먹었다”…SNS 인증한 구의원에 日 발칵 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500165",
+        "title": "“연봉 2.2억, 그런데…” 2년 훈련받아야 간다는 근무지 ‘깜짝 정체’ [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111500006",
         "kind": "사람·도전"
       },
       {
         "source": "Hindustan Times",
-        "title": "'She didn’t act alone': US man sues OpenAI, claims ChatGPT helped estranged wife plan his murder",
-        "url": "https://www.hindustantimes.com/trending/us/she-didn-t-act-alone-us-man-sues-openai-claims-chatgpt-helped-estranged-wife-plan-his-murder-101794224163050.html",
-        "kind": "비극·범죄"
+        "title": "Indian rider wins camel race in Dubai as over 40 expats from 28 nationalities compete",
+        "url": "https://www.hindustantimes.com/trending/indian-rider-wins-camel-race-in-dubai-as-over-40-expats-from-28-nationalities-compete-101794306872113.html",
+        "kind": "사람·도전"
       },
       {
         "source": "Vice",
-        "title": "Florida Man Arrested for Stealing School Bus, Claims He Thought He Could ‘Get Away With It’",
-        "url": "https://www.vice.com/en/article/florida-man-arrested-for-stealing-school-bus-claims-he-thought-he-could-get-away-with-it/",
+        "title": "Sombr Stops Concert to Confront Fan Who Keeps Flipping Him Off: ‘It’s Really Making Me Sad’",
+        "url": "https://www.vice.com/en/article/sombr-stops-concert-to-confront-fan-who-keeps-flipping-him-off-its-really-making-me-sad/",
+        "kind": "연예·운세"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "German Police call for reinforcements, helicopter to control crowd at shop selling kebabs at discounted price",
+        "url": "https://www.hindustantimes.com/trending/german-police-call-for-reinforcements-helicopter-to-control-crowd-at-shop-selling-kebabs-at-discounted-price-101794302709994.html",
+        "kind": "비극·범죄"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Former UK detective jailed for stealing £85,000 from police evidence safe to buy car, go on holiday",
+        "url": "https://www.hindustantimes.com/trending/former-uk-detective-jailed-for-stealing-85-000-from-police-evidence-safe-to-buy-car-go-on-holiday-101794278598830.html",
         "kind": "비극·범죄"
       }
     ]
@@ -477,59 +488,48 @@
   "rejected": [],
   "published": [
     {
-      "source": "Vice",
-      "headline": "1978년 뉴질랜드 카이코우라 상공 UFO 목격과 촬영 사건",
-      "url": "https://www.vice.com/en/article/48-years-ago-a-tv-crew-went-to-investigate-ufo-reports-and-actually-captured-them-on-camera/",
-      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/48-Years-Ago-a-TV-Crew-Went-to-Investigate-UFO-Reports-and-Actually-Captured-Them-on-Camera.jpg?w=2000",
-      "kind": "발견·장소",
-      "topic": "사건·사고",
-      "event": "new-zealand-ufo-1978",
-      "reason": "실제로 1978년 뉴질랜드에서 TV 촬영팀이 UFO를 목격하고 촬영했다는 믿기 힘든 사건으로, 국내 20~30대 직장인들이 점심시간에 흥미롭게 읽을 수 있고 주변에 이야기하기 좋은 신기한 이야기이다.",
-      "why": "목격된 UFO는 웰링턴 공항 관제 레이더에도 포착되었고, 여러 명의 목격자와 비행 승무원의 증언이 있었기 때문입니다."
-    },
-    {
-      "source": "Daily Star",
-      "headline": "영국 엔지니어, 737 여객기 동체를 땅에 묻어 지하 벙커 겸 파티 공간으로 변신",
-      "url": "https://www.dailystar.co.uk/news/uk-news/ive-buried-737-jet-back-37858653",
-      "image": "https://i2-prod.dailystar.co.uk/article37858652.ece/ALTERNATES/s1200d/0_dad-buries-boei-1632333.jpg",
+      "source": "Hindustan Times",
+      "headline": "16세 캐셔에서 21세 최연소 월마트 점장으로, 23세 대학 중퇴생의 성공 스토리",
+      "url": "https://www.hindustantimes.com/trending/us/college-dropout-23-earns-six-figure-salary-as-walmarts-youngest-us-store-manager-101794291172103.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/10/1600x900/logo/vdsvdsbfdsdvccddc_1794291979146_xG8r_1794291985961_Bj6C_44b23203-185a-4730-968c-c317fa1c605b_nsie.jpg",
       "kind": "사람·도전",
       "topic": "사람",
-      "event": "uk-737-bunker",
-      "reason": "영국의 한 엔지니어가 자신의 뒷마당에 737 비행기 동체를 묻어 전쟁 벙커와 파티 공간으로 만든 독특하고 웃긴 이야기로, 실제 인물과 장소가 명확해 흥미롭다.",
-      "why": "이 프로젝트는 영화 '대탈주'에서 영감을 받아 가족이 전쟁 시에도 자급자족할 수 있는 공간을 만들기 위해 시작되었습니다."
-    },
-    {
-      "source": "Good News Network",
-      "headline": "할로윈 해골 장식으로 암 치료 환자 응원한 남성의 감동 사연",
-      "url": "https://www.goodnewsnetwork.org/mans-halloween-skeletons-prove-perfect-treat-to-woman-battling-breast-cancer/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/maxresdefault-3.jpg",
-      "kind": "사람·도전",
-      "topic": "사람",
-      "event": "us-halloween-skeletons-cancer",
-      "reason": "미국에서 할로윈 해골 장식이 유방암 투병 여성에게 큰 위로가 된 훈훈한 이야기로, 긍정적이고 따뜻한 내용이라 점심시간에 읽기 좋다.",
-      "why": "파일 씨는 할로윈 전 우편함에 악성 편지를 받았으나, 와이체 씨의 편지로 인해 해골 장식을 계속하게 되었고, 이후 전 세계에서 응원의 메시지를 받았습니다."
-    },
-    {
-      "source": "Vice",
-      "headline": "메인 해안에서 82년 전 침몰한 캐나다 선박 SS 콘월리스호 잔해 발견",
-      "url": "https://www.vice.com/en/article/volunteer-divers-just-discovered-a-world-war-ii-shipwreck-that-had-been-missing-for-more-than-80-years/",
-      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/Volunteer-Divers-Just-Discovered-a-World-War-II-Shipwreck-That-Had-Been-Missing-for-More-Than-80-Years.jpg?w=2000",
-      "kind": "발견·장소",
-      "topic": "사건·사고",
-      "event": "us-ww2-shipwreck",
-      "reason": "미국 메인 해안에서 자원 다이버들이 80년 넘게 실종된 제2차 세계대전 당시의 난파선을 발견한 신기하고 역사적인 사건으로, 국내 독자에게도 흥미로울 것이다.",
-      "why": "이 선박 잔해는 연방 해역 25마일 밖에 위치해 있어 누구의 소유도 아니며, 강한 해류와 낮은 시야, 차가운 수온 등 악조건 때문에 발견이 어려웠습니다."
+      "event": "walmart-youngest-store-manager-us",
+      "reason": "미국에서 16세에 캐셔로 시작해 21세에 최연소 매장 관리자가 된 23세 대학 중퇴자의 성공 스토리는 신기하고 훈훈해 직장인들이 점심시간에 읽기 좋다.",
+      "why": "풀리는 업무 외에도 선임 관리자와의 회의에 참여하고 다른 매장 프로젝트에 자원봉사하는 등 적극적으로 기회를 찾아 경력을 쌓았기 때문입니다."
     },
     {
       "source": "Hindustan Times",
-      "headline": "91세 플로렌스 마일러, 60세 시작해 세계 마스터즈 육상 6개 종목 기록 경신",
-      "url": "https://www.hindustantimes.com/trending/never-too-late-91-year-old-athlete-still-breaking-records-in-steeplechase-hurdles-and-pole-vault-101794205775554.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/09/1600x900/logo/Untitled_design_1794206643407_4OHz_1794206648045_Xe7v_44fb3d9c-424e-43d2-9ddc-3777f79453a1_frEu.png",
+      "headline": "미시간서 할로윈 호박통 입에 낀 사슴 10일 만에 구조돼 야생으로 돌아가",
+      "url": "https://www.hindustantimes.com/trending/us/deer-rescued-after-10-days-with-halloween-pumpkin-bucket-stuck-over-its-mouth-in-us-101794299811844.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/10/1600x900/logo/vdsvdsbfdsdvccddcccc_1794300537672_HHdU_1794300544518_WEsz_bd548a38-d167-4758-8295-4c9c0d2b964b_jcWW.jpg",
+      "kind": "동물",
+      "topic": "동물",
+      "event": "deer-pumpkin-bucket-rescue-us",
+      "reason": "미국 미시간에서 할로윈 호박통이 머리에 낀 사슴이 10일 만에 구조된 사건은 신기하고 웃긴 이야기로 남에게도 소개하기 좋다.",
+      "why": "DAWG는 비슷한 사고를 막기 위해 할로윈 플라스틱 호박의 손잡이를 제거하거나 축제 후 실내에 보관할 것을 권고했습니다."
+    },
+    {
+      "source": "Good News Network",
+      "headline": "도어벨 카메라에 포착된 배려가 7만 6천 달러 모금으로 이어지다",
+      "url": "https://www.goodnewsnetwork.org/viral-video-raises-76000-for-caregiver/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/seiwert-ring-camera-.webp",
       "kind": "사람·도전",
       "topic": "사람",
-      "event": "us-old-athlete-records",
-      "reason": "91세의 미국 노년 운동선수가 장애물 경주 등에서 기록을 깨는 놀라운 이야기로, 긍정적이고 영감을 주는 내용이라 직장인들이 점심시간에 읽기 좋다.",
-      "why": "세계 마스터즈 육상은 나이 그룹별 기록을 공식적으로 관리하는 국제 기구로, 마일러의 기록은 90~94세 부문에 해당합니다."
+      "event": "viral-video-caregiver-fundraiser",
+      "reason": "바이럴 영상으로 모금해 전업 간병인을 지원하게 된 감동적인 이야기로, 직장인들이 점심시간에 읽기 좋다.",
+      "why": "수잔나는 82세 어머니를 돌보며 배달 일을 병행하는데, 이 영상이 사람들에게 돌봄 노동의 가치를 알리고 도움의 손길을 모으는 계기가 되었습니다."
+    },
+    {
+      "source": "서울신문",
+      "headline": "항공기 화장실 몰카 설치한 영국인, 싱가포르서 체포 및 재판 예정",
+      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500193",
+      "image": "https://img.seoul.co.kr//img/upload/2026/11/10/SSC_20261110140903_O2.jpg.webp",
+      "kind": "비극·범죄",
+      "topic": "사건·사고",
+      "event": "japan-singapore-airplane-hidden-camera",
+      "reason": "일본에서 싱가포르로 향하는 항공기 화장실에서 몰래카메라를 설치한 영국 남성이 승무원의 눈썰미로 적발되어 싱가포르 법정에 서게 된 사건이다. 실제로 일어난 일이며, 처음 들으면 '진짜?' 소리가 나올 만큼 신기하고, 누가 어디서 무엇을 했는지가 명확하게 나온다. 해외에서 일어난 사건으로 독자들이 흥미를 가질 만하다.",
+      "why": "도쿄협약법은 비행 중인 항공기 내에서 발생한 범죄를 처벌할 수 있도록 규정한 법으로, 이 사건에 적용되었습니다."
     }
   ]
 }

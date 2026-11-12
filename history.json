@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-10-28",
-  "source": "AI타임스",
-  "title": "KT, AI 모델 500개 통합 ‘토큰팩토리’ 출시…토큰 최대 25% 절감",
-  "url": "https://www.aitimes.com/news/articleView.html?idxno=216709",
-  "event": ""
- },
- {
-  "date": "2026-10-28",
-  "source": "AI타임스",
-  "title": "MS, 정교함 강화한 'MAI 이미지 2.7' 공개...AA 2위·아레나 3위 등극",
-  "url": "https://www.aitimes.com/news/articleView.html?idxno=216755",
-  "event": ""
- },
- {
-  "date": "2026-10-28",
-  "source": "Analytics India",
-  "title": "Oracle Partners With OpenAI to Bring ChatGPT and Codex to Enterprise Workflows",
-  "url": "https://analyticsindiamag.com/ai-news/oracle-partners-with-openai-to-bring-chatgpt-and-codex-to-enterprise-workflows",
-  "event": ""
- },
- {
-  "date": "2026-10-28",
-  "source": "The Verge",
-  "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
-  "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
-  "event": "AI assistant integration in productivity apps"
- },
- {
-  "date": "2026-10-28",
-  "source": "AWS ML",
-  "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
-  "url": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
-  "event": "AWS SageMaker SOCI indexing"
- },
- {
   "date": "2026-10-29",
   "source": "AI타임스",
   "title": "구글, 1년 만에 AI 성능 평가 1위 탈환…'제미나이 4 카본' 출시",
@@ -593,5 +558,40 @@
   "title": "항공기 화장실서 ‘몰카’ 촬영 중…승무원 ‘눈썰미’에 딱 걸린 50대男 [월드픽]",
   "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500193",
   "event": "japan-singapore-airplane-hidden-camera"
+ },
+ {
+  "date": "2026-11-12",
+  "source": "서울신문",
+  "title": "아기 코알라가 1.5m 뱀에 칭칭 감겨 ‘아찔’…맨손 구조한 호주 여성 [월드픽]",
+  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111500358",
+  "event": "australia-koala-snake-rescue"
+ },
+ {
+  "date": "2026-11-12",
+  "source": "Hindustan Times",
+  "title": "Drunk raccoon that passed out in Virginia liquor store helps raise  ₹2.3 crore for animal shelter",
+  "url": "https://www.hindustantimes.com/trending/us/drunk-raccoon-that-passed-out-in-virginia-liquor-store-helps-raise-rs-2-3-crore-for-animal-shelter-101794394143130.html",
+  "event": "us-raccoon-liquor-store"
+ },
+ {
+  "date": "2026-11-12",
+  "source": "Hindustan Times",
+  "title": "Police couple runs handcuffed together for 101 km in Spain, earns Guinness World Record",
+  "url": "https://www.hindustantimes.com/trending/police-couple-runs-handcuffed-together-for-101-km-in-spain-earns-guinness-world-record-101794378774219.html",
+  "event": "spain-police-couple-handcuffed-run"
+ },
+ {
+  "date": "2026-11-12",
+  "source": "Daily Star",
+  "title": "'World's dirtiest man' refused to wash for 60 years - and died days after being forced to have a bath",
+  "url": "https://www.dailystar.co.uk/news/world-news/worlds-dirtiest-man-refused-wash-37858175",
+  "event": "iran-dirtiest-man-bath-death"
+ },
+ {
+  "date": "2026-11-12",
+  "source": "Metro",
+  "title": "Japanese wrestler can wear his mask during meetings after being elected to council",
+  "url": "https://metro.co.uk/2026/11/11/japanese-wrestler-can-wear-mask-meetings-elected-council-29782861/",
+  "event": "japan-wrestler-mask-council"
  }
 ]

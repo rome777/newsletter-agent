@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-10-30",
-  "source": "Vice",
-  "title": "Archaeologists Just Discovered a 4,000-Year-Old Dog Paw Print Preserved in Ancient Brick",
-  "url": "https://www.vice.com/en/article/archaeologists-just-discovered-a-4000-year-old-dog-paw-print-preserved-in-ancient-brick/",
-  "event": "ancient-dog-paw-print-discovery"
- },
- {
-  "date": "2026-10-30",
-  "source": "Hindustan Times",
-  "title": "Indian man in UAE had nearly 2 cm-long fish bone stuck in airway for over 2 months before doctors removed it",
-  "url": "https://www.hindustantimes.com/trending/indian-man-in-uae-had-nearly-2-cm-long-fish-bone-stuck-in-airway-for-over-2-months-before-doctors-removed-it-101793277092355.html",
-  "event": "fish-bone-airway-incident-uae"
- },
- {
-  "date": "2026-10-30",
-  "source": "Daily Star",
-  "title": "Man goes shopping for Christmas decorations but catches snowman in lewd act",
-  "url": "https://www.dailystar.co.uk/news/weird-news/man-goes-shopping-christmas-decorations-37821617",
-  "event": "snowman-lewd-act"
- },
- {
-  "date": "2026-10-30",
-  "source": "Hindustan Times",
-  "title": "Bugatti CEO Mate Rimac’s Chiron stolen after he leaves keys inside; thief caught in Austria",
-  "url": "https://www.hindustantimes.com/trending/bugatti-ceo-mate-rimac-s-chiron-stolen-after-he-leaves-keys-inside-thief-caught-in-austria-101793308874906.html",
-  "event": "bugatti-chiron-theft"
- },
- {
-  "date": "2026-10-30",
-  "source": "Good News Network",
-  "title": "Disabled Veteran Receives Donated Car Beautifully Refurbished by Auto Collision Students",
-  "url": "https://www.goodnewsnetwork.org/disabled-veteran-receives-donated-car-beautifully-refurbished-by-auto-collision-students/",
-  "event": "veteran-donated-car"
- },
- {
   "date": "2026-11-01",
   "source": "Hindustan Times",
   "title": "US man discovers $1 million winning lottery ticket in wallet after running short of cash at store",
@@ -446,5 +411,40 @@
   "title": "Gaai Gohri: The Gujarat tradition where villagers let herds of cattle run over them",
   "url": "https://www.hindustantimes.com/trending/gaai-gohri-the-gujarat-tradition-where-villagers-let-herds-of-cattle-run-over-them-101794471252919.html",
   "event": "gujarat-cattle-festival"
+ },
+ {
+  "date": "2026-11-14",
+  "source": "서울신문",
+  "title": "“혹시 기억 잃은 재벌 회장?”…초미남 배우 닮아 ‘대박’ 난 55세 청소부 [월드픽]",
+  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500365",
+  "event": "china-cleaner-celebrity"
+ },
+ {
+  "date": "2026-11-14",
+  "source": "Indian Express",
+  "title": "Monkey snatches pensioner’s Rs 81,800 in Shimla, throws cash down a hill",
+  "url": "https://indianexpress.com/article/trending/trending-in-india/monkey-snatches-pensioners-rs-81800-in-shimla-throws-cash-down-a-hill-10961314/",
+  "event": "india-monkey-pension-theft"
+ },
+ {
+  "date": "2026-11-14",
+  "source": "Hindustan Times",
+  "title": "Missing Australian teenager found alive after 6 days in bushland, aerial video shows him being rescued by helicopter",
+  "url": "https://www.hindustantimes.com/trending/missing-australian-teenager-found-alive-after-6-days-in-bushland-aerial-video-shows-him-being-rescued-by-helicopter-101794552845390.html",
+  "event": "australia-teenager-rescue"
+ },
+ {
+  "date": "2026-11-14",
+  "source": "Hindustan Times",
+  "title": "Artist builds kayak entirely out of mushrooms, paddles 42 km across the sea to set world record",
+  "url": "https://www.hindustantimes.com/trending/artist-builds-kayak-entirely-out-of-mushrooms-paddles-42-km-across-the-sea-to-set-world-record-101794569719767.html",
+  "event": "usa-mushroom-kayak-record"
+ },
+ {
+  "date": "2026-11-14",
+  "source": "Good News Network",
+  "title": "Infant Goes from 110 Seizures a Day to Seizure-Free with Experimental Treatment",
+  "url": "https://www.goodnewsnetwork.org/infant-goes-from-110-seizures-a-day-to-seizure-free-after-rare-treatment/",
+  "event": "dubai-infant-seizure-treatment"
  }
 ]

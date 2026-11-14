@@ -1,326 +1,382 @@
 {
-  "at": "2026-11-13T11:09:25",
+  "at": "2026-11-14T10:49:25",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 69건 · 소스 7곳 · 응답 없음 ['Indian Express']",
-    "② 선별   69 → 홍보 제외 69 → 라벨 제외 49 → 예선 2조 16 → 5건 + 예비 3 · 최근 발행 1",
-    "   선정 [Daily Star] Disgusting Russell Brand body part removed from mu — 러셀 브랜드의 신체 일부가 박물관에 전시되었다가 큐레이터가 한계를 느껴 철거한 사건은 매우 이색적이고 충격적이며, 누가 어디서 무엇을 했는지가 명확해 독자들이 흥미를 가질 만하다.",
-    "   선정 [서울신문] [포착] 173㎝ 키도 똑같아…SNS서 발견한 女 20년 전 헤어진 쌍둥이였다 — 중국에서 SNS를 통해 20년 전 헤어진 일란성 쌍둥이가 재회한 사연은 훈훈하고 신기한 이야기로, 누가 어디서 무엇을 했는지가 분명해 점심시간에 읽기 좋다.",
-    "   선정 [Daily Star] Russia's 'Supreme Shaman' plans to slaughter 60 ca — 러시아의 '최고 주술사'가 푸틴의 우크라이나 전쟁 승리를 위해 60마리 낙타를 도살하려는 기괴한 의식을 계획한 사건은 매우 이색적이고 놀라워 독자들이 친구에게 이야기하고 싶어할 만하다.",
-    "   선정 [Good News Network] 100-Year-Old ‘Store Mom’ Surprised With Her First  — 100세 노인이 처음으로 생일파티를 받은 감동적인 이야기로, 누가 어디서 무엇을 했는지가 분명하며 훈훈한 내용이라 공유하고 싶다.",
-    "   선정 [Hindustan Times] Gaai Gohri: The Gujarat tradition where villagers  — 인도 구자라트에서 주민들이 소떼가 자신들을 밟게 하는 전통 축제는 매우 독특하고 신기한 문화 체험으로, 누가 어디서 무엇을 했는지가 명확해 흥미롭다.",
-    "   예비 [서울신문] “관광객들 해도 해도 너무해” 日 분노…최대 16만원 과태료 도입한다 [월드픽] — 일본 도쿄도 도시마구에서 관광객들의 무단 캐리어 방치 문제로 과태료를 도입한 사건은 신기하고 웃긴 사회 현상으로, 누가 어디서 무엇을 했는지가 명확해 흥미롭다.",
-    "   예비 [Hindustan Times] Canadian ultrarunner Stephanie Case becomes first  — 실제로 일어난 일이며, 남녀 구분 없이 극한의 도전을 이룬 최초 여성이라는 점에서 '진짜?'라는 반응을 유발할 수 있습니다. 누가(캐나다의 스테파니 케이스), 어디서(남극), 무엇을(100마일 얼음 울트라 완주) 했는지가 명확히 나와 있어 독자들이 흥미롭게 읽고 주변에 이야기할 만한 내용입니다.",
-    "   예비 [Good News Network] Documentarian Helps 103-yo D-Day Survivor Recover  — 103세의 D-Day 참전 용사가 잃어버린 전쟁 메달을 되찾은 감동적인 이야기로, 실제로 일어난 일이며 듣자마자 '진짜?'라는 반응이 나올 만한 훈훈한 내용입니다. 누가(다큐멘터리 제작자), 어디서(불명확하지만 해외), 무엇을 했는지가 분명히 나와 있어 독자들이 점심시간에 가볍게 읽기에 적합합니다.",
+    "① 수집   24시간 time window · 65건 · 소스 7곳",
+    "② 선별   65 → 홍보 제외 65 → 라벨 제외 37 → 예선 2조 16 → 5건 + 예비 3",
+    "   선정 [서울신문] “혹시 기억 잃은 재벌 회장?”…초미남 배우 닮아 ‘대박’ 난 55세 청소부 [월드픽] — 중국에서 50대 청소부가 미남 배우를 닮아 인터넷 스타가 된 실제 사건으로, 처음 들으면 '진짜?' 소리가 나고 가볍게 읽기 좋으며 누가, 어디서, 무엇을 했는지가 분명하다.",
+    "   선정 [Indian Express] Monkey snatches pensioner’s Rs 81,800 in Shimla, t — 인도에서 원숭이가 노인의 연금을 훔쳐 언덕 아래로 던진 사건으로, 매우 신기하고 웃긴 이야기이며 누가, 어디서, 무엇을 했는지가 명확하다.",
+    "   선정 [Hindustan Times] Missing Australian teenager found alive after 6 da — 호주에서 6일간 야생에서 실종된 10대가 헬리콥터로 구조된 실제 사건으로, 오싹하고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지가 분명하다.",
+    "   선정 [Hindustan Times] Artist builds kayak entirely out of mushrooms, pad — 미국 예술가가 버섯으로 만든 카약으로 42km를 노 젓고 세계 기록을 세운 신기한 사건으로, 누가, 어디서, 무엇을 했는지가 명확하다.",
+    "   선정 [Good News Network] Infant Goes from 110 Seizures a Day to Seizure-Fre — 두바이에서 생후부터 하루 110회의 발작을 겪던 아기가 실험적 치료로 발작이 사라진 감동적인 실제 이야기로, 누가, 어디서, 무엇을 했는지가 분명하다.",
+    "   예비 [Good News Network] Man Rescues Trapped Neighbors from ‘Biblical’ Flor — 미국 플로리다에서 홍수로 고립된 이웃을 구한 남성의 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지가 명확하며 남에게 이야기하기 좋다.",
+    "   예비 [Indian Express] Wedding bells gone wrong as car loses control, cov — 인도에서 결혼식 도중 차가 통제력을 잃고 신부를 진흙투성이로 만든 웃긴 사건으로, 누가, 어디서, 무엇을 했는지가 명확하다.",
+    "   예비 [Metro] Rare bright yellow fish pulled from sea in ‘one in — 실제로 일어난 희귀한 사건으로, '백만 분의 일' 확률의 노란색 물고기 잡힌 이야기는 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고 흥미롭다. 누가 어디서 무엇을 했는지 분명히 나와 있어 점심시간 가볍게 읽기 좋다.",
     "④ 검수   8 → 5건",
     "⑤ 발행   5건 · sent"
   ],
   "selection": {
-    "candidates": 69,
+    "candidates": 65,
     "already_sent": [],
     "promo": [],
     "labels": {
-      "비극·범죄": 14,
       "사람·도전": 18,
-      "일반 뉴스": 14,
-      "음식·물건": 2,
-      "발견·장소": 6,
-      "법·행정": 3,
-      "연예·운세": 12
+      "비극·범죄": 18,
+      "일반 뉴스": 22,
+      "발견·장소": 2,
+      "동물": 1,
+      "연예·운세": 3,
+      "기타": 1
     },
     "label_dropped": [
       {
         "source": "Daily Star",
-        "title": "Microsoft down as they share warning over mass outage which left thousands without emails",
-        "url": "https://www.dailystar.co.uk/news/latest-news/breaking-microsoft-down-share-warning-37872307",
+        "title": "Brits flock to 'new Magaluf' with £1.50 pints, beach parties and 32C winter weather",
+        "url": "https://www.dailystar.co.uk/travel/brits-flock-new-magaluf-150-37873355",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Daily Star",
+        "title": "'Godfather of AI' warns killer tech could wipe out humanity in just three years",
+        "url": "https://www.dailystar.co.uk/news/latest-news/godfather-ai-warns-killer-tech-37873605",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Daily Star",
+        "title": "People are just learning why Friday the 13th is considered so unlucky",
+        "url": "https://www.dailystar.co.uk/news/weird-news/people-just-learning-friday-13th-37873030",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Why the Booker Prize focuses on fiction, not poetry or plays",
-        "url": "https://www.hindustantimes.com/trending/why-the-booker-prize-focuses-on-fiction-not-poetry-or-plays-101794477556234.html",
+        "title": "Claude suffers two outages in one day, Anthropic confirms disruptions to AI chatbot and coding tools",
+        "url": "https://www.hindustantimes.com/trending/claude-suffers-two-outages-in-one-day-anthropic-confirms-disruptions-to-ai-chatbot-and-coding-tools-101794587393324.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "‘Potholed roads, collapsing bridges, pollution’: Narayana Murthy flags public governance issues in India",
-        "url": "https://www.hindustantimes.com/trending/potholed-roads-collapsing-bridges-pollution-narayana-murthy-flags-public-governance-issues-in-india-101794479616780.html",
+        "title": "Anand Mahindra 'regrets' Microsoft Outlook returning after global outage: 'I felt like a castaway'",
+        "url": "https://www.hindustantimes.com/trending/anand-mahindra-regrets-microsoft-outlook-returning-after-global-outage-i-felt-like-a-castaway-101794579200945.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "US startup offers $120,000 salary to play GTA 6: ‘You’ll begin at midnight on November 19’",
-        "url": "https://www.hindustantimes.com/trending/us-startup-offers-120-000-salary-to-play-gta-6-you-ll-begin-at-midnight-on-november-19-101794468938469.html",
+        "title": "Kiran Mazumdar-Shaw says Microsoft outage creates an ‘unexpected opportunity’ for Sridhar Vembu's Zoho",
+        "url": "https://www.hindustantimes.com/trending/kiran-mazumdar-shaw-says-microsoft-outage-creates-an-unexpected-opportunity-for-sridhar-vembus-zoho-101794564763210.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Polymarket says 'we’ll keep growing' after laying off full-time employees, cutting contractors",
-        "url": "https://www.hindustantimes.com/trending/polymarket-says-we-ll-keep-growing-after-laying-off-full-time-employees-cutting-contractors-101794462358531.html",
+        "title": "Jensen Huang’s Nvidia exit triggers AI meme wave powered by the very chips he built",
+        "url": "https://www.hindustantimes.com/trending/jensen-huang-s-nvidia-exit-triggers-ai-meme-wave-powered-by-the-very-chips-he-built-101794549869735.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Viral X post claims comma in passwords can confuse CSV files, but won't protect accounts from hackers",
+        "url": "https://www.hindustantimes.com/trending/viral-x-post-claims-comma-in-passwords-can-confuse-csv-files-but-wont-protect-accounts-from-hackers-101794549188983.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Global outage hits Outlook and Teams, internet renames service ‘Microsoft 364’",
+        "url": "https://www.hindustantimes.com/trending/global-outage-hits-outlook-and-teams-internet-renames-service-microsoft-364-101794543697608.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Flowers at Nvidia HQ, weeping woman, tech world stories follow Jensen Huang’s exit amid affairs row",
+        "url": "https://www.hindustantimes.com/trending/flowers-at-nvidia-hq-tech-world-sharing-jensen-huang-stories-mark-ceo-s-resignation-amid-affairs-row-101794536588848.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Indian Express",
+        "title": "Hurun Global Indians List 2026: Sundar Pichai tops list at $4.2 trillion, beats Satya Nadella",
+        "url": "https://indianexpress.com/article/trending/top-10-listing/hurun-global-indians-list-2026-sundar-pichai-tops-list-at-4-2-trillion-beats-satya-nadella-10962051/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Indian Express",
+        "title": "Want to quit and start a business? This Indian CEO is paying employees to leave",
+        "url": "https://indianexpress.com/article/trending/trending-in-india/want-to-quit-and-start-a-business-this-indian-ceo-is-paying-employees-to-leave-10961248/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "‘Anno 117: Pax Romana’ Just Got a Massive Ancient Egypt Expansion. Here’s What’s New.",
+        "url": "https://www.vice.com/en/article/anno-117-pax-romana-just-got-a-massive-ancient-egypt-expansion-heres-whats-new/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "‘GTA 6’ Is Getting a Massive 24-Hour YouTube Livestream. Here’s How to Watch.",
+        "url": "https://www.vice.com/en/article/gta-6-is-getting-a-massive-24-hour-youtube-livestream-heres-how-to-watch/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Good News Network",
-        "title": "China Switches on World’s Biggest Example of New, Cheap Green Energy Storage",
-        "url": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
+        "title": "Good News in History, November 13",
+        "url": "https://www.goodnewsnetwork.org/events061113/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "트럼프 “젠슨황 자리, 애플 팀쿡이 이어받아야”…엔비디아 새CEO 추천",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500005",
+        "title": "‘스시자로’ 원정 열풍인데…도쿄 인근 지진 11차례, 日 “더 큰 지진 올 수도”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261114500004",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“미국은 ‘믿을 수 없는 동맹’, 이란은 ‘평생 이웃’”…미국의 국경 봉쇄 요구에 주변국이 뒷목 잡은 이유 [밀리터리노트]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500311",
+        "title": "이란 “한국, 가랑이 찢어진다”…한국계 유조선 2척 발사체 피격 [배틀라인]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500151",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“일본 남자들은 안 해줘요”…한국 남성에 반한 日여성들 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500288",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "‘여성 편력’ 머스크의 혜안?…젠슨 황 스캔들에 ‘성지’된 1년 전 게시글 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500194",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "태극기 걸고 “대환영” 난리난 日…“잘해줄게요” 한국인 모시기 열풍 [포착]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500174",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "광주 최대 규모 ‘광천동 재개발 사업’ 철거 본격화",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500370",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“뭔일이여” 여심도둑 ‘남대문 스카프 아저씨’ 결국 사고쳤다…24만명 폭주",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500366",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“2200만원 훔쳐” 배우 김승우 ‘절도 혐의’ 피소…5년전 사건 왜 이제?",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500358",
+        "title": "특검 “한덕수, 20일 구속만료 전 조건부 보석 필요” 대법에 의견서",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500207",
         "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "천안서 발달장애 10대 숨져…어머니 긴급 체포",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500346",
+        "title": "145억원 주가조작 혐의 ‘범LG가 3세’ 구본현, 8년 해외 도피 끝 캄보디아서 검거",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500204",
         "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "10대들이 만취 여성 성폭행하고 영상 유포… “화질 낮으니 선처해달라” 호소",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500338",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "‘경비원 중태·13명 부상’ 광주 아파트 방화범…“극단 선택하려 불 질러”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500335",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "800억대 불법 도박사이트 운영 일당 196명 검거…조폭도 가담",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500334",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "신기술 가로막는 현장 규제 푼다…대구시·중소기업 옴부즈만 업무협약",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500328",
+        "title": "법원 ‘현대사회와 성범죄연구회’, 내달 4일 공개토론회",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500187",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "반도체 호황에도 온기 안 퍼져… 5대 양극화 해소 시동",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113031002",
+        "title": "광운대, 건설법무대학원 설립 20주년 기념식 성료",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500163",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "[단독] 내 딸엔 ‘100점’, 경쟁자엔 ‘호통’…사퇴요구엔 “각오해라”… 한우자조금 위원장의 ‘딸’ 부정채용 의혹",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500162",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "37억→86억 ‘49억 로또’ 날아가나…경찰 “이혜훈 아파트 몰수하라”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500161",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "법무부, 원주교도소 이전 개청식 개최",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500159",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "경산 골판지 제조 공장서 큰불…11시간 30여 분 만에 완진",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500157",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "경찰 와도 문 안 열던 보이스피싱 피해자들…직접 찾아가 1억 5000만원 피해 막았다",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500153",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "정부 “구글, 고정밀지도 보안 조건 이행… 좌표 제거·영상 보안처리”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500154",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "음악 플랫폼 경쟁축 이동…애플뮤직, 몰입·참여 경험 강화",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500149",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       }
     ],
     "heats": [
       {
-        "size": 25,
+        "size": 19,
         "picks": [
           {
-            "source": "서울신문",
-            "title": "젠슨 황, 불륜으로 손수 세운 회사서 쫓겨나나",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500270",
-            "kind": "비극·범죄",
-            "event": "nvidia-ceo-scandal-2024",
-            "reason": "엔비디아 CEO 젠슨 황이 불륜 스캔들로 해임 위기에 처한 사건은 매우 충격적이고 흥미로운 실제 사건이다. 누가, 어디서, 무엇을 했는지가 명확하며, 국내외에서 큰 화제를 모으고 있어 점심시간에 읽기 적합하다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "젠슨 황 엔비디아 CEO 사임…콜레트 크레스 임시 CEO로",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500376",
-            "kind": "비극·범죄",
-            "event": "nvidia-ceo-scandal-2024",
-            "reason": "위 사건과 연관된 후속 기사로, 젠슨 황의 사임과 임시 CEO 선임 소식이 구체적으로 나와 있어 사건의 진행 상황을 알 수 있다. 실제 사건이며, 독자들이 관심 가질 만한 내용이다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "[속보] 젠슨황, 엔비디아 CEO 사퇴…中 간첩과 불륜 파문 속 불명예 퇴진",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500373",
-            "kind": "비극·범죄",
-            "event": "nvidia-ceo-scandal-2024",
-            "reason": "같은 사건의 속보 기사로, 중국 간첩과의 불륜 파문까지 포함해 사건의 심각성과 구체적 배경을 제공한다. 독자들이 흥미를 느낄 만한 내용이다.",
-            "result": "통과"
-          },
-          {
             "source": "Hindustan Times",
-            "title": "Canadian ultrarunner Stephanie Case becomes first woman to complete 100 miles in Antarctica",
-            "url": "https://www.hindustantimes.com/trending/canadian-ultrarunner-stephanie-case-becomes-first-woman-to-complete-100-miles-in-antarctica-101794481858181.html",
-            "kind": "사람·도전",
-            "event": "antarctica-ultrarunning-2024",
-            "reason": "캐나다 여성 스테파니 케이스가 남극에서 100마일 울트라 마라톤을 완주한 최초 여성이라는 신기하고 훈훈한 실제 사건이다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+            "title": "Missing Australian teenager found alive after 6 days in bushland, aerial video shows him being rescued by helicopter",
+            "url": "https://www.hindustantimes.com/trending/missing-australian-teenager-found-alive-after-6-days-in-bushland-aerial-video-shows-him-being-rescued-by-helicopter-101794552845390.html",
+            "kind": "비극·범죄",
+            "event": "australia-teenager-rescue-2026",
+            "reason": "실제로 6일 동안 야생에서 생존한 호주 10대 소년이 헬리콥터로 구조된 사건은 놀랍고 감동적이며, 누가 어디서 무엇을 했는지가 명확하게 나와 있어 점심시간에 읽기 좋다.",
             "result": "통과"
           },
           {
-            "source": "Good News Network",
-            "title": "Documentarian Helps 103-yo D-Day Survivor Recover His Lost War Medals",
-            "url": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
-            "kind": "사람·도전",
-            "event": "d-day-veteran-medals-rediscovery",
-            "reason": "103세 D-데이 생존자가 잃어버린 전쟁 메달을 되찾은 감동적인 이야기로, 훈훈하고 남에게 이야기해주고 싶은 실제 사건이다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+            "source": "Indian Express",
+            "title": "Wedding bells gone wrong as car loses control, covering bride in mud",
+            "url": "https://indianexpress.com/article/trending/trending-globally/wedding-bells-gone-wrong-as-car-loses-control-covering-bride-in-mud-10961520/",
+            "kind": "비극·범죄",
+            "event": "india-wedding-mud-accident",
+            "reason": "인도에서 결혼식 도중 차가 통제력을 잃고 신부를 진흙투성이로 만든 사건은 '진짜?'라는 반응을 불러일으키며, 웃기고 신기해서 주변에 이야기하기 좋다.",
+            "result": "통과"
+          },
+          {
+            "source": "Metro",
+            "title": "Rare bright yellow fish pulled from sea in ‘one in a million’ catch’",
+            "url": "https://metro.co.uk/2026/11/13/rare-bright-yellow-fish-pulled-sea-one-a-million-catch-29790913/",
+            "kind": "동물",
+            "event": "rare-yellow-fish-catch",
+            "reason": "'백만 분의 일' 확률의 희귀한 노란색 물고기가 바다에서 잡힌 사건은 신기하고 흥미로워서 직장인들이 점심시간에 가볍게 읽기 좋다.",
+            "result": "통과"
+          },
+          {
+            "source": "Metro",
+            "title": "Man ‘disembowelled by a hippo on his honeymoon’",
+            "url": "https://metro.co.uk/2026/11/13/man-disembowelled-a-hippo-honeymoon-29790132/",
+            "kind": "비극·범죄",
+            "event": "hippo-honeymoon-attack",
+            "reason": "허니문 중 하마에게 내장이 손상된 남성 사건은 충격적이고 오싹한 이야기로, 누가 어디서 무엇을 했는지가 분명해 흥미를 끈다.",
             "result": "통과"
           },
           {
             "source": "Daily Star",
-            "title": "Russia's 'Supreme Shaman' plans to slaughter 60 camels to help Putin win Ukraine war",
-            "url": "https://www.dailystar.co.uk/news/latest-news/russias-supreme-shaman-plans-slaughter-37869585",
+            "title": "Family left 'nauseous' after giant 'see-through' UFO shines bright lights into girl's bedroom",
+            "url": "https://www.dailystar.co.uk/news/latest-news/family-left-nauseous-after-giant-37874513",
+            "kind": "비극·범죄",
+            "event": "ufo-bedroom-light-incident",
+            "reason": "가족이 거대한 투명 UFO가 딸의 방에 밝은 빛을 비춘 사건을 경험한 이야기는 신기하고 오싹해서 주변에 말해주고 싶다.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "Three in ten parents secretly redecorate the Christmas tree when the children have gone to bed",
+            "url": "https://www.dailystar.co.uk/news/uk-news/three-ten-parents-secretly-redecorate-37876149",
             "kind": "사람·도전",
-            "event": "russian-shaman-camel-ritual-2024",
-            "reason": "러시아의 '최고 주술사'가 푸틴의 우크라이나 전쟁 승리를 위해 60마리 낙타를 희생시키려는 기이하고 오싹한 실제 사건이다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+            "event": "christmas-tree-secret-decoration",
+            "reason": "부모들이 아이들이 잠든 후 몰래 크리스마스 트리를 다시 꾸미는 이야기는 훈훈하고 웃긴 일상 이야기로 직장인들이 공감하며 읽기 좋다.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "7 of the world's most bizarre airports with 'disappearing' runways and lions near terminals",
+            "url": "https://www.dailystar.co.uk/travel/gallery/7-worlds-most-bizarre-airports-37875159",
+            "kind": "사람·도전",
+            "event": "bizarre-airports-list",
+            "reason": "전 세계에서 가장 기이한 공항 7곳을 소개하는 기사는 신기하고 흥미로워 점심시간에 읽기 적합하다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "‘There’s a Georgia O’Keeffe in the Closet’ – Words that Led to Painting’s Joyous Rediscovery",
-            "url": "https://www.goodnewsnetwork.org/theres-a-georgia-okeefe-in-the-closet-words-that-led-to-paintings-joyous-rediscovery/",
-            "kind": "발견·장소",
-            "event": "georgia-okeeffe-painting-rediscovery",
-            "reason": "오래된 그림이 우연히 발견된 신기하고 훈훈한 이야기로, 실제 사건이며 누가, 어디서, 무엇을 했는지가 분명하다. 점심시간에 읽기 좋은 내용이다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "“관광객들 해도 해도 너무해” 日 분노…최대 16만원 과태료 도입한다 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500284",
-            "kind": "법·행정",
-            "event": "japan-tourist-luggage-fine-2024",
-            "reason": "일본 도쿄도 도시마구에서 관광객들의 무단 캐리어 방치 문제로 과태료를 도입하는 실제 사건이다. 누가, 어디서, 무엇을 했는지가 명확하며, 신기하고 흥미로운 해외 소식이다.",
+            "title": "WWII Tryst at the Center of 80+Year Mystery That’s Now United Two Families",
+            "url": "https://www.goodnewsnetwork.org/canadian-family-finally-identifies-grandfathers-long-lost-wwii-baby-in-england-after-80-years/",
+            "kind": "사람·도전",
+            "event": "wwii-family-mystery-united",
+            "reason": "80년 넘는 미스터리를 풀어 두 가족을 재결합시킨 2차 세계대전 관련 이야기는 훈훈하고 감동적이며, 누가 어디서 무엇을 했는지가 분명해 읽을 가치가 있다.",
             "result": "통과"
           }
         ]
       },
       {
-        "size": 24,
+        "size": 18,
         "picks": [
           {
-            "source": "서울신문",
-            "title": "[포착] 173㎝ 키도 똑같아…SNS서 발견한 女 20년 전 헤어진 쌍둥이였다",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500185",
-            "kind": "사람·도전",
-            "event": "china-twin-reunion-2026",
-            "reason": "중국에서 20년 전 헤어진 일란성 쌍둥이가 SNS를 통해 우연히 재회한 사연은 신기하고 훈훈해 국내 20~30대 직장인들이 점심시간에 가볍게 읽기 좋으며, 누가 어디서 무엇을 했는지 명확하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Good News Network",
-            "title": "Brave Teens Execute Paddleboard Rescue of Flooded Neighbors – ‘Faith in Humanity Restored’",
-            "url": "https://www.goodnewsnetwork.org/brave-teens-execute-paddleboard-rescue-of-flooded-neighbors-faith-in-humanity-restored/",
-            "kind": "사람·도전",
-            "event": "florida-paddleboard-rescue-2026",
-            "reason": "플로리다에서 청소년들이 패들보드를 이용해 홍수 피해 이웃을 구한 실제 사건으로, 훈훈하고 남에게 이야기해주기 좋은 내용이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "Disgusting Russell Brand body part removed from museum as curator says 'even I have limits'",
-            "url": "https://www.dailystar.co.uk/news/latest-news/disgusting-russell-brand-body-part-37872231",
-            "kind": "사람·도전",
-            "event": "russell-brand-museum-2026",
-            "reason": "러셀 브랜드의 신체 일부가 박물관에서 전시되었다가 제거된 사건은 신기하고 웃긴 이야기로, 누가 어디서 무엇을 했는지 분명하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Billy Idol Once Racked Up Such a Massive Hotel Bill That the Thai Military Had to Tranquillize Him",
-            "url": "https://www.vice.com/en/article/billy-idol-once-racked-up-such-a-massive-hotel-bill-that-the-thai-military-had-to-tranquillize-him/",
-            "kind": "연예·운세",
-            "event": "billy-idol-hotel-bill-2026",
-            "reason": "빌리 아이드올이 호텔비를 너무 많이 내지 않아 태국 군대가 진정제를 투여했다는 이야기는 놀랍고 웃긴 실제 일화로, 국내 20~30대 직장인들이 흥미롭게 읽을 수 있다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "한인 마사지업소서 나체 상태 여성 흉기에 찔려 숨진 채 발견… 50대 흑인 남성, 뉴욕경찰에 체포",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500191",
+            "source": "Indian Express",
+            "title": "Monkey snatches pensioner’s Rs 81,800 in Shimla, throws cash down a hill",
+            "url": "https://indianexpress.com/article/trending/trending-in-india/monkey-snatches-pensioners-rs-81800-in-shimla-throws-cash-down-a-hill-10961314/",
             "kind": "비극·범죄",
-            "event": "newyork-massage-murder-2026",
-            "reason": "뉴욕 한인 마사지업소에서 발생한 살인 사건으로, 누가 어디서 무엇을 했는지 명확하며 충격적이지만 실제 사건이라 흥미를 끈다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Gaai Gohri: The Gujarat tradition where villagers let herds of cattle run over them",
-            "url": "https://www.hindustantimes.com/trending/gaai-gohri-the-gujarat-tradition-where-villagers-let-herds-of-cattle-run-over-them-101794471252919.html",
-            "kind": "사람·도전",
-            "event": "gujarat-cattle-festival-2026",
-            "reason": "인도 구자라트에서 주민들이 소떼가 자신들을 밟게 하는 전통 축제는 신기하고 독특한 문화 이야기로, 국내 직장인들이 점심시간에 읽기 좋다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Rare gem called 'Mona Lisa of pink diamonds' with India roots sells for $14.6 million at Geneva auction",
-            "url": "https://www.hindustantimes.com/trending/rare-gem-called-mona-lisa-of-pink-diamonds-with-india-roots-sells-for-14-6-million-at-geneva-auction-101794449433133.html",
-            "kind": "음식·물건",
-            "event": "pink-diamond-auction-2026",
-            "reason": "인도 뿌리를 가진 희귀 분홍 다이아몬드가 제네바 경매에서 1460만 달러에 팔린 사건은 신기하고 흥미로운 해외 소식이다.",
+            "event": "india-monkey-bank-robbery",
+            "reason": "인도 시므라에서 원숭이가 노인의 연금을 훔쳐 언덕 아래로 던진 사건은 실제로 일어난 일이며, 듣자마자 '진짜?'라는 반응이 나올 만큼 신기하고 웃긴 이야기입니다. 누가, 어디서, 무엇을 했는지가 명확히 나와 있어 직장인들이 점심시간에 가볍게 읽기 좋습니다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "100-Year-Old ‘Store Mom’ Surprised With Her First Birthday Party",
-            "url": "https://www.goodnewsnetwork.org/100-year-old-store-mom-first-birthday-party/",
+            "title": "Dr. King’s Lost Draft of ‘I Have a Dream’ Emerges from a Desk Drawer",
+            "url": "https://www.goodnewsnetwork.org/dr-kings-lost-draft-of-i-have-a-dream-emerges-from-a-desk-drawer/",
             "kind": "사람·도전",
-            "event": "100-year-old-birthday-surprise-2026",
-            "reason": "100세 노인이 처음으로 생일파티를 받은 훈훈한 이야기로, 국내 20~30대 직장인들이 점심시간에 읽기 좋은 따뜻한 뉴스다.",
+            "event": "us-king-dream-draft-discovery",
+            "reason": "미국에서 마틴 루터 킹 주니어의 잃어버린 'I Have a Dream' 초안이 60년 만에 발견된 것은 역사적 가치가 크고 놀라운 발견입니다. 누가, 어디서 발견했는지도 분명히 나와 있어 흥미로운 이야기입니다.",
+            "result": "통과"
+          },
+          {
+            "source": "서울신문",
+            "title": "“혹시 기억 잃은 재벌 회장?”…초미남 배우 닮아 ‘대박’ 난 55세 청소부 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500365",
+            "kind": "사람·도전",
+            "event": "china-cleaner-internet-star",
+            "reason": "중국에서 50대 청소부가 미남 배우를 닮아 인터넷 스타가 된 이야기는 훈훈하고 신기한 실제 사건입니다. 누가, 어디서 일어난 일인지 분명히 나와 있어 공유하기 좋습니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Good News Network",
+            "title": "Man Rescues Trapped Neighbors from ‘Biblical’ Florida Flooding",
+            "url": "https://www.goodnewsnetwork.org/update-stories-of-daring-rescues-continue-to-surface-from-flooded-florida-communities/",
+            "kind": "사람·도전",
+            "event": "us-florida-flood-rescue",
+            "reason": "미국 플로리다에서 한 남성이 홍수로 고립된 이웃을 구한 이야기는 훈훈하고 감동적입니다. 누가, 어디서, 무엇을 했는지 명확해 점심시간에 읽기 좋은 기사입니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Good News Network",
+            "title": "Infant Goes from 110 Seizures a Day to Seizure-Free with Experimental Treatment",
+            "url": "https://www.goodnewsnetwork.org/infant-goes-from-110-seizures-a-day-to-seizure-free-after-rare-treatment/",
+            "kind": "사람·도전",
+            "event": "uae-infant-seizure-treatment",
+            "reason": "두바이에서 생후부터 하루 110번 발작을 겪던 아기가 실험적 치료로 발작이 사라진 이야기는 놀랍고 희망적인 실제 사건입니다. 누가, 어디서 일어난 일인지 분명히 나와 있습니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Artist builds kayak entirely out of mushrooms, paddles 42 km across the sea to set world record",
+            "url": "https://www.hindustantimes.com/trending/artist-builds-kayak-entirely-out-of-mushrooms-paddles-42-km-across-the-sea-to-set-world-record-101794569719767.html",
+            "kind": "사람·도전",
+            "event": "us-mushroom-kayak-record",
+            "reason": "미국 예술가가 버섯으로 만든 카약으로 42km를 노 젓고 세계 기록을 세운 이야기는 신기하고 독특한 실제 사건입니다. 누가, 어디서 했는지 명확히 나와 있어 흥미롭습니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Man poses as representative of wealthy UAE businessmen, takes Dh14 million worth of gold jewellery without paying; arrested",
+            "url": "https://www.hindustantimes.com/trending/man-poses-as-representative-of-wealthy-uae-businessmen-takes-dh14-million-worth-of-gold-jewellery-without-paying-arrested-101794560210255.html",
+            "kind": "비극·범죄",
+            "event": "uae-gold-jewellery-fraud",
+            "reason": "아부다비에서 한 남성이 부유한 사업가를 사칭해 거액의 금 장신구를 훔친 사건은 실제 범죄 사건으로 누가, 어디서, 무엇을 했는지 분명히 나와 있습니다. 충격적이면서도 흥미로운 이야기입니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "76-year-old billionaire has a five-member team managing his life and undergoes 68 tests to slow ageing",
+            "url": "https://www.hindustantimes.com/trending/76yearold-billionaire-has-a-five-member-team-managing-his-life-and-undergoes-68-tests-to-slow-ageing-101794552229002.html",
+            "kind": "사람·도전",
+            "event": "us-billionaire-ageing-tests",
+            "reason": "76세 억만장자가 노화를 늦추기 위해 5명의 팀과 68가지 검사를 받는 이야기는 신기하고 훈훈한 실제 사례입니다. 누가, 어디서 일어난 일인지 명확히 나와 있어 흥미롭습니다.",
             "result": "통과"
           }
         ]
@@ -328,191 +384,188 @@
     ],
     "final": [
       {
-        "source": "Daily Star",
-        "title": "Disgusting Russell Brand body part removed from museum as curator says 'even I have limits'",
-        "url": "https://www.dailystar.co.uk/news/latest-news/disgusting-russell-brand-body-part-37872231",
-        "kind": "사람·도전",
-        "event": "russell-brand-museum-removal",
-        "reason": "러셀 브랜드의 신체 일부가 박물관에 전시되었다가 큐레이터가 한계를 느껴 철거한 사건은 매우 이색적이고 충격적이며, 누가 어디서 무엇을 했는지가 명확해 독자들이 흥미를 가질 만하다.",
-        "result": "선정"
-      },
-      {
         "source": "서울신문",
-        "title": "[포착] 173㎝ 키도 똑같아…SNS서 발견한 女 20년 전 헤어진 쌍둥이였다",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500185",
+        "title": "“혹시 기억 잃은 재벌 회장?”…초미남 배우 닮아 ‘대박’ 난 55세 청소부 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500365",
         "kind": "사람·도전",
-        "event": "china-twin-reunion",
-        "reason": "중국에서 SNS를 통해 20년 전 헤어진 일란성 쌍둥이가 재회한 사연은 훈훈하고 신기한 이야기로, 누가 어디서 무엇을 했는지가 분명해 점심시간에 읽기 좋다.",
+        "event": "china-cleaner-celebrity",
+        "reason": "중국에서 50대 청소부가 미남 배우를 닮아 인터넷 스타가 된 실제 사건으로, 처음 들으면 '진짜?' 소리가 나고 가볍게 읽기 좋으며 누가, 어디서, 무엇을 했는지가 분명하다.",
         "result": "선정"
       },
       {
-        "source": "Daily Star",
-        "title": "Russia's 'Supreme Shaman' plans to slaughter 60 camels to help Putin win Ukraine war",
-        "url": "https://www.dailystar.co.uk/news/latest-news/russias-supreme-shaman-plans-slaughter-37869585",
-        "kind": "사람·도전",
-        "event": "russia-shaman-camel-ritual",
-        "reason": "러시아의 '최고 주술사'가 푸틴의 우크라이나 전쟁 승리를 위해 60마리 낙타를 도살하려는 기괴한 의식을 계획한 사건은 매우 이색적이고 놀라워 독자들이 친구에게 이야기하고 싶어할 만하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Brave Teens Execute Paddleboard Rescue of Flooded Neighbors – ‘Faith in Humanity Restored’",
-        "url": "https://www.goodnewsnetwork.org/brave-teens-execute-paddleboard-rescue-of-flooded-neighbors-faith-in-humanity-restored/",
-        "kind": "사람·도전",
-        "event": "florida-paddleboard-rescue",
-        "reason": "플로리다에서 청소년들이 패들보드를 이용해 홍수에 갇힌 이웃을 구한 훈훈한 이야기로, 누가 어디서 무엇을 했는지가 명확하며 긍정적인 내용이라 직장인들이 점심시간에 읽기 좋다.",
-        "result": "최근 발행"
-      },
-      {
-        "source": "Good News Network",
-        "title": "100-Year-Old ‘Store Mom’ Surprised With Her First Birthday Party",
-        "url": "https://www.goodnewsnetwork.org/100-year-old-store-mom-first-birthday-party/",
-        "kind": "사람·도전",
-        "event": "100-year-old-birthday-surprise",
-        "reason": "100세 노인이 처음으로 생일파티를 받은 감동적인 이야기로, 누가 어디서 무엇을 했는지가 분명하며 훈훈한 내용이라 공유하고 싶다.",
+        "source": "Indian Express",
+        "title": "Monkey snatches pensioner’s Rs 81,800 in Shimla, throws cash down a hill",
+        "url": "https://indianexpress.com/article/trending/trending-in-india/monkey-snatches-pensioners-rs-81800-in-shimla-throws-cash-down-a-hill-10961314/",
+        "kind": "비극·범죄",
+        "event": "india-monkey-pension-theft",
+        "reason": "인도에서 원숭이가 노인의 연금을 훔쳐 언덕 아래로 던진 사건으로, 매우 신기하고 웃긴 이야기이며 누가, 어디서, 무엇을 했는지가 명확하다.",
         "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "Gaai Gohri: The Gujarat tradition where villagers let herds of cattle run over them",
-        "url": "https://www.hindustantimes.com/trending/gaai-gohri-the-gujarat-tradition-where-villagers-let-herds-of-cattle-run-over-them-101794471252919.html",
+        "title": "Missing Australian teenager found alive after 6 days in bushland, aerial video shows him being rescued by helicopter",
+        "url": "https://www.hindustantimes.com/trending/missing-australian-teenager-found-alive-after-6-days-in-bushland-aerial-video-shows-him-being-rescued-by-helicopter-101794552845390.html",
+        "kind": "비극·범죄",
+        "event": "australia-teenager-rescue",
+        "reason": "호주에서 6일간 야생에서 실종된 10대가 헬리콥터로 구조된 실제 사건으로, 오싹하고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지가 분명하다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Artist builds kayak entirely out of mushrooms, paddles 42 km across the sea to set world record",
+        "url": "https://www.hindustantimes.com/trending/artist-builds-kayak-entirely-out-of-mushrooms-paddles-42-km-across-the-sea-to-set-world-record-101794569719767.html",
         "kind": "사람·도전",
-        "event": "gujarat-cattle-festival",
-        "reason": "인도 구자라트에서 주민들이 소떼가 자신들을 밟게 하는 전통 축제는 매우 독특하고 신기한 문화 체험으로, 누가 어디서 무엇을 했는지가 명확해 흥미롭다.",
+        "event": "usa-mushroom-kayak-record",
+        "reason": "미국 예술가가 버섯으로 만든 카약으로 42km를 노 젓고 세계 기록을 세운 신기한 사건으로, 누가, 어디서, 무엇을 했는지가 명확하다.",
         "result": "선정"
       },
       {
         "source": "Good News Network",
-        "title": "‘There’s a Georgia O’Keeffe in the Closet’ – Words that Led to Painting’s Joyous Rediscovery",
-        "url": "https://www.goodnewsnetwork.org/theres-a-georgia-okeefe-in-the-closet-words-that-led-to-paintings-joyous-rediscovery/",
-        "kind": "발견·장소",
-        "event": "georgia-okeeffe-painting-rediscovery",
-        "reason": "오래된 집에서 조지아 오키프의 그림이 우연히 발견된 이야기는 신기하고 흥미로우며, 누가 어디서 무엇을 했는지가 분명해 점심시간 읽을거리로 적합하다.",
+        "title": "Infant Goes from 110 Seizures a Day to Seizure-Free with Experimental Treatment",
+        "url": "https://www.goodnewsnetwork.org/infant-goes-from-110-seizures-a-day-to-seizure-free-after-rare-treatment/",
+        "kind": "사람·도전",
+        "event": "dubai-infant-seizure-treatment",
+        "reason": "두바이에서 생후부터 하루 110회의 발작을 겪던 아기가 실험적 치료로 발작이 사라진 감동적인 실제 이야기로, 누가, 어디서, 무엇을 했는지가 분명하다.",
+        "result": "선정"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Man Rescues Trapped Neighbors from ‘Biblical’ Florida Flooding",
+        "url": "https://www.goodnewsnetwork.org/update-stories-of-daring-rescues-continue-to-surface-from-flooded-florida-communities/",
+        "kind": "사람·도전",
+        "event": "usa-florida-flood-rescue",
+        "reason": "미국 플로리다에서 홍수로 고립된 이웃을 구한 남성의 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지가 명확하며 남에게 이야기하기 좋다.",
+        "result": "예비"
+      },
+      {
+        "source": "Good News Network",
+        "title": "WWII Tryst at the Center of 80+Year Mystery That’s Now United Two Families",
+        "url": "https://www.goodnewsnetwork.org/canadian-family-finally-identifies-grandfathers-long-lost-wwii-baby-in-england-after-80-years/",
+        "kind": "사람·도전",
+        "event": "uk-canada-family-mystery",
+        "reason": "영국과 캐나다 두 가족을 80년 만에 연결한 제2차 세계대전 관련 미스터리 사건으로, 신기하고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지가 분명하다.",
         "result": "매체 상한"
       },
       {
-        "source": "서울신문",
-        "title": "“관광객들 해도 해도 너무해” 日 분노…최대 16만원 과태료 도입한다 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500284",
-        "kind": "법·행정",
-        "event": "japan-tourist-luggage-fine",
-        "reason": "일본 도쿄도 도시마구에서 관광객들의 무단 캐리어 방치 문제로 과태료를 도입한 사건은 신기하고 웃긴 사회 현상으로, 누가 어디서 무엇을 했는지가 명확해 흥미롭다.",
+        "source": "Indian Express",
+        "title": "Wedding bells gone wrong as car loses control, covering bride in mud",
+        "url": "https://indianexpress.com/article/trending/trending-globally/wedding-bells-gone-wrong-as-car-loses-control-covering-bride-in-mud-10961520/",
+        "kind": "비극·범죄",
+        "event": "india-wedding-mud-accident",
+        "reason": "인도에서 결혼식 도중 차가 통제력을 잃고 신부를 진흙투성이로 만든 웃긴 사건으로, 누가, 어디서, 무엇을 했는지가 명확하다.",
         "result": "예비"
       },
       {
-        "source": "Hindustan Times",
-        "title": "Canadian ultrarunner Stephanie Case becomes first woman to complete 100 miles in Antarctica",
-        "url": "https://www.hindustantimes.com/trending/canadian-ultrarunner-stephanie-case-becomes-first-woman-to-complete-100-miles-in-antarctica-101794481858181.html",
-        "kind": "사람·도전",
-        "event": "canada-ultrarunner-antarctica",
-        "reason": "실제로 일어난 일이며, 남녀 구분 없이 극한의 도전을 이룬 최초 여성이라는 점에서 '진짜?'라는 반응을 유발할 수 있습니다. 누가(캐나다의 스테파니 케이스), 어디서(남극), 무엇을(100마일 얼음 울트라 완주) 했는지가 명확히 나와 있어 독자들이 흥미롭게 읽고 주변에 이야기할 만한 내용입니다.",
-        "result": "예비"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Documentarian Helps 103-yo D-Day Survivor Recover His Lost War Medals",
-        "url": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
-        "kind": "사람·도전",
-        "event": "wwii-veteran-medals-recovery",
-        "reason": "103세의 D-Day 참전 용사가 잃어버린 전쟁 메달을 되찾은 감동적인 이야기로, 실제로 일어난 일이며 듣자마자 '진짜?'라는 반응이 나올 만한 훈훈한 내용입니다. 누가(다큐멘터리 제작자), 어디서(불명확하지만 해외), 무엇을 했는지가 분명히 나와 있어 독자들이 점심시간에 가볍게 읽기에 적합합니다.",
+        "source": "Metro",
+        "title": "Rare bright yellow fish pulled from sea in ‘one in a million’ catch’",
+        "url": "https://metro.co.uk/2026/11/13/rare-bright-yellow-fish-pulled-sea-one-a-million-catch-29790913/",
+        "kind": "동물",
+        "event": "rare-yellow-fish-catch",
+        "reason": "실제로 일어난 희귀한 사건으로, '백만 분의 일' 확률의 노란색 물고기 잡힌 이야기는 처음 들으면 '진짜?'라는 반응이 나올 만큼 신기하고 흥미롭다. 누가 어디서 무엇을 했는지 분명히 나와 있어 점심시간 가볍게 읽기 좋다.",
         "result": "예비"
       }
     ],
     "final_out": [
       {
-        "source": "서울신문",
-        "title": "한인 마사지업소서 나체 상태 여성 흉기에 찔려 숨진 채 발견… 50대 흑인 남성, 뉴욕경찰에 체포",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500191",
+        "source": "Daily Star",
+        "title": "Three in ten parents secretly redecorate the Christmas tree when the children have gone to bed",
+        "url": "https://www.dailystar.co.uk/news/uk-news/three-ten-parents-secretly-redecorate-37876149",
+        "kind": "사람·도전"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Dr. King’s Lost Draft of ‘I Have a Dream’ Emerges from a Desk Drawer",
+        "url": "https://www.goodnewsnetwork.org/dr-kings-lost-draft-of-i-have-a-dream-emerges-from-a-desk-drawer/",
+        "kind": "사람·도전"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "76-year-old billionaire has a five-member team managing his life and undergoes 68 tests to slow ageing",
+        "url": "https://www.hindustantimes.com/trending/76yearold-billionaire-has-a-five-member-team-managing-his-life-and-undergoes-68-tests-to-slow-ageing-101794552229002.html",
+        "kind": "사람·도전"
+      },
+      {
+        "source": "Metro",
+        "title": "Man ‘disembowelled by a hippo on his honeymoon’",
+        "url": "https://metro.co.uk/2026/11/13/man-disembowelled-a-hippo-honeymoon-29790132/",
         "kind": "비극·범죄"
       },
       {
-        "source": "서울신문",
-        "title": "젠슨 황 엔비디아 CEO 사임…콜레트 크레스 임시 CEO로",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500376",
-        "kind": "비극·범죄"
+        "source": "Daily Star",
+        "title": "7 of the world's most bizarre airports with 'disappearing' runways and lions near terminals",
+        "url": "https://www.dailystar.co.uk/travel/gallery/7-worlds-most-bizarre-airports-37875159",
+        "kind": "사람·도전"
       },
       {
-        "source": "서울신문",
-        "title": "[속보] 젠슨황, 엔비디아 CEO 사퇴…中 간첩과 불륜 파문 속 불명예 퇴진",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500373",
-        "kind": "비극·범죄"
-      },
-      {
-        "source": "서울신문",
-        "title": "젠슨 황, 불륜으로 손수 세운 회사서 쫓겨나나",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500270",
+        "source": "Daily Star",
+        "title": "Family left 'nauseous' after giant 'see-through' UFO shines bright lights into girl's bedroom",
+        "url": "https://www.dailystar.co.uk/news/latest-news/family-left-nauseous-after-giant-37874513",
         "kind": "비극·범죄"
       },
       {
         "source": "Hindustan Times",
-        "title": "Rare gem called 'Mona Lisa of pink diamonds' with India roots sells for $14.6 million at Geneva auction",
-        "url": "https://www.hindustantimes.com/trending/rare-gem-called-mona-lisa-of-pink-diamonds-with-india-roots-sells-for-14-6-million-at-geneva-auction-101794449433133.html",
-        "kind": "음식·물건"
-      },
-      {
-        "source": "Vice",
-        "title": "Billy Idol Once Racked Up Such a Massive Hotel Bill That the Thai Military Had to Tranquillize Him",
-        "url": "https://www.vice.com/en/article/billy-idol-once-racked-up-such-a-massive-hotel-bill-that-the-thai-military-had-to-tranquillize-him/",
-        "kind": "연예·운세"
+        "title": "Man poses as representative of wealthy UAE businessmen, takes Dh14 million worth of gold jewellery without paying; arrested",
+        "url": "https://www.hindustantimes.com/trending/man-poses-as-representative-of-wealthy-uae-businessmen-takes-dh14-million-worth-of-gold-jewellery-without-paying-arrested-101794560210255.html",
+        "kind": "비극·범죄"
       }
     ]
   },
   "rejected": [],
   "published": [
     {
-      "source": "Daily Star",
-      "headline": "러셀 브랜드 음모 박물관서 철거, 큐레이터 \"나도 한계 있다\"",
-      "url": "https://www.dailystar.co.uk/news/latest-news/disgusting-russell-brand-body-part-37872231",
-      "image": "https://i2-prod.dailystar.co.uk/article37872598.ece/ALTERNATES/s1200d/1_FILES-US-BRITAIN-TRIAL-RAPE-CELEBRITY.jpg",
-      "kind": "사람·도전",
-      "topic": "법·행정",
-      "event": "russell-brand-museum-removal",
-      "reason": "러셀 브랜드의 신체 일부가 박물관에 전시되었다가 큐레이터가 한계를 느껴 철거한 사건은 매우 이색적이고 충격적이며, 누가 어디서 무엇을 했는지가 명확해 독자들이 흥미를 가질 만하다.",
-      "why": "박물관은 전통적인 호기심의 방을 모델로 다양한 기괴한 유물들을 전시하지만, 브랜드의 성범죄 유죄 판결로 인해 도덕적 한계를 넘어섰다고 판단해 철거했습니다."
-    },
-    {
       "source": "서울신문",
-      "headline": "SNS서 닮은 여성 발견한 중국 여성, 20년 만에 쌍둥이 자매와 재회",
-      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500185",
-      "image": "https://img.seoul.co.kr//img/upload/2026/11/12/SSC_20261112144456_O2.png.webp",
+      "headline": "중국 청소부 천징푸, 배우급 외모로 인터넷 스타 등극",
+      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261113500365",
+      "image": "https://img.seoul.co.kr//img/upload/2026/11/13/SSC_20261113220429_O2.jpg.webp",
       "kind": "사람·도전",
       "topic": "사람",
-      "event": "china-twin-reunion",
-      "reason": "중국에서 SNS를 통해 20년 전 헤어진 일란성 쌍둥이가 재회한 사연은 훈훈하고 신기한 이야기로, 누가 어디서 무엇을 했는지가 분명해 점심시간에 읽기 좋다.",
-      "why": "두 사람은 모두 갓난아기 때 입양됐으며, 친부모의 유전 정보를 포함한 유전자 검사를 하지 않아 일란성 쌍둥이 여부는 확실하지 않습니다."
+      "event": "china-cleaner-celebrity",
+      "reason": "중국에서 50대 청소부가 미남 배우를 닮아 인터넷 스타가 된 실제 사건으로, 처음 들으면 '진짜?' 소리가 나고 가볍게 읽기 좋으며 누가, 어디서, 무엇을 했는지가 분명하다.",
+      "why": "천징푸 씨의 뚜렷한 이목구비는 중국 동부 산둥성 출신 어머니에게서 물려받은 것으로 알려졌습니다."
     },
     {
-      "source": "Daily Star",
-      "headline": "러시아 '최고 주술사', 푸틴 승리 위해 낙타 60마리 희생 제의 계획",
-      "url": "https://www.dailystar.co.uk/news/latest-news/russias-supreme-shaman-plans-slaughter-37869585",
-      "image": "https://i2-prod.dailystar.co.uk/article37869533.ece/ALTERNATES/s1200d/0_MBP_CHP_Russias-Supreme-Shaman-plans-to-slaughter-60-camels-to-help-Putin-win-Ukraine-war_3178.jpg",
-      "kind": "사람·도전",
-      "topic": "사람",
-      "event": "russia-shaman-camel-ritual",
-      "reason": "러시아의 '최고 주술사'가 푸틴의 우크라이나 전쟁 승리를 위해 60마리 낙타를 도살하려는 기괴한 의식을 계획한 사건은 매우 이색적이고 놀라워 독자들이 친구에게 이야기하고 싶어할 만하다.",
-      "why": "치비코프는 이 의식이 러시아 군대의 승리를 앞당기고 모든 러시아 민족을 대표해 희생하는 것이라 주장하며, 2019년에도 비슷한 의식을 벌였으나 동물 학대 혐의로 처벌받지 않았습니다."
-    },
-    {
-      "source": "Good News Network",
-      "headline": "100세 그레첸 솔로, 로우스 직원들이 준비한 깜짝 생일 파티로 특별한 하루를 맞다",
-      "url": "https://www.goodnewsnetwork.org/100-year-old-store-mom-first-birthday-party/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/fw-gretchen-1024x602.png",
-      "kind": "사람·도전",
-      "topic": "사람",
-      "event": "100-year-old-birthday-surprise",
-      "reason": "100세 노인이 처음으로 생일파티를 받은 감동적인 이야기로, 누가 어디서 무엇을 했는지가 분명하며 훈훈한 내용이라 공유하고 싶다.",
-      "why": "매장 직원들은 솔로가 매일 산책하는 모습을 지켜보며 그녀를 '매장 엄마'로 부르고, 생일을 맞아 특별한 축하를 준비했습니다."
+      "source": "Indian Express",
+      "headline": "인도 시므라에서 원숭이가 8만1800루피 현금 낚아채 흩뿌려",
+      "url": "https://indianexpress.com/article/trending/trending-in-india/monkey-snatches-pensioners-rs-81800-in-shimla-throws-cash-down-a-hill-10961314/",
+      "image": "https://images.indianexpress.com/2026/11/Monkey-snatches-packet-of-Rs-81800-from-man-pocket-in-Shimla.png",
+      "kind": "비극·범죄",
+      "topic": "사건·사고",
+      "event": "india-monkey-pension-theft",
+      "reason": "인도에서 원숭이가 노인의 연금을 훔쳐 언덕 아래로 던진 사건으로, 매우 신기하고 웃긴 이야기이며 누가, 어디서, 무엇을 했는지가 명확하다.",
+      "why": "현지 주민들은 원숭이들의 식량과 소지품 낚아채기, 사람 물기 등 피해가 늘어나고 있다고 밝혔습니다."
     },
     {
       "source": "Hindustan Times",
-      "headline": "인도 구자라트 다호드 지역, 소 떼가 사람들 위를 달리는 가아이 고흐리 축제",
-      "url": "https://www.hindustantimes.com/trending/gaai-gohri-the-gujarat-tradition-where-villagers-let-herds-of-cattle-run-over-them-101794471252919.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/12/1600x900/logo/Dusty_Festival_Cattle_Charge_1794471912976_xb7j_1794471916782_X3Dp_4356ae2c-9ca1-4d82-8b6c-7d4ed6f33e73_9bW0.png",
+      "headline": "호주 17세 소년, 6일간 야생에서 생존 후 헬리콥터 구조",
+      "url": "https://www.hindustantimes.com/trending/missing-australian-teenager-found-alive-after-6-days-in-bushland-aerial-video-shows-him-being-rescued-by-helicopter-101794552845390.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/13/1600x900/logo/cd_1794555319162_xtvY_1794555322883_7iFh_6dd806c6-1675-4b11-975b-07dc49875269_Psui.png",
+      "kind": "비극·범죄",
+      "topic": "사건·사고",
+      "event": "australia-teenager-rescue",
+      "reason": "호주에서 6일간 야생에서 실종된 10대가 헬리콥터로 구조된 실제 사건으로, 오싹하고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지가 분명하다.",
+      "why": "윌리엄은 캠핑 장비를 가지러 간 사이 휴대폰 없이 홀로 남아 있었고, 수색팀은 100명 이상의 인력과 헬리콥터, 수색견 등을 동원해 어려운 지형을 수색했습니다."
+    },
+    {
+      "source": "Hindustan Times",
+      "headline": "미국 예술가, 버섯 균사체로 만든 카약으로 42km 바다 횡단 세계 기록 세워",
+      "url": "https://www.hindustantimes.com/trending/artist-builds-kayak-entirely-out-of-mushrooms-paddles-42-km-across-the-sea-to-set-world-record-101794569719767.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/13/1600x900/logo/Untitled_design_1794570409794_VQRG_1794570413429_6drH_8781cd95-dd64-4911-8314-ed12def2b07d_gL0c.png",
       "kind": "사람·도전",
       "topic": "사람",
-      "event": "gujarat-cattle-festival",
-      "reason": "인도 구자라트에서 주민들이 소떼가 자신들을 밟게 하는 전통 축제는 매우 독특하고 신기한 문화 체험으로, 누가 어디서 무엇을 했는지가 명확해 흥미롭다.",
-      "why": "이 의식은 농업에 필수적인 소와 황소에 대한 존중과, 밭일 중 동물에게 끼친 피해에 대한 보상과 신들의 축복을 받기 위한 전통적인 믿음에서 비롯되었습니다."
+      "event": "usa-mushroom-kayak-record",
+      "reason": "미국 예술가가 버섯으로 만든 카약으로 42km를 노 젓고 세계 기록을 세운 신기한 사건으로, 누가, 어디서, 무엇을 했는지가 명확하다.",
+      "why": "버섯 균사체는 생분해성 섬유와 식물성 재료 안에서 7주간 성장시켜 카약 형태로 만들었으며, 이는 기능성 소재로서 버섯의 가능성을 보여주기 위한 실험이었습니다."
+    },
+    {
+      "source": "Good News Network",
+      "headline": "두바이 병원, 희귀 유전성 간질 아기에게 실험 약물 투여 후 발작 완전 중단",
+      "url": "https://www.goodnewsnetwork.org/infant-goes-from-110-seizures-a-day-to-seizure-free-after-rare-treatment/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/NICU-infant-ward-unsplash.jpg",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "dubai-infant-seizure-treatment",
+      "reason": "두바이에서 생후부터 하루 110회의 발작을 겪던 아기가 실험적 치료로 발작이 사라진 감동적인 실제 이야기로, 누가, 어디서, 무엇을 했는지가 분명하다.",
+      "why": "두바이 보건 당국은 상업적 승인 전인 이 약물을 '동정적 사용' 경로를 통해 허가했으며, 아드난은 세계에서 가장 어린 환자이자 두 번째 영아로 이 치료를 받았습니다."
     }
   ]
 }

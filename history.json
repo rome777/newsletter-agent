@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-11-01",
-  "source": "Hindustan Times",
-  "title": "US man discovers $1 million winning lottery ticket in wallet after running short of cash at store",
-  "url": "https://www.hindustantimes.com/trending/us/us-man-discovers-1-million-winning-lottery-ticket-in-wallet-after-running-short-of-cash-at-store-101793456271131.html",
-  "event": "us-lottery-wallet-discovery"
- },
- {
-  "date": "2026-11-01",
-  "source": "Hindustan Times",
-  "title": "Chinese groom invites strangers to wedding after fearing low turnout, well-wishers arrange gifts and a Maybach",
-  "url": "https://www.hindustantimes.com/trending/chinese-groom-invites-strangers-to-wedding-after-fearing-low-turnout-well-wishers-arrange-gifts-and-a-maybach-101793447949423.html",
-  "event": "china-wedding-strangers-invited"
- },
- {
-  "date": "2026-11-01",
-  "source": "Good News Network",
-  "title": "Girl Sitting in Dirt at Bus Stop Gets Surprise Bench From Homeowner–Camera Catches her Jig (WATCH)",
-  "url": "https://www.goodnewsnetwork.org/girl-sitting-in-dirt-at-bus-stop-gets-surprise-bench-from-couple/",
-  "event": "florida-bus-stop-bench-surprise"
- },
- {
-  "date": "2026-11-01",
-  "source": "Good News Network",
-  "title": "Retirees Who Lost Spouses Fall in Love Again at 88, After Meeting in the Gym",
-  "url": "https://www.goodnewsnetwork.org/retirees-who-lost-spouses-fall-in-love-again-at-88-meeting-in-gym/",
-  "event": "retirees-fall-in-love-again"
- },
- {
-  "date": "2026-11-01",
-  "source": "Vice",
-  "title": "Man Sentenced to Prison After Setting Bar on Fire Because It Didn’t Have Mayonnaise",
-  "url": "https://www.vice.com/en/article/man-sentenced-to-prison-after-setting-bar-on-fire-because-it-didnt-have-mayonnaise/",
-  "event": "man-sets-bar-on-fire-mayo"
- },
- {
   "date": "2026-11-02",
   "source": "서울신문",
   "title": "“가스 찼네요” 진단에 방치했는데…배 속엔 6.8㎏ 종양 자라고 있었다 [월드픽]",
@@ -481,5 +446,40 @@
   "title": "Stranded Airline Passengers Get Surprise Concerts From Two 2000s Rock Frontmen Amid Flight Shutdown",
   "url": "https://www.vice.com/en/article/stranded-airline-passengers-get-surprise-concerts-from-two-2000s-rock-frontmen-amid-flight-shutdown/",
   "event": "usa-rock-concert-airport"
+ },
+ {
+  "date": "2026-11-16",
+  "source": "Hindustan Times",
+  "title": "Rare Siberian bird travels thousands of miles to England, only to be killed by pet cat",
+  "url": "https://www.hindustantimes.com/trending/rare-siberian-bird-travels-thousands-of-miles-to-england-only-to-be-killed-by-pet-cat-101794712532859.html",
+  "event": "siberian-bird-cat-uk"
+ },
+ {
+  "date": "2026-11-16",
+  "source": "Vice",
+  "title": "WATCH: NYC Store Employee Locks Thieves Inside Store After Catching Them Trying to Steal Fur Coats",
+  "url": "https://www.vice.com/en/article/watch-nyc-store-employee-locks-thieves-inside-store-after-catching-them-trying-to-steal-fur-coats/",
+  "event": "nyc-store-thieves-lock"
+ },
+ {
+  "date": "2026-11-16",
+  "source": "Good News Network",
+  "title": "They Became Pen Pals as Teens, Now 32 Years Later They’re Happily Married",
+  "url": "https://www.goodnewsnetwork.org/they-became-pen-pals-as-teens-now-32-years-later-theyre-happily-married/",
+  "event": "pen-pals-marriage"
+ },
+ {
+  "date": "2026-11-16",
+  "source": "Hindustan Times",
+  "title": "Malaysian gamers aged 52 to 64 beat Japan to win Asia's first live senior e-sports tournament",
+  "url": "https://www.hindustantimes.com/trending/malaysian-gamers-aged-52-to-64-beat-japan-to-win-asias-first-live-senior-e-sports-tournament-101794720006703.html",
+  "event": "malaysia-senior-esports"
+ },
+ {
+  "date": "2026-11-16",
+  "source": "Daily Star",
+  "title": "Diver's terrifying fight for life as octopus tried to strangle him underwater",
+  "url": "https://www.dailystar.co.uk/news/uk-news/divers-terrifying-fight-life-octopus-37867137",
+  "event": "diver-octopus-fight"
  }
 ]

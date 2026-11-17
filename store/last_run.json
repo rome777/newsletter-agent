@@ -1,342 +1,436 @@
 {
-  "at": "2026-11-16T10:25:01",
+  "at": "2026-11-17T13:12:48",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 53건 · 소스 7곳 · 응답 없음 ['Indian Express'] · 0건 ['Metro']",
-    "② 선별   53 → 홍보 제외 53 → 라벨 제외 27 → 예선 2조 13 → 5건 + 예비 2",
-    "   선정 [Hindustan Times] Rare Siberian bird travels thousands of miles to E — 실제로 시베리아에서 영국까지 먼 거리를 이동한 희귀 새가 도착 직후 애완 고양이에게 죽임을 당했다는 이야기는 매우 놀랍고 안타까워서 점심시간에 읽기에 흥미롭다. 누가, 어디서, 무엇을 했는지가 명확하다.",
-    "   선정 [Vice] WATCH: NYC Store Employee Locks Thieves Inside Sto — 뉴욕에서 가게 직원이 도둑들을 가게 안에 가둔 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?'라는 반응이 나올 만큼 흥미롭고 웃긴 이야기다. 누가, 어디서, 무엇을 했는지가 분명하다.",
-    "   선정 [Good News Network] They Became Pen Pals as Teens, Now 32 Years Later  — 십대 시절 펜팔로 시작해 32년 후 결혼한 이야기는 훈훈하고 남에게 소개하고 싶은 감동적인 실제 사건이다. 누가, 어디서, 무엇을 했는지가 명확하다.",
-    "   선정 [Hindustan Times] Malaysian gamers aged 52 to 64 beat Japan to win A — 52세에서 64세 사이의 말레이시아 게이머들이 일본을 이기고 아시아 최초 시니어 e스포츠 대회에서 우승했다는 이야기는 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지가 분명하다.",
-    "   선정 [Daily Star] Diver's terrifying fight for life as octopus tried — 잠수부가 문어에게 목숨을 위협받는 실제 사건은 오싹하고 신기해서 남에게 이야기하고 싶다. 누가, 어디서, 무엇을 했는지가 분명하다.",
-    "   예비 [서울신문] “월 1000만원도 번다”…중국서 단 70명뿐인 ‘이색 직업’ 도전한 대학생 [월드픽] — 중국 대학생이 희귀한 직업인 경주마 발굽 손질사(장제사)에 도전해 월 1000만원 수입을 올린다는 점이 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지가 명확하며, 국내 20~30대 직장인들이 점심시간에 가볍게 읽기 좋은 이야기다.",
-    "   예비 [Daily Star] Inside mysterious 'Stonehenge for horses' where 50 — 영국에서 실제로 존재하는 독특한 장소에 관한 기사로, '돌기둥'과 말들이 함께 있는 신기한 광경이어서 직장인들이 점심시간에 흥미롭게 읽을 수 있습니다. 누가, 어디서, 무엇을 했는지 구체적이지는 않지만 장소와 상황이 명확해 이야기 거리로 적합합니다.",
-    "④ 검수   7 → 5건",
+    "① 수집   24시간 time window · 69건 · 소스 7곳 · 응답 없음 ['Indian Express']",
+    "② 선별   69 → 홍보 제외 69 → 라벨 제외 31 → 예선 2조 14 → 5건 + 예비 3",
+    "   선정 [Daily Star] Chef forced to cook 'human stew' for bloodthirsty  — 콜롬비아에서 실제로 일어난 충격적인 사건으로, 전직 셰프가 잔인한 갱단에 붙잡혀 인간 스튜를 요리하고 장기를 수확해야 했다는 이야기입니다. 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고, 남에게 이야기해주고 싶은 강렬한 내용입니다.",
+    "   선정 [Metro] Man wakes up in morgue covered in ‘corpse powder’  — 사망한 것으로 오인되어 시체 안치소에 있었던 남성이 깨어난 사건으로, 매우 이례적이고 신기한 이야기입니다. 누가 어디서 일어났는지 분명하며, 점심시간에 가볍게 읽기 좋은 흥미로운 소재입니다.",
+    "   선정 [Hindustan Times] Florida man mails peanut butter-covered card to wo — 미국 플로리다에서 실제로 벌어진 사건으로, 생명을 위협하는 알레르기가 있는 여성에게 땅콩버터가 묻은 카드를 보내 체포된 남성 이야기입니다. 웃기면서도 신기한 사건으로 남에게 말해주기 좋습니다.",
+    "   선정 [Vice] Man Brings Two Horses Onto Detroit City Bus, Promp — 미국 디트로이트에서 한 남성이 시내버스에 말 두 마리를 데리고 탄 황당한 사건입니다. 실제로 일어난 일이며, 웃기고 신기해서 주변에 이야기하기 좋은 내용입니다.",
+    "   선정 [Hindustan Times] Japan’s famous Nara deer send record number of tou — 일본 나라의 유명한 사슴들이 올해 병원에 실려간 관광객 수가 기록적으로 많았다는 이야기입니다. 외국인 관광객이 70%라는 점도 흥미롭고, 웃기면서도 신기한 사건입니다.",
+    "   예비 [Good News Network] Farmer Finds Unknown Seeds in His Attic – and Grow — 이탈리아 농부가 다락방에서 알 수 없는 씨앗을 발견해 고대의 기적의 곡물을 재배한 이야기로, 신기하고 훈훈한 내용입니다. 실제 사건이며, 남에게 이야기하기 좋습니다.",
+    "   예비 [서울신문] 팔로워 600만 ‘도파민 할배’, 세상 떠난 뒤 ‘부활’?…영상 오르자 中 발칵 [월드픽] — 중국에서 90세 할아버지가 세상을 떠난 뒤 손자가 AI로 고인의 모습을 되살린 영상이 올라와 논란이 된 사건입니다. 실제 일어난 일이며, 신기하고 남에게 이야기하기 좋은 소재입니다.",
+    "   예비 [Good News Network] Climbers Lug Endangered and Orphaned Seal Pup Up a — 그리스에서 등산객들이 절벽 아래에서 발견한 멸종 위기 고래 새끼를 안전한 곳으로 옮긴 실제 사건으로, 훈훈하고 남에게 이야기해주고 싶은 내용이다. 누가, 어디서, 무엇을 했는지가 분명히 나오며, 국내 20~30대 직장인이 점심시간에 가볍게 읽기에 적합하다.",
+    "④ 검수   8 → 5건",
     "⑤ 발행   5건 · sent"
   ],
   "selection": {
-    "candidates": 53,
+    "candidates": 69,
     "already_sent": [],
     "promo": [],
     "labels": {
+      "비극·범죄": 16,
+      "일반 뉴스": 27,
       "동물": 3,
-      "법·행정": 5,
-      "일반 뉴스": 15,
-      "음식·물건": 3,
-      "비극·범죄": 13,
-      "사람·도전": 7,
-      "연예·운세": 3,
-      "기타": 2,
-      "발견·장소": 2
+      "연예·운세": 9,
+      "법·행정": 4,
+      "사람·도전": 5,
+      "발견·장소": 2,
+      "기타": 1,
+      "음식·물건": 2
     },
     "label_dropped": [
       {
-        "source": "Hindustan Times",
-        "title": "South Korean man who topped tax accountancy exam admits AI-assisted cheating in video confession",
-        "url": "https://www.hindustantimes.com/trending/south-korean-man-who-topped-tax-accountancy-exam-admits-ai-assisted-cheating-in-video-confession-101794761003324.html",
-        "kind": "법·행정",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "US CEO creates advisory board of 13-to-22-year-olds to seek advice on business decisions: 'They really do have a true seat at the table'",
-        "url": "https://www.hindustantimes.com/trending/us/us-ceo-creates-advisory-board-of-13-to-22-year-olds-to-seek-advice-on-business-decisions-they-really-do-have-a-true-seat-at-the-table-101794749470691.html",
+        "source": "Daily Star",
+        "title": "Biohacker Bryan Johnson hits back after Pope slams rich tech bros trying to cheat death",
+        "url": "https://www.dailystar.co.uk/news/latest-news/biohacker-bryan-johnson-hits-back-37880882",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "California restaurant reinstalls plaque marking Nvidia's founding, says 'history deserves to be preserved'",
-        "url": "https://www.hindustantimes.com/trending/us/california-restaurant-reinstalls-plaque-marking-nvidias-founding-says-history-deserves-to-be-preserved-101794742441937.html",
+        "title": "‘Jensens don’t grow on trees.’: Elon Musk’s ex-partner Shivon Zilis defends Jensen Huang, calls him a ‘rare' person",
+        "url": "https://www.hindustantimes.com/trending/jensens-don-t-grow-on-trees-elon-musk-s-ex-partner-shivon-zilis-defends-jensen-huang-calls-him-a-rare-person-101794884434316.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Sundar Pichai reacts to SpaceX's historic Starship catch: 'Still feels like science fiction'",
-        "url": "https://www.hindustantimes.com/trending/sundar-pichai-reacts-to-spacexs-historic-starship-catch-still-feels-like-science-fiction-101794727039679.html",
+        "title": "‘That’s how it happened’: Elon Musk reveals he recruited SpaceX’s first engineers by telling them ‘we’re probably going to die’",
+        "url": "https://www.hindustantimes.com/trending/us/thats-how-it-happened-elon-musk-reveals-he-recruited-spacex-s-first-engineers-by-telling-them-we-re-probably-going-to-die-101794848833330.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "‘It’s a marathon, not a sprint’: Hilton CEO credits long-term employee investment for world's best workplace title",
-        "url": "https://www.hindustantimes.com/trending/its-a-marathon-not-a-sprint-hilton-ceo-credits-long-term-employee-investment-for-worlds-best-workplace-title-101794712490529.html",
+        "title": "Warren Buffett donates $5.5 billion to 4 family foundations, shares Thanksgiving message on kindness",
+        "url": "https://www.hindustantimes.com/trending/warren-buffett-donates-5-5-billion-to-4-family-foundations-shares-thanksgiving-message-on-kindness-101794845364141.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Prince William uses Hindi phrase 'rang-birangi duniya' during Earthshot speech in Mumbai. Watch",
+        "url": "https://www.hindustantimes.com/trending/prince-william-uses-hindi-phrase-rang-birangi-duniya-during-earthshot-speech-in-mumbai-watch-101794833097511.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "British-Indian man behind Prince William’s custom-made jacket credits weavers for ‘tireless work’",
+        "url": "https://www.hindustantimes.com/trending/britishindian-man-behind-prince-william-s-custom-made-jacket-credits-weavers-for-tireless-work-101794823925891.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "China-based Nvidia engineer quits after Jensen Huang’s exit: ‘So disappointing’",
+        "url": "https://www.hindustantimes.com/trending/chinabased-nvidia-engineer-quits-after-jensen-huang-s-exit-so-disappointing-101794819731383.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Prince William and Catherine take Mumbai Metro from Vidhan Bhavan to Bandra-Kurla Complex",
+        "url": "https://www.hindustantimes.com/trending/prince-william-and-catherine-take-mumbai-metro-from-vidhan-bhavan-to-bandra-kurla-complex-101794817818495.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Prince William tried playing the Assamese pepa during his 2016 Kaziranga visit with Catherine",
+        "url": "https://www.hindustantimes.com/trending/prince-william-tried-playing-the-assamese-pepa-during-his-2016-kaziranga-visit-with-catherine-101794811613180.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Guwahati Police uses Guns N' Roses song references in quirky road-safety advisory ahead of concert",
+        "url": "https://www.hindustantimes.com/trending/guwahati-police-uses-guns-n-roses-song-references-in-quirky-road-safety-advisory-ahead-of-concert-101794814809137.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "From S$300,000 Hermès bag to luxury watches: Singapore auctions 450 items seized in S$3 billion money-laundering case",
+        "url": "https://www.hindustantimes.com/trending/from-s-300-000-herm-s-bag-to-luxury-watches-singapore-auctions-450-items-seized-in-s-3-billion-money-laundering-case-101794810459678.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Prince William and Kate Middleton's first few hours in India: Kulhad chai and gully cricket with Sachin Tendulkar",
+        "url": "https://www.hindustantimes.com/trending/prince-william-and-kate-middletons-first-few-hours-in-india-kulhad-chai-and-gully-cricket-with-sachin-tendulkar-101794808920142.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Earthshot Prize 2026: Why Prince William and Kate are in Mumbai and what the awards are about",
+        "url": "https://www.hindustantimes.com/trending/earthshot-prize-2026-why-prince-william-and-kate-are-in-mumbai-and-what-the-awards-are-about-101794802832061.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Vice",
-        "title": "Is Alcohol or Marijuana Worse for Your Brain?",
-        "url": "https://www.vice.com/en/article/is-alcohol-or-marijuana-worse-for-your-brain/",
+        "title": "Could ‘GTA 6’ Win Game of the Year in 2026? Here’s How the Deadline Works.",
+        "url": "https://www.vice.com/en/article/could-gta-6-win-game-of-the-year-in-2026-heres-how-the-deadline-works/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Vice",
-        "title": "Drinking Coffee Every Morning Could Have a Strange Effect on Your Gut, Scientists Say",
-        "url": "https://www.vice.com/en/article/drinking-coffee-every-morning-could-have-a-strange-effect-on-your-gut-scientists-say/",
+        "title": "A New ‘Rainbow Six: Vegas’ Game Is Reportedly Coming. Here’s Everything We Know.",
+        "url": "https://www.vice.com/en/article/a-new-rainbow-six-vegas-game-is-reportedly-coming-heres-everything-we-know/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Vice",
-        "title": "Xbox Shares New Project Helix Details on PC Games and Backward Compatibility",
-        "url": "https://www.vice.com/en/article/xbox-project-helix-details/",
+        "title": "Steam Just Introduced a New Age Verification Rule, and Some Gamers Aren’t Happy",
+        "url": "https://www.vice.com/en/article/steam-just-introduced-a-new-age-verification-rule-and-some-gamers-arent-happy/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Good News Network",
-        "title": "World-First Bone Marrow Transplant Successfully Treats Non-Malignant Disease",
-        "url": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
+        "title": "30% Drop in Levels of Forever Chemicals in England’s Rivers, 49% in Fish – ‘Brilliant to See’",
+        "url": "https://www.goodnewsnetwork.org/30-drop-in-levels-of-forever-chemicals-in-englands-rivers-49-in-fish-brilliant-to-see/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Good News Network",
-        "title": "San Francisco Gets its Largest-Ever Gift: $100M for Public Parks From Airbnb Founder",
-        "url": "https://www.goodnewsnetwork.org/san-francisco-gets-100m-gift-for-public-parks-from-airbnb-ceo/",
+        "title": "Tokyo Tackles Trash Troubles with New Generation of Robotic Street Waste Bins",
+        "url": "https://www.goodnewsnetwork.org/tokyo-tackles-trash-troubles-with-new-generation-of-robotic-street-waste-bins/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Good News in History, November 16",
+        "url": "https://www.goodnewsnetwork.org/events061116/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“美 본토 밖은 처음이다”…괴물 전투기 F-15EX, 日 오키나와 전진 배치 [밀리터리노트]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116500051",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“美, 우크라에 나토 가입·돈바스 맞교환 제안”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116014007",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "日, 석유 위기 대응 ‘아시아판 IEA 창설’ 추진",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116014006",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“커피만 마셔도 안 쫓아냈다”던 데니스, 젠슨 황 명패 뗐다가",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500099",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "미·중·러 사상 첫 정상회담…80년 만에 재등장한 ‘얄타의 유령’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500079",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“뉴욕에도 없는 세계 최대 이탈리아 쇼룸이 서울에 있다”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500045",
-        "kind": "음식·물건",
+        "title": "韓국대 “콘돔 어디 있어?” 올림픽 갔다가 ‘실망’…선수촌서 벌어지는 은밀한 사생활 [돋보기]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500102",
+        "kind": "연예·운세",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "“AI시대, 고숙련 ‘슈퍼테크니션’ 양성할 것”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116012001",
+        "title": "나토, 내년 정상회의 안 한다…“우크라전 등 동맹 긴장 반영”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117013010",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "초소형 카메라로 문제 찍어 전송… AI가 풀고 이어폰으로 정답 전달",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116003002",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
+        "title": "‘전쟁 끝났다’는 트럼프 vs ‘보복 계속’ 이란…미 항모 3척 중동 집결",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116500262",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "AI 커닝 공포… “성실한 수험생만 피해” “사회적 신뢰 붕괴”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116002003",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "AI 커닝, 국가시험 휘젓고 있었다",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116001006",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "20대男, 모르는 10대 여성에 흉기 휘둘러",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500109",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "환경미화원 사망 음주 뺑소니 50대女·아내 살해 80대男 각각 영장·구속",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500106",
-        "kind": "비극·범죄",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "[단독]자폐 아들 손잡고 20년 등산… 김형두 재판관이 말하는 ‘함께 사는 세상’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500105",
+        "title": "“사지 말라는데도 줄 선다” 美CNN 홀린 남대문 ‘스카프 아저씨’",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116500233",
         "kind": "사람·도전",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "“피해금인 줄 몰랐다” 보이스피싱 송금책 혐의 20대, 법원서 ‘무죄’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500092",
+        "title": "‘中에 강한 일본’ 지지 식는다...다카이치 대중외교 긍정평가 급락",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116500200",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“나이가 있어서 AI커닝 100% 못 잡아” 최교진, 직무유기 피고발",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500092",
         "kind": "법·행정",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "나흘 뒤 수능인데…‘AI 부정행위’에 공정성 포비아",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500091",
+        "title": "대구서 횡단보도 건너던 엄마와 유치원생 아들, 승용차에 치여 참변",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500083",
         "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "[부고] 김연희(국토교통부 홍보담당관)씨 모친상",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500061",
-        "kind": "기타",
+        "title": "온코닉테라퓨틱스, GLP-1 비만치료제에 ‘근육 보존’ 더한다…차세대 병용신약 도전",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500075",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "매서운 추위에 동물도 아프다…전북도, 비상방역체계 돌입",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500073",
+        "kind": "동물",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "전남대 새병원 2031년 조기 완공…‘단일 통합동’ 일괄 신축 승부수",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500071",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "1000만원 빌려주고 수수료로 월 110만원 챙겨…일당 검거",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500068",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "[단독] “세무사 수석도 우리 장비 썼다”…中 커닝 업체, AI 부정행위 파문에도 한국인 상대 영업",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500058",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "광운대 박영준 석좌교수, 영국 옥스퍼드대서 ‘한류의 미래’ 강연",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500057",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "아리바이오 경구용 치매 신약 ‘AR1001’, 글로벌 임상 3상 1차 평가 목표 달성",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500050",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "치매 부모와 살던 아들 숨진 채 발견…실종 모친은 모텔서 발견",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500047",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "경북 포도 수출 1억 달러 돌파… 전국 수출액의 80.5% 차지",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500038",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "음주운전한 서울고법 판사…‘감봉 1개월’ 징계",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500031",
+        "kind": "법·행정",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "반포 한강변에 펼쳐진 5007가구 하이엔드 단지",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117022002",
+        "kind": "음식·물건",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "‘구미의 강남’ 입지 자랑… 소형평인데 다 갖췄다",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117022001",
+        "kind": "음식·물건",
         "result": "버림(국내)"
       }
     ],
     "heats": [
       {
-        "size": 14,
+        "size": 16,
         "picks": [
           {
-            "source": "Hindustan Times",
-            "title": "Man struck by lightning while swimming under clear blue skies at Australian beach",
-            "url": "https://www.hindustantimes.com/trending/man-struck-by-lightning-while-swimming-under-clear-blue-skies-at-australian-beach-101794725482474.html",
-            "kind": "비극·범죄",
-            "event": "australia-lightning-swimming",
-            "reason": "호주 해변에서 맑은 하늘 아래 수영 중 번개에 맞은 남성 사건은 매우 드문 사고로, 처음 들으면 '진짜?'라는 반응이 나올 만하다. 누가, 어디서, 무엇을 했는지 명확히 나와 있어 독자들이 흥미를 가질 만하다.",
+            "source": "Good News Network",
+            "title": "Farmer Finds Unknown Seeds in His Attic – and Grows an Ancient ‘Miracle’ Grain",
+            "url": "https://www.goodnewsnetwork.org/farmer-finds-unknown-seeds-in-his-attic-and-grows-an-ancient-miracle-grain/",
+            "kind": "발견·장소",
+            "event": "italy-farmer-ancient-grain",
+            "reason": "이탈리아 농부가 다락방에서 발견한 미지의 씨앗으로 고대의 '기적의 곡물'을 재배했다는 이야기로, 실제 사건이며 신기하고 훈훈한 내용이라 직장인 점심시간 가벼운 읽을거리로 적합하다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "They Became Pen Pals as Teens, Now 32 Years Later They’re Happily Married",
-            "url": "https://www.goodnewsnetwork.org/they-became-pen-pals-as-teens-now-32-years-later-theyre-happily-married/",
-            "kind": "사람·도전",
-            "event": "penpals-marriage",
-            "reason": "십대 때 펜팔로 시작해 32년 후 결혼한 이야기로, 훈훈하고 남에게 이야기해주고 싶은 감동적인 실제 사례이다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "Diver's terrifying fight for life as octopus tried to strangle him underwater",
-            "url": "https://www.dailystar.co.uk/news/uk-news/divers-terrifying-fight-life-octopus-37867137",
+            "title": "Climbers Lug Endangered and Orphaned Seal Pup Up a Cliff to Safety",
+            "url": "https://www.goodnewsnetwork.org/climbers-lug-endangered-and-orphaned-seal-pup-up-a-cliff-to-safety/",
             "kind": "동물",
-            "event": "octopus-diver-fight",
-            "reason": "다이버가 문어에게 공격당해 생사를 다투는 사건은 신기하고 오싹한 이야기로, 누가 어디서 무엇을 했는지 분명히 나와 있어 흥미롭다.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "Inside mysterious 'Stonehenge for horses' where 50 'dead' ponies live together",
-            "url": "https://www.dailystar.co.uk/news/latest-news/paranormal-expert-brocarde-uncovers-bizarre-37865266",
-            "kind": "동물",
-            "event": "stonehenge-horses",
-            "reason": "'말들을 위한 스톤헨지'라는 독특하고 신기한 장소에서 50마리의 '죽은' 조랑말들이 함께 산다는 이야기는 독특하고 남에게 이야기해주고 싶은 소재이다.",
+            "event": "greece-climbers-seal-rescue",
+            "reason": "그리스 등반가들이 절벽 아래에서 발견한 멸종 위기 고아 물개 새끼를 안전하게 구조한 실제 사건으로, 훈훈하고 남에게 이야기해주기 좋은 내용이다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Indian-origin founder praises young programmer's cold email after failed attempt to deliver 24 doughnuts: 'One of the coolest'",
-            "url": "https://www.hindustantimes.com/trending/indianorigin-founder-praises-young-programmers-cold-email-after-failed-attempt-to-deliver-24-doughnuts-one-of-the-coolest-101794706568826.html",
+            "title": "Man sees cat-like features on human faces after undergoing brain surgery",
+            "url": "https://www.hindustantimes.com/trending/man-sees-cat-like-features-on-human-faces-after-undergoing-brain-surgery-101794824223768.html",
             "kind": "사람·도전",
-            "event": "doughnut-cold-email",
-            "reason": "인도 출신 창업자가 20살 프로그래머의 독특한 콜드 이메일과 도넛 배달 실패 후의 사연을 칭찬한 이야기로, 웃기고 신기한 실제 사례이다.",
+            "event": "india-man-cat-face-vision",
+            "reason": "뇌 수술 후 사람 얼굴에서 고양이 같은 특징이 보이는 희귀 시각 현상을 겪은 인도 남성의 실제 사례로, 신기하고 흥미로운 이야기이다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Malaysian gamers aged 52 to 64 beat Japan to win Asia's first live senior e-sports tournament",
-            "url": "https://www.hindustantimes.com/trending/malaysian-gamers-aged-52-to-64-beat-japan-to-win-asias-first-live-senior-e-sports-tournament-101794720006703.html",
+            "title": "Australian man deliberately blocks car to save 91-year-old driver suffering a stroke",
+            "url": "https://www.hindustantimes.com/trending/australian-man-deliberately-blocks-car-to-save-91-year-old-driver-suffering-a-stroke-101794833205104.html",
             "kind": "사람·도전",
-            "event": "senior-esports",
-            "reason": "52세에서 64세 사이의 말레이시아 게이머들이 일본을 이기고 아시아 최초 라이브 시니어 e스포츠 대회에서 우승한 이야기는 신기하고 훈훈한 사례이다.",
+            "event": "australia-stroke-car-block",
+            "reason": "호주에서 91세 운전자가 뇌졸중으로 통제 불능 상태가 되자 한 남성이 차량으로 고의로 막아 사고를 막은 실제 사건으로, 훈훈하고 감동적인 이야기이다.",
+            "result": "통과"
+          },
+          {
+            "source": "Vice",
+            "title": "Man Brings Two Horses Onto Detroit City Bus, Prompting Mandatory Driver Retraining",
+            "url": "https://www.vice.com/en/article/man-brings-two-horses-onto-detroit-city-bus-prompting-mandatory-driver-retraining/",
+            "kind": "사람·도전",
+            "event": "usa-detroit-man-horses-bus",
+            "reason": "미국 디트로이트에서 한 남성이 시내버스에 두 마리 말을 데리고 타는 황당한 사건이 발생해 운전자 재교육이 의무화된 실제 사건으로, 웃기고 신기한 이야기이다.",
             "result": "통과"
           },
           {
             "source": "서울신문",
-            "title": "“월 1000만원도 번다”…중국서 단 70명뿐인 ‘이색 직업’ 도전한 대학생 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500090",
-            "kind": "사람·도전",
-            "event": "china-horse-farrier",
-            "reason": "중국 대학생이 경주마 발굽 손질과 편자 박는 이색 직업에 도전한 이야기로, 누가 어디서 무엇을 했는지 분명하며 신기하고 남에게 이야기해주고 싶은 내용이다.",
+            "title": "팔로워 600만 ‘도파민 할배’, 세상 떠난 뒤 ‘부활’?…영상 오르자 中 발칵 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116500188",
+            "kind": "연예·운세",
+            "event": "china-ai-resurrect-grandpa",
+            "reason": "중국에서 90세 할아버지가 세상을 떠난 뒤 손자가 AI로 고인의 모습을 되살린 영상이 올라와 논란이 된 실제 사건으로, 신기하고 흥미로운 이야기이다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Japan’s famous Nara deer send record number of tourists to hospital, 70% foreigners",
+            "url": "https://www.hindustantimes.com/trending/japans-famous-nara-deer-send-record-number-of-tourists-to-hospital-70-foreigners-101794883106190.html",
+            "kind": "동물",
+            "event": "japan-nara-deer-hospital-visitors",
+            "reason": "일본 나라의 유명한 사슴들이 올해 병원에 실려간 관광객 기록을 세웠다는 실제 사건으로, 신기하고 웃긴 이야기라 가볍게 읽기 좋다.",
             "result": "통과"
           }
         ]
       },
       {
-        "size": 13,
+        "size": 15,
         "picks": [
           {
-            "source": "Vice",
-            "title": "WATCH: NYC Store Employee Locks Thieves Inside Store After Catching Them Trying to Steal Fur Coats",
-            "url": "https://www.vice.com/en/article/watch-nyc-store-employee-locks-thieves-inside-store-after-catching-them-trying-to-steal-fur-coats/",
+            "source": "Daily Star",
+            "title": "Chef forced to cook 'human stew' for bloodthirsty gangsters at cannibal dinner parties",
+            "url": "https://www.dailystar.co.uk/news/latest-news/chef-forced-cook-human-stew-37881366",
             "kind": "비극·범죄",
-            "event": "nyc-store-thieves-lockup",
-            "reason": "뉴욕 브루클린에서 가게 직원이 도둑들을 가게 안에 가둔 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고 흥미롭다. 누가, 어디서, 무엇을 했는지 명확히 나와 있어 직장인들이 점심시간에 가볍게 읽기 좋다.",
+            "event": "colombia-cannibal-chef",
+            "reason": "콜롬비아에서 실제로 일어난 끔찍한 인신공양 강요 사건으로, 충격적이고 믿기 어려운 이야기라 직장인들이 점심시간에 흥미롭게 읽을 수 있음.",
+            "result": "통과"
+          },
+          {
+            "source": "Metro",
+            "title": "Man wakes up in morgue covered in ‘corpse powder’ after being presumed dead",
+            "url": "https://metro.co.uk/2026/11/16/man-wakes-morgue-covered-corpse-powder-presumed-dead-29795982/",
+            "kind": "비극·범죄",
+            "event": "morgue-wake-up",
+            "reason": "죽은 줄 알고 부검실에 있던 사람이 깨어난 황당하고 신기한 사건으로, 가볍게 읽기 좋고 주변에 이야기하기 좋은 소재임.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Rare Siberian bird travels thousands of miles to England, only to be killed by pet cat",
-            "url": "https://www.hindustantimes.com/trending/rare-siberian-bird-travels-thousands-of-miles-to-england-only-to-be-killed-by-pet-cat-101794712532859.html",
+            "title": "Florida man mails peanut butter-covered card to woman with deadly allergy, arrested",
+            "url": "https://www.hindustantimes.com/trending/florida-man-mails-peanut-butter-covered-card-to-woman-with-deadly-allergy-arrested-101794886952625.html",
             "kind": "비극·범죄",
-            "event": "siberian-bird-cat-killing",
-            "reason": "시베리아에서 영국까지 날아온 희귀 새가 반려묘에게 죽임을 당한 사건은 신기하고 안타까운 이야기로, 국내가 아닌 영국에서 일어난 일이라 흥미롭다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+            "event": "peanut-butter-allergy",
+            "reason": "미국에서 실제로 벌어진 황당한 사건으로, 독특하고 웃긴 이야기라 공유할 만함.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Bored after retirement, 78-year-old man sets out to visit all 50 US state fairs",
-            "url": "https://www.hindustantimes.com/trending/bored-after-retirement-78-year-old-man-sets-out-to-visit-all-50-us-state-fairs-101794716177596.html",
+            "title": "Singapore man, 41, jailed for letting Indian-origin former lawyer M Ravi consume drugs before his death",
+            "url": "https://www.hindustantimes.com/trending/singapore-man-41-jailed-for-letting-indian-origin-former-lawyer-m-ravi-consume-drugs-before-his-death-101794823049830.html",
+            "kind": "비극·범죄",
+            "event": "singapore-drug-death",
+            "reason": "싱가포르에서 일어난 독특한 법적 사건으로, 실제 인물과 사건이 명확해 흥미로움.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "US woman survives 9 days in tent suspended off California cliff, completes record-breaking climb",
+            "url": "https://www.hindustantimes.com/trending/us/us-woman-survives-9-days-in-tent-suspended-off-california-cliff-completes-record-breaking-climb-101794828605873.html",
             "kind": "사람·도전",
-            "event": "us-state-fairs-travel",
-            "reason": "은퇴 후 심심함을 달래기 위해 미국 50개 주 박람회를 모두 방문하는 78세 남성의 이야기는 훈훈하고 남에게 소개하고 싶은 내용이다. 미국에서 실제 일어난 일이며 구체적인 인물과 활동이 명확하다.",
+            "event": "california-cliff-survival",
+            "reason": "미국에서 실제로 일어난 극한 생존과 기록 도전 이야기로, 훈훈하고 감동적임.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Viral 1,000 kg seal gets new legal protections in Australia as fans told to stay 30 metres away",
-            "url": "https://www.hindustantimes.com/trending/viral-1-000-kg-seal-gets-new-legal-protections-in-australia-as-fans-told-to-stay-30-metres-away-101794732466308.html",
-            "kind": "동물",
-            "event": "australia-seal-legal-protection",
-            "reason": "호주에서 1,000kg 거대 바다표범이 법적 보호를 받게 된 사건은 신기하고 재미있는 동물 관련 뉴스로, 누가 어디서 무슨 일이 있었는지 분명하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "AI boss, called ‘incredibly lazy’ and accused of sleeping at desk, wins dismissal case in UK",
-            "url": "https://www.hindustantimes.com/trending/incredibly-lazy-woman-accused-of-poor-work-sleeping-at-desk-wins-unfair-dismissal-case-in-the-uk-101794754686298.html",
+            "title": "Gujarat safari park sacks 3 staff members after video shows them chasing lion on motorcycle",
+            "url": "https://www.hindustantimes.com/trending/gujarat-safari-park-sacks-3-staff-members-after-video-shows-them-chasing-lion-on-motorcycle-101794823989000.html",
             "kind": "법·행정",
-            "event": "uk-ai-boss-dismissal-case",
-            "reason": "영국에서 AI 회사 임원이 게으르다는 비난과 해고 위기를 이겨낸 법적 사건은 실제 일어난 일이며, 직장인들이 흥미를 가질 만한 독특한 사례다. 누가 어디서 무슨 일이 있었는지 명확하다.",
+            "event": "india-lion-motorcycle",
+            "reason": "인도에서 벌어진 황당한 사건으로, 웃기고 신기한 이야기라 점심시간 읽기에 적합함.",
             "result": "통과"
           },
           {
-            "source": "Hindustan Times",
-            "title": "Nithya Raman, Los Angeles Mayor-elect, celebrates Diwali in a traditional saree at City Hall",
-            "url": "https://www.hindustantimes.com/trending/nithya-raman-los-angeles-mayor-elect-celebrates-diwali-in-a-traditional-saree-at-city-hall-101794724603697.html",
-            "kind": "사람·도전",
-            "event": "la-mayor-diwali-celebration",
-            "reason": "미국 로스앤젤레스 신임 시장 니티아 라만이 시청에서 디왈리 축제를 전통 의상으로 기념한 이야기는 훈훈하고 문화적으로 흥미로운 실제 사건이다.",
+            "source": "서울신문",
+            "title": "우크라 국회의원, 생방송 중 ‘하의 실종’ 돌발 사고…카메라 만지다 ‘헉’ [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116500267",
+            "kind": "비극·범죄",
+            "event": "ukraine-mp-pantsless",
+            "reason": "우크라이나 국회의원이 생방송 중 하의를 입지 않은 채 노출된 황당한 사건으로, 웃기고 신기해 공유할 만함.",
             "result": "통과"
           }
         ]
@@ -344,110 +438,116 @@
     ],
     "final": [
       {
-        "source": "Hindustan Times",
-        "title": "Rare Siberian bird travels thousands of miles to England, only to be killed by pet cat",
-        "url": "https://www.hindustantimes.com/trending/rare-siberian-bird-travels-thousands-of-miles-to-england-only-to-be-killed-by-pet-cat-101794712532859.html",
+        "source": "Daily Star",
+        "title": "Chef forced to cook 'human stew' for bloodthirsty gangsters at cannibal dinner parties",
+        "url": "https://www.dailystar.co.uk/news/latest-news/chef-forced-cook-human-stew-37881366",
         "kind": "비극·범죄",
-        "event": "siberian-bird-cat-uk",
-        "reason": "실제로 시베리아에서 영국까지 먼 거리를 이동한 희귀 새가 도착 직후 애완 고양이에게 죽임을 당했다는 이야기는 매우 놀랍고 안타까워서 점심시간에 읽기에 흥미롭다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+        "event": "colombia-chef-cannibal-gangster",
+        "reason": "콜롬비아에서 실제로 일어난 충격적인 사건으로, 전직 셰프가 잔인한 갱단에 붙잡혀 인간 스튜를 요리하고 장기를 수확해야 했다는 이야기입니다. 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고, 남에게 이야기해주고 싶은 강렬한 내용입니다.",
+        "result": "선정"
+      },
+      {
+        "source": "Metro",
+        "title": "Man wakes up in morgue covered in ‘corpse powder’ after being presumed dead",
+        "url": "https://metro.co.uk/2026/11/16/man-wakes-morgue-covered-corpse-powder-presumed-dead-29795982/",
+        "kind": "비극·범죄",
+        "event": "morgue-wake-up",
+        "reason": "사망한 것으로 오인되어 시체 안치소에 있었던 남성이 깨어난 사건으로, 매우 이례적이고 신기한 이야기입니다. 누가 어디서 일어났는지 분명하며, 점심시간에 가볍게 읽기 좋은 흥미로운 소재입니다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Florida man mails peanut butter-covered card to woman with deadly allergy, arrested",
+        "url": "https://www.hindustantimes.com/trending/florida-man-mails-peanut-butter-covered-card-to-woman-with-deadly-allergy-arrested-101794886952625.html",
+        "kind": "비극·범죄",
+        "event": "florida-peanut-butter-card",
+        "reason": "미국 플로리다에서 실제로 벌어진 사건으로, 생명을 위협하는 알레르기가 있는 여성에게 땅콩버터가 묻은 카드를 보내 체포된 남성 이야기입니다. 웃기면서도 신기한 사건으로 남에게 말해주기 좋습니다.",
         "result": "선정"
       },
       {
         "source": "Vice",
-        "title": "WATCH: NYC Store Employee Locks Thieves Inside Store After Catching Them Trying to Steal Fur Coats",
-        "url": "https://www.vice.com/en/article/watch-nyc-store-employee-locks-thieves-inside-store-after-catching-them-trying-to-steal-fur-coats/",
-        "kind": "비극·범죄",
-        "event": "nyc-store-thieves-lock",
-        "reason": "뉴욕에서 가게 직원이 도둑들을 가게 안에 가둔 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?'라는 반응이 나올 만큼 흥미롭고 웃긴 이야기다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+        "title": "Man Brings Two Horses Onto Detroit City Bus, Prompting Mandatory Driver Retraining",
+        "url": "https://www.vice.com/en/article/man-brings-two-horses-onto-detroit-city-bus-prompting-mandatory-driver-retraining/",
+        "kind": "사람·도전",
+        "event": "detroit-horses-bus",
+        "reason": "미국 디트로이트에서 한 남성이 시내버스에 말 두 마리를 데리고 탄 황당한 사건입니다. 실제로 일어난 일이며, 웃기고 신기해서 주변에 이야기하기 좋은 내용입니다.",
         "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Japan’s famous Nara deer send record number of tourists to hospital, 70% foreigners",
+        "url": "https://www.hindustantimes.com/trending/japans-famous-nara-deer-send-record-number-of-tourists-to-hospital-70-foreigners-101794883106190.html",
+        "kind": "동물",
+        "event": "japan-nara-deer-hospital",
+        "reason": "일본 나라의 유명한 사슴들이 올해 병원에 실려간 관광객 수가 기록적으로 많았다는 이야기입니다. 외국인 관광객이 70%라는 점도 흥미롭고, 웃기면서도 신기한 사건입니다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Australian man deliberately blocks car to save 91-year-old driver suffering a stroke",
+        "url": "https://www.hindustantimes.com/trending/australian-man-deliberately-blocks-car-to-save-91-year-old-driver-suffering-a-stroke-101794833205104.html",
+        "kind": "사람·도전",
+        "event": "australia-stroke-car-block",
+        "reason": "호주에서 91세 운전자가 뇌졸중으로 차량을 통제하지 못하자 한 남성이 자신의 차로 고의로 막아 사고를 막은 훈훈한 이야기입니다. 누가 어디서 무엇을 했는지 분명하며, 남에게 이야기하기 좋은 따뜻한 사건입니다.",
+        "result": "매체 상한"
       },
       {
         "source": "Good News Network",
-        "title": "They Became Pen Pals as Teens, Now 32 Years Later They’re Happily Married",
-        "url": "https://www.goodnewsnetwork.org/they-became-pen-pals-as-teens-now-32-years-later-theyre-happily-married/",
-        "kind": "사람·도전",
-        "event": "pen-pals-marriage",
-        "reason": "십대 시절 펜팔로 시작해 32년 후 결혼한 이야기는 훈훈하고 남에게 소개하고 싶은 감동적인 실제 사건이다. 누가, 어디서, 무엇을 했는지가 명확하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Malaysian gamers aged 52 to 64 beat Japan to win Asia's first live senior e-sports tournament",
-        "url": "https://www.hindustantimes.com/trending/malaysian-gamers-aged-52-to-64-beat-japan-to-win-asias-first-live-senior-e-sports-tournament-101794720006703.html",
-        "kind": "사람·도전",
-        "event": "malaysia-senior-esports",
-        "reason": "52세에서 64세 사이의 말레이시아 게이머들이 일본을 이기고 아시아 최초 시니어 e스포츠 대회에서 우승했다는 이야기는 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지가 분명하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Bored after retirement, 78-year-old man sets out to visit all 50 US state fairs",
-        "url": "https://www.hindustantimes.com/trending/bored-after-retirement-78-year-old-man-sets-out-to-visit-all-50-us-state-fairs-101794716177596.html",
-        "kind": "사람·도전",
-        "event": "us-state-fairs-visit",
-        "reason": "은퇴 후 심심함을 달래기 위해 미국 50개 주의 주 박람회를 방문하는 78세 남성의 이야기는 훈훈하고 흥미로워 점심시간 읽기에 적합하다. 누가, 어디서, 무엇을 했는지가 명확하다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "Daily Star",
-        "title": "Diver's terrifying fight for life as octopus tried to strangle him underwater",
-        "url": "https://www.dailystar.co.uk/news/uk-news/divers-terrifying-fight-life-octopus-37867137",
-        "kind": "동물",
-        "event": "diver-octopus-fight",
-        "reason": "잠수부가 문어에게 목숨을 위협받는 실제 사건은 오싹하고 신기해서 남에게 이야기하고 싶다. 누가, 어디서, 무엇을 했는지가 분명하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Viral 1,000 kg seal gets new legal protections in Australia as fans told to stay 30 metres away",
-        "url": "https://www.hindustantimes.com/trending/viral-1-000-kg-seal-gets-new-legal-protections-in-australia-as-fans-told-to-stay-30-metres-away-101794732466308.html",
-        "kind": "동물",
-        "event": "australia-seal-protection",
-        "reason": "호주에서 1000kg 거대 바다표범이 법적 보호를 받게 되고 팬들이 30미터 이상 거리를 유지하라는 이야기는 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지가 명확하다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "서울신문",
-        "title": "“월 1000만원도 번다”…중국서 단 70명뿐인 ‘이색 직업’ 도전한 대학생 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261115500090",
-        "kind": "사람·도전",
-        "event": "china-horse-farrier-student",
-        "reason": "중국 대학생이 희귀한 직업인 경주마 발굽 손질사(장제사)에 도전해 월 1000만원 수입을 올린다는 점이 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지가 명확하며, 국내 20~30대 직장인들이 점심시간에 가볍게 읽기 좋은 이야기다.",
+        "title": "Farmer Finds Unknown Seeds in His Attic – and Grows an Ancient ‘Miracle’ Grain",
+        "url": "https://www.goodnewsnetwork.org/farmer-finds-unknown-seeds-in-his-attic-and-grows-an-ancient-miracle-grain/",
+        "kind": "발견·장소",
+        "event": "italy-farmer-miracle-grain",
+        "reason": "이탈리아 농부가 다락방에서 알 수 없는 씨앗을 발견해 고대의 기적의 곡물을 재배한 이야기로, 신기하고 훈훈한 내용입니다. 실제 사건이며, 남에게 이야기하기 좋습니다.",
         "result": "예비"
       },
       {
-        "source": "Daily Star",
-        "title": "Inside mysterious 'Stonehenge for horses' where 50 'dead' ponies live together",
-        "url": "https://www.dailystar.co.uk/news/latest-news/paranormal-expert-brocarde-uncovers-bizarre-37865266",
+        "source": "서울신문",
+        "title": "팔로워 600만 ‘도파민 할배’, 세상 떠난 뒤 ‘부활’?…영상 오르자 中 발칵 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116500188",
+        "kind": "연예·운세",
+        "event": "china-ai-grandpa",
+        "reason": "중국에서 90세 할아버지가 세상을 떠난 뒤 손자가 AI로 고인의 모습을 되살린 영상이 올라와 논란이 된 사건입니다. 실제 일어난 일이며, 신기하고 남에게 이야기하기 좋은 소재입니다.",
+        "result": "예비"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Climbers Lug Endangered and Orphaned Seal Pup Up a Cliff to Safety",
+        "url": "https://www.goodnewsnetwork.org/climbers-lug-endangered-and-orphaned-seal-pup-up-a-cliff-to-safety/",
         "kind": "동물",
-        "event": "uk-stonehenge-horses",
-        "reason": "영국에서 실제로 존재하는 독특한 장소에 관한 기사로, '돌기둥'과 말들이 함께 있는 신기한 광경이어서 직장인들이 점심시간에 흥미롭게 읽을 수 있습니다. 누가, 어디서, 무엇을 했는지 구체적이지는 않지만 장소와 상황이 명확해 이야기 거리로 적합합니다.",
+        "event": "greece-seal-rescue",
+        "reason": "그리스에서 등산객들이 절벽 아래에서 발견한 멸종 위기 고래 새끼를 안전한 곳으로 옮긴 실제 사건으로, 훈훈하고 남에게 이야기해주고 싶은 내용이다. 누가, 어디서, 무엇을 했는지가 분명히 나오며, 국내 20~30대 직장인이 점심시간에 가볍게 읽기에 적합하다.",
         "result": "예비"
       }
     ],
     "final_out": [
       {
         "source": "Hindustan Times",
-        "title": "Man struck by lightning while swimming under clear blue skies at Australian beach",
-        "url": "https://www.hindustantimes.com/trending/man-struck-by-lightning-while-swimming-under-clear-blue-skies-at-australian-beach-101794725482474.html",
+        "title": "Gujarat safari park sacks 3 staff members after video shows them chasing lion on motorcycle",
+        "url": "https://www.hindustantimes.com/trending/gujarat-safari-park-sacks-3-staff-members-after-video-shows-them-chasing-lion-on-motorcycle-101794823989000.html",
+        "kind": "법·행정"
+      },
+      {
+        "source": "서울신문",
+        "title": "우크라 국회의원, 생방송 중 ‘하의 실종’ 돌발 사고…카메라 만지다 ‘헉’ [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261116500267",
         "kind": "비극·범죄"
       },
       {
         "source": "Hindustan Times",
-        "title": "AI boss, called ‘incredibly lazy’ and accused of sleeping at desk, wins dismissal case in UK",
-        "url": "https://www.hindustantimes.com/trending/incredibly-lazy-woman-accused-of-poor-work-sleeping-at-desk-wins-unfair-dismissal-case-in-the-uk-101794754686298.html",
-        "kind": "법·행정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Nithya Raman, Los Angeles Mayor-elect, celebrates Diwali in a traditional saree at City Hall",
-        "url": "https://www.hindustantimes.com/trending/nithya-raman-los-angeles-mayor-elect-celebrates-diwali-in-a-traditional-saree-at-city-hall-101794724603697.html",
+        "title": "Man sees cat-like features on human faces after undergoing brain surgery",
+        "url": "https://www.hindustantimes.com/trending/man-sees-cat-like-features-on-human-faces-after-undergoing-brain-surgery-101794824223768.html",
         "kind": "사람·도전"
       },
       {
         "source": "Hindustan Times",
-        "title": "Indian-origin founder praises young programmer's cold email after failed attempt to deliver 24 doughnuts: 'One of the coolest'",
-        "url": "https://www.hindustantimes.com/trending/indianorigin-founder-praises-young-programmers-cold-email-after-failed-attempt-to-deliver-24-doughnuts-one-of-the-coolest-101794706568826.html",
+        "title": "Singapore man, 41, jailed for letting Indian-origin former lawyer M Ravi consume drugs before his death",
+        "url": "https://www.hindustantimes.com/trending/singapore-man-41-jailed-for-letting-indian-origin-former-lawyer-m-ravi-consume-drugs-before-his-death-101794823049830.html",
+        "kind": "비극·범죄"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "US woman survives 9 days in tent suspended off California cliff, completes record-breaking climb",
+        "url": "https://www.hindustantimes.com/trending/us/us-woman-survives-9-days-in-tent-suspended-off-california-cliff-completes-record-breaking-climb-101794828605873.html",
         "kind": "사람·도전"
       }
     ]
@@ -455,59 +555,59 @@
   "rejected": [],
   "published": [
     {
-      "source": "Hindustan Times",
-      "headline": "희귀 시베리아 루비목도 영국 도착 직후 반려묘에 의해 죽임 당해",
-      "url": "https://www.hindustantimes.com/trending/rare-siberian-bird-travels-thousands-of-miles-to-england-only-to-be-killed-by-pet-cat-101794712532859.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/15/1600x900/logo/Tabby_Cat_and_Fallen_Songbird_1794713118224_sBta_1794713126133_P14V_99a56ce5-8e9b-46c1-8e6a-9c387ac6de1b_EJgY.png",
+      "source": "Daily Star",
+      "headline": "콜롬비아 갱단, 인육 스튜 강요한 전직 셰프의 고백",
+      "url": "https://www.dailystar.co.uk/news/latest-news/chef-forced-cook-human-stew-37881366",
+      "image": "https://i2-prod.dailystar.co.uk/article37881402.ece/ALTERNATES/s1200d/1_Screenshot-2026-11-16-at-112138.jpg",
       "kind": "비극·범죄",
-      "topic": "동물",
-      "event": "siberian-bird-cat-uk",
-      "reason": "실제로 시베리아에서 영국까지 먼 거리를 이동한 희귀 새가 도착 직후 애완 고양이에게 죽임을 당했다는 이야기는 매우 놀랍고 안타까워서 점심시간에 읽기에 흥미롭다. 누가, 어디서, 무엇을 했는지가 명확하다.",
-      "why": "시베리아 루비목새는 보통 시베리아에서 남아시아로 이동하지만, 이번 개체는 예상치 못한 서쪽 경로를 따라 이동해 영국에 도착했습니다."
+      "topic": "사건·사고",
+      "event": "colombia-chef-cannibal-gangster",
+      "reason": "콜롬비아에서 실제로 일어난 충격적인 사건으로, 전직 셰프가 잔인한 갱단에 붙잡혀 인간 스튜를 요리하고 장기를 수확해야 했다는 이야기입니다. 처음 들으면 '진짜?' 소리가 나올 만큼 놀랍고, 남에게 이야기해주고 싶은 강렬한 내용입니다.",
+      "why": "2016년 경찰과 군대가 엘 브롱스를 급습해 갱단이 사용하는 100미터 길이의 비밀 터널을 발견했고, 증거에 따르면 갱단이 살해된 희생자들을 인육 식사에 이용한 것으로 확인되었습니다."
+    },
+    {
+      "source": "Metro",
+      "headline": "나이지리아서 오토바이 사고 후 사망 추정 남성, 영안실에서 깨어나",
+      "url": "https://metro.co.uk/2026/11/16/man-wakes-morgue-covered-corpse-powder-presumed-dead-29795982/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/11/SEI_320857556-3207-e1794839957209_1794841646.jpg?quality=90&strip=all&w=1200&h=630&crop=1",
+      "kind": "비극·범죄",
+      "topic": "사건·사고",
+      "event": "morgue-wake-up",
+      "reason": "사망한 것으로 오인되어 시체 안치소에 있었던 남성이 깨어난 사건으로, 매우 이례적이고 신기한 이야기입니다. 누가 어디서 일어났는지 분명하며, 점심시간에 가볍게 읽기 좋은 흥미로운 소재입니다.",
+      "why": "이 남성은 사고 후 제대로 된 의료 검진 없이 사망 판정을 받고 영안실에 옮겨진 것으로 알려졌습니다."
+    },
+    {
+      "source": "Hindustan Times",
+      "headline": "플로리다 남성, 생명 위협하는 땅콩 알레르기 여성에 땅콩버터 발라진 카드 보내 체포",
+      "url": "https://www.hindustantimes.com/trending/florida-man-mails-peanut-butter-covered-card-to-woman-with-deadly-allergy-arrested-101794886952625.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/17/1600x900/logo/Joseph_Gerard_Cancellare_1794887128446_gWfD_1794887135922_G1No_87ff78b3-90a9-4f39-88b7-87ca24b2ea67_L5ER.png",
+      "kind": "비극·범죄",
+      "topic": "사건·사고",
+      "event": "florida-peanut-butter-card",
+      "reason": "미국 플로리다에서 실제로 벌어진 사건으로, 생명을 위협하는 알레르기가 있는 여성에게 땅콩버터가 묻은 카드를 보내 체포된 남성 이야기입니다. 웃기면서도 신기한 사건으로 남에게 말해주기 좋습니다.",
+      "why": "캔셀라레는 피해 여성의 심각한 땅콩 알레르기를 알고 있었으며, 이로 인해 신체 접촉만으로도 치명적 반응이 일어날 수 있다는 점을 인지한 상태에서 범행을 저질렀습니다."
     },
     {
       "source": "Vice",
-      "headline": "뉴욕 빈티지 매장서 도둑질 시도한 3인, 직원의 용감한 대응으로 사건 종료",
-      "url": "https://www.vice.com/en/article/watch-nyc-store-employee-locks-thieves-inside-store-after-catching-them-trying-to-steal-fur-coats/",
-      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/WATCH-NYC-Store-Employee-Locks-Thieves-Inside-Store-After-Catching-Them-Trying-to-Steal-Fur-Coats.jpg?w=2000",
-      "kind": "비극·범죄",
-      "topic": "사건·사고",
-      "event": "nyc-store-thieves-lock",
-      "reason": "뉴욕에서 가게 직원이 도둑들을 가게 안에 가둔 사건은 실제로 일어난 일이며, 처음 들으면 '진짜?'라는 반응이 나올 만큼 흥미롭고 웃긴 이야기다. 누가, 어디서, 무엇을 했는지가 분명하다.",
-      "why": "최근 범죄 예방을 위해 매장에서는 후드, 선글라스, 모자 착용과 수트케이스 반입을 금지하는 정책을 도입하는 사례가 늘고 있습니다."
-    },
-    {
-      "source": "Good News Network",
-      "headline": "29년 만에 재회한 펜팔 친구, 결혼까지 이어진 사랑 이야기",
-      "url": "https://www.goodnewsnetwork.org/they-became-pen-pals-as-teens-now-32-years-later-theyre-happily-married/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/David-McArdle-married-pen-pal-Jodie-SWNS.jpeg",
+      "headline": "디트로이트 시내버스에 말 두 마리 탑승, 시 당국은 운전기사 재교육 실시",
+      "url": "https://www.vice.com/en/article/man-brings-two-horses-onto-detroit-city-bus-prompting-mandatory-driver-retraining/",
+      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/Man-Brings-Two-Horses-Onto-Detroit-City-Bus-Prompting-Mandatory-Driver-Retraining.jpg?w=2000",
       "kind": "사람·도전",
-      "topic": "사람",
-      "event": "pen-pals-marriage",
-      "reason": "십대 시절 펜팔로 시작해 32년 후 결혼한 이야기는 훈훈하고 남에게 소개하고 싶은 감동적인 실제 사건이다. 누가, 어디서, 무엇을 했는지가 명확하다.",
-      "why": "두 사람은 휴가 중 만난 12명의 아이들 중 유일하게 펜팔을 지속했고, 20년 만에 조디가 데이비드의 어머니 휴대폰으로 연락을 하면서 재회하게 되었습니다."
+      "topic": "사건·사고",
+      "event": "detroit-horses-bus",
+      "reason": "미국 디트로이트에서 한 남성이 시내버스에 말 두 마리를 데리고 탄 황당한 사건입니다. 실제로 일어난 일이며, 웃기고 신기해서 주변에 이야기하기 좋은 내용입니다.",
+      "why": "시 교통국은 장애인 서비스 동물 정책과 승객 안전을 강화하기 위해 운전기사들에게 의무 재교육을 실시하기로 했습니다."
     },
     {
       "source": "Hindustan Times",
-      "headline": "말레이시아 52~64세 게이머, 아시아 최초 시니어 e스포츠 대회서 일본 꺾고 우승",
-      "url": "https://www.hindustantimes.com/trending/malaysian-gamers-aged-52-to-64-beat-japan-to-win-asias-first-live-senior-e-sports-tournament-101794720006703.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/15/1600x900/logo/fdhfgngfn_1794720511138_29WG_1794720511325_Axv9_0e5bae60-fa2f-4c77-b2bb-e8699ec0ab9d_PbYb.png",
-      "kind": "사람·도전",
-      "topic": "사람",
-      "event": "malaysia-senior-esports",
-      "reason": "52세에서 64세 사이의 말레이시아 게이머들이 일본을 이기고 아시아 최초 시니어 e스포츠 대회에서 우승했다는 이야기는 신기하고 흥미롭다. 누가, 어디서, 무엇을 했는지가 분명하다.",
-      "why": "이번 대회는 2025년 국내 대회로 시작해 올해 국제 대회로 확대되었으며, 시니어 게이머들의 경쟁 게임 참여가 빠르게 증가하고 있음을 보여줍니다."
-    },
-    {
-      "source": "Daily Star",
-      "headline": "러시아 동해안 다이버, 문어 공격에 목 졸리며 생존 투쟁",
-      "url": "https://www.dailystar.co.uk/news/uk-news/divers-terrifying-fight-life-octopus-37867137",
-      "image": "https://i2-prod.dailystar.co.uk/article37867142.ece/ALTERNATES/s1200d/0_Image.jpg",
+      "headline": "일본 나라 공원의 사슴, 올해 병원 이송 관광객 51명 기록적 발생",
+      "url": "https://www.hindustantimes.com/trending/japans-famous-nara-deer-send-record-number-of-tourists-to-hospital-70-foreigners-101794883106190.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/17/1600x900/logo/photo-1697432906369-466aeef57878_1794883670427_0jIJ_1794883682700_PHwB_fd0216e5-fabf-4c2e-8c59-a9c234112b36_Y5PI.jpg",
       "kind": "동물",
-      "topic": "동물",
-      "event": "diver-octopus-fight",
-      "reason": "잠수부가 문어에게 목숨을 위협받는 실제 사건은 오싹하고 신기해서 남에게 이야기하고 싶다. 누가, 어디서, 무엇을 했는지가 분명하다.",
-      "why": "문어는 비독성 독을 가진 것으로 확인되었으며, 다이버가 문어를 자극해 방어적으로 공격한 상황이었습니다."
+      "topic": "사건·사고",
+      "event": "japan-nara-deer-hospital",
+      "reason": "일본 나라의 유명한 사슴들이 올해 병원에 실려간 관광객 수가 기록적으로 많았다는 이야기입니다. 외국인 관광객이 70%라는 점도 흥미롭고, 웃기면서도 신기한 사건입니다.",
+      "why": "나라 사슴 보호재단에 따르면, 사슴 개체 수 증가와 관광객 증가, 그리고 사슴들이 공식 과자 대신 채소와 음식물 찌꺼기를 먹으며 건강이 좋아져 번식이 늘어난 점이 부상자 증가의 원인입니다."
     }
   ]
 }

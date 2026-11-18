@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-11-03",
-  "source": "Hindustan Times",
-  "title": "US man reveals how he watched 1,207 movies in cinemas in a year to break Guinness World Record",
-  "url": "https://www.hindustantimes.com/trending/us/us-man-reveals-how-he-watched-1-207-movies-in-cinemas-in-a-year-to-break-guinness-world-record-101793622667457.html",
-  "event": "us-movie-marathon-record"
- },
- {
-  "date": "2026-11-03",
-  "source": "Hindustan Times",
-  "title": "British man sells rare Pokémon cards for $2 million after storing them in attic for 15 years",
-  "url": "https://www.hindustantimes.com/trending/british-man-sells-rare-pok-mon-cards-for-2-million-after-storing-them-in-attic-for-15-years-101793639542731.html",
-  "event": "uk-pokemon-card-sale"
- },
- {
-  "date": "2026-11-03",
-  "source": "Vice",
-  "title": "One Half of Viral Rap Duo Island Boys Hospitalized After Drug Overdose",
-  "url": "https://www.vice.com/en/article/one-half-of-viral-rap-duo-island-boys-hospitalized-after-drug-overdose/",
-  "event": "island-boys-overdose"
- },
- {
-  "date": "2026-11-03",
-  "source": "Daily Star",
-  "title": "Man, 24, 'filmed 410 male victims using the toilet as 370 videos recorded in a year'",
-  "url": "https://www.dailystar.co.uk/news/world-news/man-24-filmed-410-male-37835392",
-  "event": "malaysia-voyeurism-case"
- },
- {
-  "date": "2026-11-03",
-  "source": "Daily Star",
-  "title": "Weirdest sex injuries revealed – from ‘spaghetti penis’ to orgasm that won't stop",
-  "url": "https://www.dailystar.co.uk/news/latest-news/weirdest-sex-injuries-revealed--37833216",
-  "event": "uk-sex-injuries"
- },
- {
   "date": "2026-11-05",
   "source": "Good News Network",
   "title": "Woman Becomes First Person to Swim the Entire California Coastline",
@@ -481,5 +446,40 @@
   "title": "Japan’s famous Nara deer send record number of tourists to hospital, 70% foreigners",
   "url": "https://www.hindustantimes.com/trending/japans-famous-nara-deer-send-record-number-of-tourists-to-hospital-70-foreigners-101794883106190.html",
   "event": "japan-nara-deer-hospital"
+ },
+ {
+  "date": "2026-11-18",
+  "source": "Daily Star",
+  "title": "Man who ‘died’ in motorbike crash wakes up in morgue - and immediately lights fag",
+  "url": "https://www.dailystar.co.uk/news/latest-news/man-who-died-motorbike-crash-37885280",
+  "event": "motorbike-morgue-resurrection"
+ },
+ {
+  "date": "2026-11-18",
+  "source": "Good News Network",
+  "title": "West Coast’s First Ever Sea Turtle Hatchlings Released into the Pacific (LOOK)",
+  "url": "https://www.goodnewsnetwork.org/west-coasts-first-ever-sea-turtle-hatchlings-released-into-the-pacific-look/",
+  "event": "sea-turtle-hatchlings-release"
+ },
+ {
+  "date": "2026-11-18",
+  "source": "Daily Star",
+  "title": "'Thug monkey' savages woman in horror attack with neighbours left too scared to go outside",
+  "url": "https://www.dailystar.co.uk/news/latest-news/thug-monkey-savages-woman-horror-37886803",
+  "event": "monkey-attack"
+ },
+ {
+  "date": "2026-11-18",
+  "source": "서울신문",
+  "title": "‘마트보다 싸다!’…“1000원으로 싹쓸이” 요즘은 장보러 ‘여기’ 간다 [이런 日이]",
+  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261117500307",
+  "event": "japan-vending-machine-shopping"
+ },
+ {
+  "date": "2026-11-18",
+  "source": "Hindustan Times",
+  "title": "Over 15,000 dancers perform traditional Karbi folk dance in Assam, set Guinness World Record",
+  "url": "https://www.hindustantimes.com/trending/over-15-000-dancers-perform-traditional-karbi-folk-dance-in-assam-set-guinness-world-record-101794913545836.html",
+  "event": "karbi-folk-dance-record"
  }
 ]

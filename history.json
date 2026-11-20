@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-11-05",
-  "source": "Good News Network",
-  "title": "Woman Becomes First Person to Swim the Entire California Coastline",
-  "url": "https://www.goodnewsnetwork.org/woman-becomes-first-person-to-swim-the-entire-california-coastline/",
-  "event": "california-coast-swim"
- },
- {
-  "date": "2026-11-05",
-  "source": "Hindustan Times",
-  "title": "Sikh father-daughter duo honoured in UK after their charity served over one million free meals in a year",
-  "url": "https://www.hindustantimes.com/trending/sikh-father-daughter-duo-honoured-in-uk-after-their-charity-served-over-one-million-free-meals-in-a-year-101793766801453.html",
-  "event": "uk-charity-meals"
- },
- {
-  "date": "2026-11-05",
-  "source": "Hindustan Times",
-  "title": "Singaporean tourist jailed in Australia for fatally running over thief who stole his backpack",
-  "url": "https://www.hindustantimes.com/trending/singaporean-tourist-jailed-in-australia-for-fatally-running-over-thief-who-stole-his-backpack-101793795264705.html",
-  "event": "australia-tourist-incident"
- },
- {
-  "date": "2026-11-05",
-  "source": "서울신문",
-  "title": "‘제주 고씨’ 댄고, 美 하원 당선",
-  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261104500125",
-  "event": "dan-go-election"
- },
- {
-  "date": "2026-11-05",
-  "source": "Good News Network",
-  "title": "The Grandfather Puzzle Pieces Together a Family History One Man Wouldn’t Talk About",
-  "url": "https://www.goodnewsnetwork.org/the-grandfather-puzzle-pieces-together-a-family-history-one-man-wouldnt-talk-about/",
-  "event": "family-history-documentary"
- },
- {
   "date": "2026-11-06",
   "source": "Hindustan Times",
   "title": "California assistant steals $18 million from boss, spends it on Louis Vuitton bags, private jet trips",
@@ -516,5 +481,40 @@
   "title": "Siblings Build 430-Step ‘Sky Ladder’ for Their Mother Who Refuses to Live in the City",
   "url": "https://www.goodnewsnetwork.org/siblings-build-430-step-sky-ladder-for-their-mother-who-refuses-to-live-in-the-city/",
   "event": "china-sky-ladder"
+ },
+ {
+  "date": "2026-11-20",
+  "source": "Good News Network",
+  "title": "She Checked on Her ‘Loud’ Upstairs Neighbor, Inspiring Strangers to Raise More Than $100,000",
+  "url": "https://www.goodnewsnetwork.org/loud-neighbor-parkinsons-gofundme/",
+  "event": "us-neighbor-fundraising"
+ },
+ {
+  "date": "2026-11-20",
+  "source": "Hindustan Times",
+  "title": "German tourist bitten, pulled into water by monitor lizard in Thailand",
+  "url": "https://www.hindustantimes.com/trending/german-tourist-bitten-pulled-into-water-by-monitor-lizard-in-thailand-101795056021206.html",
+  "event": "thailand-lizard-attack"
+ },
+ {
+  "date": "2026-11-20",
+  "source": "Good News Network",
+  "title": "Over 100 Cave Bear Skeletons Found in ‘Sensational’ Discovery by Alpine Guide",
+  "url": "https://www.goodnewsnetwork.org/over-100-cave-bear-skeletons-found-in-sensational-discovery-by-alpine-guide/",
+  "event": "alpine-cave-bear-discovery"
+ },
+ {
+  "date": "2026-11-20",
+  "source": "Daily Star",
+  "title": "27-year-old woman thought shoulder pain was a gym injury until X-ray in A&E",
+  "url": "https://www.dailystar.co.uk/news/latest-news/27-year-old-woman-thought-37892829",
+  "event": "uk-woman-shoulder-pain"
+ },
+ {
+  "date": "2026-11-20",
+  "source": "Hindustan Times",
+  "title": "Hero in uniform: West Bengal cop jumps into Damodar River to rescue 3-year-old during Chhath Puja",
+  "url": "https://www.hindustantimes.com/trending/hero-in-uniform-west-bengal-cop-jumps-into-damodar-river-to-rescue-3-year-old-during-chhath-puja-101795069507735.html",
+  "event": "india-cop-rescue"
  }
 ]

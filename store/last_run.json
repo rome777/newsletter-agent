@@ -1,411 +1,374 @@
 {
-  "at": "2026-11-19T11:50:36",
+  "at": "2026-11-20T11:37:55",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 77건 · 소스 7곳",
-    "② 선별   77 → 홍보 제외 77 → 라벨 제외 45 → 예선 2조 16 → 5건 + 예비 3",
-    "   선정 [Vice] Vince Vaughn Buys His Own Rock Hall Ticket, Gets U — 유명 배우 빈스 본이 록앤롤 명예의 전당 행사에서 직접 티켓을 구매하고 예상치 못한 좌석에서 레드 핫 칠리 페퍼스 공연을 관람했다는 사실이 흥미롭고 웃음을 자아내며, 누가 어디서 무엇을 했는지 명확하다.",
-    "   선정 [Hindustan Times] 59-year-old British TV anchor announces pregnancy  — 59세 영국 TV 앵커가 라이브 방송에서 임신을 발표하고 악플러들에게 대응한 사건은 놀랍고 훈훈하며, 누가 어디서 무엇을 했는지 분명하다.",
-    "   선정 [서울신문] 집 고치다 철문과 ‘한 몸’ 된 손가락…2m 문짝 들고 병원 찾은 대만 여성 [월드픽] — 대만 여성의 손가락이 강력 접착제로 철문에 붙어 문짝을 들고 병원에 간 사건은 신기하고 웃기며, 누가 어디서 무엇을 했는지 명확하다.",
-    "   선정 [Vice] Drake Surprises Mother and Son With $100,000 at NB — 드레이크가 NBA 경기에서 모자에게 10만 달러를 선물하고 자신의 코트사이드 좌석까지 준 훈훈한 이야기로, 누가 어디서 무엇을 했는지 분명하다.",
-    "   선정 [Good News Network] Siblings Build 430-Step ‘Sky Ladder’ for Their Mot — 중국에서 형제들이 도시 생활을 거부하는 어머니를 위해 430계단의 하늘 사다리를 손수 만든 감동적인 이야기로, 누가 어디서 무엇을 했는지 명확하다.",
-    "   예비 [Daily Star] Woman find's Britain's biggest spider crawling thr — 영국에서 한 여성이 거실에서 영국 최대 거미를 발견한 사건은 신기하고 놀라우며, 누가 어디서 무엇을 했는지 분명하다.",
-    "   예비 [Hindustan Times] Fiona the hippo receiving round-the-clock care aft — 신시내티 동물원에서 하마 피오나가 방문객의 모자를 삼켜 24시간 간호를 받는 사건은 신기하고 웃기며, 누가 어디서 무엇을 했는지 명확하다.",
-    "   예비 [Good News Network] This Blue Whale Population Grew 1,000% Since the E — 남극 고래잡이 종료 이후 남극 대왕고래 개체수가 1000% 증가한 희소식으로, 신기하고 훈훈하며, 누가 어디서 무엇을 했는지 분명하다.",
+    "① 수집   24시간 time window · 58건 · 소스 7곳 · 응답 없음 ['Indian Express']",
+    "② 선별   58 → 홍보 제외 58 → 라벨 제외 26 → 예선 2조 12 → 5건 + 예비 3",
+    "   선정 [Good News Network] She Checked on Her ‘Loud’ Upstairs Neighbor, Inspi — 87세 파킨슨병 여성 이웃을 위해 낯선 사람들이 10만 달러 이상 모금한 훈훈한 이야기로, 국내 20~30대 직장인들이 점심시간에 읽기 좋고 남에게도 소개하고 싶을 만한 감동적인 내용이다.",
+    "   선정 [Hindustan Times] German tourist bitten, pulled into water by monito — 태국에서 독특한 사건으로 독일 관광객이 도마뱀에게 물리고 물속으로 끌려간 실제 사건으로, 처음 들으면 '진짜?' 소리가 나올 만한 신기한 이야기다.",
+    "   선정 [Good News Network] Over 100 Cave Bear Skeletons Found in ‘Sensational — 알프스에서 100마리 이상의 멸종된 동굴곰 화석이 발견된 놀라운 고고학적 발견으로, 신기하고 흥미로운 이야기라 점심시간 읽을거리로 적합하다.",
+    "   선정 [Daily Star] 27-year-old woman thought shoulder pain was a gym  — 운동 부상으로 오인했던 어깨 통증이 심각한 문제였던 실제 사례로, 건강 경각심을 주면서도 흥미로운 이야기다.",
+    "   선정 [Hindustan Times] Hero in uniform: West Bengal cop jumps into Damoda — 인도에서 경찰이 어린이를 구한 훈훈한 사건으로, 누가 어디서 무엇을 했는지 명확하고 감동적인 이야기라 소개하기 좋다.",
+    "   예비 [Metro] Space food is a step closer after spuds grown in ‘ — 달 흙에서 재배한 감자가 안전하다고 판정되어 우주 식품 개발에 진전이 생긴 신기한 과학 소식으로, 흥미롭고 남에게 이야기하기 좋은 내용이다.",
+    "   예비 [Metro] Chicken crossing the road left woman injured after — 닭이 도로를 건너다 운전자가 급제동하면서 여성이 다친 독특하고 웃긴 사건으로, 가볍게 읽고 이야기하기 좋은 소재다.",
+    "   예비 [서울신문] “귀여운 외모에 반전 괴력” 허벅지 두께 무려 64㎝…세계 놀라게 한 日여성 [월드픽] — 일본 여성 파워리프터 노무라 유가 세계대회에서 체급 상한 체중의 약 3.6배에 달하는 227.5㎏을 들어 올려 금메달을 획득한 실제 사건입니다. 허벅지 둘레 64㎝라는 독특한 신체 조건과 괴력으로 세계를 놀라게 한 점이 매우 흥미롭고, 직장인들이 점심시간에 가볍게 읽으며 주변에 이야기하기 좋은 내용입니다.",
     "④ 검수   8 → 5건",
     "⑤ 발행   5건 · sent"
   ],
   "selection": {
-    "candidates": 77,
+    "candidates": 58,
     "already_sent": [],
     "promo": [],
     "labels": {
-      "일반 뉴스": 21,
-      "사람·도전": 19,
-      "법·행정": 8,
-      "비극·범죄": 15,
+      "사람·도전": 8,
+      "일반 뉴스": 24,
+      "비극·범죄": 11,
       "동물": 3,
-      "음식·물건": 2,
-      "발견·장소": 4,
-      "연예·운세": 5
+      "발견·장소": 5,
+      "연예·운세": 6,
+      "법·행정": 1
     },
     "label_dropped": [
       {
         "source": "Daily Star",
-        "title": "PlayStation down as thousands unable to use PSN hours before GTA VI drops",
-        "url": "https://www.dailystar.co.uk/news/latest-news/breaking-playstation-down-thousands-unable-37892153",
+        "title": "Card Factory pulls festive sweets from shelves in metal alert",
+        "url": "https://www.dailystar.co.uk/news/latest-news/card-factory-pulls-festive-sweets-37892893",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Disappointing news for anyone taking turmeric for arthritis and pain relief",
+        "url": "https://www.dailystar.co.uk/health/disappointing-news-anyone-taking-turmeric-37892802",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Urgent new car seat update as UK parents told 'use Swedish rule'",
+        "url": "https://www.dailystar.co.uk/news/uk-news/urgent-new-car-seat-update-37892794",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "GTA 6 launch sends social media into meme frenzy as fans celebrate release after 13-year wait",
-        "url": "https://www.hindustantimes.com/trending/gta-6-launch-sends-social-media-into-meme-frenzy-as-fans-celebrate-release-after-13-year-wait-101795004868784.html",
+        "title": "Rockstar Games says sacked GTA employees were 'caught red-handed' breaching confidentiality rules",
+        "url": "https://www.hindustantimes.com/trending/rockstar-says-sacked-gta-employees-were-caught-red-handed-breaching-confidentiality-rules-101795100266454.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "'GTA 6 is now live on Blinkit': CEO Albinder Dhindsa announces quick delivery in Delhi, Bengaluru and 9 other cities ahead of November 19 launch",
-        "url": "https://www.hindustantimes.com/trending/gta-6-is-now-live-on-blinkit-ceo-albinder-dhindsa-announces-quick-delivery-in-delhi-bengaluru-and-9-other-cities-ahead-of-november-19-launch-101795000853712.html",
+        "title": "McDonald’s apologises after AI-generated mural with 'glaring errors' put up at UK outlet",
+        "url": "https://www.hindustantimes.com/trending/mcdonalds-apologises-after-ai-generated-mural-with-glaring-errors-put-up-at-uk-outlet-101795094917215.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
-        "source": "Indian Express",
-        "title": "‘At least they can’t take Robert Pattinson’s job’: Dancing robots welcome world leaders ahead of APEC summit",
-        "url": "https://indianexpress.com/article/trending/trending-globally/at-least-they-cant-take-robert-pattinsons-job-dancing-robots-welcome-world-leaders-ahead-of-apec-summit-10967864/",
+        "source": "Hindustan Times",
+        "title": "From boAt to Influish, Indian companies declare holiday for GTA 6",
+        "url": "https://www.hindustantimes.com/trending/from-boat-to-influish-indian-companies-declare-holiday-for-gta-6-101795079843222.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
-        "source": "Indian Express",
-        "title": "GTA 6 on Blinkit: How to order, delivery cities on November 19 release date",
-        "url": "https://indianexpress.com/article/trending/trending-in-india/gta-6-on-blinkit-cities-how-to-order-november-19-10968134/",
+        "source": "Hindustan Times",
+        "title": "Not killing Arnold in GTA VI could help Jason and Lucia get $10,000 later in the game",
+        "url": "https://www.hindustantimes.com/trending/spare-or-kill-arnold-in-gta-vi-what-happens-jason-and-lucia-could-get-10-000-later-in-the-game-walkthrough-guide-101795075664604.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
-        "source": "Indian Express",
-        "title": "Kim Jong-un’s daughter’s luxury ski gear sparks debate: What does it cost?",
-        "url": "https://indianexpress.com/article/trending/trending-globally/kim-jong-un-watches-daughter-ski-her-luxury-outfit-sparks-debate-10968003/",
+        "source": "Hindustan Times",
+        "title": "Microsoft tech conference in San Francisco disrupted after ceiling leak floods Meta stall",
+        "url": "https://www.hindustantimes.com/trending/us/microsoft-tech-conference-in-san-francisco-disrupted-after-ceiling-leak-floods-meta-stall-101795076897178.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "The CEO behind GTA 6 watches others play because he doesn’t play video games himself",
+        "url": "https://www.hindustantimes.com/trending/the-ceo-behind-gta-6-watches-others-play-because-he-doesn-t-play-video-games-himself-101795075225002.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "GTA 6 brings Florida to life with Miami-inspired Vice City, Everglades-like swamps",
+        "url": "https://www.hindustantimes.com/trending/gta-6-brings-florida-to-life-with-miami-inspired-vice-city-everglades-like-swamps-101795069999312.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Spoiler alert for GTA 6 fans: Videos of jet-skiing dog, doomscrolling, invincible protester flood social media",
+        "url": "https://www.hindustantimes.com/trending/spoiler-alert-for-gta-6-fans-videos-of-jet-skiing-dog-doomscrolling-invincible-protester-flood-social-media-101795065509715.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "GTA 6 launch highlights: GTA VI launches in US, PlayStation network faces reported outages",
+        "url": "https://www.hindustantimes.com/trending/gta-6-launch-live-updates-grand-theft-auto-vi-release-story-on-ps5-xbox-series-xs-india-prices-download-playstation-101795060009991.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Mandy from GTA VI grabs attention, but gamers can't romance the character",
+        "url": "https://www.hindustantimes.com/trending/can-you-cheat-on-lucia-with-mandy-in-gta-vi-pipework-mission-serial-killer-theory-nsfw-101795056135493.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Vice",
-        "title": "GTA 6 Soundtrack: ‘Grand Theft Auto VI: The Album’ Is Coming to Vinyl and CD Really Soon",
-        "url": "https://www.vice.com/en/article/gta-6-soundtrack-grand-theft-auto-vi-the-album-is-coming-to-vinyl-and-cd-really-soon/",
+        "title": "The Real Reason Why Americans Are Drinking So Much Less Alcohol",
+        "url": "https://www.vice.com/en/article/the-real-reason-why-americans-are-drinking-so-much-less-alcohol/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Vice",
-        "title": "GTA 6 Live Coverage: News, Reviews, and More",
-        "url": "https://www.vice.com/en/article/gta-6-live-coverage-news-reviews-and-more/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "How to Unlock GTA 6 Ultimate Edition Content and When Each Bonus Becomes Available",
-        "url": "https://www.vice.com/en/article/gta-6-ultimate-edition-unlocks/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "‘GTA 6’ Isn’t Even Out Worldwide Yet, and PlayStation Network Is Already Having Problems",
-        "url": "https://www.vice.com/en/article/gta-6-isnt-even-out-worldwide-yet-and-playstation-network-is-already-having-problems/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "Dungeons and Dragons: World of Warcraft – Every Dungeon and Raid in the Gameplay Expansion",
-        "url": "https://www.vice.com/en/article/dungeons-and-dragons-world-of-warcraft-every-dungeon-and-raid-in-the-gameplay-expansion/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "Retro 1984 Racing Game is Playable on Modern Consoles This Week",
-        "url": "https://www.vice.com/en/article/retro-1984-racing-game-is-playable-on-modern-consoles-this-week/",
+        "title": "GTA 6 Bigfoot Explained: What is Skunkape?",
+        "url": "https://www.vice.com/en/article/gta-6-bigfoot-explained-what-is-skunkape/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Good News Network",
-        "title": "Good News in History, November 18",
-        "url": "https://www.goodnewsnetwork.org/events061118/",
+        "title": "Good News in History, November 19",
+        "url": "https://www.goodnewsnetwork.org/events061119/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "아라비아해 휘젓는 루스벨트함·워싱턴함… 중동에 美항모 3척 집결",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119012007",
+        "title": "[서울데이터랩]미 뉴욕증시 급락 마감…다우 2.19%·나스닥 2.25% 하락",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500007",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "이스라엘 의회 의장도 야권 차지… 네타냐후 실각 현실화하나",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119012006",
+        "title": "“김정은” 애타게 부르던 트럼프, 그냥 귀국길…북미 회동 사실상 불발 [사상 첫 미중러 정상회담]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500338",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“고소득 男보다 주식 잘하는 男이 좋아요” 반전…日결혼시장 ‘이렇게’ 바뀌었다 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261118500260",
+        "title": "리트 만점자 ‘AI 부정’ 의혹, OECD 감시망 걸렸다…‘잠재적 위험’ 찍혀 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500250",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "핵 3강 첫 대면, 한반도 운명 갈린다…치린산장에 세계가 숨죽인 이유",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261118500229",
+        "title": "서울시립대, 한국피지컬AI협회와 ‘인공지능 산업 활성화 위한 업무협약’ 체결",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500068",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“수험생인데 택시가 안 잡혀요”…경찰 긴급 수송으로 제시각 입실",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500079",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "7명 탑승 태안 어선 이틀째 수색…밤샘 수색 흔적 못찾아",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500077",
+        "title": "경찰, ‘10대 살해’ 50대男 구속송치…보복살인 혐의 적용",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500065",
         "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "방과 후 돌봄과 병원 동행을 한번에…경주시, ‘아이행복키움센터’ 문열어",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500073",
-        "kind": "법·행정",
+        "title": "90대 치매 여성, 구미서 실종 하루 만에 숨진 채 발견",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500059",
+        "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "비상수송차량으로 도착한 수험생",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500071",
-        "kind": "사람·도전",
+        "title": "‘아들 성범죄 피해자’ 15세 소녀 살해한 50대男, 공소청 구속 송치",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500053",
+        "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "19일부터 기온 뚝…‘침묵의 살인자’ 고혈압, 겨울철 혈압 관리 비상",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500070",
+        "title": "“맨발로 걸어도 OK” 부산 산책로 중금속 기준 만족",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500052",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "‘딸! 잘 해왔고, 잘할 거야’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500068",
-        "kind": "사람·도전",
+        "title": "전신주 작업하러 갔던 60대 추락 사망… 고소작업대가 통신선에 걸려 사고",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500034",
+        "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "전북천년명가 6개사 선정…100년 장수기업으로 키운다",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500061",
+        "title": "여자 배구 관전 중 쓰러진 남성 사망…“아직 원인 파악 안 돼”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500029",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "안동 월영교 공중화장실에 AI 불법촬영 감시망…24시간 실시간 탐지",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500017",
         "kind": "법·행정",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "“3주만에 ‘머리 리셋’이 된다고요?” 백지연, ‘리트 만점’ 이진우에 ‘돌직구’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500060",
-        "kind": "연예·운세",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "중기부, 정부부처 최초 ‘ISO 30301’ 인증… 투명·책임행정 체계 강화",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500058",
-        "kind": "법·행정",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "중앙자원봉사센터, 국회서 심포지엄… ‘행복 중심’ 성과평가 개편 논의",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500051",
-        "kind": "법·행정",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "한성대 ESG센터, 삼선동 취약계층 180가구에 ‘사랑의 김장’ 전달",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500047",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "제주 노지서 자란 멕시코 콩과 작물 ‘히카마’… 꽃따기하니 뿌리 무게 54% 쑥~",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119500044",
-        "kind": "발견·장소",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "수익률·분배금 1위… ‘TIGER 200 ETF’ 저력",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119023002",
+        "title": "경북 바이오가스 사업 7개 시군으로 확대… 5315억원 투입",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500016",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "‘금·은·구리’ 원자재 선물 ETN 6종 신규 상장",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119023001",
+        "title": "의성군, 경북 첫 ‘청년 친화도시’ 선정…5년간 청년 정착 지원",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500014",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "‘27만원 AI’에 공공 시스템 71% 쓰는 ‘자바’ 뚫린다",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261119008008",
+        "title": "산불에 잿더미 된 영양 숲…하늘다람쥐 6마리, 인공둥지서 새 보금자리",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500010",
+        "kind": "동물",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "경산 다가구주택서 한밤중 불…주민 1명 중화상·차량 7대 피해",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500009",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "본지 강병철 정치부장 ‘분중문화상’",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120023006",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       }
     ],
     "heats": [
       {
-        "size": 23,
+        "size": 13,
         "picks": [
           {
-            "source": "Daily Star",
-            "title": "Woman find's Britain's biggest spider crawling through her living room",
-            "url": "https://www.dailystar.co.uk/news/latest-news/woman-finds-britains-biggest-spider-37888549",
-            "kind": "동물",
-            "event": "uk-big-spider-living-room",
-            "reason": "실제로 영국에서 한 여성이 거실에서 영국 최대 크기의 거미를 발견한 사건으로, 듣자마자 '진짜?'라는 반응이 나올 만한 신기한 이야기입니다. 기사에 누가, 어디서, 무엇을 했는지가 분명히 나와 있어 독자들이 친구에게 말해주고 싶어할 만한 내용입니다.",
-            "result": "통과"
-          },
-          {
-            "source": "서울신문",
-            "title": "집 고치다 철문과 ‘한 몸’ 된 손가락…2m 문짝 들고 병원 찾은 대만 여성 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261118500291",
-            "kind": "비극·범죄",
-            "event": "taiwan-finger-stuck-door",
-            "reason": "대만에서 집을 고치던 여성이 강력 접착제로 손가락이 철문에 붙어 문짝을 들고 병원에 간 사건으로, 매우 웃기고 신기한 이야기입니다. 누가, 어디서, 무엇을 했는지가 명확히 나와 있어 점심시간 가볍게 읽기 좋습니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Drake Surprises Mother and Son With $100,000 at NBA Game, Then Gives Them His Courtside Seats",
-            "url": "https://www.vice.com/en/article/drake-surprises-mother-and-son-with-100000-at-nba-game-then-gives-them-his-courtside-seats/",
-            "kind": "사람·도전",
-            "event": "drake-nba-surprise",
-            "reason": "캐나다 토론토에서 유명 가수 드레이크가 NBA 경기에서 한 모자에게 10만 달러와 코트사이드 좌석을 선물한 훈훈한 이야기로, 실제 사건이며 누가, 어디서, 무엇을 했는지가 분명히 나와 있습니다. 직장인들이 점심시간에 읽기 좋은 따뜻한 뉴스입니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "Jack the Ripper 'identified' in DNA breakthrough as killer 'unmasked'",
-            "url": "https://www.dailystar.co.uk/news/weird-news/jack-ripper-identified-dna-breakthrough-37882594",
-            "kind": "비극·범죄",
-            "event": "jack-the-ripper-dna",
-            "reason": "영국에서 역사적 미제 사건인 잭 더 리퍼가 DNA 분석으로 신원이 밝혀졌다는 뉴스로, 듣자마자 놀랄 만한 실제 사건입니다. 누가, 어디서, 무엇을 했는지가 기사에 명확히 나와 있어 흥미롭습니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "'TikTok saved my life when video diagnosed problem I thought was eczema'",
-            "url": "https://www.dailystar.co.uk/news/latest-news/tiktok-saved-life-video-diagnosed-37889753",
-            "kind": "사람·도전",
-            "event": "tiktok-diagnosis",
-            "reason": "한 여성이 휴가 중 틱톡에서 본 영상 덕분에 자신의 피부병을 정확히 진단받아 생명을 구한 이야기로, 신기하고 훈훈한 실제 사례입니다. 누가, 어디서, 무엇을 했는지가 분명히 나와 있어 공유하기 좋습니다.",
+            "source": "Good News Network",
+            "title": "Over 100 Cave Bear Skeletons Found in ‘Sensational’ Discovery by Alpine Guide",
+            "url": "https://www.goodnewsnetwork.org/over-100-cave-bear-skeletons-found-in-sensational-discovery-by-alpine-guide/",
+            "kind": "발견·장소",
+            "event": "alps-cave-bear-discovery",
+            "reason": "알프스에서 100구 이상의 멸종된 동굴곰 골격이 발견된 놀라운 고고학적 발견으로, 실제 사건이며 매우 신기하고 흥미로워 점심시간에 읽기 좋습니다. 누가 어디서 무엇을 했는지가 명확히 나옵니다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "Students Fighting to Save Poached Plant Species That Only Exists in Near Their Campus",
-            "url": "https://www.goodnewsnetwork.org/students-fighting-to-save-poached-plant-species-that-only-exists-near-their-campus/",
+            "title": "She Checked on Her ‘Loud’ Upstairs Neighbor, Inspiring Strangers to Raise More Than $100,000",
+            "url": "https://www.goodnewsnetwork.org/loud-neighbor-parkinsons-gofundme/",
             "kind": "사람·도전",
-            "event": "students-save-plant",
-            "reason": "미국 산타클라라 대학 학생들이 자신들의 캠퍼스 근처에만 존재하는 희귀 식물을 밀렵으로부터 보호하려는 노력에 관한 이야기로, 실제 사건이며 누가, 어디서, 무엇을 했는지가 명확합니다. 환경과 관련된 신기하고 훈훈한 뉴스입니다.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "Woman almost died after Turkey operation left her with cyst size of a baby",
-            "url": "https://www.dailystar.co.uk/news/latest-news/woman-almost-died-after-turkey-37888292",
-            "kind": "비극·범죄",
-            "event": "uk-woman-turkey-operation",
-            "reason": "영국 여성의 터키 수술 후 아기 크기의 낭종이 생겨 거의 죽을 뻔한 사건으로, 실제로 일어난 충격적인 이야기입니다. 누가, 어디서, 무엇을 했는지가 분명히 나와 있어 흥미롭습니다.",
+            "event": "neighbor-fundraising",
+            "reason": "87세 파킨슨병 환자 이웃을 돌본 이야기가 주변 사람들과 낯선 이들의 따뜻한 후원으로 이어진 훈훈한 실제 사건입니다. 누가, 어디서, 무엇을 했는지가 분명합니다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Belfast school offers PlayStation, Xbox vouchers to students for attending classes on GTA 6 launch day",
-            "url": "https://www.hindustantimes.com/trending/belfast-school-offers-playstation-xbox-vouchers-to-students-for-attending-classes-on-gta-6-launch-day-101795010150981.html",
-            "kind": "법·행정",
-            "event": "belfast-school-gta6",
-            "reason": "북아일랜드 벨파스트 학교가 GTA 6 출시일에 등교하는 학생들에게 게임기 상품권을 제공한 독특한 사례로, 실제 사건이며 누가, 어디서, 무엇을 했는지가 명확합니다. 직장인들이 가볍게 읽기 좋은 재미있는 뉴스입니다.",
+            "title": "Hero in uniform: West Bengal cop jumps into Damodar River to rescue 3-year-old during Chhath Puja",
+            "url": "https://www.hindustantimes.com/trending/hero-in-uniform-west-bengal-cop-jumps-into-damodar-river-to-rescue-3-year-old-during-chhath-puja-101795069507735.html",
+            "kind": "사람·도전",
+            "event": "west-bengal-rescue",
+            "reason": "인도 웨스트벵골에서 경찰관이 강에 빠진 3세 아이를 구한 실제 사건으로, 긴박하고 감동적인 이야기입니다. 누가, 어디서, 무엇을 했는지가 명확합니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "27-year-old woman thought shoulder pain was a gym injury until X-ray in A&E",
+            "url": "https://www.dailystar.co.uk/news/latest-news/27-year-old-woman-thought-37892829",
+            "kind": "사람·도전",
+            "event": "woman-shoulder-pain-diagnosis",
+            "reason": "27세 여성이 어깨 통증을 운동 부상으로 오해했다가 병원에서 진단받은 실제 이야기로, 건강 경각심을 주며 흥미롭습니다. 누가, 어디서, 무엇을 했는지가 분명합니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Metro",
+            "title": "Chicken crossing the road left woman injured after driver forced to brake abruptly",
+            "url": "https://metro.co.uk/2026/11/19/chicken-crossing-road-left-woman-injured-driver-forced-brake-abruptly-29804578/",
+            "kind": "동물",
+            "event": "chicken-road-accident",
+            "reason": "닭이 도로를 건너다 운전자가 급제동해 여성이 다친 실제 사건으로, 웃기면서도 신기한 일화입니다. 누가, 어디서, 무엇을 했는지가 명확합니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Metro",
+            "title": "Space food is a step closer after spuds grown in ‘moon soil’ declared safe to eat",
+            "url": "https://metro.co.uk/2026/11/19/space-food-a-step-closer-spuds-grown-moon-soil-declared-safe-eat-29804049/",
+            "kind": "발견·장소",
+            "event": "moon-soil-potatoes",
+            "reason": "달 토양에서 재배한 감자가 안전하다고 판정되어 우주 식품 개발에 진전이 생긴 실제 과학 소식으로 신기하고 흥미롭습니다. 누가, 어디서, 무엇을 했는지가 분명합니다.",
             "result": "통과"
           }
         ]
       },
       {
-        "size": 22,
+        "size": 13,
         "picks": [
           {
-            "source": "Indian Express",
-            "title": "Rare video of isolated Brazilian tribe emerges, sparks concern: ‘Leave them alone’",
-            "url": "https://indianexpress.com/article/trending/trending-globally/rare-video-of-isolated-brazilian-tribe-emerges-sparks-concern-10968401/",
-            "kind": "발견·장소",
-            "event": "brazil-isolated-tribe-video",
-            "reason": "브라질의 고립된 부족의 희귀 영상이 공개되어 관심과 우려를 불러일으킨 사건으로, 실제로 일어난 일이며 신기하고 남에게 이야기하고 싶은 내용이다.",
+            "source": "Hindustan Times",
+            "title": "German tourist bitten, pulled into water by monitor lizard in Thailand",
+            "url": "https://www.hindustantimes.com/trending/german-tourist-bitten-pulled-into-water-by-monitor-lizard-in-thailand-101795056021206.html",
+            "kind": "비극·범죄",
+            "event": "thailand-monitor-lizard-attack",
+            "reason": "독특하고 놀라운 사건으로, 독일인 관광객이 태국에서 도마뱀에게 물리고 물속으로 끌려간 일이다. 누가, 어디서, 무엇을 했는지가 명확하며, 직장인들이 점심시간에 흥미롭게 읽을 수 있는 이야기다.",
             "result": "통과"
           },
           {
-            "source": "Vice",
-            "title": "Mariah Carey’s Teenage Twins Give Nick Cannon a Brutal Reality Check About His 12 Kids",
-            "url": "https://www.vice.com/en/article/mariah-careys-teenage-twins-give-nick-cannon-a-brutal-reality-check-about-his-12-kids/",
-            "kind": "연예·운세",
-            "event": "mariah-carey-nick-cannon-kids",
-            "reason": "마라이어 캐리의 쌍둥이 자녀가 아버지 닉 캐넌에게 직설적인 현실 조언을 한 이야기로, 유명인 가족의 흥미로운 일화이며 웃기고 신기한 내용이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Vince Vaughn Buys His Own Rock Hall Ticket, Gets Unexpected Seat With Red Hot Chili Peppers",
-            "url": "https://www.vice.com/en/article/vince-vaughn-buys-his-own-rock-hall-ticket-gets-unexpected-seat-with-red-hot-chili-peppers/",
-            "kind": "연예·운세",
-            "event": "vince-vaughn-rock-hall",
-            "reason": "빈스 본이 록 명예의 전당 행사에서 자신의 티켓을 사서 예상치 못한 좌석을 얻은 재미있는 사건으로, 유명인 관련 신기한 이야기이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Good News Network",
-            "title": "This Blue Whale Population Grew 1,000% Since the End of Antarctic Whaling",
-            "url": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
-            "kind": "동물",
-            "event": "blue-whale-population-growth",
-            "reason": "남극 고래잡이 종료 이후 청고래 개체수가 1000% 증가한 놀라운 자연 회복 이야기로, 훈훈하고 신기한 내용이다.",
+            "source": "Daily Star",
+            "title": "Man who stopped at side of road to help choking wife fined £105",
+            "url": "https://www.dailystar.co.uk/news/latest-news/man-who-stopped-side-road-37893934",
+            "kind": "사람·도전",
+            "event": "uk-choking-wife-fine",
+            "reason": "긴급 상황에서 아내를 도우려던 남성이 벌금을 받은 황당한 사건이다. 누가, 어디서, 무엇을 했는지가 분명하며, 웃기고 신기한 이야기로 남에게 말해주기 좋다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "59-year-old British TV anchor announces pregnancy on live TV, hits back at trolls",
-            "url": "https://www.hindustantimes.com/trending/59yearold-british-tv-anchor-announces-pregnancy-on-live-tv-hits-back-at-trolls-101794978508226.html",
-            "kind": "사람·도전",
-            "event": "british-tv-anchor-pregnancy",
-            "reason": "59세 영국 TV 앵커가 라이브 방송에서 임신을 발표하고 악플러들에게 대응한 이야기로, 놀랍고 훈훈하며 남에게 이야기하고 싶은 내용이다.",
+            "title": "Swedish council chief Lars Eriksson fired after adult film past raises security concerns",
+            "url": "https://www.hindustantimes.com/trending/swedish-council-chief-lars-eriksson-fired-after-adult-film-past-raises-security-concerns-101795087742506.html",
+            "kind": "비극·범죄",
+            "event": "sweden-council-chief-fired",
+            "reason": "스웨덴 지방 의회장이 과거 성인 영화 출연 사실이 드러나 해임된 사건으로, 누가, 어디서, 무엇을 했는지가 명확하다. 충격적이고 흥미로운 이야기라 직장인들이 점심시간에 읽기 적합하다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Fiona the hippo receiving round-the-clock care after swallowing Cincinnati Zoo visitor's hat",
-            "url": "https://www.hindustantimes.com/trending/fiona-the-hippo-receiving-round-the-clock-care-after-swallowing-cincinnati-zoo-visitors-hat-101794978241225.html",
-            "kind": "동물",
-            "event": "fiona-hippo-hat-incident",
-            "reason": "신시내티 동물원의 하마 피오나가 방문객의 모자를 삼켜 24시간 집중 치료를 받는 사건으로, 웃기고 신기한 동물 관련 이야기이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Metro",
-            "title": "You can go ‘house-hunting’ at a gingerbread estate agent in London",
-            "url": "https://metro.co.uk/2026/11/18/can-go-house-hunting-a-gingerbread-estate-agent-london-29800878/",
-            "kind": "음식·물건",
-            "event": "gingerbread-estate-agent-london",
-            "reason": "런던에서 진저브레드 부동산 중개업소에서 집을 구경할 수 있다는 독특하고 재미있는 이야기로, 가볍게 읽기 좋고 남에게 말해주기 좋은 내용이다.",
-            "result": "통과"
-          },
-          {
-            "source": "Good News Network",
-            "title": "Siblings Build 430-Step ‘Sky Ladder’ for Their Mother Who Refuses to Live in the City",
-            "url": "https://www.goodnewsnetwork.org/siblings-build-430-step-sky-ladder-for-their-mother-who-refuses-to-live-in-the-city/",
+            "title": "Gamers ditch work and book PTO as GTA 6 finally arrives after 13-year wait",
+            "url": "https://www.hindustantimes.com/trending/gamers-ditch-work-and-book-pto-as-gta-6-finally-arrives-after-13-year-wait-101795055595973.html",
             "kind": "사람·도전",
-            "event": "china-sky-ladder-for-mother",
-            "reason": "중국에서 형제들이 도시 생활을 거부하는 어머니를 위해 430계단의 하늘 사다리를 손수 만든 감동적인 이야기로, 훈훈하고 남에게 이야기하고 싶은 내용이다.",
+            "event": "gta6-release-gamers-pto",
+            "reason": "13년 만에 출시된 GTA 6 때문에 게이머들이 일을 쉬고 게임에 몰입하는 모습이 흥미롭고 웃긴 이야기다. 누가, 어디서, 무엇을 했는지가 분명하며, 직장인들이 공감할 만한 내용이다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "‘Historic encounter’: Uncontacted indigenous people in Brazil ask villagers for food",
+            "url": "https://www.hindustantimes.com/trending/historic-encounter-uncontacted-indigenous-people-in-brazil-ask-villagers-for-food-101795061136665.html",
+            "kind": "사람·도전",
+            "event": "brazil-uncontacted-tribe-food",
+            "reason": "브라질에서 미접촉 원주민이 마을 사람들에게 음식을 요청한 역사적인 만남이다. 누가, 어디서, 무엇을 했는지가 명확하며 신기하고 훈훈한 이야기다.",
+            "result": "통과"
+          },
+          {
+            "source": "서울신문",
+            "title": "“귀여운 외모에 반전 괴력” 허벅지 두께 무려 64㎝…세계 놀라게 한 日여성 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500051",
+            "kind": "사람·도전",
+            "event": "japan-powerlifter-nomura-yu",
+            "reason": "일본 여성 파워리프터가 세계 대회에서 괴력을 발휘한 이야기로, 누가, 어디서, 무엇을 했는지가 분명하다. 신기하고 훈훈한 내용으로 직장인들이 점심시간에 읽기 좋다.",
             "result": "통과"
           }
         ]
@@ -413,185 +376,164 @@
     ],
     "final": [
       {
-        "source": "Vice",
-        "title": "Vince Vaughn Buys His Own Rock Hall Ticket, Gets Unexpected Seat With Red Hot Chili Peppers",
-        "url": "https://www.vice.com/en/article/vince-vaughn-buys-his-own-rock-hall-ticket-gets-unexpected-seat-with-red-hot-chili-peppers/",
-        "kind": "연예·운세",
-        "event": "2026-rock-hall-vince-vaughn",
-        "reason": "유명 배우 빈스 본이 록앤롤 명예의 전당 행사에서 직접 티켓을 구매하고 예상치 못한 좌석에서 레드 핫 칠리 페퍼스 공연을 관람했다는 사실이 흥미롭고 웃음을 자아내며, 누가 어디서 무엇을 했는지 명확하다.",
+        "source": "Good News Network",
+        "title": "She Checked on Her ‘Loud’ Upstairs Neighbor, Inspiring Strangers to Raise More Than $100,000",
+        "url": "https://www.goodnewsnetwork.org/loud-neighbor-parkinsons-gofundme/",
+        "kind": "사람·도전",
+        "event": "us-neighbor-fundraising",
+        "reason": "87세 파킨슨병 여성 이웃을 위해 낯선 사람들이 10만 달러 이상 모금한 훈훈한 이야기로, 국내 20~30대 직장인들이 점심시간에 읽기 좋고 남에게도 소개하고 싶을 만한 감동적인 내용이다.",
         "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "59-year-old British TV anchor announces pregnancy on live TV, hits back at trolls",
-        "url": "https://www.hindustantimes.com/trending/59yearold-british-tv-anchor-announces-pregnancy-on-live-tv-hits-back-at-trolls-101794978508226.html",
-        "kind": "사람·도전",
-        "event": "british-tv-anchor-pregnancy",
-        "reason": "59세 영국 TV 앵커가 라이브 방송에서 임신을 발표하고 악플러들에게 대응한 사건은 놀랍고 훈훈하며, 누가 어디서 무엇을 했는지 분명하다.",
-        "result": "선정"
-      },
-      {
-        "source": "서울신문",
-        "title": "집 고치다 철문과 ‘한 몸’ 된 손가락…2m 문짝 들고 병원 찾은 대만 여성 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261118500291",
+        "title": "German tourist bitten, pulled into water by monitor lizard in Thailand",
+        "url": "https://www.hindustantimes.com/trending/german-tourist-bitten-pulled-into-water-by-monitor-lizard-in-thailand-101795056021206.html",
         "kind": "비극·범죄",
-        "event": "taiwan-woman-door-accident",
-        "reason": "대만 여성의 손가락이 강력 접착제로 철문에 붙어 문짝을 들고 병원에 간 사건은 신기하고 웃기며, 누가 어디서 무엇을 했는지 명확하다.",
-        "result": "선정"
-      },
-      {
-        "source": "Vice",
-        "title": "Drake Surprises Mother and Son With $100,000 at NBA Game, Then Gives Them His Courtside Seats",
-        "url": "https://www.vice.com/en/article/drake-surprises-mother-and-son-with-100000-at-nba-game-then-gives-them-his-courtside-seats/",
-        "kind": "사람·도전",
-        "event": "drake-nba-surprise",
-        "reason": "드레이크가 NBA 경기에서 모자에게 10만 달러를 선물하고 자신의 코트사이드 좌석까지 준 훈훈한 이야기로, 누가 어디서 무엇을 했는지 분명하다.",
+        "event": "thailand-lizard-attack",
+        "reason": "태국에서 독특한 사건으로 독일 관광객이 도마뱀에게 물리고 물속으로 끌려간 실제 사건으로, 처음 들으면 '진짜?' 소리가 나올 만한 신기한 이야기다.",
         "result": "선정"
       },
       {
         "source": "Good News Network",
-        "title": "Siblings Build 430-Step ‘Sky Ladder’ for Their Mother Who Refuses to Live in the City",
-        "url": "https://www.goodnewsnetwork.org/siblings-build-430-step-sky-ladder-for-their-mother-who-refuses-to-live-in-the-city/",
-        "kind": "사람·도전",
-        "event": "china-sky-ladder",
-        "reason": "중국에서 형제들이 도시 생활을 거부하는 어머니를 위해 430계단의 하늘 사다리를 손수 만든 감동적인 이야기로, 누가 어디서 무엇을 했는지 명확하다.",
+        "title": "Over 100 Cave Bear Skeletons Found in ‘Sensational’ Discovery by Alpine Guide",
+        "url": "https://www.goodnewsnetwork.org/over-100-cave-bear-skeletons-found-in-sensational-discovery-by-alpine-guide/",
+        "kind": "발견·장소",
+        "event": "alpine-cave-bear-discovery",
+        "reason": "알프스에서 100마리 이상의 멸종된 동굴곰 화석이 발견된 놀라운 고고학적 발견으로, 신기하고 흥미로운 이야기라 점심시간 읽을거리로 적합하다.",
         "result": "선정"
       },
       {
         "source": "Daily Star",
-        "title": "Woman find's Britain's biggest spider crawling through her living room",
-        "url": "https://www.dailystar.co.uk/news/latest-news/woman-finds-britains-biggest-spider-37888549",
-        "kind": "동물",
-        "event": "uk-biggest-spider",
-        "reason": "영국에서 한 여성이 거실에서 영국 최대 거미를 발견한 사건은 신기하고 놀라우며, 누가 어디서 무엇을 했는지 분명하다.",
-        "result": "예비"
+        "title": "27-year-old woman thought shoulder pain was a gym injury until X-ray in A&E",
+        "url": "https://www.dailystar.co.uk/news/latest-news/27-year-old-woman-thought-37892829",
+        "kind": "사람·도전",
+        "event": "uk-woman-shoulder-pain",
+        "reason": "운동 부상으로 오인했던 어깨 통증이 심각한 문제였던 실제 사례로, 건강 경각심을 주면서도 흥미로운 이야기다.",
+        "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "Fiona the hippo receiving round-the-clock care after swallowing Cincinnati Zoo visitor's hat",
-        "url": "https://www.hindustantimes.com/trending/fiona-the-hippo-receiving-round-the-clock-care-after-swallowing-cincinnati-zoo-visitors-hat-101794978241225.html",
-        "kind": "동물",
-        "event": "fiona-hippo-hat",
-        "reason": "신시내티 동물원에서 하마 피오나가 방문객의 모자를 삼켜 24시간 간호를 받는 사건은 신기하고 웃기며, 누가 어디서 무엇을 했는지 명확하다.",
+        "title": "Hero in uniform: West Bengal cop jumps into Damodar River to rescue 3-year-old during Chhath Puja",
+        "url": "https://www.hindustantimes.com/trending/hero-in-uniform-west-bengal-cop-jumps-into-damodar-river-to-rescue-3-year-old-during-chhath-puja-101795069507735.html",
+        "kind": "사람·도전",
+        "event": "india-cop-rescue",
+        "reason": "인도에서 경찰이 어린이를 구한 훈훈한 사건으로, 누가 어디서 무엇을 했는지 명확하고 감동적인 이야기라 소개하기 좋다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Gamers ditch work and book PTO as GTA 6 finally arrives after 13-year wait",
+        "url": "https://www.hindustantimes.com/trending/gamers-ditch-work-and-book-pto-as-gta-6-finally-arrives-after-13-year-wait-101795055595973.html",
+        "kind": "사람·도전",
+        "event": "gaming-gta6-leave",
+        "reason": "13년 만에 출시된 GTA 6를 위해 직장인들이 휴가를 내고 게임에 몰입하는 재미있고 신기한 문화 현상으로, 국내외 젊은 직장인들이 공감할 만한 이야기다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Metro",
+        "title": "Space food is a step closer after spuds grown in ‘moon soil’ declared safe to eat",
+        "url": "https://metro.co.uk/2026/11/19/space-food-a-step-closer-spuds-grown-moon-soil-declared-safe-eat-29804049/",
+        "kind": "발견·장소",
+        "event": "space-potato-moon-soil",
+        "reason": "달 흙에서 재배한 감자가 안전하다고 판정되어 우주 식품 개발에 진전이 생긴 신기한 과학 소식으로, 흥미롭고 남에게 이야기하기 좋은 내용이다.",
         "result": "예비"
       },
       {
-        "source": "Good News Network",
-        "title": "This Blue Whale Population Grew 1,000% Since the End of Antarctic Whaling",
-        "url": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
+        "source": "Metro",
+        "title": "Chicken crossing the road left woman injured after driver forced to brake abruptly",
+        "url": "https://metro.co.uk/2026/11/19/chicken-crossing-road-left-woman-injured-driver-forced-brake-abruptly-29804578/",
         "kind": "동물",
-        "event": "antarctic-blue-whale-recovery",
-        "reason": "남극 고래잡이 종료 이후 남극 대왕고래 개체수가 1000% 증가한 희소식으로, 신기하고 훈훈하며, 누가 어디서 무엇을 했는지 분명하다.",
+        "event": "uk-chicken-road-accident",
+        "reason": "닭이 도로를 건너다 운전자가 급제동하면서 여성이 다친 독특하고 웃긴 사건으로, 가볍게 읽고 이야기하기 좋은 소재다.",
+        "result": "예비"
+      },
+      {
+        "source": "서울신문",
+        "title": "“귀여운 외모에 반전 괴력” 허벅지 두께 무려 64㎝…세계 놀라게 한 日여성 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261120500051",
+        "kind": "사람·도전",
+        "event": "japan-powerlifter-world-record",
+        "reason": "일본 여성 파워리프터 노무라 유가 세계대회에서 체급 상한 체중의 약 3.6배에 달하는 227.5㎏을 들어 올려 금메달을 획득한 실제 사건입니다. 허벅지 둘레 64㎝라는 독특한 신체 조건과 괴력으로 세계를 놀라게 한 점이 매우 흥미롭고, 직장인들이 점심시간에 가볍게 읽으며 주변에 이야기하기 좋은 내용입니다.",
         "result": "예비"
       }
     ],
     "final_out": [
       {
-        "source": "Indian Express",
-        "title": "Rare video of isolated Brazilian tribe emerges, sparks concern: ‘Leave them alone’",
-        "url": "https://indianexpress.com/article/trending/trending-globally/rare-video-of-isolated-brazilian-tribe-emerges-sparks-concern-10968401/",
-        "kind": "발견·장소"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Students Fighting to Save Poached Plant Species That Only Exists in Near Their Campus",
-        "url": "https://www.goodnewsnetwork.org/students-fighting-to-save-poached-plant-species-that-only-exists-near-their-campus/",
+        "source": "Hindustan Times",
+        "title": "‘Historic encounter’: Uncontacted indigenous people in Brazil ask villagers for food",
+        "url": "https://www.hindustantimes.com/trending/historic-encounter-uncontacted-indigenous-people-in-brazil-ask-villagers-for-food-101795061136665.html",
         "kind": "사람·도전"
-      },
-      {
-        "source": "Vice",
-        "title": "Mariah Carey’s Teenage Twins Give Nick Cannon a Brutal Reality Check About His 12 Kids",
-        "url": "https://www.vice.com/en/article/mariah-careys-teenage-twins-give-nick-cannon-a-brutal-reality-check-about-his-12-kids/",
-        "kind": "연예·운세"
-      },
-      {
-        "source": "Daily Star",
-        "title": "Jack the Ripper 'identified' in DNA breakthrough as killer 'unmasked'",
-        "url": "https://www.dailystar.co.uk/news/weird-news/jack-ripper-identified-dna-breakthrough-37882594",
-        "kind": "비극·범죄"
-      },
-      {
-        "source": "Daily Star",
-        "title": "Woman almost died after Turkey operation left her with cyst size of a baby",
-        "url": "https://www.dailystar.co.uk/news/latest-news/woman-almost-died-after-turkey-37888292",
-        "kind": "비극·범죄"
-      },
-      {
-        "source": "Daily Star",
-        "title": "'TikTok saved my life when video diagnosed problem I thought was eczema'",
-        "url": "https://www.dailystar.co.uk/news/latest-news/tiktok-saved-life-video-diagnosed-37889753",
-        "kind": "사람·도전"
-      },
-      {
-        "source": "Metro",
-        "title": "You can go ‘house-hunting’ at a gingerbread estate agent in London",
-        "url": "https://metro.co.uk/2026/11/18/can-go-house-hunting-a-gingerbread-estate-agent-london-29800878/",
-        "kind": "음식·물건"
       },
       {
         "source": "Hindustan Times",
-        "title": "Belfast school offers PlayStation, Xbox vouchers to students for attending classes on GTA 6 launch day",
-        "url": "https://www.hindustantimes.com/trending/belfast-school-offers-playstation-xbox-vouchers-to-students-for-attending-classes-on-gta-6-launch-day-101795010150981.html",
-        "kind": "법·행정"
+        "title": "Swedish council chief Lars Eriksson fired after adult film past raises security concerns",
+        "url": "https://www.hindustantimes.com/trending/swedish-council-chief-lars-eriksson-fired-after-adult-film-past-raises-security-concerns-101795087742506.html",
+        "kind": "비극·범죄"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Man who stopped at side of road to help choking wife fined £105",
+        "url": "https://www.dailystar.co.uk/news/latest-news/man-who-stopped-side-road-37893934",
+        "kind": "사람·도전"
       }
     ]
   },
   "rejected": [],
   "published": [
     {
-      "source": "Vice",
-      "headline": "2026년 록앤롤 명예의 전당 시상식, 배우 빈스 본 VIP로 초대",
-      "url": "https://www.vice.com/en/article/vince-vaughn-buys-his-own-rock-hall-ticket-gets-unexpected-seat-with-red-hot-chili-peppers/",
-      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/Web_Photo_Editor-2026-11-18T124126.660.jpg?w=1200",
-      "kind": "연예·운세",
+      "source": "Good News Network",
+      "headline": "파킨슨병 87세 여성, 이웃의 관심으로 10만 달러 이상 모금",
+      "url": "https://www.goodnewsnetwork.org/loud-neighbor-parkinsons-gofundme/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/IMG_8105-2.jpg",
+      "kind": "사람·도전",
       "topic": "사람",
-      "event": "2026-rock-hall-vince-vaughn",
-      "reason": "유명 배우 빈스 본이 록앤롤 명예의 전당 행사에서 직접 티켓을 구매하고 예상치 못한 좌석에서 레드 핫 칠리 페퍼스 공연을 관람했다는 사실이 흥미롭고 웃음을 자아내며, 누가 어디서 무엇을 했는지 명확하다.",
-      "why": "시상식 입장권 가격이 1만 달러에 달하며, 아티스트들은 게스트 티켓 정책과 높은 추가 입장료에 직면해 있습니다."
+      "event": "us-neighbor-fundraising",
+      "reason": "87세 파킨슨병 여성 이웃을 위해 낯선 사람들이 10만 달러 이상 모금한 훈훈한 이야기로, 국내 20~30대 직장인들이 점심시간에 읽기 좋고 남에게도 소개하고 싶을 만한 감동적인 내용이다.",
+      "why": "캐롤은 파킨슨병과 경제적 어려움으로 고립되어 있었고, 하이디가 이웃의 소리를 귀 기울여 확인한 것이 계기가 되어 도움의 손길이 이어졌습니다."
     },
     {
       "source": "Hindustan Times",
-      "headline": "59세 영국 TV 진행자 라이브 방송 중 임신 발표, 나이 비판에 반박",
-      "url": "https://www.hindustantimes.com/trending/59yearold-british-tv-anchor-announces-pregnancy-on-live-tv-hits-back-at-trolls-101794978508226.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/_Dr_Renee_Hoenderkamp_Pregnant_at_59_Viral_1794978964588_4eUr_1794978964976_ddy7_b66ccc9b-23c8-427b-9d9e-c6323bf1b312_vUEM.jpg",
-      "kind": "사람·도전",
-      "topic": "사람",
-      "event": "british-tv-anchor-pregnancy",
-      "reason": "59세 영국 TV 앵커가 라이브 방송에서 임신을 발표하고 악플러들에게 대응한 사건은 놀랍고 훈훈하며, 누가 어디서 무엇을 했는지 분명하다.",
-      "why": "영국에서는 출산율이 낮아 새로운 아이의 탄생이 사회적으로 중요한 이슈이며, 여성과 남성의 출산 및 육아에 대한 사회적 시선 차이가 존재합니다."
-    },
-    {
-      "source": "서울신문",
-      "headline": "대만 여성, 강력 접착제에 손가락 붙어 철문 들고 병원 방문",
-      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261118500291",
-      "image": "https://img.seoul.co.kr//img/upload/2026/11/18/SSC_20261118174939_O2.jpg.webp",
+      "headline": "태국 에라완 국립공원서 독일 관광객 도마뱀에 물려 물속으로 끌려가",
+      "url": "https://www.hindustantimes.com/trending/german-tourist-bitten-pulled-into-water-by-monitor-lizard-in-thailand-101795056021206.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/19/1600x900/logo/desiree-m-Qsbi2JcAcI4-unsplash_1795056105751_YYWA_1795056119258_OHcq_fa36f4cf-ffb7-40ca-9a50-5f07d1476315_7QAL.jpg",
       "kind": "비극·범죄",
       "topic": "사건·사고",
-      "event": "taiwan-woman-door-accident",
-      "reason": "대만 여성의 손가락이 강력 접착제로 철문에 붙어 문짝을 들고 병원에 간 사건은 신기하고 웃기며, 누가 어디서 무엇을 했는지 명확하다.",
-      "why": "접착제를 제거할 때는 피부 손상을 막기 위해 맨손으로 잡아당기거나 날카로운 도구 사용, 뜨거운 물과 유기용제 사용을 피해야 하며, 바셀린이나 베이비오일 같은 안전한 방법을 권장합니다."
-    },
-    {
-      "source": "Vice",
-      "headline": "드레이크, 토론토 랩터스 경기에서 엄마와 아들에게 10만 달러와 코트사이드 좌석 선물",
-      "url": "https://www.vice.com/en/article/drake-surprises-mother-and-son-with-100000-at-nba-game-then-gives-them-his-courtside-seats/",
-      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/Why-Drake-is-The-Most-Logical-Pick-for-Best-Rapper-of-2026.jpg?w=1200",
-      "kind": "사람·도전",
-      "topic": "사람",
-      "event": "drake-nba-surprise",
-      "reason": "드레이크가 NBA 경기에서 모자에게 10만 달러를 선물하고 자신의 코트사이드 좌석까지 준 훈훈한 이야기로, 누가 어디서 무엇을 했는지 분명하다.",
-      "why": "드레이크는 2026년에 여러 차례 선행을 펼쳤으며, 핑크츄와의 만남에서 어머니를 위한 집 선물을 약속한 바 있습니다."
+      "event": "thailand-lizard-attack",
+      "reason": "태국에서 독특한 사건으로 독일 관광객이 도마뱀에게 물리고 물속으로 끌려간 실제 사건으로, 처음 들으면 '진짜?' 소리가 나올 만한 신기한 이야기다.",
+      "why": "태국 야생동물보호법에 따라 도마뱀은 보호받는 야생동물로, 이번 사고를 계기로 국립공원은 안전 경고 표지판 설치와 순찰 강화 등 예방 조치를 강화했습니다."
     },
     {
       "source": "Good News Network",
-      "headline": "중국 노모 위해 자녀들이 산에 430계단 손수 만들어 드린 효도 길",
-      "url": "https://www.goodnewsnetwork.org/siblings-build-430-step-sky-ladder-for-their-mother-who-refuses-to-live-in-the-city/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/86-year-old-mother-Chen-family-photo.jpg",
+      "headline": "이탈리아 돌로미티에서 100마리 이상 멸종 동굴곰 화석 동굴 발견",
+      "url": "https://www.goodnewsnetwork.org/over-100-cave-bear-skeletons-found-in-sensational-discovery-by-alpine-guide/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-USP-Ufficio-Beni-archeologici-released-e1795074752326.jpg",
+      "kind": "발견·장소",
+      "topic": "발견·장소",
+      "event": "alpine-cave-bear-discovery",
+      "reason": "알프스에서 100마리 이상의 멸종된 동굴곰 화석이 발견된 놀라운 고고학적 발견으로, 신기하고 흥미로운 이야기라 점심시간 읽을거리로 적합하다.",
+      "why": "동굴곰은 마지막 빙하기 동안 식물 부족으로 인해 멸종한 것으로 추정되며, 이번 동굴은 이전에 도굴된 인근 동굴보다 더 많은 골격을 보존하고 있어 보호 조치가 필요했습니다."
+    },
+    {
+      "source": "Daily Star",
+      "headline": "27세 여성, 어깨 통증이 암 신호임을 발견하고 치료 시작",
+      "url": "https://www.dailystar.co.uk/news/latest-news/27-year-old-woman-thought-37892829",
+      "image": "https://i2-prod.dailystar.co.uk/article37892835.ece/ALTERNATES/s1200d/1_Jam_Press_JMP926024.jpg",
       "kind": "사람·도전",
       "topic": "사람",
-      "event": "china-sky-ladder",
-      "reason": "중국에서 형제들이 도시 생활을 거부하는 어머니를 위해 430계단의 하늘 사다리를 손수 만든 감동적인 이야기로, 누가 어디서 무엇을 했는지 명확하다.",
-      "why": "중국의 청명절에는 조상의 묘를 돌보는 전통이 있어 노모가 매년 산에 올라가야 했기 때문에 자녀들이 효도를 실천하기 위해 계단을 만들었습니다."
+      "event": "uk-woman-shoulder-pain",
+      "reason": "운동 부상으로 오인했던 어깨 통증이 심각한 문제였던 실제 사례로, 건강 경각심을 주면서도 흥미로운 이야기다.",
+      "why": "림프종은 혈액암의 일종으로, 초기 증상이 일반적인 통증과 유사해 진단이 늦어질 수 있어 조기 발견이 중요합니다."
+    },
+    {
+      "source": "Hindustan Times",
+      "headline": "서부 벵골 경찰관, 차트 푸자 축제 중 다모다르 강에 뛰어들어 3세 아이 구조",
+      "url": "https://www.hindustantimes.com/trending/hero-in-uniform-west-bengal-cop-jumps-into-damodar-river-to-rescue-3-year-old-during-chhath-puja-101795069507735.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/19/1600x900/logo/West_Bengal_Police_Save_Toddler_Viral_X_1795069813567_G86t_1795069813877_MCp0_ba7e7f32-ab68-4f8b-9022-4fbbf0e88a15_8jl8.png",
+      "kind": "사람·도전",
+      "topic": "사건·사고",
+      "event": "india-cop-rescue",
+      "reason": "인도에서 경찰이 어린이를 구한 훈훈한 사건으로, 누가 어디서 무엇을 했는지 명확하고 감동적인 이야기라 소개하기 좋다.",
+      "why": "차트 푸자 축제 기간 강가에 많은 인파가 몰려 아이가 눈에 띄지 않아 사고가 발생했습니다."
     }
   ]
 }

@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-11-06",
-  "source": "Hindustan Times",
-  "title": "California assistant steals $18 million from boss, spends it on Louis Vuitton bags, private jet trips",
-  "url": "https://www.hindustantimes.com/trending/us/california-assistant-steals-18-million-from-boss-spends-it-on-louis-vuitton-bags-private-jet-trips-101793853358750.html",
-  "event": "california-theft-luxury-spending"
- },
- {
-  "date": "2026-11-06",
-  "source": "Hindustan Times",
-  "title": "UK man allegedly stored body of ‘soulmate’ with her guinea pigs in freezer for 3 years",
-  "url": "https://www.hindustantimes.com/trending/uk-man-allegedly-stored-body-of-soulmate-with-her-guinea-pigs-in-freezer-for-3-years-101793868053725.html",
-  "event": "uk-freezer-body-storage"
- },
- {
-  "date": "2026-11-06",
-  "source": "Daily Star",
-  "title": "Woman running marathon is floored after spotting familiar face jogging by her side",
-  "url": "https://www.dailystar.co.uk/real-life/woman-running-marathon-floored-after-37847233",
-  "event": "ny-marathon-familiar-face"
- },
- {
-  "date": "2026-11-06",
-  "source": "Metro",
-  "title": "Police helicopter makes penis-shaped flight path – but not on purpose",
-  "url": "https://metro.co.uk/2026/11/05/police-helicopter-denies-making-penis-shaped-flight-path-purpose-29767323/",
-  "event": "police-helicopter-flight-path"
- },
- {
-  "date": "2026-11-06",
-  "source": "Good News Network",
-  "title": "400-yo Shipwreck Puzzle Finally Cracked After More Than 20 Years of Mystery",
-  "url": "https://www.goodnewsnetwork.org/400-yo-padlock-code-finally-cracked-more-than-20-years-after-being-found-in-shipwreck-treasure/",
-  "event": "wales-shipwreck-padlock"
- },
- {
   "date": "2026-11-07",
   "source": "Hindustan Times",
   "title": "Utah teen held captive for over 500 days used video game ‘Among Us’ to alert player, get rescued",
@@ -516,5 +481,40 @@
   "title": "Hero in uniform: West Bengal cop jumps into Damodar River to rescue 3-year-old during Chhath Puja",
   "url": "https://www.hindustantimes.com/trending/hero-in-uniform-west-bengal-cop-jumps-into-damodar-river-to-rescue-3-year-old-during-chhath-puja-101795069507735.html",
   "event": "india-cop-rescue"
+ },
+ {
+  "date": "2026-11-21",
+  "source": "Hindustan Times",
+  "title": "'Will you marry me?': Australian MP proposes to partner in Parliament during farewell speech",
+  "url": "https://www.hindustantimes.com/trending/will-you-marry-me-australian-mp-proposes-to-partner-in-parliament-during-farewell-speech-101795173582271.html",
+  "event": "australia-mp-proposal-parliament"
+ },
+ {
+  "date": "2026-11-21",
+  "source": "Hindustan Times",
+  "title": "Italian firefighters spend 2 days looking for python, then realise photo is AI-generated",
+  "url": "https://www.hindustantimes.com/trending/italian-firefighters-spend-2-days-looking-for-python-then-realise-photo-is-aigenerated-101795164584711.html",
+  "event": "italy-ai-python-firefighters"
+ },
+ {
+  "date": "2026-11-21",
+  "source": "Indian Express",
+  "title": "Punjab farmer bought lottery tickets in secret for 15 years, finally wins Rs 12 crore",
+  "url": "https://indianexpress.com/article/trending/trending-in-india/punjab-farmer-bought-lottery-tickets-in-secret-for-15-years-finally-wins-rs-12-crore-10970925/",
+  "event": "india-lottery-farmer-win"
+ },
+ {
+  "date": "2026-11-21",
+  "source": "Good News Network",
+  "title": "33 Kids Wrote Letters to a Wounded Veteran. 50 Years Later, His Son Is Searching to Thank Each One",
+  "url": "https://www.goodnewsnetwork.org/__trashed-70/",
+  "event": "usa-veteran-letters-thank"
+ },
+ {
+  "date": "2026-11-21",
+  "source": "Daily Star",
+  "title": "Man who died watching TV brought back by wife with no memory of last five days",
+  "url": "https://www.dailystar.co.uk/news/latest-news/man-who-died-watching-tv-37897366",
+  "event": "uk-man-death-memory-loss"
  }
 ]

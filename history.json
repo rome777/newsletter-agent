@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-11-07",
-  "source": "Hindustan Times",
-  "title": "Utah teen held captive for over 500 days used video game ‘Among Us’ to alert player, get rescued",
-  "url": "https://www.hindustantimes.com/trending/utah-teen-held-captive-for-over-500-days-used-video-game-among-us-to-alert-player-get-rescued-101793950121520.html",
-  "event": "utah-teen-among-us-rescue"
- },
- {
-  "date": "2026-11-07",
-  "source": "Hindustan Times",
-  "title": "Bhutan builds and consecrates 108 Buddhist stupas in just 9 hours, enters Guinness World Records",
-  "url": "https://www.hindustantimes.com/trending/bhutan-builds-and-consecrates-108-buddhist-stupas-in-just-9-hours-enters-guinness-world-records-101793969004203.html",
-  "event": "bhutan-stupas-guinness-record"
- },
- {
-  "date": "2026-11-07",
-  "source": "Good News Network",
-  "title": "Man Spends 12 Days Returning Lost Cash a Laborer Needed for His Daughter",
-  "url": "https://www.goodnewsnetwork.org/man-spends-12-days-returning-lost-cash-a-laborer-needed-for-his-daughter/",
-  "event": "brazil-man-returns-lost-cash"
- },
- {
-  "date": "2026-11-07",
-  "source": "Good News Network",
-  "title": "Venomous Primate Believed Extinct for 100 Years Was Hiding in Plain Sight All Along",
-  "url": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
-  "event": "bangka-slow-loris-discovery"
- },
- {
-  "date": "2026-11-07",
-  "source": "Metro",
-  "title": "The man who sleeps with thousands of bedbugs for science",
-  "url": "https://metro.co.uk/2026/11/06/man-sleeps-thousands-bedbugs-science-29770892/",
-  "event": "bedbug-science-experiment"
- },
- {
   "date": "2026-11-08",
   "source": "Hindustan Times",
   "title": "British runner sets world record after completing marathon distances in all 50 US states, raises funds for cancer research",
@@ -516,5 +481,40 @@
   "title": "Man who died watching TV brought back by wife with no memory of last five days",
   "url": "https://www.dailystar.co.uk/news/latest-news/man-who-died-watching-tv-37897366",
   "event": "uk-man-death-memory-loss"
+ },
+ {
+  "date": "2026-11-22",
+  "source": "Good News Network",
+  "title": "Pub Owner Spends Thousands on Stunning Holiday Display–All to Cheer Up Depressed Locals",
+  "url": "https://www.goodnewsnetwork.org/pub-owner-spends-thousands-on-stunning-holiday-display-all-to-cheer-up-depressed-locals/",
+  "event": "uk-pub-owner-holiday-display"
+ },
+ {
+  "date": "2026-11-22",
+  "source": "Hindustan Times",
+  "title": "UK police recovers £799 orangutan statue two months after thief stole it on bicycle",
+  "url": "https://www.hindustantimes.com/trending/uk-police-recovers-799-orangutan-statue-two-months-after-thief-stole-it-on-bicycle-101795237139487.html",
+  "event": "uk-orangutan-statue-theft"
+ },
+ {
+  "date": "2026-11-22",
+  "source": "Good News Network",
+  "title": "Breath of a Whale Captured by Drone Allows Full Genome Sequencing Without Intrusion",
+  "url": "https://www.goodnewsnetwork.org/breath-of-whale-captured-via-drone-to-complete-genome-sequence/",
+  "event": "whale-genome-drone"
+ },
+ {
+  "date": "2026-11-22",
+  "source": "Daily Star",
+  "title": "Mum who 'died' in crash that killed woman now 'knows what happens' when we pass",
+  "url": "https://www.dailystar.co.uk/news/weird-news/mum-who-died-crash-killed-37901619",
+  "event": "near-death-experience-mum"
+ },
+ {
+  "date": "2026-11-22",
+  "source": "Hindustan Times",
+  "title": "US police officer rescues 86-year-old man who fell on railway tracks after walker got stuck",
+  "url": "https://www.hindustantimes.com/trending/us/us-police-officer-rescues-86-year-old-man-who-fell-on-railway-tracks-after-walker-got-stuck-101795242620587.html",
+  "event": "us-police-rescue-elderly"
  }
 ]

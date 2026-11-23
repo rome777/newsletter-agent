@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-11-08",
-  "source": "Hindustan Times",
-  "title": "British runner sets world record after completing marathon distances in all 50 US states, raises funds for cancer research",
-  "url": "https://www.hindustantimes.com/trending/british-runner-sets-world-record-after-completing-marathon-distances-in-all-50-us-states-raises-funds-for-cancer-research-101794028424536.html",
-  "event": "uk-runner-marathon-50states"
- },
- {
-  "date": "2026-11-08",
-  "source": "Good News Network",
-  "title": "Mayor Uses AirTag to Catch Capstone Thief who was Stealing 18th-Century Stones Across the Countryside",
-  "url": "https://www.goodnewsnetwork.org/mayor-uses-airtag-to-catch-capstone-thief/",
-  "event": "uk-mayor-catches-thief"
- },
- {
-  "date": "2026-11-08",
-  "source": "Good News Network",
-  "title": "Baby Saved After Racing Heartbeat Detected by Family Doberman",
-  "url": "https://www.goodnewsnetwork.org/baby-saved-as-racing-heartbeat-detected-by-pet/",
-  "event": "dog-saves-baby"
- },
- {
-  "date": "2026-11-08",
-  "source": "Hindustan Times",
-  "title": "Drone delivers bananas to chimpanzees after severe flooding hits Florida sanctuary",
-  "url": "https://www.hindustantimes.com/trending/us/drone-delivers-bananas-to-chimpanzees-after-severe-flooding-hits-florida-sanctuary-101794046991374.html",
-  "event": "florida-chimpanzee-drone"
- },
- {
-  "date": "2026-11-08",
-  "source": "Vice",
-  "title": "Man Dies at His 97th Birthday Party Shortly After Dancing to ‘Stayin’ Alive’",
-  "url": "https://www.vice.com/en/article/man-dies-at-his-97th-birthday-party-shortly-after-dancing-to-stayin-alive/",
-  "event": "man-dies-dancing"
- },
- {
   "date": "2026-11-09",
   "source": "서울신문",
   "title": "우연 겹쳤을 뿐인데…‘영수증 먹통’ 주유기 덕에 27억원 대박 난 남성 [월드픽]",
@@ -516,5 +481,40 @@
   "title": "US police officer rescues 86-year-old man who fell on railway tracks after walker got stuck",
   "url": "https://www.hindustantimes.com/trending/us/us-police-officer-rescues-86-year-old-man-who-fell-on-railway-tracks-after-walker-got-stuck-101795242620587.html",
   "event": "us-police-rescue-elderly"
+ },
+ {
+  "date": "2026-11-23",
+  "source": "Hindustan Times",
+  "title": "New Zealand woman swallows fork while trying to induce vomiting, forcing doctors to operate",
+  "url": "https://www.hindustantimes.com/trending/woman-swallows-fork-while-trying-to-induce-vomiting-forcing-doctors-to-operate-101795319720616.html",
+  "event": "new-zealand-fork-surgery"
+ },
+ {
+  "date": "2026-11-23",
+  "source": "Hindustan Times",
+  "title": "Man seen firing shots at Agra wedding tracked down and arrested after video goes viral",
+  "url": "https://www.hindustantimes.com/trending/man-seen-firing-shots-at-agra-wedding-tracked-down-and-arrested-after-video-goes-viral-101795327631611.html",
+  "event": "agra-wedding-shooting"
+ },
+ {
+  "date": "2026-11-23",
+  "source": "서울신문",
+  "title": "100세까지 장수했는데 집 근처서 차에 치여 숨져… “열흘간 조기 게양” 어르신 기린 美마을 [월드픽]",
+  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261123500001",
+  "event": "us-elderly-accident"
+ },
+ {
+  "date": "2026-11-23",
+  "source": "Good News Network",
+  "title": "The First Museum Built in a Children’s Hospital Fulfills Dying Boy’s Wish For Playtime During Chemo",
+  "url": "https://www.goodnewsnetwork.org/the-first-museum-built-in-a-childrens-hospital-fulfills-dying-boys-wish/",
+  "event": "childrens-hospital-museum"
+ },
+ {
+  "date": "2026-11-23",
+  "source": "Good News Network",
+  "title": "‘Extraordinary’ Drug May Actually Cure High Blood Pressure Caused by Hormones, And it’s FDA-Approved",
+  "url": "https://www.goodnewsnetwork.org/drug-may-actually-cure-high-blood-pressure-caused-by-hormones/",
+  "event": "fda-approved-drug"
  }
 ]

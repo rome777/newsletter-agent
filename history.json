@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-11-09",
-  "source": "서울신문",
-  "title": "우연 겹쳤을 뿐인데…‘영수증 먹통’ 주유기 덕에 27억원 대박 난 남성 [월드픽]",
-  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261108500077",
-  "event": "usa-lottery-winner-gas-station"
- },
- {
-  "date": "2026-11-09",
-  "source": "서울신문",
-  "title": "가방 열자 거미 3000마리 ‘득실득실’…공항서 타란툴라 밀반출 적발 [월드픽]",
-  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261109500044",
-  "event": "peru-tarantula-smuggling"
- },
- {
-  "date": "2026-11-09",
-  "source": "Vice",
-  "title": "This Siberian Tomb Holds the Earliest Concrete Evidence of Cannabis Use Ever Discovered",
-  "url": "https://www.vice.com/en/article/this-siberian-tomb-holds-the-earliest-concrete-evidence-of-cannabis-use-ever-discovered/",
-  "event": "siberia-cannabis-archaeology"
- },
- {
-  "date": "2026-11-09",
-  "source": "Good News Network",
-  "title": "Lucky Bird Found in Storm Drain a Mile From Home After Passing Driver Happens to Spot it Hopping in",
-  "url": "https://www.goodnewsnetwork.org/lucky-bird-found-in-storm-drain-a-mile-from-home/",
-  "event": "uk-lost-budgie-found"
- },
- {
-  "date": "2026-11-09",
-  "source": "Hindustan Times",
-  "title": "US skydiver returns to the skies after cancer treatment, sets wingsuit record at 74",
-  "url": "https://www.hindustantimes.com/trending/us-skydiver-returns-to-the-skies-after-cancer-treatment-sets-wingsuit-record-at-74-101794135464441.html",
-  "event": "usa-skydiver-cancer-record"
- },
- {
   "date": "2026-11-10",
   "source": "Vice",
   "title": "48 Years Ago, a TV Crew Went to Investigate UFO Reports and Actually Captured Them on Camera",
@@ -516,5 +481,40 @@
   "title": "‘Extraordinary’ Drug May Actually Cure High Blood Pressure Caused by Hormones, And it’s FDA-Approved",
   "url": "https://www.goodnewsnetwork.org/drug-may-actually-cure-high-blood-pressure-caused-by-hormones/",
   "event": "fda-approved-drug"
+ },
+ {
+  "date": "2026-11-24",
+  "source": "서울신문",
+  "title": "‘버스 손잡이’ 혀로 핥는 영상 SNS 확산…日 버스기사 ‘위생 테러’ 경악 [월드픽]",
+  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500136",
+  "event": "japan-bus-driver-licking-handle"
+ },
+ {
+  "date": "2026-11-24",
+  "source": "서울신문",
+  "title": "온 가족 보는 생방송에 ‘신음 소리’…英 예능 ‘발칵’, 범인은 유튜버 [월드픽]",
+  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261123500226",
+  "event": "uk-live-show-incident"
+ },
+ {
+  "date": "2026-11-24",
+  "source": "Good News Network",
+  "title": "Determined Volunteer Rescues Lost Toddler in the Desert: ‘She may not be our child, but she could be’",
+  "url": "https://www.goodnewsnetwork.org/determined-volunteer-rescues-lost-toddler-in-the-desert-she-may-not-be-our-child-but-she-could-be/",
+  "event": "arizona-toddler-rescue"
+ },
+ {
+  "date": "2026-11-24",
+  "source": "Hindustan Times",
+  "title": "Texas woman transforms bone fragments from her facial surgery into custom earrings",
+  "url": "https://www.hindustantimes.com/trending/texas-woman-transforms-bone-fragments-from-her-facial-surgery-into-custom-earrings-101795412275023.html",
+  "event": "texas-bone-earrings"
+ },
+ {
+  "date": "2026-11-24",
+  "source": "Hindustan Times",
+  "title": "Indian entrepreneur in Dubai cycles on Sheikh Zayed Road, runs 10 km wearing saree",
+  "url": "https://www.hindustantimes.com/trending/indian-entrepreneur-in-dubai-cycles-on-sheikh-zayed-road-runs-10-km-wearing-saree-101795419587910.html",
+  "event": "dubai-saree-run"
  }
 ]

@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-11-10",
-  "source": "Vice",
-  "title": "48 Years Ago, a TV Crew Went to Investigate UFO Reports and Actually Captured Them on Camera",
-  "url": "https://www.vice.com/en/article/48-years-ago-a-tv-crew-went-to-investigate-ufo-reports-and-actually-captured-them-on-camera/",
-  "event": "new-zealand-ufo-1978"
- },
- {
-  "date": "2026-11-10",
-  "source": "Daily Star",
-  "title": "'I've buried a 737 jet in my back garden to be a war bunker and party pad'",
-  "url": "https://www.dailystar.co.uk/news/uk-news/ive-buried-737-jet-back-37858653",
-  "event": "uk-737-bunker"
- },
- {
-  "date": "2026-11-10",
-  "source": "Good News Network",
-  "title": "Man’s Halloween Skeletons Prove Perfect Treat to Woman Battling Breast Cancer",
-  "url": "https://www.goodnewsnetwork.org/mans-halloween-skeletons-prove-perfect-treat-to-woman-battling-breast-cancer/",
-  "event": "us-halloween-skeletons-cancer"
- },
- {
-  "date": "2026-11-10",
-  "source": "Vice",
-  "title": "Volunteer Divers Just Discovered a World War II Shipwreck That Had Been Missing for More Than 80 Years",
-  "url": "https://www.vice.com/en/article/volunteer-divers-just-discovered-a-world-war-ii-shipwreck-that-had-been-missing-for-more-than-80-years/",
-  "event": "us-ww2-shipwreck"
- },
- {
-  "date": "2026-11-10",
-  "source": "Hindustan Times",
-  "title": "'Never too late': 91-year-old athlete still breaking records in steeplechase, hurdles and pole vault",
-  "url": "https://www.hindustantimes.com/trending/never-too-late-91-year-old-athlete-still-breaking-records-in-steeplechase-hurdles-and-pole-vault-101794205775554.html",
-  "event": "us-old-athlete-records"
- },
- {
   "date": "2026-11-11",
   "source": "Hindustan Times",
   "title": "College dropout, 23, earns six-figure salary as Walmart's youngest US store manager",
@@ -516,5 +481,40 @@
   "title": "Indian entrepreneur in Dubai cycles on Sheikh Zayed Road, runs 10 km wearing saree",
   "url": "https://www.hindustantimes.com/trending/indian-entrepreneur-in-dubai-cycles-on-sheikh-zayed-road-runs-10-km-wearing-saree-101795419587910.html",
   "event": "dubai-saree-run"
+ },
+ {
+  "date": "2026-11-25",
+  "source": "서울신문",
+  "title": "“딱 보면 잔디밭인데” 한 발 내딛자 물속 ‘풍덩’…30대女 끝내 숨졌다 [월드픽]",
+  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500286",
+  "event": "uk-canal-accident-2024"
+ },
+ {
+  "date": "2026-11-25",
+  "source": "Good News Network",
+  "title": "Retired Teacher Turns Retired Musical Instruments into Bird Feeders (LOOK)",
+  "url": "https://www.goodnewsnetwork.org/retired-teacher-turns-retired-musical-instruments-into-bird-feeders-look/",
+  "event": "canada-musical-instruments-birdfeeders-2024"
+ },
+ {
+  "date": "2026-11-25",
+  "source": "Daily Star",
+  "title": "Skydiver forgets to tighten goggles before jump then instantly regret it",
+  "url": "https://www.dailystar.co.uk/real-life/skydiving-goggles-viral-news-instagram-37909403",
+  "event": "skydiving-goggles-incident-2024"
+ },
+ {
+  "date": "2026-11-25",
+  "source": "Hindustan Times",
+  "title": "Divorced Japanese couple remarries each other in Lucknow temple: ‘It was a very precious experience’",
+  "url": "https://www.hindustantimes.com/trending/divorced-japanese-couple-remarries-each-other-in-lucknow-temple-it-was-a-very-precious-experience-101795506714087.html",
+  "event": "japan-couple-remarriage-india-2024"
+ },
+ {
+  "date": "2026-11-25",
+  "source": "Hindustan Times",
+  "title": "Indian expats carry 30-metre UAE flag at Dubai Run, feature in Crown Prince's video",
+  "url": "https://www.hindustantimes.com/trending/indian-expats-carry-30-metre-uae-flag-at-dubai-run-feature-in-crown-princes-video-101795511033887.html",
+  "event": "india-uae-flag-dubai-run-2024"
  }
 ]

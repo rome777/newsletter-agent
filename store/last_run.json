@@ -1,374 +1,388 @@
 {
-  "at": "2026-11-24T14:33:20",
+  "at": "2026-11-25T13:37:07",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 62건 · 소스 7곳 · 응답 없음 ['Indian Express']",
-    "② 선별   62 → 홍보 제외 62 → 라벨 제외 34 → 예선 2조 15 → 5건 + 예비 3",
-    "   선정 [서울신문] ‘버스 손잡이’ 혀로 핥는 영상 SNS 확산…日 버스기사 ‘위생 테러’ 경악 [월드픽] — 일본에서 버스 운전기사가 손잡이를 혀로 핥는 영상이 SNS에서 확산되어 큰 충격과 비판을 받았고, 회사가 공식 사과하며 징계 검토에 들어간 사건으로, 실제로 일어난 일이며 누가 어디서 무엇을 했는지가 명확하다. 매우 신기하고 오싹한 이야기라 직장인들이 점심시간에 읽기 좋다.",
-    "   선정 [서울신문] 온 가족 보는 생방송에 ‘신음 소리’…英 예능 ‘발칵’, 범인은 유튜버 [월드픽] — 영국의 인기 생방송 예능 프로그램에서 갑자기 성행위를 연상시키는 신음 소리가 나와 방송이 발칵 뒤집혔고, 범인은 유명 유튜버로 밝혀져 경찰 조사와 형사처벌 위기에 놓인 사건이다. 실제 사건이며 누가 어디서 무엇을 했는지 분명해 흥미롭고 이야기할 만하다.",
-    "   선정 [Good News Network] Determined Volunteer Rescues Lost Toddler in the D — 미국 애리조나에서 한 할아버지가 사막에서 길 잃은 어린아이를 구조한 훈훈한 이야기로, 실제 일어난 일이며 누가 어디서 무엇을 했는지가 명확하다. 직장인들이 점심시간에 읽기 좋은 따뜻한 이야기이다.",
-    "   선정 [Hindustan Times] Texas woman transforms bone fragments from her fac — 텍사스 여성의 얼굴 수술 중 나온 뼛조각을 맞춤 귀걸이로 만든 독특하고 신기한 이야기로, 실제 사건이며 누가 어디서 무엇을 했는지가 분명하다. 가볍게 읽기 좋고 남에게도 이야기할 만하다.",
-    "   선정 [Hindustan Times] Indian entrepreneur in Dubai cycles on Sheikh Zaye — 인도 출신 두바이 사업가가 사리 차림으로 10km를 달리고 자전거를 탄 독특한 일화로, 실제 인물과 장소가 명확하다. 신기하고 흥미로운 이야기라 점심시간 읽기에 적합하다.",
-    "   예비 [Good News Network] Freddie Nole Waits at the Prison Gates So No One W — 미국에서 프레디 놀이라는 사람이 교도소 출소자들이 혼자 나오지 않도록 문 앞에서 기다리는 훈훈한 이야기로, 실제 사건이며 누가 어디서 무엇을 했는지 명확하다. 점심시간에 읽기 좋은 따뜻한 이야기이다.",
-    "   예비 [Metro] Police call in shaman to rid station of ‘evil spir — 실제로 영국 경찰이 역에서 '악령'을 쫓기 위해 무당을 불렀다는 사실이 매우 신기하고 웃기며, 누가 어디서 무엇을 했는지가 명확하게 드러나 있어 점심시간에 읽기 좋다.",
-    "   예비 [Vice] There’s an NPC in GTA 6 Who Knows He’s in a Video  — GTA 6 게임 내에서 자신이 게임 속 캐릭터임을 아는 NPC가 있다는 사실은 신기하고 흥미로워서 직장인들이 친구에게 이야기하기 좋다. 게임과 관련된 해외 사건이며 구체적인 내용이 포함되어 있다.",
+    "① 수집   24시간 time window · 66건 · 소스 7곳 · 응답 없음 ['Indian Express']",
+    "② 선별   66 → 홍보 제외 66 → 라벨 제외 36 → 예선 2조 15 → 5건 + 예비 3 · 최근 발행 1",
+    "   선정 [서울신문] “딱 보면 잔디밭인데” 한 발 내딛자 물속 ‘풍덩’…30대女 끝내 숨졌다 [월드픽] — 영국에서 실제로 발생한 사고로, 잔디밭으로 착각한 운하 위 식물 때문에 30대 여성이 물에 빠져 숨진 사건은 처음 들으면 '진짜?'라는 반응이 나올 만큼 충격적이고 안타깝다. 누가, 어디서, 무엇을 했는지 명확히 나와 있어 독자들이 관심을 가질 만하다.",
+    "   선정 [Good News Network] Retired Teacher Turns Retired Musical Instruments  — 캐나다의 은퇴 교사가 폐기된 악기를 새 먹이통으로 재활용하는 따뜻하고 신기한 이야기로, 남에게 소개하고 싶은 훈훈한 내용이다. 출처와 인물, 장소가 명확하다.",
+    "   선정 [Daily Star] Skydiver forgets to tighten goggles before jump th — 스카이다이버가 고글을 조이지 않고 점프해 벌어진 웃긴 실수 영상으로, 가볍게 읽기 좋고 '진짜?'라는 반응을 유발할 수 있다. 누가, 무엇을 했는지 분명하다.",
+    "   선정 [Hindustan Times] Divorced Japanese couple remarries each other in L — 일본 부부가 인도에서 이혼 후 다시 결혼한 독특하고 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지 명확해 흥미롭다. 일본과 인도 이야기로 국가 중복 제한에 걸리지 않는다.",
+    "   선정 [Hindustan Times] Indian expats carry 30-metre UAE flag at Dubai Run — 인도 교민들이 두바이 행사에서 대형 UAE 국기를 들고 크라운 프린스 영상에 등장한 훈훈한 소식으로, 누가, 어디서, 무엇을 했는지 분명하다. 인도와 UAE 이야기로 국가 중복 제한에 걸리지 않는다.",
+    "   예비 [Vice] 2 Chainz Survives Terrifying Tesla Cybertruck Cras — 미국 유명 래퍼 2 Chainz가 테슬라 사이버트럭 사고에서 살아남은 실제 사건으로, 충격적이고 신기해 남에게 말해주기 좋다. 누가, 어디서, 무엇을 했는지 분명하다.",
+    "   예비 [서울신문] “엄마, 학생 때 쓰던 거 없어?” 30년 지났는데도 ‘인기 폭발’…1억대 팔린 ‘이것’  — 1990년대에 처음 등장한 다마고치가 30년이 지난 지금도 여전히 인기를 끌며 1억대 이상 팔렸다는 사실은 신기하고 흥미롭다. 일본에서 시작된 이 게임기는 누가, 어디서, 무엇을 했는지 명확히 나오며, 향수를 자극하는 이야기라 직장인들이 점심시간에 가볍게 읽기 좋다.",
+    "   예비 [Good News Network] Charity Swaps Tuition Fees for Coconuts So Every I — 미크로네시아의 한 학교에서 코코넛을 학비로 교환하는 독특한 방식으로 모든 섬 주민이 교육을 받을 수 있게 한 실제 사례는 훈훈하고 신기하다. 누가, 어디서, 무엇을 했는지 분명히 나오며, 국내외 직장인들이 남에게 이야기해주고 싶을 만한 따뜻한 이야기다.",
     "④ 검수   8 → 5건",
     "⑤ 발행   5건 · sent"
   ],
   "selection": {
-    "candidates": 62,
+    "candidates": 66,
     "already_sent": [],
     "promo": [],
     "labels": {
       "사람·도전": 15,
-      "비극·범죄": 10,
+      "비극·범죄": 13,
+      "발견·장소": 3,
       "연예·운세": 5,
-      "기타": 1,
-      "일반 뉴스": 19,
-      "음식·물건": 8,
-      "동물": 1,
-      "법·행정": 3
+      "일반 뉴스": 25,
+      "기타": 3,
+      "음식·물건": 1,
+      "법·행정": 1
     },
     "label_dropped": [
       {
         "source": "Hindustan Times",
-        "title": "Jensen Huang is back, and so are the memes: A look at posts celebrating his return to Nvidia",
-        "url": "https://www.hindustantimes.com/trending/jensen-huang-is-back-and-so-are-the-memes-a-look-at-posts-celebrating-his-return-to-nvidia-101795492722979.html",
+        "title": "Turkish officials backtrack after 24-hour hunt for Istanbul lioness, saying she never existed",
+        "url": "https://www.hindustantimes.com/trending/turkish-officials-backtrack-after-24-hour-hunt-for-istanbul-lioness-saying-she-never-existed-101795569539437.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Google rejects rumours of 'huge layoffs' in India, says 30 roles were eliminated",
-        "url": "https://www.hindustantimes.com/trending/google-rejects-rumours-of-huge-layoffs-in-india-says-30-roles-were-eliminated-101795487055896.html",
+        "title": "US CEO gives employees an extra day off to play GTA 6 after Instagram video gets 1.6 million likes",
+        "url": "https://www.hindustantimes.com/trending/us-ceo-gives-employees-an-extra-day-off-to-play-gta-6-after-instagram-video-gets-1-6-million-likes-101795534880880.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Elon Musk on standing by Jensen Huang: 'Fair-weather friends are worthless'",
-        "url": "https://www.hindustantimes.com/trending/elon-musk-on-standing-by-jensen-huang-fair-weather-friends-are-worthless-101795483650684.html",
+        "title": "‘When elephants dance, everyone moves to give space’: Uday Kotak on Jensen Huang’s return as Nvidia CEO",
+        "url": "https://www.hindustantimes.com/trending/when-elephants-dance-everyone-moves-to-give-space-uday-kotak-on-jensen-huang-s-return-as-nvidia-ceo-101795529089683.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "‘AI will run the world': US CEO tells employees to complete 5-hour AI course or risk poor performance reviews",
-        "url": "https://www.hindustantimes.com/trending/us/ai-will-run-the-world-us-ceo-tells-employees-to-complete-5-hour-ai-course-or-risk-poor-performance-reviews-101795450288031.html",
+        "title": "‘Asambhav, asambhav’: Memes flood X as Vaibhav Sooryavanshi smashes fastest List A double century",
+        "url": "https://www.hindustantimes.com/trending/asambhav-asambhav-memes-flood-x-as-vaibhav-sooryavanshi-smashes-fastest-list-a-double-century-101795523919435.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "'Mistake has been corrected': Elon Musk after Nvidia reinstates Jensen Huang as CEO",
-        "url": "https://www.hindustantimes.com/trending/us/mistake-has-been-corrected-elon-musk-after-nvidia-reinstates-jensen-huang-as-ceo-101795446504326.html",
+        "title": "Bengaluru airport denies maggots in lounge food, says sprouted lentils were mistaken for worms",
+        "url": "https://www.hindustantimes.com/trending/bengaluru-airport-denies-maggots-in-lounge-food-says-sprouted-lentils-were-mistaken-for-worms-101795511803940.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Airbnb CEO Brian Chesky explains why founder CEOs are hard to replace amid Jensen Huang's exit",
-        "url": "https://www.hindustantimes.com/trending/airbnb-ceo-brian-chesky-explains-why-founder-ceos-are-hard-to-replace-amid-jensen-huangs-exit-101795431938731.html",
+        "title": "LinkedIn CEO says job market is ‘frozen’, but Gen Z may have an unexpected AI advantage",
+        "url": "https://www.hindustantimes.com/trending/linkedin-ceo-says-job-market-is-frozen-but-gen-z-may-have-an-unexpected-ai-advantage-101795506701170.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "‘Knuckleheads’: Shopify CEO criticises Nvidia board over Jensen Huang’s resignation",
-        "url": "https://www.hindustantimes.com/trending/knuckleheads-shopify-ceo-criticises-nvidia-board-over-jensen-huang-s-resignation-101795418910110.html",
+        "title": "Nvidia employee who quit over Jensen Huang’s exit says he’s open to returning",
+        "url": "https://www.hindustantimes.com/trending/nvidia-employee-who-quit-over-jensen-huang-s-exit-says-he-s-open-to-returning-101795504389647.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Watch | China’s ‘wingless flying car’ hovers, manoeuvres and lands smoothly in maiden test flight",
+        "url": "https://www.hindustantimes.com/trending/watch-china-s-wingless-flying-car-hovers-maneuvers-and-lands-smoothly-in-maiden-test-flight-101795503749952.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "Dungeons and Dragons Rolls Out Brand-New Content Type on D&D Beyond",
+        "url": "https://www.vice.com/en/article/dungeons-and-dragons-rolls-out-brand-new-content-type-on-dd-beyond/",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Vice",
+        "title": "Limp Bizkit Reveals Years of Music Were Lost in Wildfires as Band Records New Album",
+        "url": "https://www.vice.com/en/article/limp-bizkit-reveals-years-of-music-were-lost-in-wildfires-as-band-records-new-album/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Good News Network",
-        "title": "Good News in History, November 23",
-        "url": "https://www.goodnewsnetwork.org/events061123/",
+        "title": "Major Success Sees Viral Infections Fall 68% in Brazil After Releasing Wolbachia-Infected Mosquitoes",
+        "url": "https://www.goodnewsnetwork.org/major-success-sees-viral-infections-fall-68-in-brazil-after-releasing-wolbachia-infected-mosquitoes/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "베일 벗는 中 ‘괴물 구축함’…다음 달 주하이 에어쇼서 1만t급 055형 전격 공개 [밀리터리노트]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500095",
+        "title": "“나 오늘 너희 집에서 자면 안돼?” 역대 최고치…학생 155만명 거리로 내몰렸다 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500008",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "스페인에 프랑스·이탈리아… 유럽 ‘선거 슈퍼사이클’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124012005",
+        "title": "‘핵폭격기’ 띄워 울릉도 뒤집은 러 “국제법 하나도 위반 안 해”…원론적 입장 [배틀라인]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500001",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "크림반도 보급로 끊긴 푸틴의 분노…우크라 수도 인근 아파트·전력망 보복 공습 [밀리터리노트]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261123500264",
+        "title": "“천재 1명에 기댄 취약한 구조”… 실리콘밸리 ‘창업자 신화’ 역설",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125012001",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "“항공기 가방 손으로 센다” 노후 전산망에 또 멈춰선 미국하늘",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261123500258",
+        "title": "“울릉도 향한 건 ‘러 핵폭격기’ Tu-160”…김정은 입 떡벌어진 푸틴의 자랑 [권윤희의 월드뷰]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500345",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "포천~철원고속도로 뚫리나…우상호 “예타 통과에 온 힘”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500123",
+        "title": "리비아 앞바다서 침몰한 러 군함…우크라가 처음 꺼낸 ‘해상드론 모선’ 카드 [밀리터리노트]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500293",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "숭실·서강·숙명·세종대 ‘4S대학 성과포럼’… 교육혁신 해법 공유",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500122",
+        "title": "“해상보안청 뚫리면 자위대 출동, 곧바로 中·日 충돌”…일본이 ‘무인기’에 사활 건 속사정 [밀리터리노트]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500215",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "참전용사 후손과 약속 지켰다…26일 부산 유엔기념공원서 에티오피아 기념비 제막",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500121",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "진천군 체육특별시 만든다...스포츠테마타운·산업엑스포 추진",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500117",
+        "title": "‘잡스 12년, 올트먼 5일’ 귀환한 실리콘밸리 창업자들 “신화 속 초능력자로 특권”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500208",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "충남경찰청, 중소기업 기술침해 지킨다",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500116",
-        "kind": "법·행정",
-        "result": "버림(국내)"
+        "title": "포스텍을 경북 창업 관문으로…“국내 대표 창업가 초청”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500074",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "초등학생 숙박업소로 불러내 술 먹이고 성폭행…30대 강남 유명 학원장 구속",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500115",
+        "title": "“레오 14세 교황님, 4·3 아픔 서린 중문성당으로 초청합니다”… 범도민 서명운동 시작",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500072",
         "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "LX, 지역아동센터 봉사 대학생에 장학금 전달",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500113",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "경북 AI·반도체·로봇 인재 4만 2000명 육성…2360억 투입",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500108",
+        "title": "“中공산당 퇴출” 외치며 중국서 만든 ‘멸공’ 패딩 뜻밖의 결말…“中당국이 제재”",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500067",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "한국, 항생제 줄어든 줄 알았는데…3년 새 72% 폭증",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500102",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "중국 ‘황사바람’ 줄자 광주지역 미세먼지 10년새 약 40% 감소",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500101",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“수년간 괴롭힘에 시달렸다”… 제주 중학생 사망에 학교폭력 의혹",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500100",
+        "title": "“배달은 받고 싶고 오토바이는 금지?”…50억 청담 아파트에 걸린 현수막 [이슈픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500057",
         "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "‘여기 어때? 부산 즐기는 10가지 방법’ 국내외 대학생 홍보단 숏폼 공개",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500099",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "국회서 1인 시위, 이병도 충남교육감 “지방교육재정 상생안 조속 재정하라”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500097",
-        "kind": "법·행정",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "전남대 의학 281점·조선대 의예 277점…의약학계열 강세",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500094",
+        "title": "부산 길거리서 9세 여자아이 유인하려 한 男 ‘집유’…과거 동종 범죄로 처벌받은 전력도",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500055",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "경기교육청, ‘교복 비리와 전쟁 선포’…고양 지역 담합 의혹 13개 업체 수사 의뢰",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500089",
-        "kind": "법·행정",
+        "title": "동덕여대, ‘WAF2026 공모전’ 애니메이션 부문 최우수상",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500053",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "다리 하나 건너 이웃마을 ‘군산-서천’의 특별한 동행",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500052",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "HJ중공업, 248억 해경 공기부양정 수주…민수 시장도 정조준",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500051",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "백석대·백석문화대, 시민과 함께하는 ‘크리스마스 트리’",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500048",
+        "kind": "사람·도전",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "상명대, 섬마을 학생들 과학 체험 기회 확대",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500086",
+        "title": "국민대 연구팀, 아연 이온전지 안정성 높이는 전극 기술 개발",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500046",
+        "kind": "발견·장소",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“결혼은 하는 것보다 잘하는 것이 중요”… 가연, 세대별 결혼관 칼럼 공개",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500035",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“공학자 되고싶다”던 오정태 딸, 16세에 카이스트 합격…‘철새공부법’ ‘일타강사식 복습법’ 뭐길래",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500032",
         "kind": "사람·도전",
         "result": "버림(국내)"
       }
     ],
     "heats": [
       {
-        "size": 17,
+        "size": 18,
         "picks": [
           {
             "source": "Hindustan Times",
-            "title": "Rupa Biswas Sen once scolded her son for playing GTA. Now, her 44-year-old song is part of GTA 6",
-            "url": "https://www.hindustantimes.com/trending/rupa-biswas-sen-once-scolded-her-son-for-playing-gta-now-her-44-year-old-song-is-part-of-gta-6-101795438640149.html",
-            "kind": "음식·물건",
-            "event": "india-gta6-song-featured",
-            "reason": "인도 가수 Rupa Biswas Sen의 44년 된 노래가 GTA 6 게임에 실려 다시 주목받는다는 점이 신기하고 흥미롭다. 누가(인도 가수), 어디서(GTA 6 게임 내 라디오), 무엇을(노래 사용) 했는지가 분명하다.",
+            "title": "Swedish woman swims 190 km in honour of late father, earns Guinness World Record",
+            "url": "https://www.hindustantimes.com/trending/swedish-woman-swims-190-km-in-honour-of-late-father-earns-guinness-world-record-101795520875873.html",
+            "kind": "사람·도전",
+            "event": "sweden-swimming-guinness-record",
+            "reason": "스웨덴 여성이 고인 아버지를 기리며 190km를 수영해 기네스 기록을 세운 이야기로, 실제로 일어난 일이며 감동적이고 흥미로워 직장인들이 점심시간에 읽기 좋다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Jensen Huang lookalike contest draws 200 participants in Vancouver, Seattle man takes top prize",
-            "url": "https://www.hindustantimes.com/trending/jensen-huang-lookalike-contest-draws-200-participants-in-vancouver-seattle-man-takes-top-prize-101795424247555.html",
-            "kind": "사람·도전",
-            "event": "usa-jensen-huang-lookalike-contest",
-            "reason": "미국 밴쿠버에서 엔비디아 창업자 젠슨 황 닮은꼴 대회가 열려 200명이 참가하고 시애틀 남성이 우승했다는 재미있고 신기한 소식이다. 누가, 어디서, 무엇을 했는지가 분명하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Good News Network",
-            "title": "Freddie Nole Waits at the Prison Gates So No One Walks Out Alone",
-            "url": "https://www.goodnewsnetwork.org/freddie-nole-waits-at-the-prison-gates-so-no-one-walks-out-alone/",
-            "kind": "사람·도전",
-            "event": "usa-freddie-nole-prison-support",
-            "reason": "미국에서 프레디 놀이라는 사람이 교도소 출소자들을 위해 문 앞에서 기다리며 외롭지 않게 동행하는 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지가 명확하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Good News Network",
-            "title": "33 Kids Wrote Letters to a Wounded Veteran. 60 Years Later, His Son Is Searching to Thank Each One",
-            "url": "https://www.goodnewsnetwork.org/dave-jacobson-letters-from-gloucester-project/",
-            "kind": "사람·도전",
-            "event": "usa-veteran-letters-thank-you",
-            "reason": "미국에서 60년 전 베트남 참전 부상 군인에게 편지를 쓴 아이들의 이야기가 60년 후 그의 아들이 감사 인사를 전하려 한다는 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지가 분명하다.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "Politician's bizarre 'eye roll' video sparks viral 'lizard people' conspiracy",
-            "url": "https://www.dailystar.co.uk/news/weird-news/politicians-bizarre-eye-roll-video-37906437",
+            "title": "Singapore woman slated for bravery award over putting out fires arrested for allegedly starting them",
+            "url": "https://www.hindustantimes.com/trending/singapore-woman-slated-for-bravery-award-over-putting-out-fires-arrested-for-allegedly-starting-them-101795516008961.html",
             "kind": "비극·범죄",
-            "event": "usa-politician-eye-roll-conspiracy",
-            "reason": "미국 정치인이 연설 중 눈을 돌리는 영상이 퍼지며 '도마뱀 인간' 음모론이 확산된 독특한 사건으로, 누가, 어디서, 무엇을 했는지가 명확하다.",
+            "event": "singapore-firewoman-arrest",
+            "reason": "싱가포르에서 불을 끈 용감한 여성으로 상을 받을 예정이었으나 실제로는 불을 낸 혐의로 체포된 반전 사건으로, 처음 들으면 놀라워서 주변에 이야기하기 좋다.",
             "result": "통과"
           },
           {
             "source": "Daily Star",
-            "title": "Woman who weighed 19 stone at 14 loses more than 8 stone with water",
-            "url": "https://www.dailystar.co.uk/news/latest-news/woman-who-weighed-19-stone-37905022",
+            "title": "'Adorable' man spotted taking snaps at concert then fans notice who he really is",
+            "url": "https://www.dailystar.co.uk/real-life/adorable-man-spotted-taking-snaps-37909982",
             "kind": "사람·도전",
-            "event": "uk-woman-weight-loss-water",
-            "reason": "영국 여성의 독특한 체중 감량 이야기로, 14세에 19스톤이던 여성이 물만으로 8스톤 이상 감량한 신기한 사례이다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+            "event": "concert-mystery-man-identity",
+            "reason": "콘서트에서 사진을 찍던 남성이 사실 유명인이라는 반전이 있어 흥미롭고 가볍게 읽기 좋은 이야기다.",
             "result": "통과"
           },
           {
-            "source": "Daily Star",
-            "title": "Wayne Rooney makes bombshell claim about the honours system as he talks knighthoods",
-            "url": "https://www.dailystar.co.uk/sport/football/wayne-rooney-makes-bombshell-claim-37907692",
+            "source": "Hindustan Times",
+            "title": "Indian professor who cracked a decades-old maths puzzle earns TIME recognition",
+            "url": "https://www.hindustantimes.com/trending/indian-professor-who-cracked-a-decades-old-maths-puzzle-earns-time-recognition-101795516929673.html",
             "kind": "사람·도전",
-            "event": "uk-wayne-rooney-knighthood-claim",
-            "reason": "영국 축구 스타 웨인 루니가 기사 작위를 거절할 것이라는 폭탄 발언을 해 흥미롭고 이야기할 만하다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+            "event": "indian-professor-math-puzzle-time",
+            "reason": "인도 교수의 수학 난제를 해결해 TIME지에 선정된 이야기로, 국내외 직장인들에게 신기하고 자극적인 성공 사례로 읽힐 만하다.",
+            "result": "통과"
+          },
+          {
+            "source": "서울신문",
+            "title": "“딱 보면 잔디밭인데” 한 발 내딛자 물속 ‘풍덩’…30대女 끝내 숨졌다 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500286",
+            "kind": "비극·범죄",
+            "event": "uk-canal-accident",
+            "reason": "영국 운하에서 잔디밭으로 착각해 빠져 숨진 사고로, 오싹하고 신기한 실제 사건이라 흥미를 끈다.",
+            "result": "통과"
+          },
+          {
+            "source": "Good News Network",
+            "title": "A Childhood Promise Mobilizes ‘Thanksgiving Heroes,’ Serving Thousands Nationwide This Holiday",
+            "url": "https://www.goodnewsnetwork.org/thanksgiving-heroes-rob-adams-childhood-promise/",
+            "kind": "사람·도전",
+            "event": "thanksgiving-heroes-charity",
+            "reason": "어린 시절 약속이 전국적인 자선 활동으로 발전해 수천 가정을 돕는 훈훈한 이야기로, 직장인들이 점심시간에 읽기 좋다.",
+            "result": "통과"
+          },
+          {
+            "source": "서울신문",
+            "title": "“엄마, 학생 때 쓰던 거 없어?” 30년 지났는데도 ‘인기 폭발’…1억대 팔린 ‘이것’ 정체 [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500199",
+            "kind": "음식·물건",
+            "event": "tamagotchi-30th-anniversary",
+            "reason": "30년 된 다마고치가 여전히 인기 있고 고가에 팔리는 신기한 현상으로, 가볍게 읽기 좋고 주변에 이야기하기 좋은 소재다.",
             "result": "통과"
           }
         ]
       },
       {
-        "size": 17,
+        "size": 18,
         "picks": [
           {
-            "source": "서울신문",
-            "title": "‘버스 손잡이’ 혀로 핥는 영상 SNS 확산…日 버스기사 ‘위생 테러’ 경악 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500136",
+            "source": "Daily Star",
+            "title": "Baby P's mum set for move to an open prison as she is denied freedom bid",
+            "url": "https://www.dailystar.co.uk/news/latest-news/breaking-baby-ps-mum-set-37909743",
             "kind": "비극·범죄",
-            "event": "japan-bus-driver-licking-handle-incident",
-            "reason": "일본 버스 운전기사가 운행 종료 후 버스 손잡이를 혀로 핥는 영상을 생중계해 큰 충격과 비판을 받은 사건으로, 누가 어디서 무엇을 했는지가 명확하며 실제 일어난 일이라 매우 흥미롭고 충격적이다.",
+            "event": "uk-baby-p-mother-prison-case",
+            "reason": "영국에서 실제로 일어난 사건으로, 아동 학대와 관련된 충격적인 사건이라 처음 들으면 '진짜?'라는 반응이 나올 수 있습니다. 사건의 구체적인 인물과 장소가 명확히 나와 있어 신뢰도가 높고, 직장인들이 점심시간에 이야기하기 좋은 훈훈하거나 안타까운 이야기입니다.",
             "result": "통과"
           },
           {
             "source": "서울신문",
-            "title": "온 가족 보는 생방송에 ‘신음 소리’…英 예능 ‘발칵’, 범인은 유튜버 [월드픽]",
-            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261123500226",
-            "kind": "비극·범죄",
-            "event": "uk-live-show-prank-incident",
-            "reason": "영국 인기 생방송 예능 도중 성행위 연상 신음 소리가 나와 방송이 발칵 뒤집힌 사건으로, 유명 유튜버가 범인으로 밝혀져 경찰 조사 및 형사처벌 위기에 놓인 실제 사건이다. 충격적이고 남에게 이야기하기 좋은 소재다.",
+            "title": "기저귀만 찬 2살 아기, 美 애리조나 사막서 7시간 만에 ‘기적 생환’ [월드픽]",
+            "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500050",
+            "kind": "사람·도전",
+            "event": "us-arizona-toddler-rescue",
+            "reason": "미국 애리조나 사막에서 2살 아이가 7시간 만에 무사히 구조된 실제 사건으로, 놀랍고 훈훈한 이야기입니다. 누가, 어디서, 무엇을 했는지 명확히 나와 있어 점심시간에 읽기 좋고 주변에 이야기하기 좋은 내용입니다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Texas woman transforms bone fragments from her facial surgery into custom earrings",
-            "url": "https://www.hindustantimes.com/trending/texas-woman-transforms-bone-fragments-from-her-facial-surgery-into-custom-earrings-101795412275023.html",
+            "title": "Divorced Japanese couple remarries each other in Lucknow temple: ‘It was a very precious experience’",
+            "url": "https://www.hindustantimes.com/trending/divorced-japanese-couple-remarries-each-other-in-lucknow-temple-it-was-a-very-precious-experience-101795506714087.html",
             "kind": "사람·도전",
-            "event": "texas-woman-bone-earrings",
-            "reason": "텍사스 여성 환자가 얼굴 수술 후 나온 뼛조각을 맞춤 귀걸이로 만든 독특한 이야기로, 신기하고 훈훈하며 누가 어디서 무엇을 했는지가 분명하다.",
+            "event": "japan-couple-remarriage-india",
+            "reason": "일본 부부가 인도에서 이혼 후 다시 결혼한 독특한 사건으로, 신기하고 흥미로운 이야기입니다. 누가, 어디서, 무엇을 했는지 분명히 나와 있어 가볍게 읽기 좋습니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "Skydiver forgets to tighten goggles before jump then instantly regret it",
+            "url": "https://www.dailystar.co.uk/real-life/skydiving-goggles-viral-news-instagram-37909403",
+            "kind": "사람·도전",
+            "event": "skydiving-goggles-fail",
+            "reason": "스카이다이버가 고글을 조이지 않아 겪은 웃긴 실수로, 영상까지 있어 재미있고 신기한 이야기입니다. 실제 사건이며 누가, 어디서, 무엇을 했는지 명확합니다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "Determined Volunteer Rescues Lost Toddler in the Desert: ‘She may not be our child, but she could be’",
-            "url": "https://www.goodnewsnetwork.org/determined-volunteer-rescues-lost-toddler-in-the-desert-she-may-not-be-our-child-but-she-could-be/",
+            "title": "Charity Swaps Tuition Fees for Coconuts So Every Islander Can Afford School",
+            "url": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
             "kind": "사람·도전",
-            "event": "arizona-volunteer-rescues-toddler",
-            "reason": "애리조나에서 한 할아버지가 사막에서 길 잃은 아이를 구조한 감동적인 실화로, 누가 어디서 무엇을 했는지가 명확하며 훈훈한 이야기라 직장인 점심시간 읽기에 적합하다.",
+            "event": "micronesia-coconut-tuition-swap",
+            "reason": "미크로네시아에서 코코넛으로 학비를 대신 내주는 독특한 자선 활동으로, 신기하고 훈훈한 이야기입니다. 누가, 어디서, 무엇을 했는지 분명히 나와 있습니다.",
             "result": "통과"
           },
           {
             "source": "Good News Network",
-            "title": "One-of-a-Kind Refuge to 200,000 Walrus Protected Forever in Alaska",
-            "url": "https://www.goodnewsnetwork.org/one-of-a-kind-refuge-to-200000-walrus-protected-forever-in-alaska/",
-            "kind": "동물",
-            "event": "alaska-walrus-refuge-protection",
-            "reason": "알래스카에서 20만 마리 바다코끼리 서식지가 영구 보호되기로 한 환경 보호 소식으로, 실제 일어난 일이며 훈훈하고 신기한 이야기다.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "Indian entrepreneur in Dubai cycles on Sheikh Zayed Road, runs 10 km wearing saree",
-            "url": "https://www.hindustantimes.com/trending/indian-entrepreneur-in-dubai-cycles-on-sheikh-zayed-road-runs-10-km-wearing-saree-101795419587910.html",
+            "title": "Retired Teacher Turns Retired Musical Instruments into Bird Feeders (LOOK)",
+            "url": "https://www.goodnewsnetwork.org/retired-teacher-turns-retired-musical-instruments-into-bird-feeders-look/",
             "kind": "사람·도전",
-            "event": "dubai-entrepreneur-saree-run",
-            "reason": "두바이에서 인도 기업가가 사리를 입고 10km 달리기와 자전거 타기를 한 독특한 이야기로, 누가 어디서 무엇을 했는지가 분명하며 신기하고 흥미롭다.",
-            "result": "통과"
-          },
-          {
-            "source": "Metro",
-            "title": "Police call in shaman to rid station of ‘evil spirits’",
-            "url": "https://metro.co.uk/2026/11/23/police-call-shaman-rid-station-evil-spirits-29813689/",
-            "kind": "기타",
-            "event": "uk-police-shaman-ritual",
-            "reason": "영국 경찰이 역에서 악령을 쫓기 위해 무당을 부른 독특하고 웃긴 사건으로, 누가 어디서 무엇을 했는지가 명확하며 남에게 이야기하기 좋은 소재다.",
+            "event": "canada-retired-teacher-bird-feeders",
+            "reason": "캐나다의 은퇴 교사가 폐기된 악기를 새 먹이통으로 재활용하는 훈훈하고 신기한 이야기입니다. 누가, 어디서, 무엇을 했는지 명확히 나와 있어 점심시간 읽기 좋습니다.",
             "result": "통과"
           },
           {
             "source": "Vice",
-            "title": "There’s an NPC in GTA 6 Who Knows He’s in a Video Game. Here’s How to Find His House.",
-            "url": "https://www.vice.com/en/article/theres-an-npc-in-gta-6-who-knows-hes-in-a-video-game-heres-how-to-find-his-house/",
-            "kind": "음식·물건",
-            "event": "gta6-npc-knows-game",
-            "reason": "GTA 6 게임 내 NPC가 자신이 게임 속 캐릭터임을 인지하고 있다는 독특한 설정과 이를 찾는 방법을 소개하는 기사로, 게임에 관심 있는 20~30대 직장인에게 흥미롭고 신기한 이야기다.",
+            "title": "2 Chainz Survives Terrifying Tesla Cybertruck Crash, Shares Footage of Wreckage",
+            "url": "https://www.vice.com/en/article/2-chainz-survives-terrifying-tesla-cybertruck-crash-shares-footage-of-wreckage/",
+            "kind": "비극·범죄",
+            "event": "2chainz-tesla-crash",
+            "reason": "미국 래퍼 2 Chainz가 테슬라 사이버트럭 사고에서 살아남은 실제 사건으로, 놀랍고 신기한 이야기입니다. 누가, 어디서, 무엇을 했는지 분명히 나와 있습니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Indian expats carry 30-metre UAE flag at Dubai Run, feature in Crown Prince's video",
+            "url": "https://www.hindustantimes.com/trending/indian-expats-carry-30-metre-uae-flag-at-dubai-run-feature-in-crown-princes-video-101795511033887.html",
+            "kind": "사람·도전",
+            "event": "india-expats-uae-flag-dubai-run",
+            "reason": "인도 교민들이 두바이에서 대형 UAE 국기를 들고 달리기 행사에 참여한 훈훈하고 신기한 이야기입니다. 누가, 어디서, 무엇을 했는지 명확히 나와 있어 가볍게 읽기 좋습니다.",
             "result": "통과"
           }
         ]
@@ -377,125 +391,125 @@
     "final": [
       {
         "source": "서울신문",
-        "title": "‘버스 손잡이’ 혀로 핥는 영상 SNS 확산…日 버스기사 ‘위생 테러’ 경악 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500136",
+        "title": "“딱 보면 잔디밭인데” 한 발 내딛자 물속 ‘풍덩’…30대女 끝내 숨졌다 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500286",
         "kind": "비극·범죄",
-        "event": "japan-bus-driver-licking-handle",
-        "reason": "일본에서 버스 운전기사가 손잡이를 혀로 핥는 영상이 SNS에서 확산되어 큰 충격과 비판을 받았고, 회사가 공식 사과하며 징계 검토에 들어간 사건으로, 실제로 일어난 일이며 누가 어디서 무엇을 했는지가 명확하다. 매우 신기하고 오싹한 이야기라 직장인들이 점심시간에 읽기 좋다.",
+        "event": "uk-canal-accident-2024",
+        "reason": "영국에서 실제로 발생한 사고로, 잔디밭으로 착각한 운하 위 식물 때문에 30대 여성이 물에 빠져 숨진 사건은 처음 들으면 '진짜?'라는 반응이 나올 만큼 충격적이고 안타깝다. 누가, 어디서, 무엇을 했는지 명확히 나와 있어 독자들이 관심을 가질 만하다.",
         "result": "선정"
       },
       {
         "source": "서울신문",
-        "title": "온 가족 보는 생방송에 ‘신음 소리’…英 예능 ‘발칵’, 범인은 유튜버 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261123500226",
-        "kind": "비극·범죄",
-        "event": "uk-live-show-incident",
-        "reason": "영국의 인기 생방송 예능 프로그램에서 갑자기 성행위를 연상시키는 신음 소리가 나와 방송이 발칵 뒤집혔고, 범인은 유명 유튜버로 밝혀져 경찰 조사와 형사처벌 위기에 놓인 사건이다. 실제 사건이며 누가 어디서 무엇을 했는지 분명해 흥미롭고 이야기할 만하다.",
-        "result": "선정"
+        "title": "기저귀만 찬 2살 아기, 美 애리조나 사막서 7시간 만에 ‘기적 생환’ [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261125500050",
+        "kind": "사람·도전",
+        "event": "us-arizona-baby-rescue-2024",
+        "reason": "미국 애리조나 사막에서 2살 아기가 기저귀만 찬 채 7시간 만에 무사히 구조된 기적적인 사건으로, 훈훈하고 감동적인 이야기라 직장인들이 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지 분명히 나온다.",
+        "result": "최근 발행"
       },
       {
         "source": "Good News Network",
-        "title": "Determined Volunteer Rescues Lost Toddler in the Desert: ‘She may not be our child, but she could be’",
-        "url": "https://www.goodnewsnetwork.org/determined-volunteer-rescues-lost-toddler-in-the-desert-she-may-not-be-our-child-but-she-could-be/",
+        "title": "Retired Teacher Turns Retired Musical Instruments into Bird Feeders (LOOK)",
+        "url": "https://www.goodnewsnetwork.org/retired-teacher-turns-retired-musical-instruments-into-bird-feeders-look/",
         "kind": "사람·도전",
-        "event": "arizona-toddler-rescue",
-        "reason": "미국 애리조나에서 한 할아버지가 사막에서 길 잃은 어린아이를 구조한 훈훈한 이야기로, 실제 일어난 일이며 누가 어디서 무엇을 했는지가 명확하다. 직장인들이 점심시간에 읽기 좋은 따뜻한 이야기이다.",
+        "event": "canada-musical-instruments-birdfeeders-2024",
+        "reason": "캐나다의 은퇴 교사가 폐기된 악기를 새 먹이통으로 재활용하는 따뜻하고 신기한 이야기로, 남에게 소개하고 싶은 훈훈한 내용이다. 출처와 인물, 장소가 명확하다.",
+        "result": "선정"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Skydiver forgets to tighten goggles before jump then instantly regret it",
+        "url": "https://www.dailystar.co.uk/real-life/skydiving-goggles-viral-news-instagram-37909403",
+        "kind": "사람·도전",
+        "event": "skydiving-goggles-incident-2024",
+        "reason": "스카이다이버가 고글을 조이지 않고 점프해 벌어진 웃긴 실수 영상으로, 가볍게 읽기 좋고 '진짜?'라는 반응을 유발할 수 있다. 누가, 무엇을 했는지 분명하다.",
         "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "Texas woman transforms bone fragments from her facial surgery into custom earrings",
-        "url": "https://www.hindustantimes.com/trending/texas-woman-transforms-bone-fragments-from-her-facial-surgery-into-custom-earrings-101795412275023.html",
+        "title": "Divorced Japanese couple remarries each other in Lucknow temple: ‘It was a very precious experience’",
+        "url": "https://www.hindustantimes.com/trending/divorced-japanese-couple-remarries-each-other-in-lucknow-temple-it-was-a-very-precious-experience-101795506714087.html",
         "kind": "사람·도전",
-        "event": "texas-bone-earrings",
-        "reason": "텍사스 여성의 얼굴 수술 중 나온 뼛조각을 맞춤 귀걸이로 만든 독특하고 신기한 이야기로, 실제 사건이며 누가 어디서 무엇을 했는지가 분명하다. 가볍게 읽기 좋고 남에게도 이야기할 만하다.",
+        "event": "japan-couple-remarriage-india-2024",
+        "reason": "일본 부부가 인도에서 이혼 후 다시 결혼한 독특하고 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지 명확해 흥미롭다. 일본과 인도 이야기로 국가 중복 제한에 걸리지 않는다.",
         "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "Indian entrepreneur in Dubai cycles on Sheikh Zayed Road, runs 10 km wearing saree",
-        "url": "https://www.hindustantimes.com/trending/indian-entrepreneur-in-dubai-cycles-on-sheikh-zayed-road-runs-10-km-wearing-saree-101795419587910.html",
+        "title": "Indian expats carry 30-metre UAE flag at Dubai Run, feature in Crown Prince's video",
+        "url": "https://www.hindustantimes.com/trending/indian-expats-carry-30-metre-uae-flag-at-dubai-run-feature-in-crown-princes-video-101795511033887.html",
         "kind": "사람·도전",
-        "event": "dubai-saree-run",
-        "reason": "인도 출신 두바이 사업가가 사리 차림으로 10km를 달리고 자전거를 탄 독특한 일화로, 실제 인물과 장소가 명확하다. 신기하고 흥미로운 이야기라 점심시간 읽기에 적합하다.",
+        "event": "india-uae-flag-dubai-run-2024",
+        "reason": "인도 교민들이 두바이 행사에서 대형 UAE 국기를 들고 크라운 프린스 영상에 등장한 훈훈한 소식으로, 누가, 어디서, 무엇을 했는지 분명하다. 인도와 UAE 이야기로 국가 중복 제한에 걸리지 않는다.",
         "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Jensen Huang lookalike contest draws 200 participants in Vancouver, Seattle man takes top prize",
-        "url": "https://www.hindustantimes.com/trending/jensen-huang-lookalike-contest-draws-200-participants-in-vancouver-seattle-man-takes-top-prize-101795424247555.html",
-        "kind": "사람·도전",
-        "event": "jensen-huang-lookalike-contest",
-        "reason": "캐나다 밴쿠버에서 엔비디아 창업자 젠슨 황 닮은꼴 대회가 열려 200명이 참가했고, 시애틀 남성이 우승한 재미있는 행사이다. 실제로 일어난 일이며 누가 어디서 무엇을 했는지 분명하다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "Good News Network",
-        "title": "Freddie Nole Waits at the Prison Gates So No One Walks Out Alone",
-        "url": "https://www.goodnewsnetwork.org/freddie-nole-waits-at-the-prison-gates-so-no-one-walks-out-alone/",
-        "kind": "사람·도전",
-        "event": "freddie-nole-prison-support",
-        "reason": "미국에서 프레디 놀이라는 사람이 교도소 출소자들이 혼자 나오지 않도록 문 앞에서 기다리는 훈훈한 이야기로, 실제 사건이며 누가 어디서 무엇을 했는지 명확하다. 점심시간에 읽기 좋은 따뜻한 이야기이다.",
-        "result": "예비"
-      },
-      {
-        "source": "Good News Network",
-        "title": "33 Kids Wrote Letters to a Wounded Veteran. 60 Years Later, His Son Is Searching to Thank Each One",
-        "url": "https://www.goodnewsnetwork.org/dave-jacobson-letters-from-gloucester-project/",
-        "kind": "사람·도전",
-        "event": "vietnam-veteran-letters",
-        "reason": "1967년 미국 매사추세츠의 33명의 아이들이 베트남 전쟁 부상 군인에게 편지를 썼고, 60년 후 그의 아들이 그 편지들을 쓴 아이들을 찾아 감사하려는 감동적인 이야기이다. 실제 사건이며 누가 어디서 무엇을 했는지 분명하다.",
-        "result": "매체 상한"
-      },
-      {
-        "source": "Metro",
-        "title": "Police call in shaman to rid station of ‘evil spirits’",
-        "url": "https://metro.co.uk/2026/11/23/police-call-shaman-rid-station-evil-spirits-29813689/",
-        "kind": "기타",
-        "event": "uk-police-shaman-station",
-        "reason": "실제로 영국 경찰이 역에서 '악령'을 쫓기 위해 무당을 불렀다는 사실이 매우 신기하고 웃기며, 누가 어디서 무엇을 했는지가 명확하게 드러나 있어 점심시간에 읽기 좋다.",
-        "result": "예비"
       },
       {
         "source": "Vice",
-        "title": "There’s an NPC in GTA 6 Who Knows He’s in a Video Game. Here’s How to Find His House.",
-        "url": "https://www.vice.com/en/article/theres-an-npc-in-gta-6-who-knows-hes-in-a-video-game-heres-how-to-find-his-house/",
+        "title": "2 Chainz Survives Terrifying Tesla Cybertruck Crash, Shares Footage of Wreckage",
+        "url": "https://www.vice.com/en/article/2-chainz-survives-terrifying-tesla-cybertruck-crash-shares-footage-of-wreckage/",
+        "kind": "비극·범죄",
+        "event": "2chainz-tesla-crash-2024",
+        "reason": "미국 유명 래퍼 2 Chainz가 테슬라 사이버트럭 사고에서 살아남은 실제 사건으로, 충격적이고 신기해 남에게 말해주기 좋다. 누가, 어디서, 무엇을 했는지 분명하다.",
+        "result": "예비"
+      },
+      {
+        "source": "Good News Network",
+        "title": "A Childhood Promise Mobilizes ‘Thanksgiving Heroes,’ Serving Thousands Nationwide This Holiday",
+        "url": "https://www.goodnewsnetwork.org/thanksgiving-heroes-rob-adams-childhood-promise/",
+        "kind": "사람·도전",
+        "event": "thanksgiving-heroes-usa-2024",
+        "reason": "미국에서 한 소년의 약속이 전국적인 자선 활동으로 발전한 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지 명확해 점심시간에 읽기 좋다.",
+        "result": "나라 상한"
+      },
+      {
+        "source": "서울신문",
+        "title": "“엄마, 학생 때 쓰던 거 없어?” 30년 지났는데도 ‘인기 폭발’…1억대 팔린 ‘이것’ 정체 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500199",
         "kind": "음식·물건",
-        "event": "gta6-npc-aware",
-        "reason": "GTA 6 게임 내에서 자신이 게임 속 캐릭터임을 아는 NPC가 있다는 사실은 신기하고 흥미로워서 직장인들이 친구에게 이야기하기 좋다. 게임과 관련된 해외 사건이며 구체적인 내용이 포함되어 있다.",
+        "event": "japan-tamagotchi-30th-anniversary",
+        "reason": "1990년대에 처음 등장한 다마고치가 30년이 지난 지금도 여전히 인기를 끌며 1억대 이상 팔렸다는 사실은 신기하고 흥미롭다. 일본에서 시작된 이 게임기는 누가, 어디서, 무엇을 했는지 명확히 나오며, 향수를 자극하는 이야기라 직장인들이 점심시간에 가볍게 읽기 좋다.",
+        "result": "예비"
+      },
+      {
+        "source": "Good News Network",
+        "title": "Charity Swaps Tuition Fees for Coconuts So Every Islander Can Afford School",
+        "url": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
+        "kind": "사람·도전",
+        "event": "micronesia-coconut-tuition-swap",
+        "reason": "미크로네시아의 한 학교에서 코코넛을 학비로 교환하는 독특한 방식으로 모든 섬 주민이 교육을 받을 수 있게 한 실제 사례는 훈훈하고 신기하다. 누가, 어디서, 무엇을 했는지 분명히 나오며, 국내외 직장인들이 남에게 이야기해주고 싶을 만한 따뜻한 이야기다.",
         "result": "예비"
       }
     ],
     "final_out": [
       {
-        "source": "Daily Star",
-        "title": "Politician's bizarre 'eye roll' video sparks viral 'lizard people' conspiracy",
-        "url": "https://www.dailystar.co.uk/news/weird-news/politicians-bizarre-eye-roll-video-37906437",
+        "source": "Hindustan Times",
+        "title": "Singapore woman slated for bravery award over putting out fires arrested for allegedly starting them",
+        "url": "https://www.hindustantimes.com/trending/singapore-woman-slated-for-bravery-award-over-putting-out-fires-arrested-for-allegedly-starting-them-101795516008961.html",
         "kind": "비극·범죄"
       },
       {
         "source": "Daily Star",
-        "title": "Wayne Rooney makes bombshell claim about the honours system as he talks knighthoods",
-        "url": "https://www.dailystar.co.uk/sport/football/wayne-rooney-makes-bombshell-claim-37907692",
-        "kind": "사람·도전"
+        "title": "Baby P's mum set for move to an open prison as she is denied freedom bid",
+        "url": "https://www.dailystar.co.uk/news/latest-news/breaking-baby-ps-mum-set-37909743",
+        "kind": "비극·범죄"
       },
       {
         "source": "Daily Star",
-        "title": "Woman who weighed 19 stone at 14 loses more than 8 stone with water",
-        "url": "https://www.dailystar.co.uk/news/latest-news/woman-who-weighed-19-stone-37905022",
+        "title": "'Adorable' man spotted taking snaps at concert then fans notice who he really is",
+        "url": "https://www.dailystar.co.uk/real-life/adorable-man-spotted-taking-snaps-37909982",
         "kind": "사람·도전"
       },
       {
-        "source": "Good News Network",
-        "title": "One-of-a-Kind Refuge to 200,000 Walrus Protected Forever in Alaska",
-        "url": "https://www.goodnewsnetwork.org/one-of-a-kind-refuge-to-200000-walrus-protected-forever-in-alaska/",
-        "kind": "동물"
+        "source": "Hindustan Times",
+        "title": "Swedish woman swims 190 km in honour of late father, earns Guinness World Record",
+        "url": "https://www.hindustantimes.com/trending/swedish-woman-swims-190-km-in-honour-of-late-father-earns-guinness-world-record-101795520875873.html",
+        "kind": "사람·도전"
       },
       {
         "source": "Hindustan Times",
-        "title": "Rupa Biswas Sen once scolded her son for playing GTA. Now, her 44-year-old song is part of GTA 6",
-        "url": "https://www.hindustantimes.com/trending/rupa-biswas-sen-once-scolded-her-son-for-playing-gta-now-her-44-year-old-song-is-part-of-gta-6-101795438640149.html",
-        "kind": "음식·물건"
+        "title": "Indian professor who cracked a decades-old maths puzzle earns TIME recognition",
+        "url": "https://www.hindustantimes.com/trending/indian-professor-who-cracked-a-decades-old-maths-puzzle-earns-time-recognition-101795516929673.html",
+        "kind": "사람·도전"
       }
     ]
   },
@@ -503,58 +517,58 @@
   "published": [
     {
       "source": "서울신문",
-      "headline": "일본 버스기사, 생중계 중 손잡이 핥아 논란…회사 공식 사과 및 징계 검토",
-      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500136",
-      "image": "https://img.seoul.co.kr//img/upload/2026/11/24/SSC_20261124115849_O2.jpg.webp",
+      "headline": "영국 운하에서 개구리밥 오인해 30대 여성 추락 사망 사고 발생",
+      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261124500286",
+      "image": "https://img.seoul.co.kr//img/upload/2026/11/24/SSC_20261124170052_O2.jpg.webp",
       "kind": "비극·범죄",
       "topic": "사건·사고",
-      "event": "japan-bus-driver-licking-handle",
-      "reason": "일본에서 버스 운전기사가 손잡이를 혀로 핥는 영상이 SNS에서 확산되어 큰 충격과 비판을 받았고, 회사가 공식 사과하며 징계 검토에 들어간 사건으로, 실제로 일어난 일이며 누가 어디서 무엇을 했는지가 명확하다. 매우 신기하고 오싹한 이야기라 직장인들이 점심시간에 읽기 좋다.",
-      "why": "해당 운전기사는 인터넷 방송 진행자의 부추김에 의해 생중계 중 손잡이를 핥는 행동을 했으며, 회사는 사규에 따라 징계 수위를 결정할 예정입니다."
-    },
-    {
-      "source": "서울신문",
-      "headline": "영국 인기 댄스 생방송 중 성적 신음 소리, 유튜버 자비스 장난 인정·경찰 수사 착수",
-      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261123500226",
-      "image": "https://img.seoul.co.kr//img/upload/2026/11/23/SSC_20261123153357_O2.jpg.webp",
-      "kind": "비극·범죄",
-      "topic": "사건·사고",
-      "event": "uk-live-show-incident",
-      "reason": "영국의 인기 생방송 예능 프로그램에서 갑자기 성행위를 연상시키는 신음 소리가 나와 방송이 발칵 뒤집혔고, 범인은 유명 유튜버로 밝혀져 경찰 조사와 형사처벌 위기에 놓인 사건이다. 실제 사건이며 누가 어디서 무엇을 했는지 분명해 흥미롭고 이야기할 만하다.",
-      "why": "BBC는 문제 장면을 편집해 다시 보기 서비스에 내보내고, 경찰은 현장에서 휴대전화를 압수해 범죄 여부를 검토 중입니다."
+      "event": "uk-canal-accident-2024",
+      "reason": "영국에서 실제로 발생한 사고로, 잔디밭으로 착각한 운하 위 식물 때문에 30대 여성이 물에 빠져 숨진 사건은 처음 들으면 '진짜?'라는 반응이 나올 만큼 충격적이고 안타깝다. 누가, 어디서, 무엇을 했는지 명확히 나와 있어 독자들이 관심을 가질 만하다.",
+      "why": "개구리밥은 따뜻한 날씨에 빠르게 번식해 수면을 빽빽하게 덮어 경계 구분을 어렵게 만듭니다."
     },
     {
       "source": "Good News Network",
-      "headline": "애리조나 할아버지, 추운 사막 밤에 실종된 2세 아이 구조",
-      "url": "https://www.goodnewsnetwork.org/determined-volunteer-rescues-lost-toddler-in-the-desert-she-may-not-be-our-child-but-she-could-be/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Pinal-County-Sheriffs-Office.jpg",
-      "kind": "사람·도전",
-      "topic": "사건·사고",
-      "event": "arizona-toddler-rescue",
-      "reason": "미국 애리조나에서 한 할아버지가 사막에서 길 잃은 어린아이를 구조한 훈훈한 이야기로, 실제 일어난 일이며 누가 어디서 무엇을 했는지가 명확하다. 직장인들이 점심시간에 읽기 좋은 따뜻한 이야기이다.",
-      "why": "벨라의 체온이 낮아 열화상 카메라가 효과를 발휘하지 못해 수색이 어려웠으며, 스튜어트가 덤불 근처에서 직접 발견해 구조할 수 있었습니다."
-    },
-    {
-      "source": "Hindustan Times",
-      "headline": "텍사스 여성, 안면 수술 후 제거된 뼛조각으로 맞춤 귀걸이 제작",
-      "url": "https://www.hindustantimes.com/trending/texas-woman-transforms-bone-fragments-from-her-facial-surgery-into-custom-earrings-101795412275023.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/Bone_Facial_Surgery_Earrings_Viral_Texas_1795413846535_P12x_1795413846861_wx8H_00299194-aac0-4fa4-8a23-1fc7c4981065_sitQ.jpg",
+      "headline": "캐나다 은퇴 교사, 고장 난 악기로 새들에게 무료 점심 제공하는 카페 운영",
+      "url": "https://www.goodnewsnetwork.org/retired-teacher-turns-retired-musical-instruments-into-bird-feeders-look/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Credit-Rob-Burke-retrieved-from-Facebook.jpg",
       "kind": "사람·도전",
       "topic": "사람",
-      "event": "texas-bone-earrings",
-      "reason": "텍사스 여성의 얼굴 수술 중 나온 뼛조각을 맞춤 귀걸이로 만든 독특하고 신기한 이야기로, 실제 사건이며 누가 어디서 무엇을 했는지가 분명하다. 가볍게 읽기 좋고 남에게도 이야기할 만하다.",
-      "why": "안면 여성화 수술은 얼굴의 골격과 연조직을 여성스럽게 바꾸는 수술로, 수술 중 제거된 뼛조각을 보관하는 것이 가능하다는 점에서 이 귀걸이 제작이 이루어졌습니다."
+      "event": "canada-musical-instruments-birdfeeders-2024",
+      "reason": "캐나다의 은퇴 교사가 폐기된 악기를 새 먹이통으로 재활용하는 따뜻하고 신기한 이야기로, 남에게 소개하고 싶은 훈훈한 내용이다. 출처와 인물, 장소가 명확하다.",
+      "why": "버크는 유럽에서 본 오래된 기타를 새 먹이통으로 만든 사례를 보고, 더 나은 세 가지 코스 오케스트라 형태로 만들기 위해 고장 난 악기 기부를 요청했습니다."
+    },
+    {
+      "source": "Daily Star",
+      "headline": "스카이다이버 질리안, 고글 조이지 않고 점프했다가 중간에 날아가 당황",
+      "url": "https://www.dailystar.co.uk/real-life/skydiving-goggles-viral-news-instagram-37909403",
+      "image": "https://i2-prod.dailystar.co.uk/article37909402.ece/ALTERNATES/s1200d/2_Royalty-Free-Stock-Photo-Happy-Woman-Skydiver.jpg",
+      "kind": "사람·도전",
+      "topic": "사건·사고",
+      "event": "skydiving-goggles-incident-2024",
+      "reason": "스카이다이버가 고글을 조이지 않고 점프해 벌어진 웃긴 실수 영상으로, 가볍게 읽기 좋고 '진짜?'라는 반응을 유발할 수 있다. 누가, 무엇을 했는지 분명하다.",
+      "why": "스카이다이빙 시 시속 120마일(193km/h)의 강한 바람이 눈에 직접 닿으면 눈물이 나고 시야가 흐려지며 이물질로 인한 눈 손상 위험이 있기 때문입니다."
     },
     {
       "source": "Hindustan Times",
-      "headline": "두바이 인도 사업가 칸차나 나이르, 사리 입고 셰이크 자이드 로드에서 10km 달리기 완주",
-      "url": "https://www.hindustantimes.com/trending/indian-entrepreneur-in-dubai-cycles-on-sheikh-zayed-road-runs-10-km-wearing-saree-101795419587910.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/Indian_Entrepreneur_Dubai_Sheikh_Zayed_Road_Video_1795420001203_mqFm_1795420001481_DYsW_6440567d-2096-4531-84c8-955afa9bdb17_4zxp.jpg",
+      "headline": "일본 이혼 부부, 인도 럭나우 라다-크리슈나 사원에서 재혼",
+      "url": "https://www.hindustantimes.com/trending/divorced-japanese-couple-remarries-each-other-in-lucknow-temple-it-was-a-very-precious-experience-101795506714087.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/Divorced_Japanese_Couple_Temple_Lucknow_Viral_1795507097761_bra5_1795507098067_bxzZ_ccd6d988-57df-4642-a63c-88aa70119c35_DDE2.jpg",
       "kind": "사람·도전",
-      "topic": "사건·사고",
-      "event": "dubai-saree-run",
-      "reason": "인도 출신 두바이 사업가가 사리 차림으로 10km를 달리고 자전거를 탄 독특한 일화로, 실제 인물과 장소가 명확하다. 신기하고 흥미로운 이야기라 점심시간 읽기에 적합하다.",
-      "why": "두바이 런은 두바이 피트니스 챌린지의 일환으로 2019년부터 매년 개최되며, 지역 사회의 건강 증진과 단합을 목표로 합니다."
+      "topic": "사람",
+      "event": "japan-couple-remarriage-india-2024",
+      "reason": "일본 부부가 인도에서 이혼 후 다시 결혼한 독특하고 훈훈한 이야기로, 누가, 어디서, 무엇을 했는지 명확해 흥미롭다. 일본과 인도 이야기로 국가 중복 제한에 걸리지 않는다.",
+      "why": "이 부부는 2022년에 이혼했으나 다시 서로 재혼하기로 결정했고, 인도에서 전통적인 결혼식을 치르고 싶어 라다-크리슈나 사원을 선택했습니다."
+    },
+    {
+      "source": "Hindustan Times",
+      "headline": "두바이 런에서 인도 교민들 30m UAE 국기 들고 크라운 프린스 영상에 등장",
+      "url": "https://www.hindustantimes.com/trending/indian-expats-carry-30-metre-uae-flag-at-dubai-run-feature-in-crown-princes-video-101795511033887.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/bdfndgfgbfrcccdbdcccdccccsdccc_1795511964119_AaUc_1795511970253_bDQM_a73bdf54-d835-470c-9c1f-f3ec0f2d3304_ZTIh.jpg",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "india-uae-flag-dubai-run-2024",
+      "reason": "인도 교민들이 두바이 행사에서 대형 UAE 국기를 들고 크라운 프린스 영상에 등장한 훈훈한 소식으로, 누가, 어디서, 무엇을 했는지 분명하다. 인도와 UAE 이야기로 국가 중복 제한에 걸리지 않는다.",
+      "why": "두바이 런은 매년 31만 명 이상이 참가하는 세계 최대 무료 커뮤니티 달리기 행사로, 주민들의 건강 증진을 위해 2017년 시작된 두바이 피트니스 챌린지의 일환입니다."
     }
   ]
 }

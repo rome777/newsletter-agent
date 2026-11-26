@@ -1,33 +1,5 @@
 [
  {
-  "date": "2026-11-11",
-  "source": "Hindustan Times",
-  "title": "College dropout, 23, earns six-figure salary as Walmart's youngest US store manager",
-  "url": "https://www.hindustantimes.com/trending/us/college-dropout-23-earns-six-figure-salary-as-walmarts-youngest-us-store-manager-101794291172103.html",
-  "event": "walmart-youngest-store-manager-us"
- },
- {
-  "date": "2026-11-11",
-  "source": "Hindustan Times",
-  "title": "Deer rescued after 10 days with Halloween pumpkin bucket stuck over its mouth in US",
-  "url": "https://www.hindustantimes.com/trending/us/deer-rescued-after-10-days-with-halloween-pumpkin-bucket-stuck-over-its-mouth-in-us-101794299811844.html",
-  "event": "deer-pumpkin-bucket-rescue-us"
- },
- {
-  "date": "2026-11-11",
-  "source": "Good News Network",
-  "title": "A Viral Video Led Strangers to Raise $76,000 for a Full-Time Caregiver",
-  "url": "https://www.goodnewsnetwork.org/viral-video-raises-76000-for-caregiver/",
-  "event": "viral-video-caregiver-fundraiser"
- },
- {
-  "date": "2026-11-11",
-  "source": "서울신문",
-  "title": "항공기 화장실서 ‘몰카’ 촬영 중…승무원 ‘눈썰미’에 딱 걸린 50대男 [월드픽]",
-  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261110500193",
-  "event": "japan-singapore-airplane-hidden-camera"
- },
- {
   "date": "2026-11-12",
   "source": "서울신문",
   "title": "아기 코알라가 1.5m 뱀에 칭칭 감겨 ‘아찔’…맨손 구조한 호주 여성 [월드픽]",
@@ -516,5 +488,40 @@
   "title": "Indian expats carry 30-metre UAE flag at Dubai Run, feature in Crown Prince's video",
   "url": "https://www.hindustantimes.com/trending/indian-expats-carry-30-metre-uae-flag-at-dubai-run-feature-in-crown-princes-video-101795511033887.html",
   "event": "india-uae-flag-dubai-run-2024"
+ },
+ {
+  "date": "2026-11-26",
+  "source": "Good News Network",
+  "title": "Detectives Recover 13th Century Sculpture Stolen by Notorious ‘Gentleman Thief’ Erik the Belgian",
+  "url": "https://www.goodnewsnetwork.org/detectives-recover-13th-century-sculpture-stolen-by-notorious-gentleman-thief-erik-the-belgian/",
+  "event": "belgium-art-theft-13th-century-sculpture"
+ },
+ {
+  "date": "2026-11-26",
+  "source": "Daily Star",
+  "title": "Stowaway raccoon makes miraculous 6,000 mile journey and then 'invades Nigeria'",
+  "url": "https://www.dailystar.co.uk/news/latest-news/stowaway-raccoon-makes-miraculous-6000-37914961",
+  "event": "canada-nigeria-raccoon-journey"
+ },
+ {
+  "date": "2026-11-26",
+  "source": "Hindustan Times",
+  "title": "Australian senator Lidia Thorpe plays peek-a-boo with colleague's daughter during parliament session. Watch",
+  "url": "https://www.hindustantimes.com/trending/australian-senator-lidia-thorpe-plays-peek-a-boo-with-colleagues-daughter-during-parliament-session-watch-101795623617304.html",
+  "event": "australia-senator-peekaboo-parliament"
+ },
+ {
+  "date": "2026-11-26",
+  "source": "Good News Network",
+  "title": "‘Autos for Love’ Owners Delight in Giving Away Cars to Needy Neighbors",
+  "url": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
+  "event": "texas-car-giveaway-charity"
+ },
+ {
+  "date": "2026-11-26",
+  "source": "Daily Star",
+  "title": "Woman got letter saying mystery cousin had left a fortune, and it wasn't a scam",
+  "url": "https://www.dailystar.co.uk/news/latest-news/woman-letter-saying-mystery-cousin-37912261",
+  "event": "uk-woman-inheritance-letter"
  }
 ]

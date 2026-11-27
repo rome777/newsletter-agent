@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-11-12",
-  "source": "서울신문",
-  "title": "아기 코알라가 1.5m 뱀에 칭칭 감겨 ‘아찔’…맨손 구조한 호주 여성 [월드픽]",
-  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261111500358",
-  "event": "australia-koala-snake-rescue"
- },
- {
-  "date": "2026-11-12",
-  "source": "Hindustan Times",
-  "title": "Drunk raccoon that passed out in Virginia liquor store helps raise  ₹2.3 crore for animal shelter",
-  "url": "https://www.hindustantimes.com/trending/us/drunk-raccoon-that-passed-out-in-virginia-liquor-store-helps-raise-rs-2-3-crore-for-animal-shelter-101794394143130.html",
-  "event": "us-raccoon-liquor-store"
- },
- {
-  "date": "2026-11-12",
-  "source": "Hindustan Times",
-  "title": "Police couple runs handcuffed together for 101 km in Spain, earns Guinness World Record",
-  "url": "https://www.hindustantimes.com/trending/police-couple-runs-handcuffed-together-for-101-km-in-spain-earns-guinness-world-record-101794378774219.html",
-  "event": "spain-police-couple-handcuffed-run"
- },
- {
-  "date": "2026-11-12",
-  "source": "Daily Star",
-  "title": "'World's dirtiest man' refused to wash for 60 years - and died days after being forced to have a bath",
-  "url": "https://www.dailystar.co.uk/news/world-news/worlds-dirtiest-man-refused-wash-37858175",
-  "event": "iran-dirtiest-man-bath-death"
- },
- {
-  "date": "2026-11-12",
-  "source": "Metro",
-  "title": "Japanese wrestler can wear his mask during meetings after being elected to council",
-  "url": "https://metro.co.uk/2026/11/11/japanese-wrestler-can-wear-mask-meetings-elected-council-29782861/",
-  "event": "japan-wrestler-mask-council"
- },
- {
   "date": "2026-11-13",
   "source": "Daily Star",
   "title": "Disgusting Russell Brand body part removed from museum as curator says 'even I have limits'",
@@ -523,5 +488,40 @@
   "title": "Woman got letter saying mystery cousin had left a fortune, and it wasn't a scam",
   "url": "https://www.dailystar.co.uk/news/latest-news/woman-letter-saying-mystery-cousin-37912261",
   "event": "uk-woman-inheritance-letter"
+ },
+ {
+  "date": "2026-11-27",
+  "source": "Daily Star",
+  "title": "Millionaire died alone in New York, then Heir Hunters found UK woman to inherit",
+  "url": "https://www.dailystar.co.uk/news/latest-news/millionaire-died-alone-new-york-37918624",
+  "event": "newyork-millionaire-inheritance"
+ },
+ {
+  "date": "2026-11-27",
+  "source": "Vice",
+  "title": "Jennifer Lopez’s Surprise Ja Rule Appearance Has Fans Feeling Nostalgic",
+  "url": "https://www.vice.com/en/article/jennifer-lopezs-surprise-ja-rule-appearance-has-fans-feeling-nostalgic/",
+  "event": "jlo-ja-rule-las-vegas"
+ },
+ {
+  "date": "2026-11-27",
+  "source": "Vice",
+  "title": "U2 Had Plenty To Celebrate This Thanksgiving After 50 Years Together",
+  "url": "https://www.vice.com/en/article/u2-had-plenty-to-celebrate-this-thanksgiving-after-50-years-together/",
+  "event": "u2-thanksgiving-performance"
+ },
+ {
+  "date": "2026-11-27",
+  "source": "Hindustan Times",
+  "title": "16-year-old 'AI Kid of India' Raul John Aju clicks selfie with Russian President Vladimir Putin",
+  "url": "https://www.hindustantimes.com/trending/16yearold-ai-kid-of-india-raul-john-aju-clicks-selfie-with-russian-president-vladimir-putin-101795746563463.html",
+  "event": "india-russia-ai-kid-putin"
+ },
+ {
+  "date": "2026-11-27",
+  "source": "Hindustan Times",
+  "title": "China takes butter chicken to space for Pakistani astronaut Muhammad Zeeshan Ali",
+  "url": "https://www.hindustantimes.com/trending/china-takes-butter-chicken-to-space-for-pakistani-astronaut-muhammad-zeeshan-ali-101795677386228.html",
+  "event": "china-space-butter-chicken"
  }
 ]

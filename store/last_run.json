@@ -1,461 +1,536 @@
 {
-  "at": "2026-11-27T12:48:45",
+  "at": "2026-11-28T12:32:51",
   "sent": "sent",
   "log": [
-    "① 수집   24시간 time window · 71건 · 소스 7곳 · 응답 없음 ['Indian Express']",
-    "② 선별   71 → 홍보 제외 70 → 라벨 제외 41 → 예선 2조 8 → 5건 + 예비 2",
-    "   선정 [Good News Network] Family Is Thankful Their Baby, Given Weeks to Live — 실제로 일어난 기적적인 회복 이야기로, 처음 들으면 '진짜?'라는 반응이 나올 만하며, 훈훈하고 감동적이어서 직장인들이 점심시간에 읽기 좋다. 인도에서 일어난 일로 출처도 명확하다.",
-    "   선정 [Daily Star] Millionaire died alone in New York, then Heir Hunt — 뉴욕에서 혼자 죽은 백만장자의 유산을 찾기 위해 영국 여성을 찾아낸 흥미로운 사건으로, 신기하고 남에게 이야기해주기 좋은 내용이다. 미국과 영국 관련 사건으로 출처가 분명하다.",
-    "   선정 [Vice] Jennifer Lopez’s Surprise Ja Rule Appearance Has F — 제니퍼 로페즈의 깜짝 등장 소식은 연예계 팬들에게 신기하고 재미있는 이야기이며, 미국 라스베이거스에서 실제로 일어난 일이다. 가볍게 읽기 좋다.",
-    "   선정 [Vice] U2 Had Plenty To Celebrate This Thanksgiving After — U2의 50주년 기념 공연 소식으로, 미국 NFL 경기에서 펼쳐진 특별한 이벤트라 신기하고 흥미롭다. 미국에서 일어난 일이다.",
-    "   선정 [Hindustan Times] 16-year-old 'AI Kid of India' Raul John Aju clicks — 16세 인도 소년이 러시아 대통령과 셀카를 찍은 독특한 사건으로, 신기하고 젊은 직장인들이 흥미를 가질 만하다. 인도와 러시아에서 일어난 일이다.",
-    "   예비 [Hindustan Times] China takes butter chicken to space for Pakistani  — 중국이 우주비행사에게 버터 치킨을 우주로 가져간 독특한 이야기로, 신기하고 웃긴 요소가 있어 점심시간 읽기에 적합하다. 중국과 파키스탄 관련 사건이다.",
-    "   예비 [Daily Star] Mum thought she'd found a good side-hustle then sh — 영국 엄마가 부업으로 생각했던 일이 결국 3,000파운드를 잃은 이야기로, 현실적이고 공감 가는 내용이다. 영국에서 일어난 일이다.",
-    "   취재 제외 Good News Network · 본문 0자",
-    "④ 검수   6 → 5건 · 예비 투입 1",
+    "① 수집   24시간 time window · 55건 · 소스 7곳 · 응답 없음 ['Indian Express'] · 0건 ['Good News Network']",
+    "② 선별   55 → 홍보 제외 55 → 라벨 제외 31 → 예선 2조 15 → 5건 + 예비 3",
+    "   선정 [Hindustan Times] Man in UAE spends 5 years trying to gift handmade  — 5년 동안 손수 그린 초상화를 선물하려고 노력한 사람이 드디어 두바이 왕세자의 답장을 받았다는 이야기는 진짜인지 궁금하고, 훈훈해서 직장인 점심시간에 가볍게 읽기 좋다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+    "   선정 [Daily Star] Dad told he had ear infection and given drops died — 36세 아버지가 귀 감염으로 오진받고 치료받다가 사망한 사건은 충격적이고 오싹해서 주변에 이야기하기 좋다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+    "   선정 [Daily Star] Family fly to Egypt and back for £110 with Wizz Ai — 가족이 110파운드로 이집트 왕복 여행을 한 이야기는 신기하고 흥미로워서 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+    "   선정 [Metro] Dave the trespassing cat who’s banned from a pharm — 약국 출입 금지된 고양이 이야기는 웃기고 귀여워서 직장인들이 가볍게 읽고 공유하기 좋다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+    "   선정 [Hindustan Times] Tamil Nadu engineer wins  ₹6.29 lakh in Abu Dhabi  — 천문학을 근거로 복권 번호를 선택해 당첨된 인도 엔지니어 이야기는 신기하고 흥미로워서 점심시간 읽을거리로 적합하다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+    "   예비 [Vice] The Killers Guitarist Nearly Dies After Horrifying — 실제로 유명 밴드 The Killers의 기타리스트 Dave Keuning이 심각한 뇌졸중을 겪어 한쪽 눈이 거의 실명할 뻔한 사건은 충격적이고 놀라워서 점심시간에 읽기에 적합하다. 누가, 어디서, 무엇을 했는지 분명히 나오며, 직장인들이 주변에 이야기하기 좋은 훈훈하고 신기한 이야기이다.",
+    "   예비 [Vice] First Mexico, Now Argentina. What’s Up With All th — 멕시코와 아르헨티나에서 고대 생물인 프테로닥틸(익룡) 목격담이 인터넷에서 화제가 되고 있다는 내용은 신기하고 웃긴 이야기로, 실제로 사람들이 어디서 이런 영상을 찍었는지 분명히 나오며, 가볍게 읽고 주변에 이야기하기 좋다.",
+    "   예비 [Metro] Mystery of Alexander the Great’s tomb may finally  — 알렉산더 대왕의 무덤 위치에 관한 미스터리가 오랜 세월 동안 풀리지 않았는데, 이번에 주요 발견이 이루어졌다는 점에서 매우 흥미롭고 놀라운 실제 사건입니다. 역사적 인물과 관련된 미스터리가 풀릴 가능성은 독자들이 점심시간에 친구나 동료에게 이야기하기 좋은 소재입니다.",
+    "④ 검수   8 → 5건",
     "⑤ 발행   5건 · sent"
   ],
   "selection": {
-    "candidates": 71,
+    "candidates": 55,
     "already_sent": [],
-    "promo": [
-      {
-        "source": "Hindustan Times",
-        "title": "A gold market crash, police chaos and shopping deals: The history of Black Friday",
-        "url": "https://www.hindustantimes.com/trending/a-gold-market-crash-police-chaos-and-shopping-deals-the-history-of-black-friday-101795684746530.html",
-        "kind": null
-      }
-    ],
+    "promo": [],
     "labels": {
-      "사람·도전": 19,
-      "음식·물건": 2,
-      "비극·범죄": 4,
-      "발견·장소": 3,
-      "동물": 3,
-      "일반 뉴스": 23,
-      "법·행정": 11,
-      "연예·운세": 5
+      "비극·범죄": 14,
+      "일반 뉴스": 14,
+      "사람·도전": 13,
+      "발견·장소": 1,
+      "동물": 1,
+      "연예·운세": 6,
+      "음식·물건": 1,
+      "법·행정": 2,
+      "기타": 3
     },
     "label_dropped": [
       {
-        "source": "Hindustan Times",
-        "title": "US coffee shop sees ‘3 busiest days’ after refusing service to TikTok influencer over bad reviews",
-        "url": "https://www.hindustantimes.com/trending/us-coffee-shop-sees-3-busiest-days-after-refusing-service-to-tiktok-influencer-over-bad-reviews-101795748759653.html",
+        "source": "Daily Star",
+        "title": "Major DWP outage in 'cyber incident' shuts down pension and Universal Credit services",
+        "url": "https://www.dailystar.co.uk/news/latest-news/breaking-major-dwp-outage-cyber-37921045",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Americans celebrate Thanksgiving with The National Dog Show as Macy’s parade is postponed: ‘TV event of the year’",
-        "url": "https://www.hindustantimes.com/trending/us/americans-celebrate-thanksgiving-with-the-national-dog-show-as-macy-s-parade-is-postponed-tv-event-of-the-year-101795714037383.html",
+        "title": "A crowded country and an apex predator: Return of wolves is testing the densely populated Netherlands",
+        "url": "https://www.hindustantimes.com/trending/a-crowded-country-and-an-apex-predator-return-of-wolves-is-testing-the-densely-populated-netherlands-101795829560527.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Constitution Day 2026: Women who helped shape the Indian Constitution",
-        "url": "https://www.hindustantimes.com/trending/constitution-day-2026-women-who-helped-shape-the-indian-constitution-101795673883773.html",
+        "title": "Think before you click: A shopper’s guide to Black Fraud-day",
+        "url": "https://www.hindustantimes.com/htcity/leisure/think-before-you-click-a-shopper-s-guide-to-black-fraudday-101795780025429.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Lululemon founder says women delaying motherhood is leading men to import Thai brides",
-        "url": "https://www.hindustantimes.com/trending/lululemon-founder-says-women-delaying-motherhood-is-leading-men-to-import-thai-brides-101795672922135.html",
+        "title": "5-star hotel where Donald Trump stayed in China becomes unlikely tourist attraction",
+        "url": "https://www.hindustantimes.com/trending/donald-trumps-stay-turns-chinese-hotel-into-tourist-attraction-101795771104537.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Night sky over UK towns has more satellites than visible stars, study finds",
-        "url": "https://www.hindustantimes.com/trending/night-sky-over-uk-towns-has-more-satellites-than-visible-stars-study-finds-101795669023519.html",
+        "title": "Woman claims Blinkit logs Wi-Fi names, checks other apps on phone. Company responds",
+        "url": "https://www.hindustantimes.com/trending/woman-claims-blinkit-logs-wi-fi-names-checks-other-apps-on-phone-company-responds-101795759917409.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Hindustan Times",
-        "title": "Rakesh Ranjan’s journey from ISB to Uber president for India and South Asia",
-        "url": "https://www.hindustantimes.com/trending/rakesh-ranjan-s-journey-from-isb-to-uber-president-for-india-and-south-asia-101795666878980.html",
+        "title": "‘Miss you sometimes’: Kunal Shah remembers CRED as fintech company completes 8 years",
+        "url": "https://www.hindustantimes.com/trending/miss-you-sometimes-kunal-shah-remembers-cred-as-fintech-company-completes-8-years-101795756560297.html",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Tourists are tossing fewer coins into Trevi Fountain as Rome introduces entry fee, donations fall by €200,000",
+        "url": "https://www.hindustantimes.com/trending/tourists-are-tossing-fewer-coins-into-trevi-fountain-as-rome-introduces-entry-fee-donations-fall-by-200000-101795752948579.html",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "Vice",
-        "title": "Everything We Know About a Potential Resident Evil 10 Game, Including a Major Clue About the Story",
-        "url": "https://www.vice.com/en/article/everything-we-know-about-a-potential-resident-evil-10-game-including-a-major-clue-about-the-story/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "GTA 6 Has a Lot Going On. Here Are Some Tips for Your First Time in Vice City.",
-        "url": "https://www.vice.com/en/article/gta-6-has-a-lot-going-on-here-are-some-tips-for-your-first-time-in-vice-city/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "How to Unlock Hurricanes in GTA 6 (And Score a Pretty Sweet Car in the Process)",
-        "url": "https://www.vice.com/en/article/how-to-unlock-hurricanes-in-gta-6-and-score-a-pretty-sweet-car-in-the-process/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "Are Record Stores Open on Thanksgiving 2026? What to Know Before Black Friday",
-        "url": "https://www.vice.com/en/article/are-record-stores-open-on-thanksgiving-2026-what-to-know-before-black-friday/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "How to Do the Advanced Tracker Removal Glitch in GTA 6",
-        "url": "https://www.vice.com/en/article/gta-6-advanced-tracker-removal-glitch/",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "Vice",
-        "title": "Balsero Lab GTA 6 – Kitty Litter Garage Code and Location",
-        "url": "https://www.vice.com/en/article/balsero-lab-gta-6-garage-code/",
+        "title": "J. Cole Ticket Price Jumps From $156 to $238 in Lawsuit Against Major Ticket Reseller",
+        "url": "https://www.vice.com/en/article/j-cole-ticket-price-jumps-from-156-to-238-in-lawsuit-against-major-ticket-reseller/",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "중국 대사 “대만은 레드라인”… 광주 판다 임대에 제동",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500097",
-        "kind": "법·행정",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“남자 배려심 여기서 판가름 난다” 몸 숙인 여성들…1000원짜리 데이트 정체 [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500012",
+        "title": "“비싸고 아무 맛도 안나는데 왜” 주가 50% 급등…술 대신 ‘이것’에 난리 난 미국인들 [월드픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500332",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "머스크 “반도체 장기구매할게” 이재용 “그럼 뭐 해줄건데?”…메모리 품귀 전쟁에 삼성 ‘방긋’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500006",
+        "title": "“푸틴, 핵무기 자제…역사적 인물” 극찬 VS 젤렌스키 “살인자” [배틀라인]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500252",
         "kind": "일반 뉴스",
         "result": "버림(일반 뉴스)"
       },
       {
         "source": "서울신문",
-        "title": "美 “최대 40% 관세” 中 “단호히 반대”… 관세전쟁 다시 불붙나",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127012007",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "美 “삼성전자·SK하이닉스, 李대통령” 콕 집어…韓에 최대 25% 관세 으름장",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261126500340",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "“매일 마셨는데 소름” 발암물질 공포에…“다 검사할 것” 난리 난 ‘이 나라’ [월드픽]",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261126500213",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "삼육대, 겨울방학 봉사대 파견… 국내외 13팀 186명",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500078",
-        "kind": "사람·도전",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "7개국 AI·콘텐츠 거장 서울 집결… 중앙대, 새달 3일 ‘실감미디어 컨퍼런스’",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500076",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "광운대 박영준 석좌교수, 英 옥스퍼드대 강단 섰다… 한류 미래 비전 제시",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500072",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "천안사랑카드, 12월 캐시백 70만원까지 상향",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500070",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "전남광주시 “통합특별시에 공공기관 우선 이전” 촉구",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500061",
-        "kind": "법·행정",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "경찰, ‘한동훈 자료유출 의혹’ 법무부·공소청 등 압수수색",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500057",
-        "kind": "법·행정",
-        "result": "버림(국내)"
-      },
-      {
-        "source": "서울신문",
-        "title": "‘K바이오 신화’ 서정진 셀트리온 회장-아주대학교, 상호 협력 방안 논의",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500056",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "새 옷 입은 홍천 캐릭터 ‘홍이·청이’…“도시 열정·가능성 담아”",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500053",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "기온 급등락하는 초겨울, 뇌졸중 위험 커진다…‘골든타임’ 지켜야",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500043",
-        "kind": "일반 뉴스",
-        "result": "버림(일반 뉴스)"
-      },
-      {
-        "source": "서울신문",
-        "title": "서울 중구 여인숙에서 새벽 불…거주민 1명 숨져",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500038",
+        "title": "학교 연구실·욕실서 신체 불법 촬영·잠든 동료 추행… 30대 대학원생 징역 2년",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500305",
         "kind": "비극·범죄",
         "result": "버림(국내)"
       },
       {
         "source": "서울신문",
-        "title": "9년 전 신규 간호사의 조용한 서약, 생명을 살리는 기적으로 돌아오다",
-        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500028",
+        "title": "대구 수성구 고층 아파트서 불… 소방관·주민 5명 부상",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500304",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "해광호 실종자 수색 장기화, 강한 유속 등 난항",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500301",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "국민의 상상력이 안전한 학교를 그리다… 한국교육시설안전원, 공모전 시상식 개최",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500296",
         "kind": "사람·도전",
         "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“밥 대신 빵·우유”… 파업 참여 제주 48개교, 급식 차질 빚었다",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500295",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "내년부터 맹장 수술비 122만→87만원…제왕절개 ‘0원’",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500292",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "국악계 성폭력 가해자 ‘원아웃’ 제안…긴급행동, 상설 연대체 전환",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500289",
+        "kind": "사람·도전",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "채권자와 다투다 흉기 휘두른 50대에 징역 4년형",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500288",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "건학 50주년, ‘백석 사랑 나눔 대축제’ 개최",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500284",
+        "kind": "사람·도전",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "선문대, 금산교육지원청과 ‘K-16 지역 미래인재’ 양성",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500278",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
+      },
+      {
+        "source": "서울신문",
+        "title": "특검, ‘SNS 내란선동’ 황교안 징역 10년 구형",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500274",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "굿즈 소비 넘어 연대의 기부로… ‘리센느노믹스’가 바꾼 사회공헌 공식 [이슈픽]",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500271",
+        "kind": "사람·도전",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "“초등생이 교사 머리채 폭행” 영상 유출, 학부모는 명예훼손 진정…내사 종결",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500263",
+        "kind": "비극·범죄",
+        "result": "버림(국내)"
+      },
+      {
+        "source": "서울신문",
+        "title": "시험장에 금속탐지기까지… 제주 고교 기말고사 ‘철통 감시’",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20261127500253",
+        "kind": "일반 뉴스",
+        "result": "버림(일반 뉴스)"
       }
     ],
     "heats": [
       {
-        "size": 21,
+        "size": 16,
         "picks": [
           {
-            "source": "Good News Network",
-            "title": "Family Is Thankful Their Baby, Given Weeks to Live on Christmas Eve, Now Brain Cancer-Free",
-            "url": "https://www.goodnewsnetwork.org/girl-given-weeks-to-live-on-christmas-eve-makes-miracle-recovery-after-serendipitous-call-to-st-jude/",
-            "kind": "사람·도전",
-            "event": "baby-brain-cancer-recovery-2026",
-            "reason": "아기 뇌암 완치라는 기적적인 사건으로, 희망적이고 훈훈한 이야기라 직장인들이 점심시간에 읽기 좋음.",
+            "source": "Hindustan Times",
+            "title": "Spanish hunter faces 2 years in jail for killing endangered brown bear",
+            "url": "https://www.hindustantimes.com/trending/spanish-hunter-faces-2-years-in-jail-for-killing-endangered-brown-bear-101795761362578.html",
+            "kind": "비극·범죄",
+            "event": "spain-hunter-bear-case",
+            "reason": "스페인에서 희귀한 갈색곰을 사냥한 사건은 실제로 일어난 일이며, 멸종 위기 동물을 죽였다는 점에서 '진짜?'라는 반응을 유발할 수 있습니다. 누가, 어디서, 무엇을 했는지 명확히 나와 있어 흥미롭고 주변에 이야기하기 좋습니다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "16-year-old 'AI Kid of India' Raul John Aju clicks selfie with Russian President Vladimir Putin",
-            "url": "https://www.hindustantimes.com/trending/16yearold-ai-kid-of-india-raul-john-aju-clicks-selfie-with-russian-president-vladimir-putin-101795746563463.html",
+            "title": "Vladimir Putin asks Indian schoolboy if AI is a threat to education, his response wins attention",
+            "url": "https://www.hindustantimes.com/trending/vladimir-putin-asks-indian-schoolboy-if-ai-is-a-threat-to-education-his-response-wins-attention-101795796201847.html",
             "kind": "사람·도전",
-            "event": "india-ai-kid-putin-2026",
-            "reason": "16세 인도 소년이 러시아 대통령과 만난 독특한 사건으로 신기하고 흥미로워 공유할 만함.",
+            "event": "putin-indian-schoolboy-ai",
+            "reason": "푸틴이 인도 소년에게 AI에 대해 질문하고 소년의 답변이 주목받은 사건은 신기하고 훈훈한 이야기로, 국내 20~30대 직장인들이 점심시간에 가볍게 읽기 좋습니다. 누가, 어디서, 무엇을 했는지 분명합니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Metro",
+            "title": "Mystery of Alexander the Great’s tomb may finally be solved after major discovery",
+            "url": "https://metro.co.uk/2026/11/27/mystery-alexander-greats-tomb-may-finally-solved-major-discovery-29820850/",
+            "kind": "발견·장소",
+            "event": "alexander-great-tomb-discovery",
+            "reason": "알렉산더 대왕의 무덤 미스터리가 해결될 가능성은 역사적이고 신기한 사건으로, 국내외 독자 모두 흥미를 가질 만합니다. 누가, 어디서, 무엇을 했는지 기사에 명확히 나옵니다.",
             "result": "통과"
           },
           {
             "source": "Daily Star",
-            "title": "Mum thought she'd found a good side-hustle then she lost £3,000 for good",
-            "url": "https://www.dailystar.co.uk/news/latest-news/mum-thought-shed-found-good-37916641",
+            "title": "Couple quit two-bed home to live in a caravan and save £800 a month",
+            "url": "https://www.dailystar.co.uk/news/latest-news/couple-quit-two-bed-home-37920824",
             "kind": "사람·도전",
-            "event": "mum-lost-money-side-hustle-2026",
-            "reason": "엄마가 부업으로 돈을 잃은 사연이 현실적이고 공감 가며, 웃기거나 안타까운 이야기로 읽기 좋음.",
+            "event": "couple-caravan-saving",
+            "reason": "부부가 집을 떠나 캐러밴에서 생활하며 월 800파운드를 절약하는 이야기는 현실적이고 훈훈한 사례로, 직장인들이 공감하며 주변에 이야기하기 좋습니다. 누가, 어디서, 무엇을 했는지 분명합니다.",
             "result": "통과"
           },
           {
             "source": "Hindustan Times",
-            "title": "Woman in Germany fined for crying while sitting on bench at children’s playground",
-            "url": "https://www.hindustantimes.com/trending/woman-in-germany-fined-for-crying-while-sitting-on-bench-at-children-s-playground-101795741671779.html",
+            "title": "Man accused of breaking into Prince William and Kate Middleton’s home entered UK illegally at least 3 times: Report",
+            "url": "https://www.hindustantimes.com/trending/man-accused-of-breaking-into-prince-william-and-kate-middleton-s-home-entered-uk-illegally-at-least-3-times-report-101795787416164.html",
+            "kind": "비극·범죄",
+            "event": "prince-william-home-breakin",
+            "reason": "영국 왕실 관련 사건으로, 누가 어디서 무엇을 했는지 명확하며, 충격적인 범죄 이야기로 '진짜?'라는 반응을 유발할 수 있습니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Indian CA quits six-figure salary job in Gurgaon, buys first house and car in Dubai within 3 years",
+            "url": "https://www.hindustantimes.com/trending/indian-ca-quits-six-figure-salary-job-in-gurgaon-buys-first-house-and-car-in-dubai-within-3-years-101795799190149.html",
+            "kind": "사람·도전",
+            "event": "indian-ca-dubai-success",
+            "reason": "인도 출신 CA가 고액 연봉 직장을 그만두고 3년 만에 두바이에서 집과 차를 산 성공 스토리는 훈훈하고 동기부여가 되는 이야기로, 직장인 독자들에게 흥미롭습니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Vice",
+            "title": "The Killers Guitarist Nearly Dies After Horrifying Stroke Nearly Left Him Blind in One Eye",
+            "url": "https://www.vice.com/en/article/the-killers-guitarist-nearly-dies-after-horrifying-stroke-nearly-left-him-blind-in-one-eye/",
+            "kind": "비극·범죄",
+            "event": "killers-guitarist-stroke",
+            "reason": "유명 밴드 기타리스트가 뇌졸중으로 거의 사망할 뻔한 사건은 충격적이고 신기한 이야기로, 누가 어디서 무엇을 했는지 분명해 흥미를 끕니다.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Delhi startup offers people a chance to plan their funeral in advance, packages cost up to  ₹1.5 lakh",
+            "url": "https://www.hindustantimes.com/trending/delhi-startup-offers-people-a-chance-to-plan-their-funeral-in-advance-packages-cost-up-to-1-5-lakh-101795757242760.html",
             "kind": "법·행정",
-            "event": "germany-woman-fined-crying-2026",
-            "reason": "독특하고 황당한 독일에서의 벌금 사건으로 신기하고 웃긴 이야기라 공유할 만함.",
-            "result": "통과"
-          },
-          {
-            "source": "Daily Star",
-            "title": "Millionaire died alone in New York, then Heir Hunters found UK woman to inherit",
-            "url": "https://www.dailystar.co.uk/news/latest-news/millionaire-died-alone-new-york-37918624",
-            "kind": "사람·도전",
-            "event": "millionaire-inheritance-2026",
-            "reason": "억만장자가 혼자 죽고 상속인을 찾아낸 이야기로 신기하고 흥미로운 실제 사건임.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "Jennifer Lopez’s Surprise Ja Rule Appearance Has Fans Feeling Nostalgic",
-            "url": "https://www.vice.com/en/article/jennifer-lopezs-surprise-ja-rule-appearance-has-fans-feeling-nostalgic/",
-            "kind": "연예·운세",
-            "event": "jlo-ja-rule-surprise-2026",
-            "reason": "제니퍼 로페즈와 Ja Rule의 깜짝 공연 소식으로 연예계 팬들에게 흥미롭고 공유할 만한 이야기임.",
-            "result": "통과"
-          },
-          {
-            "source": "Vice",
-            "title": "U2 Had Plenty To Celebrate This Thanksgiving After 50 Years Together",
-            "url": "https://www.vice.com/en/article/u2-had-plenty-to-celebrate-this-thanksgiving-after-50-years-together/",
-            "kind": "연예·운세",
-            "event": "u2-50-years-thanksgiving-2026",
-            "reason": "U2의 50주년 기념 공연 소식으로 음악 팬들에게 흥미롭고 훈훈한 이야기임.",
-            "result": "통과"
-          },
-          {
-            "source": "Hindustan Times",
-            "title": "China takes butter chicken to space for Pakistani astronaut Muhammad Zeeshan Ali",
-            "url": "https://www.hindustantimes.com/trending/china-takes-butter-chicken-to-space-for-pakistani-astronaut-muhammad-zeeshan-ali-101795677386228.html",
-            "kind": "음식·물건",
-            "event": "butter-chicken-space-2026",
-            "reason": "중국 우주정거장에서 버터 치킨을 우주인에게 제공한 독특한 사건으로 신기하고 재미있음.",
+            "event": "delhi-funeral-planning-startup",
+            "reason": "델리 스타트업이 장례 계획 서비스를 제공하는 독특한 사업 아이디어는 신기하고 훈훈한 이야기로, 국내 20~30대 직장인들이 점심시간에 읽기 좋습니다.",
             "result": "통과"
           }
         ]
       },
       {
-        "size": 20,
-        "picks": []
+        "size": 15,
+        "picks": [
+          {
+            "source": "Metro",
+            "title": "Dave the trespassing cat who’s banned from a pharmacy could be feline of the year",
+            "url": "https://metro.co.uk/2026/11/27/dave-trespassing-cat-banned-a-pharmacy-feline-year-29823757/",
+            "kind": "동물",
+            "event": "cat-pharmacy-ban-uk",
+            "reason": "고양이가 약국 출입 금지당했다는 실제 사건으로, '진짜?'라는 반응을 유발하며 웃기고 신기한 이야기라 직장인 점심시간 가볍게 읽기 좋음. 누가, 어디서, 무엇을 했는지 분명히 나옴.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Tamil Nadu engineer wins  ₹6.29 lakh in Abu Dhabi draw after choosing ticket number based on astrology",
+            "url": "https://www.hindustantimes.com/trending/tamil-nadu-engineer-wins-6-29-lakh-in-abu-dhabi-draw-after-choosing-ticket-number-based-on-astrology-101795792384248.html",
+            "kind": "연예·운세",
+            "event": "lottery-astrology-india-uae",
+            "reason": "인도 타밀나두 엔지니어가 점성술을 근거로 복권 번호를 선택해 아부다비에서 당첨된 실제 사건으로 신기하고 남에게 말해주기 좋은 이야기임.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "Family fly to Egypt and back for £110 with Wizz Air and easyJet",
+            "url": "https://www.dailystar.co.uk/news/latest-news/family-fly-egypt-back-110-37920834",
+            "kind": "사람·도전",
+            "event": "cheap-holiday-egypt-uk",
+            "reason": "영국 가족이 110파운드로 이집트 왕복 여행을 한 실제 사례로, 놀랍고 훈훈한 이야기이며 누가, 어디서, 무엇을 했는지 분명히 나옴.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "Accommodation in Thailand was garage floor with strangers - but it only cost 9p",
+            "url": "https://www.dailystar.co.uk/news/latest-news/accommodation-thailand-garage-floor-strangers-37920816",
+            "kind": "사람·도전",
+            "event": "cheap-accommodation-thailand",
+            "reason": "태국에서 9펜스로 차고 바닥에서 낯선 사람들과 함께 숙박한 실제 경험담으로 웃기고 신기한 이야기임.",
+            "result": "통과"
+          },
+          {
+            "source": "Hindustan Times",
+            "title": "Man in UAE spends 5 years trying to gift handmade portrait to Dubai Crown Prince, finally gets a response",
+            "url": "https://www.hindustantimes.com/trending/man-in-uae-spends-5-years-trying-to-gift-handmade-portrait-to-dubai-crown-prince-finally-gets-a-response-101795770138927.html",
+            "kind": "사람·도전",
+            "event": "portrait-gift-dubai-crown-prince",
+            "reason": "UAE에서 한 남성이 5년간 두바이 왕세자에게 손으로 그린 초상화를 선물하려 노력하다가 결국 답변을 받은 실제 사건으로 훈훈하고 남에게 말해주기 좋음.",
+            "result": "통과"
+          },
+          {
+            "source": "Daily Star",
+            "title": "Dad told he had ear infection and given drops died days later aged 36",
+            "url": "https://www.dailystar.co.uk/news/latest-news/dad-told-ear-infection-given-37921018",
+            "kind": "비극·범죄",
+            "event": "misdiagnosis-ear-infection-uk",
+            "reason": "영국에서 아버지가 귀 감염으로 진단받고 약을 받았으나 며칠 후 사망한 실제 사건으로 오싹하고 충격적인 이야기임.",
+            "result": "통과"
+          },
+          {
+            "source": "Vice",
+            "title": "First Mexico, Now Argentina. What’s Up With All the ‘Pterodactyl’ Sightings?",
+            "url": "https://www.vice.com/en/article/first-mexico-now-argentina-whats-up-with-all-the-pterodactyl-sightings/",
+            "kind": "기타",
+            "event": "pterodactyl-sightings-latin-america",
+            "reason": "멕시코와 아르헨티나에서 익룡 목격 영상이 인터넷에 퍼진 실제 사건으로 신기하고 웃긴 이야기이며 누가, 어디서, 무엇을 했는지 분명히 나옴.",
+            "result": "통과"
+          }
+        ]
       }
     ],
     "final": [
       {
-        "source": "Good News Network",
-        "title": "Family Is Thankful Their Baby, Given Weeks to Live on Christmas Eve, Now Brain Cancer-Free",
-        "url": "https://www.goodnewsnetwork.org/girl-given-weeks-to-live-on-christmas-eve-makes-miracle-recovery-after-serendipitous-call-to-st-jude/",
+        "source": "Hindustan Times",
+        "title": "Man in UAE spends 5 years trying to gift handmade portrait to Dubai Crown Prince, finally gets a response",
+        "url": "https://www.hindustantimes.com/trending/man-in-uae-spends-5-years-trying-to-gift-handmade-portrait-to-dubai-crown-prince-finally-gets-a-response-101795770138927.html",
         "kind": "사람·도전",
-        "event": "india-baby-cancer-recovery",
-        "reason": "실제로 일어난 기적적인 회복 이야기로, 처음 들으면 '진짜?'라는 반응이 나올 만하며, 훈훈하고 감동적이어서 직장인들이 점심시간에 읽기 좋다. 인도에서 일어난 일로 출처도 명확하다.",
+        "event": "uae-portrait-crown-prince",
+        "reason": "5년 동안 손수 그린 초상화를 선물하려고 노력한 사람이 드디어 두바이 왕세자의 답장을 받았다는 이야기는 진짜인지 궁금하고, 훈훈해서 직장인 점심시간에 가볍게 읽기 좋다. 누가, 어디서, 무엇을 했는지가 분명하다.",
         "result": "선정"
       },
       {
         "source": "Daily Star",
-        "title": "Millionaire died alone in New York, then Heir Hunters found UK woman to inherit",
-        "url": "https://www.dailystar.co.uk/news/latest-news/millionaire-died-alone-new-york-37918624",
+        "title": "Dad told he had ear infection and given drops died days later aged 36",
+        "url": "https://www.dailystar.co.uk/news/latest-news/dad-told-ear-infection-given-37921018",
+        "kind": "비극·범죄",
+        "event": "uk-ear-infection-death",
+        "reason": "36세 아버지가 귀 감염으로 오진받고 치료받다가 사망한 사건은 충격적이고 오싹해서 주변에 이야기하기 좋다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+        "result": "선정"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Family fly to Egypt and back for £110 with Wizz Air and easyJet",
+        "url": "https://www.dailystar.co.uk/news/latest-news/family-fly-egypt-back-110-37920834",
         "kind": "사람·도전",
-        "event": "newyork-millionaire-inheritance",
-        "reason": "뉴욕에서 혼자 죽은 백만장자의 유산을 찾기 위해 영국 여성을 찾아낸 흥미로운 사건으로, 신기하고 남에게 이야기해주기 좋은 내용이다. 미국과 영국 관련 사건으로 출처가 분명하다.",
+        "event": "uk-egypt-budget-trip",
+        "reason": "가족이 110파운드로 이집트 왕복 여행을 한 이야기는 신기하고 흥미로워서 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지가 분명하다.",
         "result": "선정"
       },
       {
-        "source": "Vice",
-        "title": "Jennifer Lopez’s Surprise Ja Rule Appearance Has Fans Feeling Nostalgic",
-        "url": "https://www.vice.com/en/article/jennifer-lopezs-surprise-ja-rule-appearance-has-fans-feeling-nostalgic/",
-        "kind": "연예·운세",
-        "event": "jlo-ja-rule-las-vegas",
-        "reason": "제니퍼 로페즈의 깜짝 등장 소식은 연예계 팬들에게 신기하고 재미있는 이야기이며, 미국 라스베이거스에서 실제로 일어난 일이다. 가볍게 읽기 좋다.",
-        "result": "선정"
-      },
-      {
-        "source": "Vice",
-        "title": "U2 Had Plenty To Celebrate This Thanksgiving After 50 Years Together",
-        "url": "https://www.vice.com/en/article/u2-had-plenty-to-celebrate-this-thanksgiving-after-50-years-together/",
-        "kind": "연예·운세",
-        "event": "u2-thanksgiving-performance",
-        "reason": "U2의 50주년 기념 공연 소식으로, 미국 NFL 경기에서 펼쳐진 특별한 이벤트라 신기하고 흥미롭다. 미국에서 일어난 일이다.",
+        "source": "Metro",
+        "title": "Dave the trespassing cat who’s banned from a pharmacy could be feline of the year",
+        "url": "https://metro.co.uk/2026/11/27/dave-trespassing-cat-banned-a-pharmacy-feline-year-29823757/",
+        "kind": "동물",
+        "event": "uk-cat-pharmacy-ban",
+        "reason": "약국 출입 금지된 고양이 이야기는 웃기고 귀여워서 직장인들이 가볍게 읽고 공유하기 좋다. 누가, 어디서, 무엇을 했는지가 명확하다.",
         "result": "선정"
       },
       {
         "source": "Hindustan Times",
-        "title": "16-year-old 'AI Kid of India' Raul John Aju clicks selfie with Russian President Vladimir Putin",
-        "url": "https://www.hindustantimes.com/trending/16yearold-ai-kid-of-india-raul-john-aju-clicks-selfie-with-russian-president-vladimir-putin-101795746563463.html",
+        "title": "Tamil Nadu engineer wins  ₹6.29 lakh in Abu Dhabi draw after choosing ticket number based on astrology",
+        "url": "https://www.hindustantimes.com/trending/tamil-nadu-engineer-wins-6-29-lakh-in-abu-dhabi-draw-after-choosing-ticket-number-based-on-astrology-101795792384248.html",
+        "kind": "연예·운세",
+        "event": "uae-astrology-lottery-win",
+        "reason": "천문학을 근거로 복권 번호를 선택해 당첨된 인도 엔지니어 이야기는 신기하고 흥미로워서 점심시간 읽을거리로 적합하다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+        "result": "선정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Indian CA quits six-figure salary job in Gurgaon, buys first house and car in Dubai within 3 years",
+        "url": "https://www.hindustantimes.com/trending/indian-ca-quits-six-figure-salary-job-in-gurgaon-buys-first-house-and-car-in-dubai-within-3-years-101795799190149.html",
         "kind": "사람·도전",
-        "event": "india-russia-ai-kid-putin",
-        "reason": "16세 인도 소년이 러시아 대통령과 셀카를 찍은 독특한 사건으로, 신기하고 젊은 직장인들이 흥미를 가질 만하다. 인도와 러시아에서 일어난 일이다.",
-        "result": "선정"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "China takes butter chicken to space for Pakistani astronaut Muhammad Zeeshan Ali",
-        "url": "https://www.hindustantimes.com/trending/china-takes-butter-chicken-to-space-for-pakistani-astronaut-muhammad-zeeshan-ali-101795677386228.html",
-        "kind": "음식·물건",
-        "event": "china-space-butter-chicken",
-        "reason": "중국이 우주비행사에게 버터 치킨을 우주로 가져간 독특한 이야기로, 신기하고 웃긴 요소가 있어 점심시간 읽기에 적합하다. 중국과 파키스탄 관련 사건이다.",
-        "result": "예비"
-      },
-      {
-        "source": "Hindustan Times",
-        "title": "Woman in Germany fined for crying while sitting on bench at children’s playground",
-        "url": "https://www.hindustantimes.com/trending/woman-in-germany-fined-for-crying-while-sitting-on-bench-at-children-s-playground-101795741671779.html",
-        "kind": "법·행정",
-        "event": "germany-woman-fined-crying",
-        "reason": "독일에서 아이 놀이터 벤치에 앉아 울었다는 이유로 벌금을 받은 사건으로, 오싹하거나 황당한 느낌을 주어 이야기거리가 된다. 독일에서 실제 일어난 일이다.",
+        "event": "uae-indian-financial-success",
+        "reason": "인도 출신 회계사가 고액 연봉 직장을 그만두고 두바이에서 집과 차를 산 성공 스토리는 훈훈하고 동기부여가 된다. 누가, 어디서, 무엇을 했는지가 명확하다.",
         "result": "매체 상한"
       },
       {
         "source": "Daily Star",
-        "title": "Mum thought she'd found a good side-hustle then she lost £3,000 for good",
-        "url": "https://www.dailystar.co.uk/news/latest-news/mum-thought-shed-found-good-37916641",
+        "title": "Accommodation in Thailand was garage floor with strangers - but it only cost 9p",
+        "url": "https://www.dailystar.co.uk/news/latest-news/accommodation-thailand-garage-floor-strangers-37920816",
         "kind": "사람·도전",
-        "event": "uk-mum-lost-money",
-        "reason": "영국 엄마가 부업으로 생각했던 일이 결국 3,000파운드를 잃은 이야기로, 현실적이고 공감 가는 내용이다. 영국에서 일어난 일이다.",
+        "event": "thailand-budget-accommodation",
+        "reason": "태국에서 9펜니짜리 초저가 숙소를 경험한 이야기는 신기하고 웃기며, 누가, 어디서, 무엇을 했는지가 분명하다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Daily Star",
+        "title": "Couple quit two-bed home to live in a caravan and save £800 a month",
+        "url": "https://www.dailystar.co.uk/news/latest-news/couple-quit-two-bed-home-37920824",
+        "kind": "사람·도전",
+        "event": "uk-couple-caravan-saving",
+        "reason": "부부가 집을 떠나 캐러밴에서 살며 월 800파운드를 절약하는 이야기는 현실적이고 흥미로워서 공유할 만하다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+        "result": "매체 상한"
+      },
+      {
+        "source": "Vice",
+        "title": "The Killers Guitarist Nearly Dies After Horrifying Stroke Nearly Left Him Blind in One Eye",
+        "url": "https://www.vice.com/en/article/the-killers-guitarist-nearly-dies-after-horrifying-stroke-nearly-left-him-blind-in-one-eye/",
+        "kind": "비극·범죄",
+        "event": "the-killers-guitarist-stroke",
+        "reason": "실제로 유명 밴드 The Killers의 기타리스트 Dave Keuning이 심각한 뇌졸중을 겪어 한쪽 눈이 거의 실명할 뻔한 사건은 충격적이고 놀라워서 점심시간에 읽기에 적합하다. 누가, 어디서, 무엇을 했는지 분명히 나오며, 직장인들이 주변에 이야기하기 좋은 훈훈하고 신기한 이야기이다.",
+        "result": "예비"
+      },
+      {
+        "source": "Vice",
+        "title": "First Mexico, Now Argentina. What’s Up With All the ‘Pterodactyl’ Sightings?",
+        "url": "https://www.vice.com/en/article/first-mexico-now-argentina-whats-up-with-all-the-pterodactyl-sightings/",
+        "kind": "기타",
+        "event": "pterodactyl-sightings",
+        "reason": "멕시코와 아르헨티나에서 고대 생물인 프테로닥틸(익룡) 목격담이 인터넷에서 화제가 되고 있다는 내용은 신기하고 웃긴 이야기로, 실제로 사람들이 어디서 이런 영상을 찍었는지 분명히 나오며, 가볍게 읽고 주변에 이야기하기 좋다.",
+        "result": "예비"
+      },
+      {
+        "source": "Metro",
+        "title": "Mystery of Alexander the Great’s tomb may finally be solved after major discovery",
+        "url": "https://metro.co.uk/2026/11/27/mystery-alexander-greats-tomb-may-finally-solved-major-discovery-29820850/",
+        "kind": "발견·장소",
+        "event": "alexander-the-great-tomb-discovery",
+        "reason": "알렉산더 대왕의 무덤 위치에 관한 미스터리가 오랜 세월 동안 풀리지 않았는데, 이번에 주요 발견이 이루어졌다는 점에서 매우 흥미롭고 놀라운 실제 사건입니다. 역사적 인물과 관련된 미스터리가 풀릴 가능성은 독자들이 점심시간에 친구나 동료에게 이야기하기 좋은 소재입니다.",
         "result": "예비"
       }
     ],
-    "final_out": []
+    "final_out": [
+      {
+        "source": "Hindustan Times",
+        "title": "Man accused of breaking into Prince William and Kate Middleton’s home entered UK illegally at least 3 times: Report",
+        "url": "https://www.hindustantimes.com/trending/man-accused-of-breaking-into-prince-william-and-kate-middleton-s-home-entered-uk-illegally-at-least-3-times-report-101795787416164.html",
+        "kind": "비극·범죄"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Vladimir Putin asks Indian schoolboy if AI is a threat to education, his response wins attention",
+        "url": "https://www.hindustantimes.com/trending/vladimir-putin-asks-indian-schoolboy-if-ai-is-a-threat-to-education-his-response-wins-attention-101795796201847.html",
+        "kind": "사람·도전"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Delhi startup offers people a chance to plan their funeral in advance, packages cost up to  ₹1.5 lakh",
+        "url": "https://www.hindustantimes.com/trending/delhi-startup-offers-people-a-chance-to-plan-their-funeral-in-advance-packages-cost-up-to-1-5-lakh-101795757242760.html",
+        "kind": "법·행정"
+      },
+      {
+        "source": "Hindustan Times",
+        "title": "Spanish hunter faces 2 years in jail for killing endangered brown bear",
+        "url": "https://www.hindustantimes.com/trending/spanish-hunter-faces-2-years-in-jail-for-killing-endangered-brown-bear-101795761362578.html",
+        "kind": "비극·범죄"
+      }
+    ]
   },
   "rejected": [],
   "published": [
     {
+      "source": "Hindustan Times",
+      "headline": "두바이 거주 남성, 5년간 손수 그린 초상화 선물하려다 왕세자 응답 받아",
+      "url": "https://www.hindustantimes.com/trending/man-in-uae-spends-5-years-trying-to-gift-handmade-portrait-to-dubai-crown-prince-finally-gets-a-response-101795770138927.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/27/1600x900/logo/bdfbfbccxcc_1795771414044_fKxu_1795771422986_QM85_6c724aac-becf-4611-a57d-761aede9ce40_y3Fb.jpg",
+      "kind": "사람·도전",
+      "topic": "사람",
+      "event": "uae-portrait-crown-prince",
+      "reason": "5년 동안 손수 그린 초상화를 선물하려고 노력한 사람이 드디어 두바이 왕세자의 답장을 받았다는 이야기는 진짜인지 궁금하고, 훈훈해서 직장인 점심시간에 가볍게 읽기 좋다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+      "why": "두바이 런은 셰이크 함단이 매일 30분씩 30일간 운동을 권장하기 위해 2017년 시작한 피트니스 챌린지의 일환으로, 올해는 31만 명 이상이 참가했습니다."
+    },
+    {
       "source": "Daily Star",
-      "headline": "뉴욕에서 혼자 사망한 백만장자, BBC 'Heir Hunters'가 영국 여성 상속인 찾아내",
-      "url": "https://www.dailystar.co.uk/news/latest-news/millionaire-died-alone-new-york-37918624",
-      "image": "https://i2-prod.dailystar.co.uk/article36038699.ece/ALTERNATES/s1200d/4_5-Front-left-Pauliina-and-other-cousins-meet-up-in-Helsinki.jpg",
+      "headline": "영국서 '수영선수 귀' 진단받은 36세 아버지, 수막염으로 사망",
+      "url": "https://www.dailystar.co.uk/news/latest-news/dad-told-ear-infection-given-37921018",
+      "image": "https://i2-prod.dailystar.co.uk/article37921019.ece/ALTERNATES/s1200d/1_dad-of-two-36-d-1642615.jpg",
+      "kind": "비극·범죄",
+      "topic": "사건·사고",
+      "event": "uk-ear-infection-death",
+      "reason": "36세 아버지가 귀 감염으로 오진받고 치료받다가 사망한 사건은 충격적이고 오싹해서 주변에 이야기하기 좋다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+      "why": "수막염은 신속한 진단과 치료가 필요한 심각한 질환으로, 이번 사건은 치료 과정에서 적절한 대응이 이루어졌는지 확인하기 위한 부검 심리가 예정되어 있습니다."
+    },
+    {
+      "source": "Daily Star",
+      "headline": "영국 가족, 110파운드로 이집트 피라미드 38시간 여행 성공",
+      "url": "https://www.dailystar.co.uk/news/latest-news/family-fly-egypt-back-110-37920834",
+      "image": "https://i2-prod.dailystar.co.uk/article37920837.ece/ALTERNATES/s1200d/1_Jam_Press_JMP940908.jpg",
       "kind": "사람·도전",
       "topic": "사람",
-      "event": "newyork-millionaire-inheritance",
-      "reason": "뉴욕에서 혼자 죽은 백만장자의 유산을 찾기 위해 영국 여성을 찾아낸 흥미로운 사건으로, 신기하고 남에게 이야기해주기 좋은 내용이다. 미국과 영국 관련 사건으로 출처가 분명하다.",
-      "why": "상속인이 없던 찰스 벤투라의 유산을 찾기 위해 각국의 상속법과 국제적 가족 관계를 전문적으로 연구하는 Finders International이 투입되어 복잡한 법적 절차를 해결했습니다."
+      "event": "uk-egypt-budget-trip",
+      "reason": "가족이 110파운드로 이집트 왕복 여행을 한 이야기는 신기하고 흥미로워서 점심시간에 읽기 좋다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+      "why": "왕복 항공권 가격 차이와 공항 체크인 규칙 때문에 여행 일정과 비용이 결정되었습니다."
     },
     {
-      "source": "Vice",
-      "headline": "제니퍼 로페즈, 라스베이거스 콘서트 영화로 추수감사절 팬들과 만나다",
-      "url": "https://www.vice.com/en/article/jennifer-lopezs-surprise-ja-rule-appearance-has-fans-feeling-nostalgic/",
-      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/Jennifer-Lopez.jpg?w=1200",
-      "kind": "연예·운세",
-      "topic": "사람",
-      "event": "jlo-ja-rule-las-vegas",
-      "reason": "제니퍼 로페즈의 깜짝 등장 소식은 연예계 팬들에게 신기하고 재미있는 이야기이며, 미국 라스베이거스에서 실제로 일어난 일이다. 가볍게 읽기 좋다.",
-      "why": "이 콘서트 영화는 로페즈가 콜로세움에서 공연한 이전 아티스트들에게 바치는 헌사이자 팬들이 공연을 놓친 경우에도 즐길 수 있도록 제작되었습니다."
-    },
-    {
-      "source": "Vice",
-      "headline": "U2, 결성 50주년 맞아 NFL 추수감사절 이브 경기 하프타임 공연 선보여",
-      "url": "https://www.vice.com/en/article/u2-had-plenty-to-celebrate-this-thanksgiving-after-50-years-together/",
-      "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/U21.jpg?w=1200",
-      "kind": "연예·운세",
-      "topic": "사람",
-      "event": "u2-thanksgiving-performance",
-      "reason": "U2의 50주년 기념 공연 소식으로, 미국 NFL 경기에서 펼쳐진 특별한 이벤트라 신기하고 흥미롭다. 미국에서 일어난 일이다.",
-      "why": "U2는 이전에도 2002년 슈퍼볼 하프타임 쇼에서 9·11 희생자들을 추모하는 공연을 한 바 있어 NFL 무대에서 상징적인 순간을 만들어왔습니다."
+      "source": "Metro",
+      "headline": "영국 올해의 고양이 후보에 노퍽의 단골 고양이 데이브 선정",
+      "url": "https://metro.co.uk/2026/11/27/dave-trespassing-cat-banned-a-pharmacy-feline-year-29823757/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/11/coverimages56190906-32f6-e1795778219119_1795781473.jpg?quality=90&strip=all&w=1200&h=630&crop=1",
+      "kind": "동물",
+      "topic": "동물",
+      "event": "uk-cat-pharmacy-ban",
+      "reason": "약국 출입 금지된 고양이 이야기는 웃기고 귀여워서 직장인들이 가볍게 읽고 공유하기 좋다. 누가, 어디서, 무엇을 했는지가 명확하다.",
+      "why": "수상자는 고양이용 정원용품과 1년간의 건강관리 서비스가 포함된 상을 받으며, 투표는 12월 17일에 마감됩니다."
     },
     {
       "source": "Hindustan Times",
-      "headline": "16세 AI 천재 라울 존 아주, 모스크바서 푸틴 대통령과 셀카 촬영",
-      "url": "https://www.hindustantimes.com/trending/16yearold-ai-kid-of-india-raul-john-aju-clicks-selfie-with-russian-president-vladimir-putin-101795746563463.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/27/1600x900/logo/AI_Kid_of_India__Raul_John_Aju_Vladimir_Putin_Self_1795746788197_1Xab_1795746788468_pXHX_9a8be298-5a19-468f-88bf-16d15c1d4e4a_VF6f.jpg",
-      "kind": "사람·도전",
+      "headline": "타밀나두 엔지니어, 남인도 점성술로 선택한 번호로 아부다비 복권 62만9천 루피 당첨",
+      "url": "https://www.hindustantimes.com/trending/tamil-nadu-engineer-wins-6-29-lakh-in-abu-dhabi-draw-after-choosing-ticket-number-based-on-astrology-101795792384248.html",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/27/1600x900/logo/dvfdbfdbgf_1795793819304_x3wT_1795793819473_bIar_16f69e07-d520-4579-9749-dda1cad9b7cb_k3YT.png",
+      "kind": "연예·운세",
       "topic": "사람",
-      "event": "india-russia-ai-kid-putin",
-      "reason": "16세 인도 소년이 러시아 대통령과 셀카를 찍은 독특한 사건으로, 신기하고 젊은 직장인들이 흥미를 가질 만하다. 인도와 러시아에서 일어난 일이다.",
-      "why": "라울 존 아주는 아버지가 Adobe에 취직하면서 프리미엄 영상 편집 도구를 접하고 AI에 관심을 갖게 되었으며, 자신이 만든 도구들을 한 브랜드로 통합하고자 회사를 설립했습니다."
-    },
-    {
-      "source": "Hindustan Times",
-      "headline": "중국, 파키스탄 우주비행사 위해 버터치킨 등 할랄 음식 우주식으로 준비",
-      "url": "https://www.hindustantimes.com/trending/china-takes-butter-chicken-to-space-for-pakistani-astronaut-muhammad-zeeshan-ali-101795677386228.html",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/11/26/1600x900/logo/SPACE-EXPLORATION-CHINA-SHENZHOU-6_1795677605265_faGR_1795677613471_Ylqz_d1ddd0fe-2498-4e0c-9ba8-9b1510999ad2_yRuP.JPG",
-      "kind": "음식·물건",
-      "topic": "사람",
-      "event": "china-space-butter-chicken",
-      "reason": "중국이 우주비행사에게 버터 치킨을 우주로 가져간 독특한 이야기로, 신기하고 웃긴 요소가 있어 점심시간 읽기에 적합하다. 중국과 파키스탄 관련 사건이다.",
-      "why": "중국은 2030년 이전에 달 탐사를 목표로 막대한 투자를 진행 중이며, 티안궁 우주정거장은 중국 우주 프로그램의 핵심 시설로 평가받고 있습니다."
+      "event": "uae-astrology-lottery-win",
+      "reason": "천문학을 근거로 복권 번호를 선택해 당첨된 인도 엔지니어 이야기는 신기하고 흥미로워서 점심시간 읽을거리로 적합하다. 누가, 어디서, 무엇을 했는지가 분명하다.",
+      "why": "이번 복권 번호 선택은 남인도 점성술에 기반했으며, 아라빈단은 평소 친구들과 복권을 구매하다가 이번에는 형과 함께 점성술을 참고해 번호를 골랐습니다."
     }
   ]
 }

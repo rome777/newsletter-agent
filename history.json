@@ -1,40 +1,5 @@
 [
  {
-  "date": "2026-11-13",
-  "source": "Daily Star",
-  "title": "Disgusting Russell Brand body part removed from museum as curator says 'even I have limits'",
-  "url": "https://www.dailystar.co.uk/news/latest-news/disgusting-russell-brand-body-part-37872231",
-  "event": "russell-brand-museum-removal"
- },
- {
-  "date": "2026-11-13",
-  "source": "서울신문",
-  "title": "[포착] 173㎝ 키도 똑같아…SNS서 발견한 女 20년 전 헤어진 쌍둥이였다",
-  "url": "https://www.seoul.co.kr/news/newsView.php?id=20261112500185",
-  "event": "china-twin-reunion"
- },
- {
-  "date": "2026-11-13",
-  "source": "Daily Star",
-  "title": "Russia's 'Supreme Shaman' plans to slaughter 60 camels to help Putin win Ukraine war",
-  "url": "https://www.dailystar.co.uk/news/latest-news/russias-supreme-shaman-plans-slaughter-37869585",
-  "event": "russia-shaman-camel-ritual"
- },
- {
-  "date": "2026-11-13",
-  "source": "Good News Network",
-  "title": "100-Year-Old ‘Store Mom’ Surprised With Her First Birthday Party",
-  "url": "https://www.goodnewsnetwork.org/100-year-old-store-mom-first-birthday-party/",
-  "event": "100-year-old-birthday-surprise"
- },
- {
-  "date": "2026-11-13",
-  "source": "Hindustan Times",
-  "title": "Gaai Gohri: The Gujarat tradition where villagers let herds of cattle run over them",
-  "url": "https://www.hindustantimes.com/trending/gaai-gohri-the-gujarat-tradition-where-villagers-let-herds-of-cattle-run-over-them-101794471252919.html",
-  "event": "gujarat-cattle-festival"
- },
- {
   "date": "2026-11-14",
   "source": "서울신문",
   "title": "“혹시 기억 잃은 재벌 회장?”…초미남 배우 닮아 ‘대박’ 난 55세 청소부 [월드픽]",
@@ -523,5 +488,40 @@
   "title": "China takes butter chicken to space for Pakistani astronaut Muhammad Zeeshan Ali",
   "url": "https://www.hindustantimes.com/trending/china-takes-butter-chicken-to-space-for-pakistani-astronaut-muhammad-zeeshan-ali-101795677386228.html",
   "event": "china-space-butter-chicken"
+ },
+ {
+  "date": "2026-11-28",
+  "source": "Hindustan Times",
+  "title": "Man in UAE spends 5 years trying to gift handmade portrait to Dubai Crown Prince, finally gets a response",
+  "url": "https://www.hindustantimes.com/trending/man-in-uae-spends-5-years-trying-to-gift-handmade-portrait-to-dubai-crown-prince-finally-gets-a-response-101795770138927.html",
+  "event": "uae-portrait-crown-prince"
+ },
+ {
+  "date": "2026-11-28",
+  "source": "Daily Star",
+  "title": "Dad told he had ear infection and given drops died days later aged 36",
+  "url": "https://www.dailystar.co.uk/news/latest-news/dad-told-ear-infection-given-37921018",
+  "event": "uk-ear-infection-death"
+ },
+ {
+  "date": "2026-11-28",
+  "source": "Daily Star",
+  "title": "Family fly to Egypt and back for £110 with Wizz Air and easyJet",
+  "url": "https://www.dailystar.co.uk/news/latest-news/family-fly-egypt-back-110-37920834",
+  "event": "uk-egypt-budget-trip"
+ },
+ {
+  "date": "2026-11-28",
+  "source": "Metro",
+  "title": "Dave the trespassing cat who’s banned from a pharmacy could be feline of the year",
+  "url": "https://metro.co.uk/2026/11/27/dave-trespassing-cat-banned-a-pharmacy-feline-year-29823757/",
+  "event": "uk-cat-pharmacy-ban"
+ },
+ {
+  "date": "2026-11-28",
+  "source": "Hindustan Times",
+  "title": "Tamil Nadu engineer wins  ₹6.29 lakh in Abu Dhabi draw after choosing ticket number based on astrology",
+  "url": "https://www.hindustantimes.com/trending/tamil-nadu-engineer-wins-6-29-lakh-in-abu-dhabi-draw-after-choosing-ticket-number-based-on-astrology-101795792384248.html",
+  "event": "uae-astrology-lottery-win"
  }
 ]
